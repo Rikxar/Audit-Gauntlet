@@ -1,0 +1,35 @@
+{
+  "programme": "3C273_ZOETROPE",
+  "path": "E:\\Audit Gauntlet\\3C273_ZOETROPE",
+  "github": "https://github.com/Rikxar/3C273_ZOETROPE",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "d0d37e46340243455f42bbae3ce62bba3540b33a",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "d0d37e46340243455f42bbae3ce62bba3540b33a",
+      "remote": "d0d37e46340243455f42bbae3ce62bba3540b33a",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/3C273_ZOETROPE.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/3C273_ZOETROPE.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/3C273_ZOETROPE",
+    "HEAD d0d37e46340243455f42bbae3ce62bba3540b33a",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? gifs/"
+  ],
+  "untracked": [
+    "gifs/3C273_MAIN183_DIRTY_NAT_PEAKNORM.gif",
+    "gifs/3C273_MAIN183_DIRTY_POINT_NULL.gif"
+  ],
+  "verifiedUtc": "2026-10-13T17:04:59.0815977Z"
+}

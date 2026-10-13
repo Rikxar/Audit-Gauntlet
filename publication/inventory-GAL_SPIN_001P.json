@@ -1,0 +1,1961 @@
+{
+  "programme": "GAL_SPIN_001P",
+  "path": "E:\\Audit Gauntlet\\GAL_SPIN_001P",
+  "boundaries": [],
+  "files": [
+    {
+      "path": "CANONICAL_MEMBERSHIP.csv",
+      "bytes": 167924,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:10.0093065Z"
+    },
+    {
+      "path": "FROZEN_IDENTITY_EXCLUSIONS.csv",
+      "bytes": 20,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:33:37.1607984Z"
+    },
+    {
+      "path": "MAPS_MANIFEST.csv",
+      "bytes": 12991,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:22:42.8177354Z"
+    },
+    {
+      "path": "METHODS.md",
+      "bytes": 8880,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:42:53.5633755Z"
+    },
+    {
+      "path": "OBSERVATION_QUALITY.csv",
+      "bytes": 6658,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:42.8940736Z"
+    },
+    {
+      "path": "PA_MEASUREMENTS.csv",
+      "bytes": 24149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:40.2380604Z"
+    },
+    {
+      "path": "PA_PROVENANCE_REPORT.md",
+      "bytes": 10950,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:40:39.3923142Z"
+    },
+    {
+      "path": "PA_RELEASE_COMPARISON.csv",
+      "bytes": 12763,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:12.2107188Z"
+    },
+    {
+      "path": "PHYSICAL_ALIAS_GROUPS.csv",
+      "bytes": 159,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:09.2002188Z"
+    },
+    {
+      "path": "PHYSICAL_IDENTITY_LEDGER.csv",
+      "bytes": 138534,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:09.1982271Z"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 5528,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:42:54.5723368Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1543,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:40:39.3923142Z"
+    },
+    {
+      "path": "SAMPLE_FLOW.csv",
+      "bytes": 160,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:09.9964609Z"
+    },
+    {
+      "path": "TARGET_STATUS.csv",
+      "bytes": 2072,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:40:39.3863133Z"
+    },
+    {
+      "path": "SCRIPTS/acquire_maps.py",
+      "bytes": 3555,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:21:00.0481599Z"
+    },
+    {
+      "path": "SCRIPTS/curves.py",
+      "bytes": 4020,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:33:28.0139896Z"
+    },
+    {
+      "path": "SCRIPTS/envelope.py",
+      "bytes": 8779,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:10.3719840Z"
+    },
+    {
+      "path": "SCRIPTS/figures.py",
+      "bytes": 5445,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:46.8620336Z"
+    },
+    {
+      "path": "SCRIPTS/freeze.py",
+      "bytes": 2579,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:43:46.3202588Z"
+    },
+    {
+      "path": "SCRIPTS/measure_pa.py",
+      "bytes": 6355,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:10.4244250Z"
+    },
+    {
+      "path": "SCRIPTS/prepare.py",
+      "bytes": 5649,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:29:38.3651620Z"
+    },
+    {
+      "path": "SCRIPTS/probe_archive.py",
+      "bytes": 986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:19:30.1420434Z"
+    },
+    {
+      "path": "SCRIPTS/quality.py",
+      "bytes": 3440,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:36.7291402Z"
+    },
+    {
+      "path": "SCRIPTS/report.py",
+      "bytes": 14595,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:40:36.0798549Z"
+    },
+    {
+      "path": "SCRIPTS/verify.py",
+      "bytes": 3778,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:50.3941142Z"
+    },
+    {
+      "path": "RESULTS/ALIAS_RECONSTRUCTION_CHECK.csv",
+      "bytes": 458,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:09.9984760Z"
+    },
+    {
+      "path": "RESULTS/ALL_SAMPLE_PA_COVERAGE.csv",
+      "bytes": 3759,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:33:37.1597888Z"
+    },
+    {
+      "path": "RESULTS/ARBITRARY_PA_BOUND_DETAILS.csv",
+      "bytes": 1378,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.2401451Z"
+    },
+    {
+      "path": "RESULTS/ARBITRARY_PA_OUTER_BOUNDS.csv",
+      "bytes": 545,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.2381426Z"
+    },
+    {
+      "path": "RESULTS/assignments_constant10_all_finite.csv.gz",
+      "bytes": 160410,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:32:15.2160783Z"
+    },
+    {
+      "path": "RESULTS/assignments_constant10_usable.csv.gz",
+      "bytes": 160406,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:32:14.9618683Z"
+    },
+    {
+      "path": "RESULTS/assignments_ivar_all_finite.csv.gz",
+      "bytes": 162486,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:32:15.0902258Z"
+    },
+    {
+      "path": "RESULTS/assignments_ivar_usable.csv.gz",
+      "bytes": 162482,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:32:14.8340008Z"
+    },
+    {
+      "path": "RESULTS/CURVE_CANDIDATES.csv",
+      "bytes": 9909,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:33:37.1579637Z"
+    },
+    {
+      "path": "RESULTS/ENVELOPE_COVERAGE.csv",
+      "bytes": 1777,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.2236209Z"
+    },
+    {
+      "path": "RESULTS/EXACT_MOMENT_VALIDATION.csv",
+      "bytes": 1030,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:14.6478670Z"
+    },
+    {
+      "path": "RESULTS/extremal_assignments_constant10_all_finite.csv",
+      "bytes": 2189,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.2196209Z"
+    },
+    {
+      "path": "RESULTS/extremal_assignments_constant10_usable.csv",
+      "bytes": 2085,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:14.9638807Z"
+    },
+    {
+      "path": "RESULTS/extremal_assignments_ivar_all_finite.csv",
+      "bytes": 2018,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.0917419Z"
+    },
+    {
+      "path": "RESULTS/extremal_assignments_ivar_usable.csv",
+      "bytes": 1914,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:14.8360151Z"
+    },
+    {
+      "path": "RESULTS/FINAL_CHECKS.json",
+      "bytes": 399,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:38:12.2008798Z"
+    },
+    {
+      "path": "RESULTS/FITS_INTEGRITY.csv",
+      "bytes": 1249,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:38:04.0261157Z"
+    },
+    {
+      "path": "RESULTS/PA_ENVELOPE_SUMMARY.csv",
+      "bytes": 484,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:15.2216227Z"
+    },
+    {
+      "path": "RESULTS/PA_POLARITY_CHECK.json",
+      "bytes": 251,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:12.2142599Z"
+    },
+    {
+      "path": "RESULTS/PHYSICAL_WEIGHTED_CURVES.csv",
+      "bytes": 217600,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:33:37.1549631Z"
+    },
+    {
+      "path": "RESULTS/PRIMARY_BIN_DEFINITION.csv",
+      "bytes": 146,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:40:39.3903120Z"
+    },
+    {
+      "path": "RESULTS/REPEAT_PA_DIAGNOSTICS.csv",
+      "bytes": 3907,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:42.9292387Z"
+    },
+    {
+      "path": "RESULTS/SPIN_COORDINATE_CHECK.csv",
+      "bytes": 304,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:30:09.9954716Z"
+    },
+    {
+      "path": "RESULTS/UPSTREAM_OUTPUT_INTEGRITY.csv",
+      "bytes": 5245,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:53.6701435Z"
+    },
+    {
+      "path": "RESULTS/validation_nulls_40000.npz",
+      "bytes": 1837118,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:32:14.7026181Z"
+    },
+    {
+      "path": "RESULTS/VALIDATION.json",
+      "bytes": 199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:32:14.7089987Z"
+    },
+    {
+      "path": "RAW/mast_pilot_observation.json",
+      "bytes": 538,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:19:39.0445380Z"
+    },
+    {
+      "path": "RAW/mast_pilot_products.json",
+      "bytes": 15903,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:19:47.7157876Z"
+    },
+    {
+      "path": "RAW/products_11016-1902.json",
+      "bytes": 18620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:10.4640933Z"
+    },
+    {
+      "path": "RAW/products_11017-1902.json",
+      "bytes": 18620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:13.5578298Z"
+    },
+    {
+      "path": "RAW/products_11823-6104.json",
+      "bytes": 18623,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:12.3594424Z"
+    },
+    {
+      "path": "RAW/products_11827-3701.json",
+      "bytes": 18620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:10.4930925Z"
+    },
+    {
+      "path": "RAW/products_11827-3703.json",
+      "bytes": 18620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:15.3868458Z"
+    },
+    {
+      "path": "RAW/products_11838-3703.json",
+      "bytes": 18619,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:15.1080183Z"
+    },
+    {
+      "path": "RAW/products_11865-9101.json",
+      "bytes": 18623,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:21.8098190Z"
+    },
+    {
+      "path": "RAW/products_11867-12703.json",
+      "bytes": 18687,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:21.7819480Z"
+    },
+    {
+      "path": "RAW/products_11946-6101.json",
+      "bytes": 18622,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:22.9910819Z"
+    },
+    {
+      "path": "RAW/products_11950-1901.json",
+      "bytes": 18617,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:21.4541929Z"
+    },
+    {
+      "path": "RAW/products_12511-3703.json",
+      "bytes": 18619,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:29.8104068Z"
+    },
+    {
+      "path": "RAW/products_12667-1902.json",
+      "bytes": 18619,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:30.9904463Z"
+    },
+    {
+      "path": "RAW/products_12667-3704.json",
+      "bytes": 18621,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:31.3950172Z"
+    },
+    {
+      "path": "RAW/products_12675-3702.json",
+      "bytes": 18620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:30.7916325Z"
+    },
+    {
+      "path": "RAW/products_7495-12703.json",
+      "bytes": 18635,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:36.5459107Z"
+    },
+    {
+      "path": "RAW/products_7495-12704.json",
+      "bytes": 18635,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:38.4787147Z"
+    },
+    {
+      "path": "RAW/products_8247-3702.json",
+      "bytes": 18565,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:41.0337379Z"
+    },
+    {
+      "path": "RAW/products_8249-3701.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:36.9441027Z"
+    },
+    {
+      "path": "RAW/products_8249-6104.json",
+      "bytes": 18571,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:44.5698679Z"
+    },
+    {
+      "path": "RAW/products_8250-9101.json",
+      "bytes": 18571,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:41.9764678Z"
+    },
+    {
+      "path": "RAW/products_8256-12705.json",
+      "bytes": 18634,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:44.2762944Z"
+    },
+    {
+      "path": "RAW/products_8274-12705.json",
+      "bytes": 18634,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:51.2131401Z"
+    },
+    {
+      "path": "RAW/products_8309-1902.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:52.4352785Z"
+    },
+    {
+      "path": "RAW/products_8312-12703.json",
+      "bytes": 18633,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:52.9613954Z"
+    },
+    {
+      "path": "RAW/products_8319-6104.json",
+      "bytes": 18567,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:51.4350075Z"
+    },
+    {
+      "path": "RAW/products_8325-6103.json",
+      "bytes": 18567,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:58.4277274Z"
+    },
+    {
+      "path": "RAW/products_8451-12702.json",
+      "bytes": 18631,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:58.4613901Z"
+    },
+    {
+      "path": "RAW/products_8454-6103.json",
+      "bytes": 18567,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:21:58.7053590Z"
+    },
+    {
+      "path": "RAW/products_8456-6104.json",
+      "bytes": 18567,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:02.6464179Z"
+    },
+    {
+      "path": "RAW/products_8550-9102.json",
+      "bytes": 18571,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:06.1909186Z"
+    },
+    {
+      "path": "RAW/products_8596-12702.json",
+      "bytes": 18634,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:05.4526797Z"
+    },
+    {
+      "path": "RAW/products_8598-9102.json",
+      "bytes": 18570,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:08.0933591Z"
+    },
+    {
+      "path": "RAW/products_8952-12703.json",
+      "bytes": 18634,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:09.9579195Z"
+    },
+    {
+      "path": "RAW/products_8983-3703.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:12.0536398Z"
+    },
+    {
+      "path": "RAW/products_9031-12705.json",
+      "bytes": 18629,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:14.4663132Z"
+    },
+    {
+      "path": "RAW/products_9031-3701.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:12.1124401Z"
+    },
+    {
+      "path": "RAW/products_9036-1901.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:19.4224070Z"
+    },
+    {
+      "path": "RAW/products_9036-6101.json",
+      "bytes": 18567,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:18.4659015Z"
+    },
+    {
+      "path": "RAW/products_9864-3701.json",
+      "bytes": 18564,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:21.1226179Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11016-1902-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1754736,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:21.9754199Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11017-1902-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1841178,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:22.0542567Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11823-6104-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 5275862,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:22.1268430Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11827-3701-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3041275,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:22.9777837Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11827-3703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3038210,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:22.9797834Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11838-3703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3069419,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:23.1497532Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11865-9101-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 7352539,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:24.3033421Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11867-12703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10081620,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:24.1066792Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11946-6101-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 4948917,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:24.1517898Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-11950-1901-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1500404,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:24.9623146Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-12511-3703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3182982,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:25.1037267Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-12667-1902-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1601611,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:25.2052374Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-12667-3704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3188975,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:25.8979728Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-12675-3702-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 2914094,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:26.0276166Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-7495-12703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10900270,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:26.3974911Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-7495-12704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10826752,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:27.0926084Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8247-3702-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3190159,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:26.9929285Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8249-3701-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3194472,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:27.3365059Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8249-6104-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 5242184,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:28.0302661Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8250-9101-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 7389274,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:28.2023902Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8256-12705-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10905773,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:28.5217719Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8274-12705-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10869673,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:29.2056316Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8309-1902-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1648188,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:29.0590060Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8312-12703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10519574,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:29.8020094Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8319-6104-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 5070979,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:30.0803339Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8325-6103-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 4967745,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:30.2192766Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8451-12702-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10242469,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:30.9976884Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8454-6103-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 4948023,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:31.1814832Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8456-6104-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 4862749,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:31.2959323Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8550-9102-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 7688019,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:32.0727157Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8596-12702-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10790421,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:32.3246084Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8598-9102-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 7610446,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:42.8007222Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8952-12703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 10861318,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:33.3414851Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-8983-3703-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3283011,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:33.3575022Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-9031-12705-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 9719295,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:34.5634887Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-9031-3701-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 2894858,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:34.3250647Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-9036-1901-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 1699158,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:35.1927036Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-9036-6101-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 5190162,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:35.6104172Z"
+    },
+    {
+      "path": "RAW/MAPS/manga-9864-3701-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "bytes": 3030032,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T13:22:36.1806080Z"
+    },
+    {
+      "path": "PROC/fit_input_11016-1902_gas.npz",
+      "bytes": 18744,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:24:50.0373729Z"
+    },
+    {
+      "path": "PROC/fit_input_11016-1902_star.npz",
+      "bytes": 24312,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:24:50.8595037Z"
+    },
+    {
+      "path": "PROC/fit_input_11017-1902_gas.npz",
+      "bytes": 20438,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:31.7679087Z"
+    },
+    {
+      "path": "PROC/fit_input_11017-1902_star.npz",
+      "bytes": 19102,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:32.7871909Z"
+    },
+    {
+      "path": "PROC/fit_input_11823-6104_gas.npz",
+      "bytes": 40890,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:31.9215790Z"
+    },
+    {
+      "path": "PROC/fit_input_11823-6104_star.npz",
+      "bytes": 43347,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:32.9395861Z"
+    },
+    {
+      "path": "PROC/fit_input_11827-3701_gas.npz",
+      "bytes": 30324,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:31.8969379Z"
+    },
+    {
+      "path": "PROC/fit_input_11827-3701_star.npz",
+      "bytes": 26289,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:33.3812384Z"
+    },
+    {
+      "path": "PROC/fit_input_11827-3703_gas.npz",
+      "bytes": 26496,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:33.8384803Z"
+    },
+    {
+      "path": "PROC/fit_input_11827-3703_star.npz",
+      "bytes": 35581,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:34.5095141Z"
+    },
+    {
+      "path": "PROC/fit_input_11838-3703_gas.npz",
+      "bytes": 21293,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:34.5951515Z"
+    },
+    {
+      "path": "PROC/fit_input_11838-3703_star.npz",
+      "bytes": 22352,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:35.2654628Z"
+    },
+    {
+      "path": "PROC/fit_input_11865-9101_gas.npz",
+      "bytes": 46614,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:34.7367300Z"
+    },
+    {
+      "path": "PROC/fit_input_11865-9101_star.npz",
+      "bytes": 43606,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:35.5716305Z"
+    },
+    {
+      "path": "PROC/fit_input_11867-12703_gas.npz",
+      "bytes": 87224,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:36.4809967Z"
+    },
+    {
+      "path": "PROC/fit_input_11867-12703_star.npz",
+      "bytes": 54597,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:40.8952344Z"
+    },
+    {
+      "path": "PROC/fit_input_11946-6101_gas.npz",
+      "bytes": 42325,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:36.5770799Z"
+    },
+    {
+      "path": "PROC/fit_input_11946-6101_star.npz",
+      "bytes": 35534,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:37.8806053Z"
+    },
+    {
+      "path": "PROC/fit_input_11950-1901_gas.npz",
+      "bytes": 15794,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:36.8226440Z"
+    },
+    {
+      "path": "PROC/fit_input_11950-1901_star.npz",
+      "bytes": 17351,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:36.8531078Z"
+    },
+    {
+      "path": "PROC/fit_input_12511-3703_gas.npz",
+      "bytes": 35619,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:37.8816072Z"
+    },
+    {
+      "path": "PROC/fit_input_12511-3703_star.npz",
+      "bytes": 23392,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:40.1790956Z"
+    },
+    {
+      "path": "PROC/fit_input_12667-1902_gas.npz",
+      "bytes": 17688,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:38.8539520Z"
+    },
+    {
+      "path": "PROC/fit_input_12667-1902_star.npz",
+      "bytes": 16100,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:39.8227700Z"
+    },
+    {
+      "path": "PROC/fit_input_12667-3704_gas.npz",
+      "bytes": 28248,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:40.7082080Z"
+    },
+    {
+      "path": "PROC/fit_input_12667-3704_star.npz",
+      "bytes": 40506,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:41.6857842Z"
+    },
+    {
+      "path": "PROC/fit_input_12675-3702_gas.npz",
+      "bytes": 26097,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:41.1439655Z"
+    },
+    {
+      "path": "PROC/fit_input_12675-3702_star.npz",
+      "bytes": 35647,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:41.9295683Z"
+    },
+    {
+      "path": "PROC/fit_input_7495-12703_gas.npz",
+      "bytes": 113140,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:42.0370418Z"
+    },
+    {
+      "path": "PROC/fit_input_7495-12703_star.npz",
+      "bytes": 88150,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:49.4703280Z"
+    },
+    {
+      "path": "PROC/fit_input_7495-12704_gas.npz",
+      "bytes": 115868,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:44.2530883Z"
+    },
+    {
+      "path": "PROC/fit_input_7495-12704_star.npz",
+      "bytes": 99721,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:51.8985232Z"
+    },
+    {
+      "path": "PROC/fit_input_8247-3702_gas.npz",
+      "bytes": 23622,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:44.6453535Z"
+    },
+    {
+      "path": "PROC/fit_input_8247-3702_star.npz",
+      "bytes": 36251,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:45.3913755Z"
+    },
+    {
+      "path": "PROC/fit_input_8249-3701_gas.npz",
+      "bytes": 24315,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:47.7876978Z"
+    },
+    {
+      "path": "PROC/fit_input_8249-3701_star.npz",
+      "bytes": 36623,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:48.5594419Z"
+    },
+    {
+      "path": "PROC/fit_input_8249-6104_gas.npz",
+      "bytes": 38802,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:50.9563859Z"
+    },
+    {
+      "path": "PROC/fit_input_8249-6104_star.npz",
+      "bytes": 53662,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:52.1391443Z"
+    },
+    {
+      "path": "PROC/fit_input_8250-9101_gas.npz",
+      "bytes": 53014,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:24:50.1184226Z"
+    },
+    {
+      "path": "PROC/fit_input_8250-9101_star.npz",
+      "bytes": 67855,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:24:51.2258845Z"
+    },
+    {
+      "path": "PROC/fit_input_8256-12705_gas.npz",
+      "bytes": 96059,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:53.7545284Z"
+    },
+    {
+      "path": "PROC/fit_input_8256-12705_star.npz",
+      "bytes": 98509,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:57.6563517Z"
+    },
+    {
+      "path": "PROC/fit_input_8274-12705_gas.npz",
+      "bytes": 94833,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:55.4910720Z"
+    },
+    {
+      "path": "PROC/fit_input_8274-12705_star.npz",
+      "bytes": 93422,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:59.2470419Z"
+    },
+    {
+      "path": "PROC/fit_input_8309-1902_gas.npz",
+      "bytes": 16606,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:57.7720862Z"
+    },
+    {
+      "path": "PROC/fit_input_8309-1902_star.npz",
+      "bytes": 23690,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:27:58.3889526Z"
+    },
+    {
+      "path": "PROC/fit_input_8312-12703_gas.npz",
+      "bytes": 113678,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:00.2370992Z"
+    },
+    {
+      "path": "PROC/fit_input_8312-12703_star.npz",
+      "bytes": 85498,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:07.4539252Z"
+    },
+    {
+      "path": "PROC/fit_input_8319-6104_gas.npz",
+      "bytes": 47233,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:03.6069710Z"
+    },
+    {
+      "path": "PROC/fit_input_8319-6104_star.npz",
+      "bytes": 39068,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:05.2411781Z"
+    },
+    {
+      "path": "PROC/fit_input_8325-6103_gas.npz",
+      "bytes": 37442,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:03.9002937Z"
+    },
+    {
+      "path": "PROC/fit_input_8325-6103_star.npz",
+      "bytes": 33210,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:05.1214790Z"
+    },
+    {
+      "path": "PROC/fit_input_8451-12702_gas.npz",
+      "bytes": 83866,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:06.3813352Z"
+    },
+    {
+      "path": "PROC/fit_input_8451-12702_star.npz",
+      "bytes": 68414,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:09.1210536Z"
+    },
+    {
+      "path": "PROC/fit_input_8454-6103_gas.npz",
+      "bytes": 38716,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:06.4153383Z"
+    },
+    {
+      "path": "PROC/fit_input_8454-6103_star.npz",
+      "bytes": 37491,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:07.0939906Z"
+    },
+    {
+      "path": "PROC/fit_input_8456-6104_gas.npz",
+      "bytes": 40226,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:08.1528964Z"
+    },
+    {
+      "path": "PROC/fit_input_8456-6104_star.npz",
+      "bytes": 37018,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:09.0130146Z"
+    },
+    {
+      "path": "PROC/fit_input_8550-9102_gas.npz",
+      "bytes": 84996,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:10.0641862Z"
+    },
+    {
+      "path": "PROC/fit_input_8550-9102_star.npz",
+      "bytes": 72866,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:15.1851533Z"
+    },
+    {
+      "path": "PROC/fit_input_8596-12702_gas.npz",
+      "bytes": 123347,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:11.0642867Z"
+    },
+    {
+      "path": "PROC/fit_input_8596-12702_star.npz",
+      "bytes": 82423,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:18.2526535Z"
+    },
+    {
+      "path": "PROC/fit_input_8598-9102_gas.npz",
+      "bytes": 89254,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:11.5754354Z"
+    },
+    {
+      "path": "PROC/fit_input_8598-9102_star.npz",
+      "bytes": 68126,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:16.5632468Z"
+    },
+    {
+      "path": "PROC/fit_input_8952-12703_gas.npz",
+      "bytes": 110785,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:19.5742963Z"
+    },
+    {
+      "path": "PROC/fit_input_8952-12703_star.npz",
+      "bytes": 82231,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:26.4816261Z"
+    },
+    {
+      "path": "PROC/fit_input_8983-3703_gas.npz",
+      "bytes": 35854,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:19.6312716Z"
+    },
+    {
+      "path": "PROC/fit_input_8983-3703_star.npz",
+      "bytes": 38512,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:21.6445000Z"
+    },
+    {
+      "path": "PROC/fit_input_9031-12705_gas.npz",
+      "bytes": 93906,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:21.2182729Z"
+    },
+    {
+      "path": "PROC/fit_input_9031-12705_star.npz",
+      "bytes": 67724,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:24.6163021Z"
+    },
+    {
+      "path": "PROC/fit_input_9031-3701_gas.npz",
+      "bytes": 30114,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:24.1951658Z"
+    },
+    {
+      "path": "PROC/fit_input_9031-3701_star.npz",
+      "bytes": 35828,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:25.4242312Z"
+    },
+    {
+      "path": "PROC/fit_input_9036-1901_gas.npz",
+      "bytes": 19807,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:26.0632418Z"
+    },
+    {
+      "path": "PROC/fit_input_9036-1901_star.npz",
+      "bytes": 23669,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:27.1772252Z"
+    },
+    {
+      "path": "PROC/fit_input_9036-6101_gas.npz",
+      "bytes": 60816,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:27.6251853Z"
+    },
+    {
+      "path": "PROC/fit_input_9036-6101_star.npz",
+      "bytes": 41280,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:30.8431729Z"
+    },
+    {
+      "path": "PROC/fit_input_9864-3701_gas.npz",
+      "bytes": 24191,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:28.7199780Z"
+    },
+    {
+      "path": "PROC/fit_input_9864-3701_star.npz",
+      "bytes": 32345,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T13:28:29.3046535Z"
+    },
+    {
+      "path": "PROC/fits_11016-1902.json",
+      "bytes": 2140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9363613Z"
+    },
+    {
+      "path": "PROC/fits_11017-1902.json",
+      "bytes": 2142,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9373614Z"
+    },
+    {
+      "path": "PROC/fits_11823-6104.json",
+      "bytes": 2134,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9383680Z"
+    },
+    {
+      "path": "PROC/fits_11827-3701.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9383680Z"
+    },
+    {
+      "path": "PROC/fits_11827-3703.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9393634Z"
+    },
+    {
+      "path": "PROC/fits_11838-3703.json",
+      "bytes": 2147,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9393634Z"
+    },
+    {
+      "path": "PROC/fits_11865-9101.json",
+      "bytes": 2146,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9403628Z"
+    },
+    {
+      "path": "PROC/fits_11867-12703.json",
+      "bytes": 2163,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9403628Z"
+    },
+    {
+      "path": "PROC/fits_11946-6101.json",
+      "bytes": 2136,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9413619Z"
+    },
+    {
+      "path": "PROC/fits_11950-1901.json",
+      "bytes": 1709,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9423611Z"
+    },
+    {
+      "path": "PROC/fits_12511-3703.json",
+      "bytes": 2161,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9423611Z"
+    },
+    {
+      "path": "PROC/fits_12667-1902.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9438691Z"
+    },
+    {
+      "path": "PROC/fits_12667-3704.json",
+      "bytes": 2159,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9448722Z"
+    },
+    {
+      "path": "PROC/fits_12675-3702.json",
+      "bytes": 2158,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9458703Z"
+    },
+    {
+      "path": "PROC/fits_7495-12703.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9468693Z"
+    },
+    {
+      "path": "PROC/fits_7495-12704.json",
+      "bytes": 2157,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9468693Z"
+    },
+    {
+      "path": "PROC/fits_8247-3702.json",
+      "bytes": 2139,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9478674Z"
+    },
+    {
+      "path": "PROC/fits_8249-3701.json",
+      "bytes": 2135,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9488702Z"
+    },
+    {
+      "path": "PROC/fits_8249-6104.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9498682Z"
+    },
+    {
+      "path": "PROC/fits_8250-9101.json",
+      "bytes": 2141,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9498682Z"
+    },
+    {
+      "path": "PROC/fits_8256-12705.json",
+      "bytes": 2146,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9508683Z"
+    },
+    {
+      "path": "PROC/fits_8274-12705.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9508683Z"
+    },
+    {
+      "path": "PROC/fits_8309-1902.json",
+      "bytes": 2131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9523786Z"
+    },
+    {
+      "path": "PROC/fits_8312-12703.json",
+      "bytes": 2147,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9523786Z"
+    },
+    {
+      "path": "PROC/fits_8319-6104.json",
+      "bytes": 2142,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9533920Z"
+    },
+    {
+      "path": "PROC/fits_8325-6103.json",
+      "bytes": 2144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9544001Z"
+    },
+    {
+      "path": "PROC/fits_8451-12702.json",
+      "bytes": 2145,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9544001Z"
+    },
+    {
+      "path": "PROC/fits_8454-6103.json",
+      "bytes": 2154,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9554023Z"
+    },
+    {
+      "path": "PROC/fits_8456-6104.json",
+      "bytes": 2147,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9564064Z"
+    },
+    {
+      "path": "PROC/fits_8550-9102.json",
+      "bytes": 2139,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9564064Z"
+    },
+    {
+      "path": "PROC/fits_8596-12702.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9574004Z"
+    },
+    {
+      "path": "PROC/fits_8598-9102.json",
+      "bytes": 2140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9584000Z"
+    },
+    {
+      "path": "PROC/fits_8952-12703.json",
+      "bytes": 2140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9594007Z"
+    },
+    {
+      "path": "PROC/fits_8983-3703.json",
+      "bytes": 2139,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9604005Z"
+    },
+    {
+      "path": "PROC/fits_9031-12705.json",
+      "bytes": 2135,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9613982Z"
+    },
+    {
+      "path": "PROC/fits_9031-3701.json",
+      "bytes": 2135,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9613982Z"
+    },
+    {
+      "path": "PROC/fits_9036-1901.json",
+      "bytes": 2132,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9629118Z"
+    },
+    {
+      "path": "PROC/fits_9036-6101.json",
+      "bytes": 2131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9639214Z"
+    },
+    {
+      "path": "PROC/fits_9864-3701.json",
+      "bytes": 2142,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:37:39.9649219Z"
+    },
+    {
+      "path": "PROC/mplconfig/fontlist-v3.11.0.json",
+      "bytes": 143964,
+      "eligible": false,
+      "reason": "temporary-products",
+      "modified": "2026-09-29T13:24:41.3730259Z"
+    },
+    {
+      "path": "MANIFESTS/FROZEN_PROTOCOL.md",
+      "bytes": 4197,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:22:43.0363181Z"
+    },
+    {
+      "path": "MANIFESTS/INPUT_HASHES.csv",
+      "bytes": 11893,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:43:49.2694586Z"
+    },
+    {
+      "path": "MANIFESTS/OUTPUT_HASHES.csv",
+      "bytes": 20165,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:43:49.7642616Z"
+    },
+    {
+      "path": "MANIFESTS/requirements-lock.txt",
+      "bytes": 1028,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:43:49.3581161Z"
+    },
+    {
+      "path": "MANIFESTS/RUNTIME.json",
+      "bytes": 418,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:43:49.3731069Z"
+    },
+    {
+      "path": "LOGS/capacity_gate.txt",
+      "bytes": 427,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:18:59.5280659Z"
+    },
+    {
+      "path": "LOGS/download_gate.json",
+      "bytes": 342,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:22:21.1246346Z"
+    },
+    {
+      "path": "FIGURES/PA_envelope.png",
+      "bytes": 60817,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:50.7502061Z"
+    },
+    {
+      "path": "FIGURES/PA_envelope.svg",
+      "bytes": 54989,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:50.8382876Z"
+    },
+    {
+      "path": "FIGURES/physical_curves.png",
+      "bytes": 211029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:51.3253388Z"
+    },
+    {
+      "path": "FIGURES/QA_INDEX.csv",
+      "bytes": 1205,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:04.6303687Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_145914.png",
+      "bytes": 270239,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:51.9930872Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_145958.png",
+      "bytes": 248131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:52.6582118Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_176949.png",
+      "bytes": 219467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:53.3173997Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_208258.png",
+      "bytes": 240944,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:54.0264020Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_208573.png",
+      "bytes": 204153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:54.6303513Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_221974.png",
+      "bytes": 217334,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:55.2769969Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_222398.png",
+      "bytes": 257362,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:56.0015998Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_223277.png",
+      "bytes": 313763,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:56.6983734Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_223834.png",
+      "bytes": 260341,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:57.3629865Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_223855.png",
+      "bytes": 224512,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:58.0472690Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_248462.png",
+      "bytes": 246000,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:58.7107576Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_261614.png",
+      "bytes": 317258,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:34:59.4119816Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_339058.png",
+      "bytes": 230105,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:00.0551517Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_343268.png",
+      "bytes": 218457,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:00.6989816Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_484708.png",
+      "bytes": 264036,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:01.4639230Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_484847.png",
+      "bytes": 293113,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:02.2019732Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_56989.png",
+      "bytes": 286464,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:02.9002481Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_625827.png",
+      "bytes": 488342,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:03.9422124Z"
+    },
+    {
+      "path": "FIGURES/QA_NSA_v1_0_1_64833.png",
+      "bytes": 213154,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T13:35:04.6263584Z"
+    }
+  ],
+  "errors": []
+}

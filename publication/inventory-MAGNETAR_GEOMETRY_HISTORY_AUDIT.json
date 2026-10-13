@@ -1,0 +1,361 @@
+{
+  "programme": "MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "path": "E:\\Audit Gauntlet\\MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:52:22.5428892Z"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:31.1080773Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1425,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:31.3650062Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2752,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:24:51.8201665Z"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "bytes": 2305,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:15:01.4737403Z"
+    },
+    {
+      "path": "12_logs/AUDIT_LOG.md",
+      "bytes": 2026,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:24:54.4093585Z"
+    },
+    {
+      "path": "12_logs/final_tests.txt",
+      "bytes": 411,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:58.3528744Z"
+    },
+    {
+      "path": "11_provenance/acquisition.json",
+      "bytes": 4592,
+      "eligible": false,
+      "reason": "credential-pattern-review",
+      "modified": "2026-09-28T11:50:24.3739078Z"
+    },
+    {
+      "path": "11_provenance/artifact_manifest.json",
+      "bytes": 7855,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:59.0091919Z"
+    },
+    {
+      "path": "11_provenance/environment.json",
+      "bytes": 1173,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:58.3818840Z"
+    },
+    {
+      "path": "11_provenance/read_only_reuse.json",
+      "bytes": 797,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:57.2451075Z"
+    },
+    {
+      "path": "10_scripts/acquire.py",
+      "bytes": 2540,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:50:13.5386125Z"
+    },
+    {
+      "path": "10_scripts/audit_catalogues.py",
+      "bytes": 16273,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:53.8511492Z"
+    },
+    {
+      "path": "10_scripts/extract_papers.py",
+      "bytes": 418,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:51:06.3841282Z"
+    },
+    {
+      "path": "10_scripts/finalize.py",
+      "bytes": 3597,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:10.6779833Z"
+    },
+    {
+      "path": "09_nulls/null_and_sensitivity_status.csv",
+      "bytes": 1499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:55.2021316Z"
+    },
+    {
+      "path": "08_validation/final_validation.json",
+      "bytes": 688,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:58.3828801Z"
+    },
+    {
+      "path": "08_validation/validation.json",
+      "bytes": 565,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:09.0565937Z"
+    },
+    {
+      "path": "07_results/FINAL_AUDIT_REPORT.md",
+      "bytes": 11173,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:36.3430215Z"
+    },
+    {
+      "path": "07_results/summary.json",
+      "bytes": 5200,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.6574093Z"
+    },
+    {
+      "path": "06_figures/catalogue_diagnostics.png",
+      "bytes": 248676,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:08.8259502Z"
+    },
+    {
+      "path": "06_figures/FIGURE_CAPTIONS.md",
+      "bytes": 1010,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:26:09.3835808Z"
+    },
+    {
+      "path": "06_figures/identifiability.png",
+      "bytes": 47750,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:08.9758862Z"
+    },
+    {
+      "path": "05_analysis/matched_pairs.csv",
+      "bytes": 1357409,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.6498904Z"
+    },
+    {
+      "path": "05_analysis/matching_sensitivity.csv",
+      "bytes": 1336,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.6508889Z"
+    },
+    {
+      "path": "04_intermediate/DATA_DICTIONARY.md",
+      "bytes": 3502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T02:24:53.1147817Z"
+    },
+    {
+      "path": "04_intermediate/event_catalogue.csv",
+      "bytes": 353639,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.5325663Z"
+    },
+    {
+      "path": "04_intermediate/event_catalogue.jsonl",
+      "bytes": 1116411,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-28T21:13:07.5155035Z"
+    },
+    {
+      "path": "04_intermediate/native_gbm.json",
+      "bytes": 85845,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.4994183Z"
+    },
+    {
+      "path": "04_intermediate/native_nicer.json",
+      "bytes": 84170,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.4944030Z"
+    },
+    {
+      "path": "04_intermediate/persistent_nicer.json",
+      "bytes": 13923,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.5009318Z"
+    },
+    {
+      "path": "03_raw/fssc_ReadMe.txt",
+      "bytes": 2199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:50:21.9119945Z"
+    },
+    {
+      "path": "03_raw/gbm_ReadMe.txt",
+      "bytes": 6159,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:50:21.1218438Z"
+    },
+    {
+      "path": "03_raw/gbm_table1.dat",
+      "bytes": 19800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:21.2790094Z"
+    },
+    {
+      "path": "03_raw/lin_paper.pdf",
+      "bytes": 796840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:24.3729093Z"
+    },
+    {
+      "path": "03_raw/nicer_ReadMe.txt",
+      "bytes": 7176,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:50:20.6420177Z"
+    },
+    {
+      "path": "03_raw/nicer_table1.dat",
+      "bytes": 3480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:20.8003486Z"
+    },
+    {
+      "path": "03_raw/nicer_table2.dat",
+      "bytes": 21428,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:20.9976338Z"
+    },
+    {
+      "path": "03_raw/younes_erratum.pdf",
+      "bytes": 204145,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:23.6266637Z"
+    },
+    {
+      "path": "03_raw/younes_paper.pdf",
+      "bytes": 1208352,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-28T11:50:24.2367767Z"
+    },
+    {
+      "path": "02_archive_inventory/field_availability.csv",
+      "bytes": 625,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:07.6564112Z"
+    },
+    {
+      "path": "02_archive_inventory/PROXY_AND_AVAILABILITY_AUDIT.md",
+      "bytes": 4753,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:15:05.6980768Z"
+    },
+    {
+      "path": "01_literature/lin_paper_extracted.txt",
+      "bytes": 60369,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:51:11.8938068Z"
+    },
+    {
+      "path": "01_literature/LITERATURE_MAP.md",
+      "bytes": 5721,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:15:03.6044723Z"
+    },
+    {
+      "path": "01_literature/younes_erratum_extracted.txt",
+      "bytes": 4999,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:51:10.9133844Z"
+    },
+    {
+      "path": "01_literature/younes_paper_extracted.txt",
+      "bytes": 90948,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:51:10.8214345Z"
+    },
+    {
+      "path": "00_admin/ASTRA_HANDOVER.md",
+      "bytes": 8029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:46:47.7149365Z"
+    },
+    {
+      "path": "00_admin/PLAN_ADMISSION_NOTES.md",
+      "bytes": 2285,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:09:57.4664447Z"
+    },
+    {
+      "path": "00_admin/matplotlib_cache/fontlist-v3.11.0.json",
+      "bytes": 143964,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T21:13:06.7959494Z"
+    },
+    {
+      "path": "00_admin/config/prospective_plan.json",
+      "bytes": 3357,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-28T11:48:39.1929593Z"
+    }
+  ],
+  "omittedDirectories": [
+    "00_admin/python_packages"
+  ],
+  "errors": []
+}

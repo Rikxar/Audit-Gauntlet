@@ -1,0 +1,30 @@
+{
+  "programme": "FRB20240304B_SARAO_PRODUCT_AUDIT",
+  "path": "E:\\Audit Gauntlet\\FRB20240304B_SARAO_PRODUCT_AUDIT",
+  "github": "https://github.com/Rikxar/FRB20240304B_SARAO_PRODUCT_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "5701ebc644a40dca3a970d82c3e23b08de6b348e",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "5701ebc644a40dca3a970d82c3e23b08de6b348e",
+      "remote": "5701ebc644a40dca3a970d82c3e23b08de6b348e",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/FRB20240304B_SARAO_PRODUCT_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/FRB20240304B_SARAO_PRODUCT_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/FRB20240304B_SARAO_PRODUCT_AUDIT",
+    "HEAD 5701ebc644a40dca3a970d82c3e23b08de6b348e",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:59.1900160Z"
+}

@@ -1,0 +1,30 @@
+{
+  "programme": "CMB_ALIGNMENT",
+  "path": "E:\\Audit Gauntlet\\CMB_ALIGNMENT",
+  "github": "https://github.com/Rikxar/CMB_ALIGNMENT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "784b38b99b7db3485629aadad5a7f81913045ad9",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "784b38b99b7db3485629aadad5a7f81913045ad9",
+      "remote": "784b38b99b7db3485629aadad5a7f81913045ad9",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/CMB_ALIGNMENT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/CMB_ALIGNMENT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/CMB_ALIGNMENT",
+    "HEAD 784b38b99b7db3485629aadad5a7f81913045ad9",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:39.2869455Z"
+}

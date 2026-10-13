@@ -1,0 +1,528 @@
+{
+  "programme": "NGC5335_BAR_COHERENCE_AUDIT",
+  "staged": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "37ec5471cc6004fc465e51f2cd086099072fadbed1a833a002c2743db6c0a4d2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "sha256": "5a264fd5ed02fe346b3ddc5555668d4b698b634044c8d48df4e56d68a9a5d6f3"
+    },
+    {
+      "path": "00_admin/AUTHORITY_BOUNDARY.md",
+      "bytes": 472,
+      "sha256": "5774931f72f564b54532a67abb473c9b1b6ad82e118ea9d9ff9de54a4656c50f"
+    },
+    {
+      "path": "00_admin/FARADAY_PROTOCOL.md",
+      "bytes": 490,
+      "sha256": "f991398110bda6560d24a5ae4834cf989ddb9633f52afac8b6bd86b077eb6d1b"
+    },
+    {
+      "path": "00_admin/FREEZE.md",
+      "bytes": 495,
+      "sha256": "5585fa89297e44a25975fb35f574464dc739f077717a84adf397a2588ad3796e"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.0.md",
+      "bytes": 15537,
+      "sha256": "9fdea9c1e5ac89f3115d8d83e21c9c2da3ac4bd1419a3cf67672ca5d302d7045"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.1.md",
+      "bytes": 5806,
+      "sha256": "91c4683158aac6284750394800d968187c4a62082fe007eb4372cc086cba605e"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.2.md",
+      "bytes": 8917,
+      "sha256": "6ddc5f4383e36e2f80aaf57bf83b45be5dcc0dec62ae45c42f340686798893cb"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.3.md",
+      "bytes": 6428,
+      "sha256": "735500784b063eb4061226983b6f4c474962abbd8933f64eca9d8c44dfa33668"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.0.0.md",
+      "bytes": 7451,
+      "sha256": "cd70d595a57a4f3fe716a485ca8f9c445144ce930c0144a4455b753058495440"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.1.0.md",
+      "bytes": 26778,
+      "sha256": "73c191d91a08fda20615da1373b485631fdc8e41d25233067714192880345eda"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.1.1.md",
+      "bytes": 27475,
+      "sha256": "d8f23a8d151fdd0b91da6169cd1e5ded6ccdd197a0fe8b26859d61f072a68f66"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.0.json",
+      "bytes": 1056,
+      "sha256": "666ea58704b3efdcf3070d5cba1f72e4b13c60dbbeef731015a18f2e27597e71"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.0.sha256",
+      "bytes": 318,
+      "sha256": "7ff7665d05cb6e63f48ac8ddf76ad423a2bbbcc566294cc490278ad0482400ef"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.1.json",
+      "bytes": 1630,
+      "sha256": "c2fe3755d5ebcaa029bbf7ceb48de9f0e32e75ea296b2e8e52dc5e4121aee958"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.1.sha256",
+      "bytes": 318,
+      "sha256": "258be8651cf51fe56b395251bc835e3feb020eb4080b7807e36e93b1cbecf27f"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.2.json",
+      "bytes": 1480,
+      "sha256": "0f0ef097c1d9297f42233c678a6e047d9ca378eb9617e589158826bbfbebad3f"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.2.sha256",
+      "bytes": 318,
+      "sha256": "c6c08c35318365afca26b664f88ae88cf840350ba4dadf4f8cda0a4c105f2134"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.3.json",
+      "bytes": 1280,
+      "sha256": "31cd2c1822d96bd34bef545b41a018782d7dec9369c0d5643914704f623a8740"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.3.sha256",
+      "bytes": 318,
+      "sha256": "79fa17164f38ea103ceaba83ce14885d96334f104c2a71b041e7c771d981b998"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.0.0.json",
+      "bytes": 1737,
+      "sha256": "5741b6cdfa22977d4a99e1b655401ef0369d2c47a5e79eb97c1f2e389edd7e60"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.0.0.sha256",
+      "bytes": 318,
+      "sha256": "d86a3f2c8fd080e717cd08547efc3f433d524ef4b86a391a9ad62a066dbeadbe"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.1.1.json",
+      "bytes": 1832,
+      "sha256": "3e1c34198af0b262fcd082d7c1d54d1f9a968f06cd72515abaec006ea1d9b679"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.1.1.sha256",
+      "bytes": 427,
+      "sha256": "0767548d5025cfb51cdbacfb570ba5f65abdc077acf3e9fb6181b051ff050380"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_GATE.md",
+      "bytes": 5408,
+      "sha256": "6a811dc40c92bf8aad3d82101086f1eceebd20a38a09fdd95f78d0c6d46f90a7"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.0.md",
+      "bytes": 4672,
+      "sha256": "24a2baf2e179fe1e130b866a3b775d8ebc78a8150b2fa101a44bc5fb550d3a5c"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.1.md",
+      "bytes": 4575,
+      "sha256": "240197db879bc8c54300c8d39fbfd54f8ce8c91fefb78c93e77881f795345ed1"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.2.md",
+      "bytes": 5360,
+      "sha256": "ef31d2278799619930e13f7d2620ad6819c2e0dac1c30b1199490d7701bfc6c5"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.3.md",
+      "bytes": 3451,
+      "sha256": "500718520eb8c0e0ba7aca31a99b4c901f1fccec41edbd3acc4de3e169cf5e71"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v2.0.0.md",
+      "bytes": 4758,
+      "sha256": "a1ee69b5dca1621eb983baa813b18027bccdac40ad046a5114f994af8c5ac11c"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v2.1.1.md",
+      "bytes": 5465,
+      "sha256": "ef7f179a119e5fe2a2e3f520b46171a2c9fee22b877b3881d6e30eff2d0d3b49"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_TRACEABILITY_v2.1.0.csv",
+      "bytes": 12954,
+      "sha256": "fc2df634acb2d6f22ed9367286e537481b1b7a11d588a6e7be946636a31de082"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_TRACEABILITY_v2.1.1.csv",
+      "bytes": 14472,
+      "sha256": "fc2caf9660177e523f0cecbe2539b110f812ac121b868ef6c1d291e5e61d1197"
+    },
+    {
+      "path": "00_admin/GEOMETRY_REFERENCE_FREEZE_v1.json",
+      "bytes": 1871,
+      "sha256": "9d90a11cb61a74282d0db28480e6766ca9f394cbd1929d1eeded85b7b1f006ee"
+    },
+    {
+      "path": "00_admin/GEOMETRY_REFERENCE_IMPLEMENTATION_v1.md",
+      "bytes": 8059,
+      "sha256": "4412a38234bcc1dddee658079d517dbba16531c2e46b757c84e601b9bf7e31c2"
+    },
+    {
+      "path": "00_admin/KNOWN_DR_CONTAMINATION.md",
+      "bytes": 400,
+      "sha256": "16878976a48b4037ea593cc9589302c13add3d8a73ac5ac1c18345136ab1f760"
+    },
+    {
+      "path": "00_admin/PHASE1_GATE_STATUS.md",
+      "bytes": 1062,
+      "sha256": "f3a160d73b83b26058626e02e2f24e26b8323f93de9eaf1589e4902c313c3bd6"
+    },
+    {
+      "path": "00_admin/PHASE2_AUTHORIZATION.md",
+      "bytes": 1475,
+      "sha256": "e6a6a9d88482732b3fdd65bfe1e23437765f94a7d1eea8d4e8649e7acfcfabf5"
+    },
+    {
+      "path": "00_admin/PHASE2_EXECUTION_PREFLIGHT_v1.0.0.md",
+      "bytes": 2612,
+      "sha256": "c4ef91f527f03ed71e08e9d72d27e71adf86446caa4a51ab62787ad906ac71c7"
+    },
+    {
+      "path": "00_admin/PHASE2_EXECUTION_PREFLIGHT_v2.1.1.md",
+      "bytes": 4140,
+      "sha256": "9a993c1669e953c98ff855a974758a3dd143c49070d6c523c0abb0970913f4f3"
+    },
+    {
+      "path": "00_admin/PHASE2_REAL_DRC_EXECUTION_RESULT_v2.1.1_refv2.md",
+      "bytes": 2476,
+      "sha256": "aa09694ee6e34f47fa1dd1845d0331b54074656cd85ade4cdc963fe8bb05c3a1"
+    },
+    {
+      "path": "00_admin/PHASE2_REAL_DRC_EXECUTION_STOP_v2.1.1_refv1.md",
+      "bytes": 4448,
+      "sha256": "9e35bef28522433c0a77d3f8fb9a6b84664137d320200cc70356da77ae7cc0e7"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_FREEZE_refv2.json",
+      "bytes": 3049,
+      "sha256": "ff07d17df2d99d2978358cf60c44d017927825990e1de6980029bf80f1d7f960"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_FREEZE_refv2.sha256",
+      "bytes": 1012,
+      "sha256": "9a5e4fc4eaf4fc4162b15bac372d5c31a57deae46ea48c298f4dd7c6d1c20ee7"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_TEST_REPORT_refv2.json",
+      "bytes": 1081,
+      "sha256": "c9ca5bc36157c7c8756a0c5118f064a19e98cdc36a827ae0b5e6b495ac5a5be2"
+    },
+    {
+      "path": "00_admin/REFEX_IMPLEMENTATION_CLOSURE_v2.1.2.md",
+      "bytes": 5162,
+      "sha256": "44c9db353f265fffb3d8665fd3f0055f805175025cb3a178f0209c4bba553e5b"
+    },
+    {
+      "path": "00_admin/RUNLOG.md",
+      "bytes": 13263,
+      "sha256": "24cd17664a1beea1c62dbe0197f84e085fb185c62cc66feb920f7787e36cd71a"
+    },
+    {
+      "path": "02_provenance/acquisition_manifest.csv",
+      "bytes": 4553,
+      "sha256": "82c2ec52ec89dc156d1bb75a37de8c236b2c71babd46938746a432537c295b78"
+    },
+    {
+      "path": "02_provenance/acquisition_manifest.json",
+      "bytes": 9646,
+      "sha256": "0ce5504e51fe3e01596d2e1faaa3ebef805f83318e86448fbe7ffb4723e2b2dd"
+    },
+    {
+      "path": "02_provenance/alternate_hap_science_products.csv",
+      "bytes": 16937,
+      "sha256": "d482064976b40663196afe5e48afd8b0e53f0a0daff3786ad1a324cb41efeecc"
+    },
+    {
+      "path": "02_provenance/archive_observation_time_windows.csv",
+      "bytes": 983,
+      "sha256": "a19c5707a23541fcd50abfa303dc8ad51db0d55ef5f8bb656eef521dd7942648"
+    },
+    {
+      "path": "02_provenance/disagreements.csv",
+      "bytes": 472,
+      "sha256": "46060fa0f2648fd2db6c2bfb27ce0a89766d057a1f57608b930a388702497ae4"
+    },
+    {
+      "path": "02_provenance/download_log.json",
+      "bytes": 14583,
+      "sha256": "d069674c0ee42996857e996099275d3f1396abea985f809bca28366e2ced7140"
+    },
+    {
+      "path": "02_provenance/duplicate_inventory_rows.csv",
+      "bytes": 8576,
+      "sha256": "8a766866c34efa8cf9154d8506c8d4029278dd1de49b25110fe60e97e9443a65"
+    },
+    {
+      "path": "02_provenance/exposure_consistency.csv",
+      "bytes": 363,
+      "sha256": "b8dc5a05fd02e754fb9fd6aa86b51f779835a9d35c3efe284310fff5d531968d"
+    },
+    {
+      "path": "02_provenance/fits_header_register.csv",
+      "bytes": 106404,
+      "sha256": "c9aa1baf898f71c35ebe5eee3d5f36fbb30ef9a7bf1ab574953f7144e304ab47"
+    },
+    {
+      "path": "02_provenance/fits_verification.json",
+      "bytes": 732777,
+      "sha256": "41399e73c1cbf9300f97404212c3f3dad081cba9a82f23d8d795b3b8e837675b"
+    },
+    {
+      "path": "02_provenance/geometry_reference_environment_v1.json",
+      "bytes": 1023,
+      "sha256": "97958c458e31ca654d0a2514b8c7f44c817583fad4a3ae811634ffc37773864e"
+    },
+    {
+      "path": "02_provenance/integrity_report.json",
+      "bytes": 1552,
+      "sha256": "52ba80d851f656e2f28b8eeaef8bdfd245aa16c777987a89a37b6710833d83fd"
+    },
+    {
+      "path": "02_provenance/keyword_absence_register.csv",
+      "bytes": 2434,
+      "sha256": "4876980ed69d17c292801e90d0e71eb9a1718acfcc1ba8081da8b25b245cc964"
+    },
+    {
+      "path": "02_provenance/mast_observations_17883.csv",
+      "bytes": 9924,
+      "sha256": "763afa1c940da125f119279b240117eaceea1d2239b2cf50e4e2b37a2c170257"
+    },
+    {
+      "path": "02_provenance/mast_observations_17883_raw.json",
+      "bytes": 23863,
+      "sha256": "9e13fe6bbd9fc25b062dece03564a4162606c6e683d3c07fb2ca659ef6c7c2e9"
+    },
+    {
+      "path": "02_provenance/mast_observations_expected_six.csv",
+      "bytes": 5030,
+      "sha256": "c1fec5feff8c3e7451b48b8f4b1b960c9e9d70a48eb49ec2479b4d8f20dfe498"
+    },
+    {
+      "path": "02_provenance/mast_products_17883_six_raw.json",
+      "bytes": 297226,
+      "sha256": "c58eb516472e2273c8f2cf909c6d434ece30c371461dfff94f91a55add7fb179"
+    },
+    {
+      "path": "02_provenance/mast_query_manifest.json",
+      "bytes": 1189,
+      "sha256": "32ecd7dba12dce39488afefa7cf2ca61e7c9fcf5e173672aba71a2302953b2c5"
+    },
+    {
+      "path": "02_provenance/phase2_runtime_environment_v2.1.1.json",
+      "bytes": 822,
+      "sha256": "690993485dac892b34739d969bba51e9ca1918fbd7f2b8e9ea836ce5bdb095e7"
+    },
+    {
+      "path": "02_provenance/product_inventory_complete.csv",
+      "bytes": 78784,
+      "sha256": "ec9df113bd0cc51e1d668aa706d1dda447c1807dfd75cde725d0c0686bba7f54"
+    },
+    {
+      "path": "02_provenance/product_inventory_science.csv",
+      "bytes": 30791,
+      "sha256": "10c17544282827aefab67fc437b781684b72477d377650bfc35e40e4209c82d0"
+    },
+    {
+      "path": "02_provenance/product_selection_manifest.csv",
+      "bytes": 6787,
+      "sha256": "31f2b5581a120ab837a44699827a05913a222bc2aeb2af40b351c7d4bf88749a"
+    },
+    {
+      "path": "02_provenance/product_selection_manifest.json",
+      "bytes": 19426,
+      "sha256": "edd718b580949d5b509058c6862ea32f738b48a9a5256069e5c0cd1ffc9f7392"
+    },
+    {
+      "path": "02_provenance/provenance_register.csv",
+      "bytes": 136315,
+      "sha256": "499376e2972c2d6c56bc8717a687d8b674ba85e0599ad44afc034f0454c4a4b6"
+    },
+    {
+      "path": "02_provenance/provenance_register.json",
+      "bytes": 155711,
+      "sha256": "50f472afa2a99855d8f9a9328c9df3b675501e2e8ca8e6868ddd250ca1365552"
+    },
+    {
+      "path": "04_geometry/geometry_run_integrity.json",
+      "bytes": 2257,
+      "sha256": "98cb94319bee516e606b51d28b4a43a9045658e9e153ca723bc671a8c200733d"
+    },
+    {
+      "path": "04_geometry/geometry_run_integrity_v2.1.1.json",
+      "bytes": 2174,
+      "sha256": "9a89afa457d101e5d8bb12f71af7c6719a27898af058ec6d1b7abea8ed76befd"
+    },
+    {
+      "path": "04_geometry/phase2_batch_preflight_v2.1.1.json",
+      "bytes": 9790,
+      "sha256": "0a15b1f384b9cbcce97b1c007948d849569b60562a7123ac428890ebedfaeb0d"
+    },
+    {
+      "path": "04_geometry/phase2_real_drc_execution_stop_v2.1.1_refv1.json",
+      "bytes": 2450,
+      "sha256": "91fe1a6a7032b6063debec6006a4e458e32d666d48f403db28bd9cfc9e915a07"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/batch_evaluation.json",
+      "bytes": 782,
+      "sha256": "32d7682f656e64a3c28aa37fade0565bae4e303d88a0d19a828ea7a82483d2dc"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/cross_filter_consistency.csv",
+      "bytes": 70,
+      "sha256": "720087a37bbd79eec250e09fe215365c48ddde1bd6a005f1883cad1605ca0e2a"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/geometry_run_integrity.json",
+      "bytes": 391,
+      "sha256": "b632b631211749e57cf7ef02445d5a026dade6b82286e44f1637eb38da4a9226"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/nominal_geometry_per_dataset.csv",
+      "bytes": 417,
+      "sha256": "4f3eca049a908d3dafc9b26c2207208397742de46f7120c16a6865b5729aaae5"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/nominal_geometry_per_dataset.json",
+      "bytes": 1886,
+      "sha256": "d21c407d3a4ed1b934367e938bc335ec4bf7316a72625b3eee485eb51fbbb9e9"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/output_checksums.sha256",
+      "bytes": 1179,
+      "sha256": "0ea5f5bfad9225aeafaf814fbec3b39fc8b4665620d5c23a5ba2edbe106d582c"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC01.json",
+      "bytes": 314,
+      "sha256": "b60081fa55595064204c09de697b9f16cece1109bccf5ecf88e496e548cbacd1"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC02.json",
+      "bytes": 314,
+      "sha256": "c907a3e2c64f3b4f6216464ca0067843d1c55ddd1b854e28062361218ce58573"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC03.json",
+      "bytes": 314,
+      "sha256": "ac8e488d8985d415f44ded280fd863dd727dcb157de0687b35d440a3f27f771c"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC04.json",
+      "bytes": 314,
+      "sha256": "2a6bdff988b8273828c175a69cd4e0b52251d3cad9ceed6fde392b95b20b7832"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC05.json",
+      "bytes": 314,
+      "sha256": "43b4174f0e2febd8649f28a8f6d4ddf2ba8b8a17361b69b3c54e39720608051a"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC06.json",
+      "bytes": 314,
+      "sha256": "da3543002d6da854b455af54cbac860d25da35da991cfb51ed2a231fd73be906"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/preflight.json",
+      "bytes": 2793,
+      "sha256": "9fd822d46bc5fc5f963223d1cf33cae3772a42af921e92ca8401457f669a8685"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/visit_consistency.csv",
+      "bytes": 177,
+      "sha256": "39335364dae5c1a15e2beea8e922d64473705b345b2474f79f880c084326c2ed"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1417,
+      "sha256": "37ff2b8b2b6b9dc3475b5ce1a53b1d847cdfae9b871d67f898e9fb03740ec28d"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/fixtures/synthetic_top_level_expected_refv2.json",
+      "bytes": 371,
+      "sha256": "de8a0451ba9acdd27d0a56f8b27b2b42d20eac35edb1aa3182bc9e3907e5ec90"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/geometry_reference_constants_refv2.json",
+      "bytes": 3306,
+      "sha256": "11c47a349456a4b96ec65d933d57b23bee882af4838b73893815572b932a78cf"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/geometry_reference_refv2.py",
+      "bytes": 48836,
+      "sha256": "2289ea4e09c26820f021b92a095bd23b5129744fee39525c4e1de482197d39d7"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/test_geometry_reference_refv2.py",
+      "bytes": 11912,
+      "sha256": "c1a927cb1cc4f05c8f5aa048b828b8c34ccf0805bee11f401c3c8b246076ec0f"
+    },
+    {
+      "path": "scripts/download_selected_phase1.py",
+      "bytes": 7250,
+      "sha256": "ceadc8416bcecf48141e3cdb56ebcf1e57a691c0e11e935bf6fb10e0fd6299e6"
+    },
+    {
+      "path": "scripts/execute_geometry_batch_refv2.py",
+      "bytes": 24437,
+      "sha256": "35bdedbe734985134cb9cdcde48866642c7772435180eab2c683ab6550fd9524"
+    },
+    {
+      "path": "scripts/fixtures/geometry_reference_synthetic_expected_v1.json",
+      "bytes": 1827,
+      "sha256": "0f80d35bb5e112560696e15770897a4049d0c02064f8f9b71b7b6df7f2fc242a"
+    },
+    {
+      "path": "scripts/geometry_reference_constants_v1.json",
+      "bytes": 3387,
+      "sha256": "35322ad6b3a6d3aed337523bf1e611415d73d4134d66203a17f45839c8a48df6"
+    },
+    {
+      "path": "scripts/geometry_reference_v1.py",
+      "bytes": 40366,
+      "sha256": "e138f0d75fa42d414356cfba5e66a190e37be720b5968fe74de4eeb3377bfb6a"
+    },
+    {
+      "path": "scripts/preflight_geometry_v211.py",
+      "bytes": 8093,
+      "sha256": "073df46dcc3b8d3ab6b17227823f1d73e4e184193b07e0718d8fc9093065238e"
+    },
+    {
+      "path": "scripts/query_mast_phase1.py",
+      "bytes": 6107,
+      "sha256": "b7f73d23da6b7d382a9fbae3293db838877626805608784c904ea660fb5f41b6"
+    },
+    {
+      "path": "scripts/test_geometry_reference_v1.py",
+      "bytes": 9425,
+      "sha256": "c12af96ec4072d941ef266739b6bec809697ae1d3c0b63a8657fa85b5b6d901a"
+    },
+    {
+      "path": "scripts/verify_fits_phase1.py",
+      "bytes": 28989,
+      "sha256": "54478e0e14953229c4af60bb67c2b33ceea8a88400d98941024c0b9522bb8879"
+    }
+  ],
+  "explicitReportAdmissions": [],
+  "ignoredAndUnpublished": [],
+  "reviewUtc": "2026-10-13T16:55:52.2835113Z"
+}

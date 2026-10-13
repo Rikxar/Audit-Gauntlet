@@ -1,0 +1,30 @@
+{
+  "programme": "BIG_RING_ORIENTATION",
+  "path": "E:\\Audit Gauntlet\\BIG_RING_ORIENTATION",
+  "github": "https://github.com/Rikxar/BIG_RING_ORIENTATION",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "b6264be6f50d4871dd8d936c2b74c8356adba2cb",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "b6264be6f50d4871dd8d936c2b74c8356adba2cb",
+      "remote": "b6264be6f50d4871dd8d936c2b74c8356adba2cb",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/BIG_RING_ORIENTATION.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/BIG_RING_ORIENTATION.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/BIG_RING_ORIENTATION",
+    "HEAD b6264be6f50d4871dd8d936c2b74c8356adba2cb",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:29.6931132Z"
+}

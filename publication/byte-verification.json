@@ -1,0 +1,135 @@
+[
+  {
+    "programme": "3C273_ZOETROPE",
+    "files": 80,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:32.3895599Z"
+  },
+  {
+    "programme": "3C345_KINE_INTERRUPTION_AUDIT",
+    "files": 940,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:33.4968600Z"
+  },
+  {
+    "programme": "AGM_RADIAL_SCANNER",
+    "files": 1279,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:35.9021804Z"
+  },
+  {
+    "programme": "AGM_STRUCTURE_FALSIFICATION_AUDIT",
+    "files": 101,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:36.2139748Z"
+  },
+  {
+    "programme": "BIG_RING_ORIENTATION",
+    "files": 30,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:36.3513328Z"
+  },
+  {
+    "programme": "BLACK_HOLE_HUNTERS_AGM_PILOT",
+    "files": 5453,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:38.5497968Z"
+  },
+  {
+    "programme": "CMB_ALIGNMENT",
+    "files": 34,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:38.7089636Z"
+  },
+  {
+    "programme": "DRP011_BAO_RULER_AUDIT",
+    "files": 287,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:39.1972694Z"
+  },
+  {
+    "programme": "dynamic_geometry_simulator",
+    "files": 393,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:39.5885314Z"
+  },
+  {
+    "programme": "GAL_SPIN_001",
+    "files": 77,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:39.7952936Z"
+  },
+  {
+    "programme": "GAL_SPIN_001P",
+    "files": 118,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:40.0139475Z"
+  },
+  {
+    "programme": "galactic_geometry_lab",
+    "files": 773,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:40.7810721Z"
+  },
+  {
+    "programme": "M87_EHT_ROTOSCOPE",
+    "files": 884,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:41.3050644Z"
+  },
+  {
+    "programme": "M87_JET_INTERRUPTION_AUDIT",
+    "files": 311,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:41.9327908Z"
+  },
+  {
+    "programme": "MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+    "files": 42,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:42.0821215Z"
+  },
+  {
+    "programme": "NGC5335_BAR_COHERENCE_AUDIT",
+    "files": 104,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:42.2600273Z"
+  },
+  {
+    "programme": "OJ287_EHT_ZOETROPE",
+    "files": 477,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:42.7160290Z"
+  },
+  {
+    "programme": "SGRA_EHT_ROTOSCOPE",
+    "files": 198,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:43.0065112Z"
+  },
+  {
+    "programme": "V404_CYGNI_VLBA_ZOETROPE",
+    "files": 4169,
+    "failures": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:07:48.4900623Z"
+  }
+]

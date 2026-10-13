@@ -1,0 +1,76 @@
+{
+  "programme": "GAL_SPIN_001P",
+  "path": "E:\\Audit Gauntlet\\GAL_SPIN_001P",
+  "github": "https://github.com/Rikxar/GAL_SPIN_001P",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "c5faecb2d9f6989fb72d0d43aef63c60b24280da",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "c5faecb2d9f6989fb72d0d43aef63c60b24280da",
+      "remote": "c5faecb2d9f6989fb72d0d43aef63c60b24280da",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_001P.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_001P.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/GAL_SPIN_001P",
+    "HEAD c5faecb2d9f6989fb72d0d43aef63c60b24280da",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? PROC/mplconfig/",
+    "?? RAW/"
+  ],
+  "untracked": [
+    "PROC/mplconfig/fontlist-v3.11.0.json",
+    "RAW/mast_pilot_observation.json",
+    "RAW/mast_pilot_products.json",
+    "RAW/products_11016-1902.json",
+    "RAW/products_11017-1902.json",
+    "RAW/products_11823-6104.json",
+    "RAW/products_11827-3701.json",
+    "RAW/products_11827-3703.json",
+    "RAW/products_11838-3703.json",
+    "RAW/products_11865-9101.json",
+    "RAW/products_11867-12703.json",
+    "RAW/products_11946-6101.json",
+    "RAW/products_11950-1901.json",
+    "RAW/products_12511-3703.json",
+    "RAW/products_12667-1902.json",
+    "RAW/products_12667-3704.json",
+    "RAW/products_12675-3702.json",
+    "RAW/products_7495-12703.json",
+    "RAW/products_7495-12704.json",
+    "RAW/products_8247-3702.json",
+    "RAW/products_8249-3701.json",
+    "RAW/products_8249-6104.json",
+    "RAW/products_8250-9101.json",
+    "RAW/products_8256-12705.json",
+    "RAW/products_8274-12705.json",
+    "RAW/products_8309-1902.json",
+    "RAW/products_8312-12703.json",
+    "RAW/products_8319-6104.json",
+    "RAW/products_8325-6103.json",
+    "RAW/products_8451-12702.json",
+    "RAW/products_8454-6103.json",
+    "RAW/products_8456-6104.json",
+    "RAW/products_8550-9102.json",
+    "RAW/products_8596-12702.json",
+    "RAW/products_8598-9102.json",
+    "RAW/products_8952-12703.json",
+    "RAW/products_8983-3703.json",
+    "RAW/products_9031-12705.json",
+    "RAW/products_9031-3701.json",
+    "RAW/products_9036-1901.json",
+    "RAW/products_9036-6101.json",
+    "RAW/products_9864-3701.json"
+  ],
+  "verifiedUtc": "2026-10-13T17:06:08.5275032Z"
+}

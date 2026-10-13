@@ -1,0 +1,218 @@
+{
+  "programme": "MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "staged": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "37ec5471cc6004fc465e51f2cd086099072fadbed1a833a002c2743db6c0a4d2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "sha256": "5a264fd5ed02fe346b3ddc5555668d4b698b634044c8d48df4e56d68a9a5d6f3"
+    },
+    {
+      "path": "00_admin/ASTRA_HANDOVER.md",
+      "bytes": 8029,
+      "sha256": "64f91574c1c31e690ee01e7cd0b846579cc14965004973877748c3eabf57b903"
+    },
+    {
+      "path": "00_admin/PLAN_ADMISSION_NOTES.md",
+      "bytes": 2285,
+      "sha256": "c62523edcdf96d9ac9b9133e3c743a4612fab62c2efb3b5560e5d061fc52d4ca"
+    },
+    {
+      "path": "00_admin/config/prospective_plan.json",
+      "bytes": 3357,
+      "sha256": "142e45227c13b705bc7be395f6ac6d24126a772607ba235ce05190148ee1bd06"
+    },
+    {
+      "path": "00_admin/matplotlib_cache/fontlist-v3.11.0.json",
+      "bytes": 143964,
+      "sha256": "b6b8a4bbce79e10a4ee85ede7f6926357e76a843d138baa58c858854fb126f00"
+    },
+    {
+      "path": "01_literature/LITERATURE_MAP.md",
+      "bytes": 5721,
+      "sha256": "f973a85b02bcb21d030dea269086520608e0f12beb4405d653d8fc653cea7934"
+    },
+    {
+      "path": "01_literature/lin_paper_extracted.txt",
+      "bytes": 60369,
+      "sha256": "74625e2b29649c89b79f1fde2e625f66b60146555feb2c56b7aaa30ed95bf12b"
+    },
+    {
+      "path": "01_literature/younes_erratum_extracted.txt",
+      "bytes": 4999,
+      "sha256": "57c1dc4c8d3c0df09461e4f34e30f4a0f74a5322a96393e523ec04fcd5523e09"
+    },
+    {
+      "path": "01_literature/younes_paper_extracted.txt",
+      "bytes": 90948,
+      "sha256": "18bde41c3a969166bca18a799fe701f3a07548a6f91495c48ca732790204630f"
+    },
+    {
+      "path": "02_archive_inventory/PROXY_AND_AVAILABILITY_AUDIT.md",
+      "bytes": 4753,
+      "sha256": "c9b66d21facd0305a7ce142c9125a9490b446f37a534e72d72b8c44f6baca6c6"
+    },
+    {
+      "path": "02_archive_inventory/field_availability.csv",
+      "bytes": 625,
+      "sha256": "dc7c8ede1b55ded28b6fa87e639d06eb579c2455f28e9a76d5e17efb4d7af293"
+    },
+    {
+      "path": "03_raw/fssc_ReadMe.txt",
+      "bytes": 2199,
+      "sha256": "d9195762b9abf37d5a1648377c52676995b88213cfb6bb703cac1fb94f312cc3"
+    },
+    {
+      "path": "03_raw/gbm_ReadMe.txt",
+      "bytes": 6159,
+      "sha256": "17f3e2aaa5f8811a4a8034311d0ad6c4486e524a6740ee33f74bf9f788437646"
+    },
+    {
+      "path": "03_raw/nicer_ReadMe.txt",
+      "bytes": 7176,
+      "sha256": "03dc75717c022c6bc542573de54207d7ac05507b7aabdb3091b0f228aee0e75b"
+    },
+    {
+      "path": "04_intermediate/DATA_DICTIONARY.md",
+      "bytes": 3502,
+      "sha256": "c5e734a51f72c2e68bdcb033c1e1181df8c652e7888001e59a3e36eb5186a94b"
+    },
+    {
+      "path": "04_intermediate/event_catalogue.csv",
+      "bytes": 353639,
+      "sha256": "7b5192832ce20731c74ce8e064dc97d7357ee5aea90365e4f782e78d078e90f2"
+    },
+    {
+      "path": "04_intermediate/native_gbm.json",
+      "bytes": 85845,
+      "sha256": "e327141a31fc2280cf103d515907dbc03b75a8af96e36586ecf42a81a9058caa"
+    },
+    {
+      "path": "04_intermediate/native_nicer.json",
+      "bytes": 84170,
+      "sha256": "fb097e6fd8ed0bfc44babc11e8faf55bb63f3293b476a72b413a6be3f5f2fe4c"
+    },
+    {
+      "path": "04_intermediate/persistent_nicer.json",
+      "bytes": 13923,
+      "sha256": "7f7df47485a8b96235dd0881e239b4c2707c02e9ddedbe05dbf1853598ed240d"
+    },
+    {
+      "path": "05_analysis/matched_pairs.csv",
+      "bytes": 1357409,
+      "sha256": "8897142f4bda05f3d50e680bd58b78d47f0f3633d3f996b7b5b9493c41141ed0"
+    },
+    {
+      "path": "05_analysis/matching_sensitivity.csv",
+      "bytes": 1336,
+      "sha256": "7a5a332eb117d407098b709805ec0909cc78be6f426f13f05773885f53d5558a"
+    },
+    {
+      "path": "06_figures/FIGURE_CAPTIONS.md",
+      "bytes": 1010,
+      "sha256": "15bfc721871c371e3496485d4486240a3bc1bae2b4ec748a3b3e51031ccf8a8c"
+    },
+    {
+      "path": "06_figures/catalogue_diagnostics.png",
+      "bytes": 248676,
+      "sha256": "4ba8b5c9beabb27814e9b14b38318a4c1a37c43830baaf7ef21bfed1bcf4b8f5"
+    },
+    {
+      "path": "06_figures/identifiability.png",
+      "bytes": 47750,
+      "sha256": "2434ac6c525f2b922a6a6ff2bc554cd6ce6f6164a0ccbb8603c7823713ce0a75"
+    },
+    {
+      "path": "07_results/FINAL_AUDIT_REPORT.md",
+      "bytes": 11173,
+      "sha256": "e1a8c8413fadc892732cb7d44d2ccc14e3510f480d3bb131f57aea77469f49fb"
+    },
+    {
+      "path": "07_results/summary.json",
+      "bytes": 5200,
+      "sha256": "69617c9d53e4cea7b10edb64832cc4a54b9bc93ef32c0533802b7cb11eecf055"
+    },
+    {
+      "path": "08_validation/final_validation.json",
+      "bytes": 688,
+      "sha256": "236c7a999e02d83b81f53b81022c27e1b0ebb13a7cd5f0d05f50e664b71536e3"
+    },
+    {
+      "path": "08_validation/validation.json",
+      "bytes": 565,
+      "sha256": "adfc2b769c41135f523f3d896e599c86d1c0f8cbc96d567c056fb4e58ae6e39a"
+    },
+    {
+      "path": "09_nulls/null_and_sensitivity_status.csv",
+      "bytes": 1499,
+      "sha256": "8b7813ebfa2e25ac603294470d34a489d2d614006e605467a2d2ae6b824cd74b"
+    },
+    {
+      "path": "10_scripts/acquire.py",
+      "bytes": 2540,
+      "sha256": "d0a13aab4195fd1667333ff61927f4cdcf60c9f8d3a9fc1d4f54052a4d28b7a7"
+    },
+    {
+      "path": "10_scripts/audit_catalogues.py",
+      "bytes": 16273,
+      "sha256": "738518482b5a973d3548468334bc29e4b752283dc89bf74003580766e93c858c"
+    },
+    {
+      "path": "10_scripts/extract_papers.py",
+      "bytes": 418,
+      "sha256": "739947589fac091cbe3ad2459e1e44d6134f7dcebe1db20f9937fe47fc7b6647"
+    },
+    {
+      "path": "10_scripts/finalize.py",
+      "bytes": 3597,
+      "sha256": "046f0bb62ac4ea0451b5ff036dd01cd2864ad29432fb0c2410c6a10e368934d6"
+    },
+    {
+      "path": "11_provenance/artifact_manifest.json",
+      "bytes": 7855,
+      "sha256": "5c26a6e8c288b82617e1c10507fe7cf9e285e81f1da83eb10d9fdbbb995805cf"
+    },
+    {
+      "path": "11_provenance/environment.json",
+      "bytes": 1173,
+      "sha256": "97225005100fb49f3befd9c27fa850708983fb8b2941feb1bb9d2ad549698544"
+    },
+    {
+      "path": "11_provenance/read_only_reuse.json",
+      "bytes": 797,
+      "sha256": "79d09983c2cb02ed361fecaeaaf1ae4c795207c61d9e03525cc7e76189b251f8"
+    },
+    {
+      "path": "12_logs/AUDIT_LOG.md",
+      "bytes": 2026,
+      "sha256": "c067006067d280369967d7f3b45c8dfb9316f4d828352292e61ce4a832597947"
+    },
+    {
+      "path": "12_logs/final_tests.txt",
+      "bytes": 411,
+      "sha256": "5c273bddcdfc59b79c6cf51de671988aec6dec5c7731ffc73e7cd7b795ea2106"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1425,
+      "sha256": "ac678bcf6ad39dd48b59decae687992bf3be904bc5e860f85f67985687be9eb0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2752,
+      "sha256": "7ea738b21c2455646ba8a0dc32df6b3c4cde464599d13d6c0bf5541a498a5c99"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "bytes": 2305,
+      "sha256": "5919568d5d5e97e05e8c7b5918b1da215c924a2686d30078210851370b064fb8"
+    }
+  ],
+  "explicitReportAdmissions": [],
+  "ignoredAndUnpublished": [],
+  "reviewUtc": "2026-10-13T16:55:51.3601939Z"
+}

@@ -1,0 +1,235 @@
+{
+  "programme": "BIG_RING_ORIENTATION",
+  "path": "E:\\Audit Gauntlet\\BIG_RING_ORIENTATION",
+  "boundaries": [],
+  "files": [
+    {
+      "path": "scripts/build_phase1_catalogues.py",
+      "bytes": 7184,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:25.5643966Z"
+    },
+    {
+      "path": "scripts/fetch_BRQ012_LoTSS_CDS.py",
+      "bytes": 1137,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T06:32:56.1957669Z"
+    },
+    {
+      "path": "scripts/fetch_BRQ012_LoTSS.py",
+      "bytes": 2060,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T06:00:45.7217482Z"
+    },
+    {
+      "path": "scripts/fetch_test_first.py",
+      "bytes": 1173,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T02:40:50.5004455Z"
+    },
+    {
+      "path": "scripts/from pathlib import Path.py",
+      "bytes": 7456,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:29:06.4630568Z"
+    },
+    {
+      "path": "scripts/inspect_BRQ012_beam.py",
+      "bytes": 1512,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T03:24:04.0039205Z"
+    },
+    {
+      "path": "scripts/inspect_BRQ013_LoTSS.py",
+      "bytes": 5323,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:56:19.2792084Z"
+    },
+    {
+      "path": "scripts/inspect_catalogues.py",
+      "bytes": 571,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:40:20.9072595Z"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_connected.py",
+      "bytes": 3946,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:28:59.6613983Z"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_PA.py",
+      "bytes": 2985,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:20:57.7190194Z"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_radial.py",
+      "bytes": 3331,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:23:29.0396125Z"
+    },
+    {
+      "path": "scripts/query_BRQ012_FIRST_catalog.py",
+      "bytes": 958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T03:24:52.7364084Z"
+    },
+    {
+      "path": "scripts/query_BRQ012_FIRST_full.py",
+      "bytes": 949,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T03:43:14.4571301Z"
+    },
+    {
+      "path": "scripts/query_BRQ013_FIRST_full.py",
+      "bytes": 899,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:54:05.8318085Z"
+    },
+    {
+      "path": "scripts/render_BRQ012_FIRST.py",
+      "bytes": 3568,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T16:27:40.9627217Z"
+    },
+    {
+      "path": "scripts/render_BRQ012_LoTSS.py",
+      "bytes": 5353,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:18:05.0800635Z"
+    },
+    {
+      "path": "figures/LoTSS_cutouts/BRQ012_LoTSS_DR3_high_2arcmin.png",
+      "bytes": 163266,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:18:12.7590268Z"
+    },
+    {
+      "path": "figures/LoTSS_cutouts/BRQ013_LoTSS_DR3_high_2arcmin.png",
+      "bytes": 164265,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-25T19:56:26.6477684Z"
+    },
+    {
+      "path": "figures/FIRST_cutouts/BRQ012_FIRST_01.png",
+      "bytes": 498728,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T16:27:53.7718187Z"
+    },
+    {
+      "path": "data_work/LoTSS_cutouts/BRQ012_LoTSS_DR3_high_2arcmin.fits",
+      "bytes": 233280,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-25T19:01:37.1079180Z"
+    },
+    {
+      "path": "data_work/LoTSS_cutouts/BRQ013_LoTSS_DR3_high_2arcmin.fits",
+      "bytes": 233280,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-25T19:55:07.5959114Z"
+    },
+    {
+      "path": "data_work/FIRST_cutouts/BRQ012_FIRST_01.fits",
+      "bytes": 1442880,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-24T02:40:58.0214395Z"
+    },
+    {
+      "path": "data_raw/DR16Q_v4.fits",
+      "bytes": 1718484480,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-08-23T22:47:36.2579544Z"
+    },
+    {
+      "path": "data_raw/SDSS_DR16_QSO_based_MgII_Absorber_Catalog.fits",
+      "bytes": 35746560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-24T01:40:11.4809299Z"
+    },
+    {
+      "path": "catalogues/BR_PHASE1_ORIENTATION_REGISTER.csv",
+      "bytes": 6218,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:58:25.3300937Z"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_ALLSKY.csv",
+      "bytes": 1426179,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:45.9608009Z"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_FIRST_MATCHED.csv",
+      "bytes": 5409,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:45.9973362Z"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_GA_GR_SYSTEM_FIELD.csv",
+      "bytes": 293493,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:45.9953365Z"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_WORKING_FIELD.csv",
+      "bytes": 93000,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:45.9707995Z"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_SYSTEM_FIRST_MATCHED.csv",
+      "bytes": 22997,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:46.0013463Z"
+    },
+    {
+      "path": "catalogues/MGII_same_z_SNcut_BR_GA_GR_SYSTEM_FIELD.csv",
+      "bytes": 491900,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:46.6021511Z"
+    },
+    {
+      "path": "catalogues/MGII_same_z_SNcut_BR_WORKING_FIELD.csv",
+      "bytes": 252698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-24T01:57:46.5726367Z"
+    }
+  ],
+  "omittedDirectories": [
+    "scripts/__pycache__"
+  ],
+  "errors": []
+}

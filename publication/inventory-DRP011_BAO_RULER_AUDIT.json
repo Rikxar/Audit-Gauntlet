@@ -1,0 +1,3032 @@
+{
+  "programme": "DRP011_BAO_RULER_AUDIT",
+  "path": "E:\\Audit Gauntlet\\DRP011_BAO_RULER_AUDIT",
+  "boundaries": [],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1517,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:26.3520432Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/aperture_compiler_dependencies.d",
+      "bytes": 116,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:24:49.7244916Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/aperture_compiler_link_trace.log",
+      "bytes": 2022,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:24:50.0196648Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/aperture_full_dependencies.d",
+      "bytes": 6418,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:40:21.4981812Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/bootstrap_reads_v3.json",
+      "bytes": 6700,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:57:32.2690765Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/compiler_dependencies.d",
+      "bytes": 6097,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:03:45.1955745Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/compiler_link_trace.log",
+      "bytes": 2022,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:03:45.5050865Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/conditional_stdout.log",
+      "bytes": 4034,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.9849644Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/execution_environment_v3.json",
+      "bytes": 614,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:37.0252120Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/figure_review_inputs.json",
+      "bytes": 1871,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:54.5017045Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/figure_review_sheet_1.png",
+      "bytes": 874082,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:52.2601531Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/figure_review_sheet_2.png",
+      "bytes": 796656,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:54.0672573Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/figure_review_sheet_3.png",
+      "bytes": 197332,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:54.4997044Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/FILE_READ_COVERAGE_v3.json",
+      "bytes": 1914,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:29.4428034Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/FILE_READ_MANIFEST_v3.csv",
+      "bytes": 1368528,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:29.4357983Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/final_scientific_integrity_v3.json",
+      "bytes": 1101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:04.4658205Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/finite_reference_stdout.log",
+      "bytes": 2449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:40.0638677Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/geometry_stdout_retry01.log",
+      "bytes": 2449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:03:47.1977748Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/geometry_stdout_retry02.log",
+      "bytes": 5072,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:06:55.7257734Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/geometry_stdout.log",
+      "bytes": 2449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:03:23.6505474Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/native_synthetic_check.json",
+      "bytes": 105,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:32.2138905Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/pvalue_stdout.log",
+      "bytes": 1199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:05.0235492Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_2328.jsonl",
+      "bytes": 39262,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:34:08.0667210Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_24784.jsonl",
+      "bytes": 38827,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:21:58.5896025Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_25900.jsonl",
+      "bytes": 40157,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:22:14.0907378Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_31432.jsonl",
+      "bytes": 38845,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:08:23.4801279Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_33180.jsonl",
+      "bytes": 26125,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:04:06.8534798Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_34692.jsonl",
+      "bytes": 38633,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:38:37.3700904Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_35172.jsonl",
+      "bytes": 38835,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:14:30.1772298Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_35276.jsonl",
+      "bytes": 38627,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:13:58.2608149Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_36196.jsonl",
+      "bytes": 730310,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:29:30.6503317Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_36240.jsonl",
+      "bytes": 39088,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:17:43.4215041Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_36952.jsonl",
+      "bytes": 39292,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:31:53.0249687Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_38164.jsonl",
+      "bytes": 38616,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:08:06.7375331Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_39600.jsonl",
+      "bytes": 39476,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:22:26.8904029Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_4628.jsonl",
+      "bytes": 38620,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:22:53.7371082Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_-c_5076.jsonl",
+      "bytes": 40480,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:28:27.7366183Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_aperture_supplement_16860.jsonl",
+      "bytes": 49414,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:25:29.1469356Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_conditional_forensics_27688.jsonl",
+      "bytes": 49681,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:13:55.9328451Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_figure_review_28396.jsonl",
+      "bytes": 100821,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:29:54.4101543Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_final_diagnostic_supplements_37692.jsonl",
+      "bytes": 45913,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:31:37.0058755Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_finite_reference_35832.jsonl",
+      "bytes": 46260,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:10:38.4107178Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_make_forensic_products_2312.jsonl",
+      "bytes": 216894,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:28:05.9251028Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_pvalue_forensics_33244.jsonl",
+      "bytes": 48187,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:08:04.9675344Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_reconstruct_null_geometry_1492.jsonl",
+      "bytes": 26575,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:03:23.6135421Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_reconstruct_null_geometry_27448.jsonl",
+      "bytes": 26575,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:03:47.1247592Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_reconstruct_null_geometry_34580.jsonl",
+      "bytes": 51875,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:05:54.9248805Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_refine_aperture_bounds_37868.jsonl",
+      "bytes": 48972,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:35:32.8998100Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_seal_forensics_v3_31424.jsonl",
+      "bytes": 1717589,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:43:33.7267769Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_tail_details_33180.jsonl",
+      "bytes": 44277,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:16:52.4129222Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/read_events_write_forensic_report_38880.jsonl",
+      "bytes": 41580,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-09T17:40:19.9618645Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/report_build_receipt.json",
+      "bytes": 307,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:40:19.9658650Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/tool_read_supplement_v3.json",
+      "bytes": 2133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:04.4678203Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/v2_integrity_verification_v3.json",
+      "bytes": 170,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:30.6563236Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/05_logs/matplotlib_cache_v3/fontlist-v390.json",
+      "bytes": 114897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:58.4801589Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H01_vs_H10_discordant_trials.pdf",
+      "bytes": 17546,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:04.7280812Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H01_vs_H10_discordant_trials.png",
+      "bytes": 38382,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:04.5343345Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H01_vs_H10_null_scatter.pdf",
+      "bytes": 51266,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:04.3138002Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H01_vs_H10_null_scatter.png",
+      "bytes": 171719,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:04.0926933Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_discrete_support.pdf",
+      "bytes": 23671,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:01.2639167Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_discrete_support.png",
+      "bytes": 81505,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:01.1509208Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_exchangeability_diagnostic.pdf",
+      "bytes": 51798,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:05.9230993Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_exchangeability_diagnostic.png",
+      "bytes": 85765,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:05.7611100Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_pvalue_ecdf.pdf",
+      "bytes": 52437,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.3156486Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_pvalue_ecdf.png",
+      "bytes": 126631,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:59.6870032Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_pvalue_histogram.pdf",
+      "bytes": 16345,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.6861996Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_pvalue_histogram.png",
+      "bytes": 41539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.5642053Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_reference_size_diagnostic.pdf",
+      "bytes": 24529,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:05.4719193Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_reference_size_diagnostic.png",
+      "bytes": 79467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:05.2481890Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_dependency_structure.pdf",
+      "bytes": 19467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:03.7644361Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_dependency_structure.png",
+      "bytes": 91368,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:03.6314499Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_geometric_support.pdf",
+      "bytes": 21224,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:03.3801602Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_geometric_support.png",
+      "bytes": 101220,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:03.2350858Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_pair_count.pdf",
+      "bytes": 21506,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:02.5744230Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_pair_count.png",
+      "bytes": 123186,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:02.3452842Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_redshift.pdf",
+      "bytes": 21680,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:02.9794324Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_rejection_vs_redshift.png",
+      "bytes": 94133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:02.8294270Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_tail_balance.pdf",
+      "bytes": 16384,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.9498137Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_tail_balance.png",
+      "bytes": 44308,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.8522105Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_tie_structure.pdf",
+      "bytes": 21543,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:01.8834949Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/04_plots/H10_tie_structure.png",
+      "bytes": 121671,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:01.7168588Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/all_null_trial_statistics.csv",
+      "bytes": 5132125,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9085381Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/all_null_trials_with_diagnostic_flags.csv",
+      "bytes": 7590592,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:36.8238642Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/alternative_calibration.csv",
+      "bytes": 8364,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9265361Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/alternative_pvalues.csv",
+      "bytes": 163871,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9245364Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/aperture_quartile_uncertainty.json",
+      "bytes": 714,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:36.4220609Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/aperture_supplement_summary.json",
+      "bytes": 515,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:25:29.1549191Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/attainable_rank_pvalues.csv",
+      "bytes": 127848,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:03.6573414Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/block_diagnostics.csv",
+      "bytes": 3113,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:54.4353695Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/category_contribution_diagnostics.csv",
+      "bytes": 48388,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:59.3669540Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/conditional_rejection_bins.csv",
+      "bytes": 37041,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.9439615Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/conditional_summary.json",
+      "bytes": 4034,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.9629565Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/covariate_correlations.csv",
+      "bytes": 4338,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.9459616Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/critical_boundary_mass.csv",
+      "bytes": 351,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9305369Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/discordant_trials.csv",
+      "bytes": 16235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9375385Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/distribution_free_finite_reference_simulations.npy",
+      "bytes": 1920128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:10:37.8077635Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/ecdf_deviations.json",
+      "bytes": 880,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9115389Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/exact_discrete_support.json",
+      "bytes": 1612,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:03.6403400Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_count_support.csv",
+      "bytes": 7803685,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.2932315Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_diagnostics.csv",
+      "bytes": 46290,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:52.9131338Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_local_p_stream4.npy",
+      "bytes": 1008128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:13:50.0326750Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_local_p_stream5.npy",
+      "bytes": 1008128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:13:52.8133423Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_metadata.csv",
+      "bytes": 10287,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:38.2611505Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/field_regime_metadata.csv",
+      "bytes": 8279,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:59.1768061Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/finite_reference_count_pmf.csv",
+      "bytes": 24641,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:37.8177613Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/finite_reference_exact_law.json",
+      "bytes": 904,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:37.8127609Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/finite_reference_summary.json",
+      "bytes": 3375,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:40.0538656Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/forensic_decision_matrix.csv",
+      "bytes": 3143,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:40:19.9358669Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/H01_H10_comparison.json",
+      "bytes": 1486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9355395Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/leave_block_out_diagnostics.csv",
+      "bytes": 8512,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:54.4373600Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/mean_z_transverse_envelope_bins.csv",
+      "bytes": 628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:25:29.1529267Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/mean_z_transverse_envelope_bounds_stream0.npy",
+      "bytes": 516224,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:24:57.5859318Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/mean_z_transverse_envelope_bounds_stream4.npy",
+      "bytes": 2016128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:25:13.6944998Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/mean_z_transverse_envelope_bounds_stream5.npy",
+      "bytes": 2016128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:25:29.1089174Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/mean_z_transverse_envelope_trials.csv",
+      "bytes": 169637,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:25:29.1209275Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream0_indices.npy",
+      "bytes": 2176,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:04:54.2399300Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream0.npy",
+      "bytes": 7225472,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:04:38.6538289Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream4_indices.npy",
+      "bytes": 8128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:05:54.9138847Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream4.npy",
+      "bytes": 28224128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:04:54.2571969Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream5_indices.npy",
+      "bytes": 8128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:06:55.7277784Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_geometry_stream5.npy",
+      "bytes": 28224128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:05:54.9258825Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_group_block_coupling.csv",
+      "bytes": 14244,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:54.7873522Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_score_vectors.npz",
+      "bytes": 431769,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:08:05.0015344Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_structure_audit.json",
+      "bytes": 340,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:38.2651535Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/null_trial_covariates.csv",
+      "bytes": 1452688,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.8584225Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/observed_p_support_summary.csv",
+      "bytes": 272,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:06.0371014Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/permutation_group_audit.csv",
+      "bytes": 19431,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:38.2641504Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/plot_manifest.json",
+      "bytes": 775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:06.0401064Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/pooled_reallocation_trials.csv",
+      "bytes": 56674,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:40.0508633Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/predeclared_compatibility_tests.json",
+      "bytes": 954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:37.8217649Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/pvalue_histogram_counts.csv",
+      "bytes": 625,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:28:00.3536473Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/pvalue_stage_summary.json",
+      "bytes": 1199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:05.0035372Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/quantitative_product_metadata.json",
+      "bytes": 1715,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:37.0262140Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/reference_size_summary.csv",
+      "bytes": 320,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:38.4177131Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/reference_size_trials.csv",
+      "bytes": 62291,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:38.3857145Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/regeneration_checks.csv",
+      "bytes": 173790,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:06:55.7407729Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/regeneration_summary.json",
+      "bytes": 139,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:06:55.7427796Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/regional_component_calibration.csv",
+      "bytes": 3758,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:36.3065134Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/regional_component_trials.csv",
+      "bytes": 1144211,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:36.3750721Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/regional_occupancy_contributions.csv",
+      "bytes": 6547,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:56.8604153Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/rejection_curve.csv",
+      "bytes": 3314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:04.9105416Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/tail_specific_summary.json",
+      "bytes": 2776,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:16:52.4229304Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/weighting_diagnostics.csv",
+      "bytes": 1190,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:53.4408049Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/weighting_null_trials.csv",
+      "bytes": 472884,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:53.4698194Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/aperture_refined/mean_z_transverse_envelope_bins.csv",
+      "bytes": 628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:35:32.9069100Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/aperture_refined/mean_z_transverse_envelope_trials.csv",
+      "bytes": 221312,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:35:32.8748028Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/03_results/aperture_refined/refinement_summary.json",
+      "bytes": 507,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:35:32.9089155Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/02_inputs/external_primary_reference_arxiv.json",
+      "bytes": 12483,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:09:07.2027711Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/02_inputs/external_primary_reference.json",
+      "bytes": 636,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:53.1593894Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/aperture_supplement.cpp",
+      "bytes": 899,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:24:47.3960992Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/aperture_supplement.dll",
+      "bytes": 954193,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:24:49.9966761Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/aperture_supplement.py",
+      "bytes": 5564,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:24:20.9513438Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/conditional_forensics.py",
+      "bytes": 9870,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:45.3625918Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/figure_review.py",
+      "bytes": 859,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:29:47.9135051Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/final_diagnostic_supplements.py",
+      "bytes": 5813,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:34.3336315Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/finite_reference.py",
+      "bytes": 5791,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:30.1224376Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/forensic_common.py",
+      "bytes": 6099,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:30.3412169Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/make_forensic_products.py",
+      "bytes": 16233,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:48.8486189Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/null_geometry.cpp",
+      "bytes": 2762,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:03:18.0406028Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/null_geometry.dll",
+      "bytes": 959475,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T17:03:45.4790827Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/pvalue_forensics.py",
+      "bytes": 8997,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:07:59.3711081Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/reconstruct_null_geometry.py",
+      "bytes": 9724,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:03:20.3610425Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/refine_aperture_bounds.py",
+      "bytes": 5573,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:33:29.9359354Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/seal_forensics_v3.py",
+      "bytes": 11104,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:42:30.2397160Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/tail_details.py",
+      "bytes": 2088,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:16:50.5118361Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/01_scripts/write_forensic_report.py",
+      "bytes": 30737,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:38:25.3276798Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/aperture_refinement_freeze.json",
+      "bytes": 385,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:33:31.5634785Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/aperture_supplement_execution_freeze.json",
+      "bytes": 661,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:24:50.3795106Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/conditional_execution_freeze.json",
+      "bytes": 283,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:13:47.1409461Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/final_supplement_execution_note.json",
+      "bytes": 455,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:31:35.9959077Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/finite_reference_execution_freeze.json",
+      "bytes": 289,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:10:31.8502402Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/geometry_execution_freeze.json",
+      "bytes": 583,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:04:32.1356946Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/products_execution_freeze.json",
+      "bytes": 281,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:27:58.9113009Z"
+    },
+    {
+      "path": "11_h10_forensics_v3/00_contract/pvalue_execution_preflight.json",
+      "bytes": 670,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:08:01.3466367Z"
+    },
+    {
+      "path": "10_freeze/BAO_EFFECTIVE_CONTRACT_v2.json",
+      "bytes": 32301,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:23:19.3595262Z"
+    },
+    {
+      "path": "10_freeze/BAO_REVIEW_CONTRACT_v1.json",
+      "bytes": 19827,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:28.7464636Z"
+    },
+    {
+      "path": "10_freeze/CALIBRATION_HOLD_PACKAGE_v2.sha256",
+      "bytes": 381030,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:30:22.5633028Z"
+    },
+    {
+      "path": "10_freeze/CALIBRATION_HOLD_VERIFICATION_v2.json",
+      "bytes": 989,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:30:35.9691551Z"
+    },
+    {
+      "path": "10_freeze/CONTRACT_DRAFT_INPUT_BLOCKED.md",
+      "bytes": 5874,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:08.5226057Z"
+    },
+    {
+      "path": "10_freeze/H10_FORENSIC_DISPOSITION_v3.json",
+      "bytes": 1308,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:40:19.9448736Z"
+    },
+    {
+      "path": "10_freeze/H10_FORENSIC_PACKAGE_v3.sha256",
+      "bytes": 22377,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:30.4220965Z"
+    },
+    {
+      "path": "10_freeze/H10_FORENSIC_SPEC_v3.json",
+      "bytes": 12433,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:57:32.2675670Z"
+    },
+    {
+      "path": "10_freeze/H10_FORENSIC_SPEC_v3.sha256",
+      "bytes": 325,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:57:32.2990897Z"
+    },
+    {
+      "path": "10_freeze/H10_FORENSIC_VERIFICATION_v3.json",
+      "bytes": 1241,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:43:33.7557727Z"
+    },
+    {
+      "path": "10_freeze/HR_AMENDMENT_v2.json",
+      "bytes": 12134,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:23:19.3575250Z"
+    },
+    {
+      "path": "10_freeze/HR_AMENDMENT_v2.sha256",
+      "bytes": 412,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:23:19.6970558Z"
+    },
+    {
+      "path": "10_freeze/REVIEW_PACKAGE_v1.sha256",
+      "bytes": 21545,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:44:28.7883826Z"
+    },
+    {
+      "path": "09_reports/CALIBRATION_HOLD_REPORT_v2.md",
+      "bytes": 9026,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.6223715Z"
+    },
+    {
+      "path": "09_reports/H10_FORENSIC_REPORT_v3.md",
+      "bytes": 27927,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T17:40:19.9478653Z"
+    },
+    {
+      "path": "09_reports/HR_CLOSURE_AND_REPRODUCTION_v2.md",
+      "bytes": 4952,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:07:49.1150551Z"
+    },
+    {
+      "path": "09_reports/REVIEW_GATE_REPORT_v1.md",
+      "bytes": 12165,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:24.0202281Z"
+    },
+    {
+      "path": "09_reports/SOURCE_ACCESS_STATUS.md",
+      "bytes": 2705,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:12.2183356Z"
+    },
+    {
+      "path": "08_logs/contract_preparation_v1.json",
+      "bytes": 660,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:28.7584714Z"
+    },
+    {
+      "path": "08_logs/HR_v2_binding_integrity.json",
+      "bytes": 498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:23:19.6750597Z"
+    },
+    {
+      "path": "08_logs/IDENTITY_GATE_ENFORCEMENT_v2.json",
+      "bytes": 968,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:29:55.3650014Z"
+    },
+    {
+      "path": "08_logs/LIVE_SOURCE_INTEGRITY_AT_HOLD_v2.json",
+      "bytes": 68068,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:25:09.1382974Z"
+    },
+    {
+      "path": "08_logs/onedrive_input_intake_v1.json",
+      "bytes": 897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:24.4590456Z"
+    },
+    {
+      "path": "08_logs/onedrive_source_path_inventory_20260909T0930.csv",
+      "bytes": 128519,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:26:23.7658460Z"
+    },
+    {
+      "path": "08_logs/PLOT_QA_AT_HOLD_v2.json",
+      "bytes": 378,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:29:55.3650014Z"
+    },
+    {
+      "path": "08_logs/plot_table_dependencies_v2_network_retry.log",
+      "bytes": 1617,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:08:33.6267708Z"
+    },
+    {
+      "path": "08_logs/plot_table_dependencies_v2.log",
+      "bytes": 1866,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:07:46.5176701Z"
+    },
+    {
+      "path": "08_logs/primary_calibration_stdout_v2.log",
+      "bytes": 22664,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:20.9034797Z"
+    },
+    {
+      "path": "08_logs/synthetic_geometry_validation_v2.json",
+      "bytes": 2250,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:58:49.7678185Z"
+    },
+    {
+      "path": "08_logs/source_gate_20260909T092435250789Z/candidate_original_artifacts.csv",
+      "bytes": 14824,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:35.2911742Z"
+    },
+    {
+      "path": "08_logs/source_gate_20260909T092435250789Z/discovery_reference_manifest.csv",
+      "bytes": 1582,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:35.2851730Z"
+    },
+    {
+      "path": "08_logs/source_gate_20260909T092435250789Z/source_gate_status.json",
+      "bytes": 1456,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:35.4237191Z"
+    },
+    {
+      "path": "07_products/gate_products_v2/01_original_anomaly_reproduction.png",
+      "bytes": 147480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.3820085Z"
+    },
+    {
+      "path": "07_products/gate_products_v2/14_null_calibration_gate.png",
+      "bytes": 50508,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.4950124Z"
+    },
+    {
+      "path": "07_products/gate_products_v2/15_injection_power_gate.png",
+      "bytes": 51234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.5967263Z"
+    },
+    {
+      "path": "07_products/gate_products_v2/plot_provenance_v2.json",
+      "bytes": 1836,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.6213745Z"
+    },
+    {
+      "path": "06_statistics/bao_diagnostics_v2.py",
+      "bytes": 13688,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:23:14.1308841Z"
+    },
+    {
+      "path": "06_statistics/calibration_gate_summary_v2.csv",
+      "bytes": 863,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7252822Z"
+    },
+    {
+      "path": "06_statistics/calibration_gate_summary_v2.metadata.json",
+      "bytes": 1453,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7352892Z"
+    },
+    {
+      "path": "06_statistics/hypothesis_ledger_v1.csv",
+      "bytes": 4165,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:28.6159272Z"
+    },
+    {
+      "path": "06_statistics/hypothesis_status_at_hold_v2.csv",
+      "bytes": 1819,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7372870Z"
+    },
+    {
+      "path": "06_statistics/hypothesis_status_at_hold_v2.metadata.json",
+      "bytes": 1416,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7462832Z"
+    },
+    {
+      "path": "06_statistics/reporting_matrix_at_hold_v2.csv",
+      "bytes": 1261,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7462832Z"
+    },
+    {
+      "path": "06_statistics/reporting_matrix_at_hold_v2.metadata.json",
+      "bytes": 1422,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:24.7542872Z"
+    },
+    {
+      "path": "06_statistics/robustness_ledger_v1.csv",
+      "bytes": 1523,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:28.6169289Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/primary_comparison_v2.json",
+      "bytes": 2715,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.7660377Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/primary_execution_v2.json",
+      "bytes": 289,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.3946310Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/primary_replay_stdout_v2.log",
+      "bytes": 15989,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.2706300Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/secondary_comparison_v2.json",
+      "bytes": 3346,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:39.5369376Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/secondary_execution_v2.json",
+      "bytes": 276,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.9525111Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/secondary_replay_stdout_v2.log",
+      "bytes": 5613,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.8405125Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/09_freeze/STAGE2C_P4_HYBRID_PERMUTATION_ARCHITECTURE_FREEZE.sha256",
+      "bytes": 2053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.4183565Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/09_freeze/STAGE3A_P0_SECONDARY_COMOVING_GAP_BRANCH_FREEZE.sha256",
+      "bytes": 1670,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.4413647Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/09_freeze/STAGE3A_P1_FINAL_SECONDARY_COMOVING_GAP_TEST.sha256",
+      "bytes": 1921,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.8395127Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/08_reports/STAGE3A_P1_FINAL_SECONDARY_COMOVING_GAP_TEST.txt",
+      "bytes": 1841,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.7105164Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_RUN_ROUTING.csv",
+      "bytes": 4867,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.6057516Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_TARGET_GROUP_ASSIGNMENTS.csv",
+      "bytes": 11402248,
+      "eligible": false,
+      "reason": "large-review-required",
+      "modified": "2026-09-09T10:28:30.5597580Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P0_SECONDARY_COMOVING_GAP_AND_CALIBRATION_CONTRACT.json",
+      "bytes": 4090,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.4947477Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P0_SECONDARY_COMOVING_GAP_RUN_ORDER.csv",
+      "bytes": 5958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.5161172Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P1_OBSERVED_RUN_COMOVING_GAP_DIAGNOSTICS.csv",
+      "bytes": 14439,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.6564184Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P1_REALIZATION_GLOBAL_STATISTICS.csv",
+      "bytes": 1161834,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.7075210Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_COMOVING_GAP_ENSEMBLE.npz",
+      "bytes": 2646396,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T15:59:38.6524228Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_COMOVING_GAP_METADATA.json",
+      "bytes": 1238,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.7095133Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_GLOBAL_RESULTS.csv",
+      "bytes": 854,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:38.6544133Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/03_scripts/stage3a_p0_freeze_secondary_comoving_gap_branch.py",
+      "bytes": 31973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.4609760Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_secondary/03_scripts/stage3a_p1_final_secondary_comoving_gap_test.py",
+      "bytes": 56878,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:30.6217535Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/09_freeze/STAGE2C_P4_HYBRID_PERMUTATION_ARCHITECTURE_FREEZE.sha256",
+      "bytes": 2053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.6598978Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/09_freeze/STAGE2D_P0_PRIMARY_STATISTIC_AND_CALIBRATION_FREEZE.sha256",
+      "bytes": 1398,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.6748990Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/09_freeze/STAGE2D_P1_FINAL_HYBRID_NULL_AND_GLOBAL_TEST.sha256",
+      "bytes": 1922,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.2706300Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/08_reports/STAGE2D_P1_FINAL_HYBRID_NULL_AND_GLOBAL_TEST.txt",
+      "bytes": 1329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.1731013Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_RUN_ROUTING.csv",
+      "bytes": 4867,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.8078932Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_TARGET_GROUP_ASSIGNMENTS.csv",
+      "bytes": 11402248,
+      "eligible": false,
+      "reason": "large-review-required",
+      "modified": "2026-09-09T10:28:28.7709007Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P0_PRIMARY_STATISTIC_AND_CALIBRATION_CONTRACT.json",
+      "bytes": 3124,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.7149049Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P0_PRIMARY_STATISTIC_RUN_ORDER.csv",
+      "bytes": 4485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.7338964Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P1_FINAL_HYBRID_NULL_ENSEMBLE.npz",
+      "bytes": 1275798,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T10:31:52.1111101Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P1_FINAL_HYBRID_NULL_METADATA.json",
+      "bytes": 1009,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.1711010Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P1_GLOBAL_PERMUTATION_RESULTS.csv",
+      "bytes": 592,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.1131112Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P1_OBSERVED_RUN_EMPIRICAL_TAIL_DIAGNOSTICS.csv",
+      "bytes": 7734,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.1150964Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/06_fields/desi_qso_strict/STAGE2D_P1_REALIZATION_GLOBAL_STATISTICS.csv",
+      "bytes": 1162613,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:31:52.1700973Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/03_scripts/stage2d_p0_freeze_primary_statistic_and_calibration_contract.py",
+      "bytes": 26372,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.6889053Z"
+    },
+    {
+      "path": "06_statistics/reproduction_v2/replay_primary/03_scripts/stage2d_p1_final_hybrid_null_and_global_test.py",
+      "bytes": 44342,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:28.8198954Z"
+    },
+    {
+      "path": "06_statistics/bao_diagnostics_v2/synthetic_validation_v2_support_columns.json",
+      "bytes": 349,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:16:46.6674225Z"
+    },
+    {
+      "path": "06_statistics/bao_diagnostics_v2/synthetic_validation_v2.json",
+      "bytes": 261,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:14:45.7001380Z"
+    },
+    {
+      "path": "05_controls/diagnose_calibration_hold_v2.py",
+      "bytes": 4694,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:23:16.4134752Z"
+    },
+    {
+      "path": "05_controls/occupancy_power_v2.py",
+      "bytes": 2595,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:19:54.5853628Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2.py",
+      "bytes": 12429,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:04:55.9212258Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/calibration_execution_freeze_v2.json",
+      "bytes": 1742,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:05:02.0191056Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/CALIBRATION_HOLD_DIAGNOSIS_v2.json",
+      "bytes": 2666,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:23:20.9248477Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/calibration_power_trials_v2.npz",
+      "bytes": 102392,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:21:20.0802769Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/live_progress_v2.json",
+      "bytes": 190,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:18.2155960Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/native_synthetic_validation_v2_attempt02.json",
+      "bytes": 160,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:04:58.5427990Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/native_synthetic_validation_v2.json",
+      "bytes": 160,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:04:11.1467500Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/null_engine_inputs_v2.npz",
+      "bytes": 4282619,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:05:01.8412102Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/occupancy_calibration_diagnostic_trials_v2.csv",
+      "bytes": 43901,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:23:20.8998523Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/OCCUPANCY_POWER_GATE_v2.json",
+      "bytes": 1211,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:32.4023265Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/occupancy_power_trials_v2.npz",
+      "bytes": 5037,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:21:32.4013239Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/PRIMARY_CALIBRATION_POWER_GATE_v2.json",
+      "bytes": 2064,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:20.0802769Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/stream_0_moments_v2.npy",
+      "bytes": 60474080,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T16:05:18.7314897Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/stream_4_moments_v2.npy",
+      "bytes": 6048128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:18:38.4881305Z"
+    },
+    {
+      "path": "05_controls/primary_calibration_v2/stream_5_moments_v2.npy",
+      "bytes": 6048128,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:19:58.4217398Z"
+    },
+    {
+      "path": "03_geometry/bao_diagnostics_engine_v2.cpp",
+      "bytes": 4189,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:16:41.1251099Z"
+    },
+    {
+      "path": "03_geometry/bao_diagnostics_engine_v2.dll",
+      "bytes": 963357,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:16:46.2034900Z"
+    },
+    {
+      "path": "03_geometry/bao_geometry_v2.py",
+      "bytes": 2800,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:58:45.2491776Z"
+    },
+    {
+      "path": "03_geometry/bao_primary_engine_v2.cpp",
+      "bytes": 1390,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:59:51.2174851Z"
+    },
+    {
+      "path": "03_geometry/bao_primary_engine_v2.dll",
+      "bytes": 954988,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T16:03:56.6524711Z"
+    },
+    {
+      "path": "03_geometry/redshift_ladder_reference_v2.csv",
+      "bytes": 1228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:22.1206028Z"
+    },
+    {
+      "path": "03_geometry/redshift_ladder_reference_v2.metadata.json",
+      "bytes": 898,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:22.2495961Z"
+    },
+    {
+      "path": "03_geometry/reference_ladder_v2.py",
+      "bytes": 2352,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:21:18.7341295Z"
+    },
+    {
+      "path": "03_geometry/validate_synthetic_v2.py",
+      "bytes": 2787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T15:58:47.7077033Z"
+    },
+    {
+      "path": "02_bao_reference/cosmology_and_ruler_v1.json",
+      "bytes": 1859,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:28.6219265Z"
+    },
+    {
+      "path": "02_bao_reference/DESI_DR1_LSS_release_documentation.html",
+      "bytes": 42364,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:33:32.9503461Z"
+    },
+    {
+      "path": "02_bao_reference/DESI2024_III_2404.03000v1.html",
+      "bytes": 1140730,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:33:31.3222608Z"
+    },
+    {
+      "path": "02_bao_reference/Planck2018_VI_1807.06209.pdf",
+      "bytes": 9317371,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:33:31.1797270Z"
+    },
+    {
+      "path": "02_bao_reference/reference_source_manifest_v1.json",
+      "bytes": 1457,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:33:32.9513512Z"
+    },
+    {
+      "path": "01_inputs/input_identity_census_v1.json",
+      "bytes": 10300,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:35:39.9423706Z"
+    },
+    {
+      "path": "01_inputs/original_input_manifest_v1.csv",
+      "bytes": 56533,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:24.4450437Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/intake_manifest_v2.json",
+      "bytes": 14091,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:33.2051511Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/08_reports/STAGE2D_P1_FINAL_HYBRID_NULL_AND_GLOBAL_TEST.txt",
+      "bytes": 1286,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:30.3973494Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/08_reports/STAGE3A_P1_FINAL_SECONDARY_COMOVING_GAP_TEST.txt",
+      "bytes": 1787,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:33.1881468Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE2D_P1_FINAL_HYBRID_NULL_ENSEMBLE.npz",
+      "bytes": 1275871,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:29.2206983Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE2D_P1_FINAL_HYBRID_NULL_METADATA.json",
+      "bytes": 983,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:30.0178128Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE2D_P1_GLOBAL_PERMUTATION_RESULTS.csv",
+      "bytes": 592,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:29.4136964Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE2D_P1_OBSERVED_RUN_EMPIRICAL_TAIL_DIAGNOSTICS.csv",
+      "bytes": 7734,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:29.5712227Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE2D_P1_REALIZATION_GLOBAL_STATISTICS.csv",
+      "bytes": 1162678,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:29.7778077Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE3A_P1_OBSERVED_RUN_COMOVING_GAP_DIAGNOSTICS.csv",
+      "bytes": 14436,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:31.6102060Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE3A_P1_REALIZATION_GLOBAL_STATISTICS.csv",
+      "bytes": 1162175,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:32.1262876Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_COMOVING_GAP_ENSEMBLE.npz",
+      "bytes": 2645541,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:30.9689329Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_COMOVING_GAP_METADATA.json",
+      "bytes": 1205,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:32.7409483Z"
+    },
+    {
+      "path": "01_inputs/reproduction_references_v2/06_fields/desi_qso_strict/STAGE3A_P1_SECONDARY_GLOBAL_RESULTS.csv",
+      "bytes": 854,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T10:28:31.3032132Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AA_RANDOM_ROW_PREDICATE_OCCUPANCY_IMPACT_AUDIT.sha256",
+      "bytes": 907,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:18.8118758Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AB_RANDOM_DENSITY_BOUNDARY_SHELL_AUDIT.sha256",
+      "bytes": 1366,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:18.9798771Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AC_RANDOM_DERIVED_SUPPORT_GEOMETRY_FREEZE.sha256",
+      "bytes": 3413,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:19.1398884Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AD_4LAC_ANCHOR_RANDOM_SUPPORT_APERTURE_PRESCREEN.sha256",
+      "bytes": 2814,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:19.3034009Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AE_QUERY_READY_RETRIEVAL_COHORTS.sha256",
+      "bytes": 1183,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:19.5188436Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AF_SINGLE_FIELD_Q3C_POLYGON_TRANSPORT_PROBE.sha256",
+      "bytes": 2449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:19.6968456Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AG_MULTIFIELD_Q3C_GEOMETRY_STRESS_PROBE.sha256",
+      "bytes": 3941,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:19.8838514Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0AH_GLOBAL_ZERR_PREDICATE_CLOSURE_AUDIT.sha256",
+      "bytes": 912,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.0863739Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0I_4LAC_ANCHOR_MASTER_FREEZE.sha256",
+      "bytes": 481,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.2507680Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0N_DESI_QSO_HEALPIX_MAPS.sha256",
+      "bytes": 404,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.4047721Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0P_DESI_QSO_IMAGING_SUPPORT_MASKS.sha256",
+      "bytes": 1263,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.5453109Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0R_HPGEOM_BACKEND_ACQUISITION.sha256",
+      "bytes": 1177,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.7193042Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0S_HPGEOM_EXHAUSTIVE_GEOMETRY_VALIDATION.sha256",
+      "bytes": 903,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:20.8900818Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0T_DESI_HEALPIX_ORDERING_PROVENANCE_SEAL.sha256",
+      "bytes": 1828,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.0492514Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0U_DESI_SUPPORT_ORDERING_MORPHOLOGY_AUDIT.sha256",
+      "bytes": 1358,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.2237866Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0V_DESI_HEALPIX_ORDERING_DECISION_FREEZE.sha256",
+      "bytes": 1064,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.3797941Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0W_4LAC_ANCHOR_IMAGING_SUPPORT_PRESCREEN.sha256",
+      "bytes": 1732,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.5643190Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0Y_DESI_QSO_CLUSTERING_RANDOMS.sha256",
+      "bytes": 527,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.7010518Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE0Z_DESI_QSO_CLUSTERING_RANDOM_VALUE_AUDIT.sha256",
+      "bytes": 1043,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:21.8660671Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1A_STRICT_COHORT_PRODUCTION_QSO_RETRIEVAL.sha256",
+      "bytes": 69465,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.0337503Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1B_4LAC_FIELD_NODE_DESI_CROSSMATCH_AUDIT.sha256",
+      "bytes": 1830,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.2012713Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1C_CONSERVATIVE_4LAC_DESI_OVERLAP_RULE_FREEZE.sha256",
+      "bytes": 1753,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.4350462Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1D_CANONICAL_EVENT_MERGE_REDSHIFT_ORDER_AUDIT.sha256",
+      "bytes": 1475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.4420476Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1D_R2_REDSHIFT_ORDER_SENSITIVITY_POLICY_FREEZE.sha256",
+      "bytes": 1243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.6029747Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1D_R4_FORMAL_MATCHED_NODE_REDSHIFT_SENSITIVITY_LAYER.sha256",
+      "bytes": 1521,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.7899775Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1E_SYMBOLIC_SEQUENCES_AND_INTER_NODE_RUNS.sha256",
+      "bytes": 1468,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:22.9479776Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1F_INTER_NODE_RUN_DEPENDENCE_AUDIT.sha256",
+      "bytes": 1560,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.0869931Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE1G_INFERENTIAL_UNIT_HIERARCHY_FREEZE.sha256",
+      "bytes": 1534,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.2288124Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE2A_DENOMINATOR_CANDIDATE_AUDIT.sha256",
+      "bytes": 1828,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.4278118Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE2C_P4_HYBRID_PERMUTATION_ARCHITECTURE_FREEZE.sha256",
+      "bytes": 2053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.4338077Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE2D_P0_PRIMARY_STATISTIC_AND_CALIBRATION_FREEZE.sha256",
+      "bytes": 1398,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.5823267Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE2D_P1_FINAL_HYBRID_NULL_AND_GLOBAL_TEST.sha256",
+      "bytes": 1908,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.7103271Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE2D_P2_RESULT_INTEGRITY_AND_PRIMARY_BRANCH_CLOSURE.sha256",
+      "bytes": 1508,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.8655654Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE3A_P0_SECONDARY_COMOVING_GAP_BRANCH_FREEZE.sha256",
+      "bytes": 1670,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:23.8725659Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE3A_P1_FINAL_SECONDARY_COMOVING_GAP_TEST.sha256",
+      "bytes": 1907,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:24.1006556Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE3A_P2_RESULT_INTEGRITY_AND_SECONDARY_BRANCH_CLOSURE.sha256",
+      "bytes": 1811,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:24.2420443Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/09_freeze/STAGE3B_P0_CONSOLIDATED_INFERENTIAL_CLOSURE.sha256",
+      "bytes": 1115,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:30:24.4210420Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/08_reports/STAGE0AC_RANDOM_DERIVED_SUPPORT_GEOMETRY_FREEZE.txt",
+      "bytes": 2116,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:18.1399188Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/08_reports/STAGE0AE_QUERY_READY_RETRIEVAL_COHORT_FREEZE.txt",
+      "bytes": 1149,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:18.3549732Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/08_reports/STAGE0I_4LAC_ANCHOR_MASTER_FREEZE.txt",
+      "bytes": 1102,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:18.3629676Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/08_reports/STAGE1C_CONSERVATIVE_4LAC_DESI_OVERLAP_RULE_FREEZE.txt",
+      "bytes": 1338,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:18.5114939Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/08_reports/STAGE1G_INFERENTIAL_UNIT_HIERARCHY_FREEZE.txt",
+      "bytes": 1222,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:18.6668691Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/support_masks/STAGE0P_QSO_IMAGING_SUPPORT_MASK_METADATA.json",
+      "bytes": 1536,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.2676444Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/support_masks/STAGE0P_QSO_IMAGING_SUPPORT_N_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.4224749Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/support_masks/STAGE0P_QSO_IMAGING_SUPPORT_OVERLAP_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.6140033Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/support_masks/STAGE0P_QSO_IMAGING_SUPPORT_S_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.7990178Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/support_masks/STAGE0P_QSO_IMAGING_SUPPORT_UNION_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.9530304Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_ONE_SHELL_INTERIOR_COMBINED_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.5322059Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_ONE_SHELL_INTERIOR_PHOTSYS_N_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.7168403Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_ONE_SHELL_INTERIOR_PHOTSYS_S_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.8828342Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_RANDOM_HIT_COMBINED_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.0698331Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_RANDOM_HIT_PHOTSYS_N_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.2403717Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_RANDOM_HIT_PHOTSYS_S_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.4584713Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_TWO_SHELL_INTERIOR_COMBINED_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.6247510Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_TWO_SHELL_INTERIOR_PHOTSYS_N_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.8017506Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_QSO_RANDOM_TWO_SHELL_INTERIOR_PHOTSYS_S_NSIDE256_NESTED.bitmask",
+      "bytes": 98304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:16.9787497Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/random_support/STAGE0AC_RANDOM_DERIVED_SUPPORT_GEOMETRY_METADATA.json",
+      "bytes": 1440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:17.1348364Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1A_STRICT_FIELD_QSO_MEMBERS.csv",
+      "bytes": 31032937,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:09.5947099Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1A_STRICT_FIELD_RETRIEVAL_LEDGER.csv",
+      "bytes": 68155,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:09.9737075Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1A_STRICT_PRODUCTION_RETRIEVAL_METADATA.json",
+      "bytes": 1220,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.0087035Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1B_STRICT_FIELD_4LAC_NODE_MEMBERS.csv",
+      "bytes": 45624,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.2242620Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1C_4LAC_DESI_CANDIDATE_DECISION_LEDGER.csv",
+      "bytes": 15406,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.4424605Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1C_ACCEPTED_FIELD_SUPPRESSION_LEDGER.csv",
+      "bytes": 11001,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.6180086Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1C_ACCEPTED_SEQUENCE_OVERLAP_PAIRS.csv",
+      "bytes": 9708,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.7800095Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1C_OVERLAP_SUPPRESSION_RULE_METADATA.json",
+      "bytes": 1080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.9400067Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_CANONICAL_EVENT_LAYER_METADATA.json",
+      "bytes": 1100,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:10.9470061Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_R2_FIELD_ORDER_SENSITIVITY_FLAGS.csv",
+      "bytes": 7869,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:11.0953304Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_R2_REDSHIFT_ORDER_SENSITIVITY_POLICY.json",
+      "bytes": 1314,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:11.1033261Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_R4_MATCHED_NODE_DESI_Z_ALTERNATIVE_EVENT_TABLE.csv",
+      "bytes": 14616171,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:11.8234320Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_R4_MATCHED_NODE_REDSHIFT_AUTHORITY_POLICY.json",
+      "bytes": 682,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:11.8781560Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1D_STRICT_FIELD_CANONICAL_EVENT_TABLE.csv",
+      "bytes": 32601075,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:12.7277373Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1E_EDGE_LABEL2_RUNS.csv",
+      "bytes": 25993,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:12.9597375Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1E_INTER_NODE_LABEL2_RUNS.csv",
+      "bytes": 8048,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.1437515Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1E_SEQUENCE_EXTRACTION_METADATA.json",
+      "bytes": 1376,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.1507477Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1F_INTER_NODE_RUN_DEPENDENCE_LEDGER.csv",
+      "bytes": 6715,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.3798321Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1F_RUN_DEPENDENCY_COMPONENTS.csv",
+      "bytes": 1561,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.5353746Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1G_DEPENDENCY_COMPONENT_DESIGN.csv",
+      "bytes": 2006,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.7023728Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1G_INFERENTIAL_UNIT_POLICY.json",
+      "bytes": 1173,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.7093687Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE1G_RUN_ANALYSIS_DESIGN.csv",
+      "bytes": 9588,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.8473706Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2C_P4_FIELD_OVERLAP_COMPONENTS.csv",
+      "bytes": 7800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:13.9863698Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_RUN_ROUTING.csv",
+      "bytes": 4867,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:14.2665346Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_NULL_TARGET_GROUP_ASSIGNMENTS.csv",
+      "bytes": 11402248,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:14.7210673Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2C_P4_HYBRID_PERMUTATION_ARCHITECTURE_CONTRACT.json",
+      "bytes": 2010,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:14.7670624Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2C_P4_SINGLETON_64_STRATUM_QUANTILE_CUTS.csv",
+      "bytes": 5659,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:14.9931329Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2D_P0_PRIMARY_STATISTIC_AND_CALIBRATION_CONTRACT.json",
+      "bytes": 3124,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:14.9991416Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE2D_P0_PRIMARY_STATISTIC_RUN_ORDER.csv",
+      "bytes": 4485,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.1551440Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE3A_P0_SECONDARY_COMOVING_GAP_AND_CALIBRATION_CONTRACT.json",
+      "bytes": 4090,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.1616785Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/06_fields/desi_qso_strict/STAGE3A_P0_SECONDARY_COMOVING_GAP_RUN_ORDER.csv",
+      "bytes": 5958,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:15.3266747Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/05_anchor_freeze/STAGE0AE_STRICT_ONE_SHELL_RETRIEVAL_COHORT.csv",
+      "bytes": 43181,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:07.8545114Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/05_anchor_freeze/STAGE0D_DESI_QSO_UNIVERSE_FREEZE.txt",
+      "bytes": 752,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:07.8735093Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/05_anchor_freeze/STAGE0I_4LAC_CONFIRMED_ANCHOR_MASTER.csv",
+      "bytes": 256261,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:08.3688457Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/05_anchor_freeze/STAGE0I_4LAC_PRIMARY_ASSOCIATION_ANCHORS.csv",
+      "bytes": 253426,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:08.5973796Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage0ac_freeze_random_derived_support_geometry.py",
+      "bytes": 25491,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:03.1532869Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage0ad_anchor_random_support_aperture_prescreen.py",
+      "bytes": 31305,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:03.3428204Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1a_strict_cohort_production_qso_retrieval.py",
+      "bytes": 39571,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:03.5445961Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1b_4lac_field_node_desi_crossmatch_audit.py",
+      "bytes": 38321,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:03.7741259Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1c_freeze_conservative_4lac_desi_overlap_rule.py",
+      "bytes": 23256,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:03.9801272Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1d_canonical_event_merge_redshift_order_audit.py",
+      "bytes": 43689,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:04.1656897Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1d_r2_freeze_redshift_order_sensitivity_policy.py",
+      "bytes": 35357,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:04.4379202Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1d_r4_formal_matched_node_redshift_sensitivity_layer.py",
+      "bytes": 41695,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:04.6618920Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1e_generate_symbolic_sequences_and_inter_node_runs.py",
+      "bytes": 45627,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:05.0511825Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1f_inter_node_run_dependence_audit.py",
+      "bytes": 40151,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:05.5490036Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage1g_freeze_inferential_unit_hierarchy.py",
+      "bytes": 27214,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:05.8687553Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage2c_p4_freeze_hybrid_permutation_architecture.py",
+      "bytes": 51658,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:06.1220509Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage2d_p0_freeze_primary_statistic_and_calibration_contract.py",
+      "bytes": 26372,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:06.6452408Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage2d_p1_final_hybrid_null_and_global_test.py",
+      "bytes": 44342,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:07.0629595Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage3a_p0_freeze_secondary_comoving_gap_branch.py",
+      "bytes": 31973,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:07.4339416Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/03_scripts/stage3a_p1_final_secondary_comoving_gap_test.py",
+      "bytes": 56878,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:07.6435101Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/01_sources/fermi_4lac_dr3/table-4LAC-DR3-h.fits",
+      "bytes": 910080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:02.9532755Z"
+    },
+    {
+      "path": "01_inputs/original_drp011_v1/00_admin/STAGE0A_SOURCE_FREEZE.txt",
+      "bytes": 801,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:30:02.5382902Z"
+    },
+    {
+      "path": "01_inputs/discovery_references_20260909T092435250789Z/stage0a2e0_drp011_content_discovery.tsv",
+      "bytes": 10923,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:24:35.2631829Z"
+    },
+    {
+      "path": "01_inputs/discovery_references_20260909T092435250789Z/stage0a2e0_drp011_path_discovery.tsv",
+      "bytes": 327,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:24:35.2571900Z"
+    },
+    {
+      "path": "01_inputs/discovery_references_20260909T092435250789Z/stage0a2e0_drp011_source_discovery.log",
+      "bytes": 350,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T09:24:35.2811745Z"
+    },
+    {
+      "path": "01_inputs/discovery_references_20260909T092435250789Z/stage0a2e2_drp011_exclusion_field_source_sha256.tsv",
+      "bytes": 1854,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:35.2751755Z"
+    },
+    {
+      "path": "00_admin/archive_reference_sources.py",
+      "bytes": 1862,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:33:24.2663817Z"
+    },
+    {
+      "path": "00_admin/bind_hostile_review_v2.py",
+      "bytes": 14778,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:23:17.6259909Z"
+    },
+    {
+      "path": "00_admin/build_review_contract_v1.py",
+      "bytes": 27585,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:43:21.6202524Z"
+    },
+    {
+      "path": "00_admin/build_source_gate_inventory.py",
+      "bytes": 6672,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:02.6303295Z"
+    },
+    {
+      "path": "00_admin/census_identifiers_only.py",
+      "bytes": 2437,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:35:36.4858878Z"
+    },
+    {
+      "path": "00_admin/CURRENT_STATE_v2.json",
+      "bytes": 2015,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:25.6323650Z"
+    },
+    {
+      "path": "00_admin/freeze_h10_forensics_v3.py",
+      "bytes": 10762,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:57:30.2998391Z"
+    },
+    {
+      "path": "00_admin/report_calibration_hold_v2.py",
+      "bytes": 17382,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:17.9024552Z"
+    },
+    {
+      "path": "00_admin/reproduce_original_v2.py",
+      "bytes": 6090,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T10:28:09.7857075Z"
+    },
+    {
+      "path": "00_admin/REVISED_SCOPE.md",
+      "bytes": 1520,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:24:04.8637753Z"
+    },
+    {
+      "path": "00_admin/seal_calibration_hold_v2.py",
+      "bytes": 3220,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:29:51.9263110Z"
+    },
+    {
+      "path": "00_admin/stage_onedrive_inputs.py",
+      "bytes": 7292,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:29:55.6737836Z"
+    },
+    {
+      "path": "00_admin/verify_review_package_v1.py",
+      "bytes": 2692,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:44:26.5992126Z"
+    },
+    {
+      "path": "00_admin/verify_source_and_checkpoint_v2.py",
+      "bytes": 1839,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:25:01.4650754Z"
+    },
+    {
+      "path": "00_admin/mpl_cache_v2/fontlist-v390.json",
+      "bytes": 114897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T16:28:23.3623791Z"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,30 @@
+{
+  "programme": "SGR1806_20_2004_GIANT_FLARE_AUDIT",
+  "path": "E:\\Audit Gauntlet\\SGR1806_20_2004_GIANT_FLARE_AUDIT",
+  "github": "https://github.com/Rikxar/SGR1806_20_2004_GIANT_FLARE_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "d67fcda60236bfd97f95e349650301071abe3ce5",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "d67fcda60236bfd97f95e349650301071abe3ce5",
+      "remote": "d67fcda60236bfd97f95e349650301071abe3ce5",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/SGR1806_20_2004_GIANT_FLARE_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/SGR1806_20_2004_GIANT_FLARE_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/SGR1806_20_2004_GIANT_FLARE_AUDIT",
+    "HEAD d67fcda60236bfd97f95e349650301071abe3ce5",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:07:12.0279618Z"
+}

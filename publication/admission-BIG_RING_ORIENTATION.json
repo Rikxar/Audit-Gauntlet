@@ -1,0 +1,158 @@
+{
+  "programme": "BIG_RING_ORIENTATION",
+  "staged": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "37ec5471cc6004fc465e51f2cd086099072fadbed1a833a002c2743db6c0a4d2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "sha256": "5a264fd5ed02fe346b3ddc5555668d4b698b634044c8d48df4e56d68a9a5d6f3"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1403,
+      "sha256": "723b98aa1793097d6768b523d952e4e4e137d1980adbb7f0d4ed233e0b2da94d"
+    },
+    {
+      "path": "catalogues/BR_PHASE1_ORIENTATION_REGISTER.csv",
+      "bytes": 6218,
+      "sha256": "a9737c85011bee297d9177360376c158d27492d64c067aa73eb594b19965fcaa"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_ALLSKY.csv",
+      "bytes": 1426179,
+      "sha256": "2a301d9b3ce5f14d10810e0ed9f3bb7ad9b54e976f9938a59061e3b1175b9f53"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_FIRST_MATCHED.csv",
+      "bytes": 5409,
+      "sha256": "a34b855815628e7d84cb25ebecd4b6828a3e850487c37597c9ac1e85d01d2c88"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_GA_GR_SYSTEM_FIELD.csv",
+      "bytes": 293493,
+      "sha256": "cc5b02586b9164e0dd23691d6818bf28245d5c76a096d1e2e24e64304c6d0ba0"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_BR_WORKING_FIELD.csv",
+      "bytes": 93000,
+      "sha256": "fecbb44ac075b42b7f8e0dafe0c9970226106772120d135e6891e7ec5bc26331"
+    },
+    {
+      "path": "catalogues/DR16Q_same_z_i20_SYSTEM_FIRST_MATCHED.csv",
+      "bytes": 22997,
+      "sha256": "82b5236f4aa1182c37cb1dcf5b5186aaf8de3ba3b2e3aca3c10ad9ce70ef7bed"
+    },
+    {
+      "path": "catalogues/MGII_same_z_SNcut_BR_GA_GR_SYSTEM_FIELD.csv",
+      "bytes": 491900,
+      "sha256": "4447863b1cf2450f09cb4180869197c1dca1929441a02ffab4d8cab00fb7f8a1"
+    },
+    {
+      "path": "catalogues/MGII_same_z_SNcut_BR_WORKING_FIELD.csv",
+      "bytes": 252698,
+      "sha256": "70f94520c9aa0cf8c33b12fcea995a8eb097ddc1e5b0a74b7cf15a50c884e28e"
+    },
+    {
+      "path": "figures/FIRST_cutouts/BRQ012_FIRST_01.png",
+      "bytes": 498728,
+      "sha256": "7ba83298556b9648382d453cb91d1f0e13cdcd33d3c2c369740ef0efe3aaf7a5"
+    },
+    {
+      "path": "figures/LoTSS_cutouts/BRQ012_LoTSS_DR3_high_2arcmin.png",
+      "bytes": 163266,
+      "sha256": "12b2418efb4fa2f73b36109d3f00e836a47dfbd8a3cd7540fc66f8446db1e936"
+    },
+    {
+      "path": "figures/LoTSS_cutouts/BRQ013_LoTSS_DR3_high_2arcmin.png",
+      "bytes": 164265,
+      "sha256": "22c448328a5a3247cd19c64cf97d76b73403d5cf7264f40c2dbd409235ab9b0e"
+    },
+    {
+      "path": "scripts/build_phase1_catalogues.py",
+      "bytes": 7184,
+      "sha256": "5fab6bc7587d8182b44466207939af052eb9f14d0d8c097ca2c9ec3c5f861af3"
+    },
+    {
+      "path": "scripts/fetch_BRQ012_LoTSS.py",
+      "bytes": 2060,
+      "sha256": "5e3f3682f103c9cc47ee68d0830e735c0be49cdf1121b29dd36534eaed62f722"
+    },
+    {
+      "path": "scripts/fetch_BRQ012_LoTSS_CDS.py",
+      "bytes": 1137,
+      "sha256": "48aaddd242a398a456345ebae802da191071dba423ab2d4ae37d5a5d2bca30d5"
+    },
+    {
+      "path": "scripts/fetch_test_first.py",
+      "bytes": 1173,
+      "sha256": "11852a3c8ed84b59b064cfcc147a7479e6cca5e356d7eaf73b5211faff6d12f6"
+    },
+    {
+      "path": "scripts/from pathlib import Path.py",
+      "bytes": 7456,
+      "sha256": "7d550e93e41b3833f9a55bc9d07986bc9797c4f911297a40037753bb62ff74df"
+    },
+    {
+      "path": "scripts/inspect_BRQ012_beam.py",
+      "bytes": 1512,
+      "sha256": "dcb53d585ea2ccdb61e32bcaa7f6f6425a687e71a41893696d69a300f8c494d0"
+    },
+    {
+      "path": "scripts/inspect_BRQ013_LoTSS.py",
+      "bytes": 5323,
+      "sha256": "f82db4420b4d297dee2259fd5c3b5281755a720d1b373997ef427c76311e5ca1"
+    },
+    {
+      "path": "scripts/inspect_catalogues.py",
+      "bytes": 571,
+      "sha256": "e9c9c97bf122488979c47f9c6aa38af10510891dfa11c731b19dd44b32889ea3"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_PA.py",
+      "bytes": 2985,
+      "sha256": "90970a8eda2d175087e8fab9bcffe2dd57100e269056f1a59e4d6953472ee023"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_connected.py",
+      "bytes": 3946,
+      "sha256": "d8afcce240926a0a45cf25ddfd9a01e502fe8f82ba766ac938430a61aeb446c2"
+    },
+    {
+      "path": "scripts/measure_BRQ012_LoTSS_radial.py",
+      "bytes": 3331,
+      "sha256": "82aa964039f994c2e3818a82ead91fbfaeee4ed6888bd178223acecc5652fe13"
+    },
+    {
+      "path": "scripts/query_BRQ012_FIRST_catalog.py",
+      "bytes": 958,
+      "sha256": "ce430d75825f34269721e53e0bdb333304b860267db288bd0e69fee39fd6a0f9"
+    },
+    {
+      "path": "scripts/query_BRQ012_FIRST_full.py",
+      "bytes": 949,
+      "sha256": "d78c078d5b329e4f111982f0114a732a2848a9b038a79c4fd85e2b6f8a3ef6e0"
+    },
+    {
+      "path": "scripts/query_BRQ013_FIRST_full.py",
+      "bytes": 899,
+      "sha256": "00f60ded52f9b92b5aa1b03eadcaaa273fecad9b5585d046e056c17e3cbe3017"
+    },
+    {
+      "path": "scripts/render_BRQ012_FIRST.py",
+      "bytes": 3568,
+      "sha256": "670d08cee3876b8dc5ae3b6f51ca054bb7990fda2e4019cd6bcbfec420de6a31"
+    },
+    {
+      "path": "scripts/render_BRQ012_LoTSS.py",
+      "bytes": 5353,
+      "sha256": "add09bb8124d6f33bbb088f0b1a741edf3c7de7dd5e119ceb88c9a6a51160a70"
+    }
+  ],
+  "explicitReportAdmissions": [],
+  "ignoredAndUnpublished": [],
+  "reviewUtc": "2026-10-13T16:53:37.0132214Z"
+}

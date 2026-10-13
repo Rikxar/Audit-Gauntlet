@@ -1,0 +1,34 @@
+{
+  "programme": "LFBOT_ENV_AT2022tsd",
+  "path": "E:\\Audit Gauntlet\\LFBOT_ENV_AT2022tsd",
+  "github": "https://github.com/Rikxar/LFBOT_ENV_AT2022tsd",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "b71c65eee002b8129ac48d45f3e213a0d4eff0a1",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "b71c65eee002b8129ac48d45f3e213a0d4eff0a1",
+      "remote": "b71c65eee002b8129ac48d45f3e213a0d4eff0a1",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/LFBOT_ENV_AT2022tsd.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/LFBOT_ENV_AT2022tsd.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/LFBOT_ENV_AT2022tsd",
+    "HEAD b71c65eee002b8129ac48d45f3e213a0d4eff0a1",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? 08_results/LFBOT_ENV_0C0E_strict_arc_candidate_binding_terminal.log"
+  ],
+  "untracked": [
+    "08_results/LFBOT_ENV_0C0E_strict_arc_candidate_binding_terminal.log"
+  ],
+  "verifiedUtc": "2026-10-13T17:06:43.5261615Z"
+}

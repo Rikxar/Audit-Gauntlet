@@ -1,0 +1,34 @@
+{
+  "programme": "M87_EHT_ROTOSCOPE",
+  "path": "E:\\Audit Gauntlet\\M87_EHT_ROTOSCOPE",
+  "github": "https://github.com/Rikxar/M87_EHT_ROTOSCOPE",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "9748a02349876958f8fba712548d3099361629bd",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "9748a02349876958f8fba712548d3099361629bd",
+      "remote": "9748a02349876958f8fba712548d3099361629bd",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/M87_EHT_ROTOSCOPE.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/M87_EHT_ROTOSCOPE.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/M87_EHT_ROTOSCOPE",
+    "HEAD 9748a02349876958f8fba712548d3099361629bd",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? source/2024-D01-01/"
+  ],
+  "untracked": [
+    "source/2024-D01-01/"
+  ],
+  "verifiedUtc": "2026-10-13T17:06:48.4284036Z"
+}

@@ -1,0 +1,30 @@
+{
+  "programme": "COSMIC_HORSESHOE_ENDPOINT_AUDIT",
+  "path": "E:\\Audit Gauntlet\\COSMIC_HORSESHOE_ENDPOINT_AUDIT",
+  "github": "https://github.com/Rikxar/COSMIC_HORSESHOE_ENDPOINT_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "832ff682d0ea49a713bb5471bcff630979c4d102",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "832ff682d0ea49a713bb5471bcff630979c4d102",
+      "remote": "832ff682d0ea49a713bb5471bcff630979c4d102",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/COSMIC_HORSESHOE_ENDPOINT_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/COSMIC_HORSESHOE_ENDPOINT_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/COSMIC_HORSESHOE_ENDPOINT_AUDIT",
+    "HEAD 832ff682d0ea49a713bb5471bcff630979c4d102",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:44.1086771Z"
+}

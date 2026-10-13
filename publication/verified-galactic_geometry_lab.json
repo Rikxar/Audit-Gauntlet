@@ -1,0 +1,34 @@
+{
+  "programme": "galactic_geometry_lab",
+  "path": "E:\\Audit Gauntlet\\galactic_geometry_lab",
+  "github": "https://github.com/Rikxar/galactic_geometry_lab",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "5a4bde199f88f9eee1181b7eeb320f88ecba43a2",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "5a4bde199f88f9eee1181b7eeb320f88ecba43a2",
+      "remote": "5a4bde199f88f9eee1181b7eeb320f88ecba43a2",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/galactic_geometry_lab.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/galactic_geometry_lab.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/galactic_geometry_lab",
+    "HEAD 65056b9854d7149b808dcc208d65d7b9a07b55ce",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? continuum_foundation/external_mhd/vendor/"
+  ],
+  "untracked": [
+    "continuum_foundation/external_mhd/vendor/athena_v24.0/"
+  ],
+  "verifiedUtc": "2026-10-13T17:10:43.4190980Z"
+}

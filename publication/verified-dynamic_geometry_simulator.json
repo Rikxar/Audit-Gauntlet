@@ -1,0 +1,30 @@
+{
+  "programme": "dynamic_geometry_simulator",
+  "path": "E:\\Audit Gauntlet\\dynamic_geometry_simulator",
+  "github": "https://github.com/Rikxar/dynamic_geometry_simulator",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "af0d92565541b1120b51487fee386ce15801c08f",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "af0d92565541b1120b51487fee386ce15801c08f",
+      "remote": "af0d92565541b1120b51487fee386ce15801c08f",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/dynamic_geometry_simulator.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/dynamic_geometry_simulator.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/dynamic_geometry_simulator",
+    "HEAD af0d92565541b1120b51487fee386ce15801c08f",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:53.5971629Z"
+}

@@ -1,0 +1,1702 @@
+{
+  "programme": "SGRA_EHT_ROTOSCOPE",
+  "path": "E:\\Audit Gauntlet\\SGRA_EHT_ROTOSCOPE",
+  "boundaries": [
+    {
+      "path": "source/imaging-pipelines",
+      "absolute": "E:\\Audit Gauntlet\\SGRA_EHT_ROTOSCOPE\\source\\imaging-pipelines",
+      "kind": "repository"
+    },
+    {
+      "path": "source/data-release",
+      "absolute": "E:\\Audit Gauntlet\\SGRA_EHT_ROTOSCOPE\\source\\data-release",
+      "kind": "repository"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:52:23.3247751Z"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:32.7405296Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1399,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:33.0108489Z"
+    },
+    {
+      "path": "source/audit_common4_closure_significance.py",
+      "bytes": 9404,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:24:45.2258249Z"
+    },
+    {
+      "path": "source/audit_common4_closures.py",
+      "bytes": 7313,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:22:17.0399779Z"
+    },
+    {
+      "path": "source/audit_common4_logca_60s.py",
+      "bytes": 8081,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:38:21.2124792Z"
+    },
+    {
+      "path": "source/audit_common4_logclosureamp_significance.py",
+      "bytes": 8348,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:35:44.3036799Z"
+    },
+    {
+      "path": "source/audit_frame_support.py",
+      "bytes": 4131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:34:24.3162240Z"
+    },
+    {
+      "path": "source/audit_interval_A_exact_support.py",
+      "bytes": 7160,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:26:30.4361722Z"
+    },
+    {
+      "path": "source/audit_sgra_full94_depression.py",
+      "bytes": 32210,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:53:47.2973185Z"
+    },
+    {
+      "path": "source/audit_sgra_jelly_coupling.py",
+      "bytes": 21590,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:32:51.1432473Z"
+    },
+    {
+      "path": "source/audit_support_conditioned_divergence.py",
+      "bytes": 5051,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:20:59.1601888Z"
+    },
+    {
+      "path": "source/build_common4_exact_uvfits.py",
+      "bytes": 6091,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:31:31.0984712Z"
+    },
+    {
+      "path": "source/build_frame_support.py",
+      "bytes": 3638,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:33:29.9187219Z"
+    },
+    {
+      "path": "source/build_strict_fourway_zoetrope.py",
+      "bytes": 5387,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:40.3214148Z"
+    },
+    {
+      "path": "source/build_timestamp_register.py",
+      "bytes": 4705,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:32:22.4598469Z"
+    },
+    {
+      "path": "source/export_zoetrope.py",
+      "bytes": 2850,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:30.6157718Z"
+    },
+    {
+      "path": "source/fix_ehtim_tlist_fromiter.py",
+      "bytes": 1536,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:56:14.1393168Z"
+    },
+    {
+      "path": "source/fix_ehtim_tlist_object_array.py",
+      "bytes": 788,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:50:03.2962841Z"
+    },
+    {
+      "path": "source/inventory_movie_times.py",
+      "bytes": 1084,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:11:27.3945886Z"
+    },
+    {
+      "path": "source/launch_common4_casa_lo.py",
+      "bytes": 1598,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:25:59.1551288Z"
+    },
+    {
+      "path": "source/launch_remaining_common4.py",
+      "bytes": 510,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:42:22.1215470Z"
+    },
+    {
+      "path": "source/launch_sgra_full94_depression.py",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:02.4373306Z"
+    },
+    {
+      "path": "source/measure_azimuthal_residual_agreement.py",
+      "bytes": 9306,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:18:45.9142640Z"
+    },
+    {
+      "path": "source/measure_common4_residual_agreement.py",
+      "bytes": 9758,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:17:13.8598106Z"
+    },
+    {
+      "path": "source/measure_fourway_agreement.py",
+      "bytes": 5998,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T07:54:42.2180928Z"
+    },
+    {
+      "path": "source/repair_ehtim_obsdata_clean.py",
+      "bytes": 1443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:57:54.3988202Z"
+    },
+    {
+      "path": "source/run_remaining_common4.py",
+      "bytes": 2650,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:42:22.0575333Z"
+    },
+    {
+      "path": "source/test_common4_split_dtype.py",
+      "bytes": 888,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:50:12.9454170Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_HOPS_LO_DISK/movie_c0.hdf5",
+      "bytes": 3127784,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T21:39:50.4880813Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_HOPS_HI_DISK/movie_c0.hdf5",
+      "bytes": 3127784,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T22:05:32.5587716Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_COMMON4_HOPS_LO_DISK/movie_c0.hdf5",
+      "bytes": 3025368,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-01T09:44:37.5410261Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_COMMON4_HOPS_HI_DISK/movie_c0.hdf5",
+      "bytes": 3025368,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-01T09:48:39.0370593Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_COMMON4_CASA_LO_DISK/movie_c0.hdf5",
+      "bytes": 3025368,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-01T09:29:21.5095128Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_COMMON4_CASA_HI_DISK/movie_c0.hdf5",
+      "bytes": 3025368,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-01T09:46:38.1339615Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_CASA_LO_DISK/movie_c0.hdf5",
+      "bytes": 3332616,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T22:02:25.4344518Z"
+    },
+    {
+      "path": "recon/ZOBS_A07_CASA_HI_DISK/movie_c0.hdf5",
+      "bytes": 3281408,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T22:04:00.9910705Z"
+    },
+    {
+      "path": "metrics/COMMON4_closure_audit.csv",
+      "bytes": 3770,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:22:24.3064338Z"
+    },
+    {
+      "path": "metrics/COMMON4_closure_significance.csv",
+      "bytes": 34015,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:24:50.5266184Z"
+    },
+    {
+      "path": "metrics/common4_exact_sample_register.csv",
+      "bytes": 36978,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:31:45.6925245Z"
+    },
+    {
+      "path": "metrics/COMMON4_logca_60s_significance.csv",
+      "bytes": 104654,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:38:30.0294151Z"
+    },
+    {
+      "path": "metrics/COMMON4_logclosureamp_significance.csv",
+      "bytes": 28651,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:35:49.3549974Z"
+    },
+    {
+      "path": "metrics/coverage_summary.csv",
+      "bytes": 245928,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:32:28.7069803Z"
+    },
+    {
+      "path": "metrics/fourway_azimuthal_residual_agreement_COMMON4.csv",
+      "bytes": 16771,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:17:17.3794992Z"
+    },
+    {
+      "path": "metrics/fourway_azimuthal_residual_agreement.csv",
+      "bytes": 17305,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:18:48.2813034Z"
+    },
+    {
+      "path": "metrics/fourway_morphology_agreement.csv",
+      "bytes": 17785,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T07:54:46.2108611Z"
+    },
+    {
+      "path": "metrics/frame_quality_60s.csv",
+      "bytes": 31024,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:34:25.1267612Z"
+    },
+    {
+      "path": "metrics/frame_support_60s.csv",
+      "bytes": 23756,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:33:32.4737616Z"
+    },
+    {
+      "path": "metrics/gaps_over_30s.csv",
+      "bytes": 363,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:33:32.4737616Z"
+    },
+    {
+      "path": "metrics/interval_A_exact_support.csv",
+      "bytes": 2317,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:26:31.6135706Z"
+    },
+    {
+      "path": "metrics/movie_timestamp_inventory.csv",
+      "bytes": 7671,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:11:28.9339036Z"
+    },
+    {
+      "path": "metrics/observing_blocks.csv",
+      "bytes": 681,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:34:25.1384270Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_consensus.csv",
+      "bytes": 25913,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:16.3586325Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_depression_sweep.csv",
+      "bytes": 950258,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:06.0789603Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_jelly_coupling.csv",
+      "bytes": 47452,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:32:56.4112519Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_jelly_per_product.csv",
+      "bytes": 132936,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:32:56.3828283Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_jelly_summary.txt",
+      "bytes": 3472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:32:56.4551582Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_robust_positions.csv",
+      "bytes": 68811,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:06.1179700Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_summary.txt",
+      "bytes": 4329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:16.3686322Z"
+    },
+    {
+      "path": "metrics/SGRA_FULL94_support.csv",
+      "bytes": 3610,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:16.3576292Z"
+    },
+    {
+      "path": "metrics/strict_fourway_timestamp_register.csv",
+      "bytes": 2235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6121913Z"
+    },
+    {
+      "path": "metrics/support_conditioned_divergence.csv",
+      "bytes": 7361,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T08:20:59.9855377Z"
+    },
+    {
+      "path": "metrics/timeline.csv",
+      "bytes": 17311,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:32:28.7119813Z"
+    },
+    {
+      "path": "metrics/timestamp_register.csv",
+      "bytes": 3805500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T20:32:28.6929799Z"
+    },
+    {
+      "path": "logs/acquisition_inventory.csv",
+      "bytes": 3835,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T19:42:50.1981310Z"
+    },
+    {
+      "path": "logs/COMMON4_CASA_HI_stderr.log",
+      "bytes": 268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:44:44.4483275Z"
+    },
+    {
+      "path": "logs/COMMON4_CASA_HI_stdout.log",
+      "bytes": 7925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:46:38.1354783Z"
+    },
+    {
+      "path": "logs/COMMON4_CASA_LO_stderr.log",
+      "bytes": 268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:26:04.7778600Z"
+    },
+    {
+      "path": "logs/COMMON4_CASA_LO_stdout.log",
+      "bytes": 7925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:29:21.5120392Z"
+    },
+    {
+      "path": "logs/COMMON4_HOPS_HI_stderr.log",
+      "bytes": 268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:46:42.8908814Z"
+    },
+    {
+      "path": "logs/COMMON4_HOPS_HI_stdout.log",
+      "bytes": 7925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:48:39.0370593Z"
+    },
+    {
+      "path": "logs/COMMON4_HOPS_LO_stderr.log",
+      "bytes": 268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:42:31.4249037Z"
+    },
+    {
+      "path": "logs/COMMON4_HOPS_LO_stdout.log",
+      "bytes": 7925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:44:37.5425343Z"
+    },
+    {
+      "path": "logs/COMMON4_REMAINING_status.log",
+      "bytes": 832,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T09:48:39.5793591Z"
+    },
+    {
+      "path": "logs/SGRA_FULL94_DONE.txt",
+      "bytes": 28,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:17.2146678Z"
+    },
+    {
+      "path": "logs/SGRA_FULL94_status.log",
+      "bytes": 6397,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:17.2146678Z"
+    },
+    {
+      "path": "logs/SGRA_FULL94_stderr.log",
+      "bytes": 0,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:03.6868368Z"
+    },
+    {
+      "path": "logs/SGRA_FULL94_stdout.log",
+      "bytes": 7548,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:17.2146678Z"
+    },
+    {
+      "path": "logs/sha256_manifest.csv",
+      "bytes": 5077,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T19:42:51.3902114Z"
+    },
+    {
+      "path": "gifs/SGRA_A07_DISK_STRICT_4WAY_ZOETROPE.gif",
+      "bytes": 3356483,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:44.5451686Z"
+    },
+    {
+      "path": "gifs/SGRA_A07_HOPS_LO_DISK_ZOETROPE.gif",
+      "bytes": 689692,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:32.0020891Z"
+    },
+    {
+      "path": "gifs/SGRA_FULL94_COMMON4_FIXED_CONTACT.png",
+      "bytes": 707272,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:04:29.0846342Z"
+    },
+    {
+      "path": "gifs/SGRA_FULL94_COMMON4_FIXED.gif",
+      "bytes": 2746483,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:16.8215720Z"
+    },
+    {
+      "path": "gifs/SGRA_FULL94_ORIGINAL_FIXED_CONTACT.png",
+      "bytes": 627179,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T17:04:28.5577804Z"
+    },
+    {
+      "path": "gifs/SGRA_FULL94_ORIGINAL_FIXED.gif",
+      "bytes": 2720312,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-01T11:54:17.2106699Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_000_t12.45833.png",
+      "bytes": 1954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5808013Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_001_t12.62500.png",
+      "bytes": 1965,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5827983Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_002_t12.64167.png",
+      "bytes": 1986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5837978Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_003_t12.65833.png",
+      "bytes": 1979,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5847967Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_004_t12.67500.png",
+      "bytes": 1970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5867978Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_005_t12.69167.png",
+      "bytes": 1962,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5877972Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_006_t12.70833.png",
+      "bytes": 1956,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5888006Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_007_t12.72500.png",
+      "bytes": 1957,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5907978Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_008_t12.74167.png",
+      "bytes": 1945,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5917847Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_009_t12.75833.png",
+      "bytes": 1938,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5937979Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_010_t12.77500.png",
+      "bytes": 1958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5947867Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_011_t12.84167.png",
+      "bytes": 1910,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5957968Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_012_t12.85833.png",
+      "bytes": 1946,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5977831Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_013_t12.87500.png",
+      "bytes": 1937,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5987963Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_014_t12.89167.png",
+      "bytes": 1954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5997978Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_015_t12.90833.png",
+      "bytes": 1925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6007986Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_016_t12.92500.png",
+      "bytes": 1948,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6027988Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_017_t12.94167.png",
+      "bytes": 1957,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6037977Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_018_t12.95833.png",
+      "bytes": 1949,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6047848Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_019_t12.97500.png",
+      "bytes": 1971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6057951Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_020_t12.99167.png",
+      "bytes": 1949,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6078008Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_021_t13.15833.png",
+      "bytes": 1962,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6088037Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_022_t13.17500.png",
+      "bytes": 1971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6108031Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_023_t13.19167.png",
+      "bytes": 1959,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6117986Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_024_t13.20833.png",
+      "bytes": 1952,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6128110Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_025_t13.22500.png",
+      "bytes": 1986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6147979Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_026_t13.24167.png",
+      "bytes": 1985,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6157990Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_027_t13.25833.png",
+      "bytes": 1982,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6168063Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_028_t13.27500.png",
+      "bytes": 1989,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6177995Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_029_t13.29167.png",
+      "bytes": 1958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6197969Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_030_t13.44167.png",
+      "bytes": 1939,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6208024Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_031_t13.45833.png",
+      "bytes": 1963,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6217945Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_032_t13.47500.png",
+      "bytes": 1967,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6228021Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_033_t13.49167.png",
+      "bytes": 1954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6248023Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_034_t13.50833.png",
+      "bytes": 1952,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6257843Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_035_t13.52500.png",
+      "bytes": 1953,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6267980Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_036_t13.54167.png",
+      "bytes": 1947,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6288001Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_037_t13.55833.png",
+      "bytes": 1977,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6297985Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_038_t13.72500.png",
+      "bytes": 1945,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6308005Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_039_t13.74167.png",
+      "bytes": 1920,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6318001Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_040_t13.75833.png",
+      "bytes": 1944,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6327984Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_041_t13.77500.png",
+      "bytes": 1946,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6347977Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_042_t13.79167.png",
+      "bytes": 1926,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6357990Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_043_t13.80833.png",
+      "bytes": 1942,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6377941Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_044_t13.82500.png",
+      "bytes": 1937,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6387954Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_045_t13.84167.png",
+      "bytes": 1925,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6397839Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_046_t13.85833.png",
+      "bytes": 1929,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6407993Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_047_t13.87500.png",
+      "bytes": 1961,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6427977Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_048_t13.94167.png",
+      "bytes": 1930,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6437997Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_049_t13.95833.png",
+      "bytes": 1932,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6448006Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_050_t13.97500.png",
+      "bytes": 1927,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6457994Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_051_t13.99167.png",
+      "bytes": 1929,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6477965Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_052_t14.00833.png",
+      "bytes": 1952,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6487883Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_053_t14.02500.png",
+      "bytes": 1965,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6497983Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_054_t14.04167.png",
+      "bytes": 1938,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6507980Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_055_t14.05833.png",
+      "bytes": 1903,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6528013Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_056_t14.12500.png",
+      "bytes": 1920,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6537832Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_057_t14.14167.png",
+      "bytes": 1912,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6547856Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_058_t14.15833.png",
+      "bytes": 1944,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6568100Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_059_t14.17500.png",
+      "bytes": 1940,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6578130Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_060_t14.19167.png",
+      "bytes": 1949,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.6588205Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_register.csv",
+      "bytes": 1119,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T21:50:31.5607878Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/frame_times_raw.npy",
+      "bytes": 616,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T21:50:31.5597781Z"
+    },
+    {
+      "path": "frames/ZOBS_A07_HOPS_LO_DISK/reconstructed_frames_raw.npy",
+      "bytes": 780928,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-08-31T21:50:31.5597781Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_000_123730.png",
+      "bytes": 14022,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6482017Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_001_123830.png",
+      "bytes": 14214,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6601970Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_002_123930.png",
+      "bytes": 14271,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6717029Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_003_124030.png",
+      "bytes": 14133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6827073Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_004_124130.png",
+      "bytes": 14055,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.6943394Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_005_124230.png",
+      "bytes": 14025,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7063539Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_006_124330.png",
+      "bytes": 13956,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7173502Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_007_124430.png",
+      "bytes": 13870,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7293448Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_008_124530.png",
+      "bytes": 14060,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7403532Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_009_124630.png",
+      "bytes": 14055,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7513546Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_010_125030.png",
+      "bytes": 14193,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7633689Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_011_125130.png",
+      "bytes": 14204,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7743463Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_012_125230.png",
+      "bytes": 14171,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7863630Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_013_125330.png",
+      "bytes": 14248,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.7983534Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_014_125430.png",
+      "bytes": 14177,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8113546Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_015_125530.png",
+      "bytes": 14310,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8233463Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_016_125630.png",
+      "bytes": 14365,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8353550Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_017_125730.png",
+      "bytes": 14178,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8481719Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_018_125830.png",
+      "bytes": 14197,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8591510Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_019_130930.png",
+      "bytes": 14187,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8701482Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_020_131030.png",
+      "bytes": 13888,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8821482Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_021_131130.png",
+      "bytes": 14099,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.8941484Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_022_131230.png",
+      "bytes": 14153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9051607Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_023_131330.png",
+      "bytes": 14162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9171496Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_024_131430.png",
+      "bytes": 13996,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9291630Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_025_131530.png",
+      "bytes": 14315,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9411604Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_026_131630.png",
+      "bytes": 14283,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9521515Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_027_131730.png",
+      "bytes": 14196,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9631483Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_028_132630.png",
+      "bytes": 14179,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9751511Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_029_132730.png",
+      "bytes": 14121,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9861517Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_030_132830.png",
+      "bytes": 14273,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:41.9981619Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_031_132930.png",
+      "bytes": 14002,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0091629Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_032_133030.png",
+      "bytes": 13944,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0211622Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_033_133130.png",
+      "bytes": 13965,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0321617Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_034_133230.png",
+      "bytes": 13889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0441623Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_035_133330.png",
+      "bytes": 13932,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0551626Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_036_134330.png",
+      "bytes": 14019,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0661605Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_037_134430.png",
+      "bytes": 13909,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0771551Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_038_134530.png",
+      "bytes": 14208,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.0891538Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_039_134630.png",
+      "bytes": 14088,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1001648Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_040_134730.png",
+      "bytes": 14184,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1121510Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_041_134830.png",
+      "bytes": 14066,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1231594Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_042_134930.png",
+      "bytes": 14095,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1341575Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_043_135030.png",
+      "bytes": 14133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1462462Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_044_135130.png",
+      "bytes": 14201,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1579271Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_045_135230.png",
+      "bytes": 14289,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1689275Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_046_135630.png",
+      "bytes": 14478,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1809265Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_047_135730.png",
+      "bytes": 14263,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.1919269Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_048_135830.png",
+      "bytes": 14246,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2029299Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_049_135930.png",
+      "bytes": 14194,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2149551Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_050_140030.png",
+      "bytes": 14029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2270041Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_051_140130.png",
+      "bytes": 13956,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2381366Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_052_140230.png",
+      "bytes": 14167,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2497446Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_053_140330.png",
+      "bytes": 14040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2617319Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_054_140730.png",
+      "bytes": 14295,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2737319Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_055_140830.png",
+      "bytes": 14374,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2857442Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_056_140930.png",
+      "bytes": 14445,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.2967457Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_057_141030.png",
+      "bytes": 14335,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.3087449Z"
+    },
+    {
+      "path": "frames/SYNC_A07_DISK/sync_058_141130.png",
+      "bytes": 14282,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-08-31T22:23:42.3207362Z"
+    },
+    {
+      "path": "data/uvfits_common4_exact/CASA_HI_COMMON4_EXACT.uvfits",
+      "bytes": 169920,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-01T08:31:51.1825137Z"
+    },
+    {
+      "path": "data/uvfits_common4_exact/CASA_LO_COMMON4_EXACT.uvfits",
+      "bytes": 169920,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-01T08:31:50.3794850Z"
+    },
+    {
+      "path": "data/uvfits_common4_exact/HOPS_HI_COMMON4_EXACT.uvfits",
+      "bytes": 169920,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-01T08:31:51.5290575Z"
+    },
+    {
+      "path": "data/uvfits_common4_exact/HOPS_LO_COMMON4_EXACT.uvfits",
+      "bytes": 169920,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-01T08:31:50.8304029Z"
+    },
+    {
+      "path": "data/uvfits_besttime/convert_stokesI.py",
+      "bytes": 2116,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4850244Z"
+    },
+    {
+      "path": "data/uvfits_besttime/ER6_SGRA_2017_097_hi_casa_netcal-LMTcal-besttime_StokesI.uvfits",
+      "bytes": 463680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4697147Z"
+    },
+    {
+      "path": "data/uvfits_besttime/ER6_SGRA_2017_097_hi_hops_netcal-LMTcal-besttime_StokesI.uvfits",
+      "bytes": 469440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4727135Z"
+    },
+    {
+      "path": "data/uvfits_besttime/ER6_SGRA_2017_097_lo_casa_netcal-LMTcal-besttime_StokesI.uvfits",
+      "bytes": 544320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4757111Z"
+    },
+    {
+      "path": "data/uvfits_besttime/ER6_SGRA_2017_097_lo_hops_netcal-LMTcal-besttime_StokesI.uvfits",
+      "bytes": 550080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4840181Z"
+    },
+    {
+      "path": "data/uvfits/convert_stokesI.py",
+      "bytes": 2078,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4647143Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_096_hi_casa_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1146240,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4170767Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_096_hi_hops_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1183680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4230811Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_096_lo_casa_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1088640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4300800Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_096_lo_hops_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1117440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4355928Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_097_hi_casa_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1157760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4425938Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_097_hi_hops_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1319040,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4497171Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_097_lo_casa_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1327680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4567142Z"
+    },
+    {
+      "path": "data/uvfits/ER6_SGRA_2017_097_lo_hops_netcal-LMTcal_StokesI.uvfits",
+      "bytes": 1497600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.4637150Z"
+    },
+    {
+      "path": "data/csv_besttime/dump_csv.py",
+      "bytes": 1356,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2532969Z"
+    },
+    {
+      "path": "data/csv_besttime/ER6_SGRA_2017_097_hi_casa_netcal-LMTcal-besttime_StokesI.csv",
+      "bytes": 416508,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2456442Z"
+    },
+    {
+      "path": "data/csv_besttime/ER6_SGRA_2017_097_hi_hops_netcal-LMTcal-besttime_StokesI.csv",
+      "bytes": 423740,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2476452Z"
+    },
+    {
+      "path": "data/csv_besttime/ER6_SGRA_2017_097_lo_casa_netcal-LMTcal-besttime_StokesI.csv",
+      "bytes": 493715,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2506584Z"
+    },
+    {
+      "path": "data/csv_besttime/ER6_SGRA_2017_097_lo_hops_netcal-LMTcal-besttime_StokesI.csv",
+      "bytes": 499592,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2532969Z"
+    },
+    {
+      "path": "data/csv/dump_csv.py",
+      "bytes": 1356,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2406445Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_096_hi_casa_netcal-LMTcal_StokesI.csv",
+      "bytes": 1082760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.1911532Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_096_hi_hops_netcal-LMTcal_StokesI.csv",
+      "bytes": 1117260,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.1965353Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_096_lo_casa_netcal-LMTcal_StokesI.csv",
+      "bytes": 1027197,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2033241Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_096_lo_hops_netcal-LMTcal_StokesI.csv",
+      "bytes": 1053304,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2081157Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_097_hi_casa_netcal-LMTcal_StokesI.csv",
+      "bytes": 1092954,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2131215Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_097_hi_hops_netcal-LMTcal_StokesI.csv",
+      "bytes": 1247937,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2221212Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_097_lo_casa_netcal-LMTcal_StokesI.csv",
+      "bytes": 1257848,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2301287Z"
+    },
+    {
+      "path": "data/csv/ER6_SGRA_2017_097_lo_hops_netcal-LMTcal_StokesI.csv",
+      "bytes": 1419016,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-08-31T19:42:16.2406445Z"
+    }
+  ],
+  "omittedDirectories": [
+    ".venv-eht311"
+  ],
+  "errors": []
+}

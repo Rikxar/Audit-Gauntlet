@@ -1,0 +1,69 @@
+{
+  "programme": "OJ287_EHT_ZOETROPE",
+  "path": "E:\\Audit Gauntlet\\OJ287_EHT_ZOETROPE",
+  "github": "https://github.com/Rikxar/OJ287_EHT_ZOETROPE",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "692cbb3cab2b89be25eb82f413f0e96186fbeaa6",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "692cbb3cab2b89be25eb82f413f0e96186fbeaa6",
+      "remote": "692cbb3cab2b89be25eb82f413f0e96186fbeaa6",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/OJ287_EHT_ZOETROPE.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/OJ287_EHT_ZOETROPE.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/OJ287_EHT_ZOETROPE",
+    "HEAD 692cbb3cab2b89be25eb82f413f0e96186fbeaa6",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? data/ANTAB_HI_PAIR2/",
+    "?? data/L1_4FIT/",
+    "?? data/L1_FITS_HI_RAW/",
+    "?? data/L1_PREFLIGHT/",
+    "?? data/PAIR2_COMMON4_RAW/2017-04-05/metadata.json",
+    "?? data/PAIR2_COMMON4_RAW/2017-04-10/metadata.json",
+    "?? gif/",
+    "?? metrics/fourfit_configs/"
+  ],
+  "untracked": [
+    "data/ANTAB_HI_PAIR2/2017-04-05_HI_AA.AN",
+    "data/ANTAB_HI_PAIR2/2017-04-05_HI_EHT.AN",
+    "data/ANTAB_HI_PAIR2/2017-04-10_HI_AA.AN",
+    "data/ANTAB_HI_PAIR2/2017-04-10_HI_EHT.AN",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-4fit.tgz",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-lo-oj287-OJ287-4fit.tgz",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-4fit.tgz",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-lo-oj287-OJ287-4fit.tgz",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-hi-oj287-OJ287-4fit.tgz",
+    "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-lo-oj287-OJ287-4fit.tgz",
+    "data/L1_FITS_HI_RAW/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-fits.tgz",
+    "data/L1_FITS_HI_RAW/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-fits.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-lo-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-lo-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-hi-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-lo-oj287-OJ287-dxin.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.metadata-2020-d02-01.tgz",
+    "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.oj287-processing-logs.tgz",
+    "data/PAIR2_COMMON4_RAW/2017-04-05/metadata.json",
+    "data/PAIR2_COMMON4_RAW/2017-04-10/metadata.json",
+    "gif/source/OJ287_EHT_Apr05_Apr10.jpg",
+    "metrics/fourfit_configs/2017-04-05_HI.conf",
+    "metrics/fourfit_configs/2017-04-05_LO.conf",
+    "metrics/fourfit_configs/2017-04-10_HI.conf",
+    "metrics/fourfit_configs/2017-04-10_LO.conf",
+    "metrics/fourfit_configs/2017-04-11_HI.conf",
+    "metrics/fourfit_configs/2017-04-11_LO.conf"
+  ],
+  "verifiedUtc": "2026-10-13T17:07:07.3957235Z"
+}

@@ -1,0 +1,62 @@
+{
+  "programme": "GAL_SPIN_001",
+  "path": "E:\\Audit Gauntlet\\GAL_SPIN_001",
+  "github": "https://github.com/Rikxar/GAL_SPIN_001",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "f270f6e6a43844d8e4e83e25e1b433b6f5f9f514",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "f270f6e6a43844d8e4e83e25e1b433b6f5f9f514",
+      "remote": "f270f6e6a43844d8e4e83e25e1b433b6f5f9f514",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_001.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_001.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/GAL_SPIN_001",
+    "HEAD f270f6e6a43844d8e4e83e25e1b433b6f5f9f514",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? PROC/catalog.dat",
+    "?? PROC/mplconfig/",
+    "?? RAW/Ristea_catalog.dat",
+    "?? RAW/TTT_main.ipynb",
+    "?? \"RAW/jG_Elliptical gas.txt\"",
+    "?? \"RAW/jG_Elliptical star.txt\"",
+    "?? \"RAW/jG_Spiral gas.txt\"",
+    "?? \"RAW/jG_Spiral star.txt\"",
+    "?? \"RAW/jR_Elliptical gas.txt\"",
+    "?? \"RAW/jR_Elliptical star.txt\"",
+    "?? \"RAW/jR_Spiral gas.txt\"",
+    "?? \"RAW/jR_Spiral star.txt\"",
+    "?? RAW/paper_v1.html",
+    "?? RAW/paper_v2.html",
+    "?? RAW/zenodo_record_20263913.json"
+  ],
+  "untracked": [
+    "PROC/catalog.dat",
+    "PROC/mplconfig/fontlist-v3.11.0.json",
+    "RAW/Ristea_catalog.dat",
+    "RAW/TTT_main.ipynb",
+    "RAW/jG_Elliptical gas.txt",
+    "RAW/jG_Elliptical star.txt",
+    "RAW/jG_Spiral gas.txt",
+    "RAW/jG_Spiral star.txt",
+    "RAW/jR_Elliptical gas.txt",
+    "RAW/jR_Elliptical star.txt",
+    "RAW/jR_Spiral gas.txt",
+    "RAW/jR_Spiral star.txt",
+    "RAW/paper_v1.html",
+    "RAW/paper_v2.html",
+    "RAW/zenodo_record_20263913.json"
+  ],
+  "verifiedUtc": "2026-10-13T17:06:03.9262619Z"
+}

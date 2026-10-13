@@ -1,0 +1,375 @@
+[
+  {
+    "programme": "3C273_ZOETROPE",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 80,
+    "largest": 9328467.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:57:42.8099739Z"
+  },
+  {
+    "programme": "3C345_KINE_INTERRUPTION_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 922,
+    "largest": 8189505.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:57:46.3890373Z"
+  },
+  {
+    "programme": "A2261_KNOT_FALSIFICATION_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 456,
+    "largest": 3459527.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:46:18.8663726Z"
+  },
+  {
+    "programme": "A2744_QSO1_LENS_CONSISTENCY",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 15,
+    "largest": 10149.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:03.4634377Z"
+  },
+  {
+    "programme": "AGM_RADIAL_SCANNER",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 1151,
+    "largest": 8526942.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:57:54.3132422Z"
+  },
+  {
+    "programme": "AGM_STRUCTURE_FALSIFICATION_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 101,
+    "largest": 8515690.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:57:55.2873882Z"
+  },
+  {
+    "programme": "BIG_RING_ORIENTATION",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 30,
+    "largest": 1426179.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:57:55.6023338Z"
+  },
+  {
+    "programme": "BLACK_HOLE_HUNTERS_AGM_PILOT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 2105,
+    "largest": 4581291.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:01.1868552Z"
+  },
+  {
+    "programme": "CMB_ALIGNMENT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 34,
+    "largest": 5064291.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:01.6758974Z"
+  },
+  {
+    "programme": "COSMIC_HORSESHOE_ENDPOINT_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 99,
+    "largest": 1928972.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:46:19.4221361Z"
+  },
+  {
+    "programme": "DRP011_BAO_RULER_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 278,
+    "largest": 9317371.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:02.9991784Z"
+  },
+  {
+    "programme": "dynamic_geometry_simulator",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 357,
+    "largest": 338562.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:03.8863367Z"
+  },
+  {
+    "programme": "FRB20240304B_SARAO_PRODUCT_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 16,
+    "largest": 17308.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:03.6897757Z"
+  },
+  {
+    "programme": "GAL_SPIN_001",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 74,
+    "largest": 1650493.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:04.3334332Z"
+  },
+  {
+    "programme": "GAL_SPIN_001P",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 118,
+    "largest": 488342.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:04.9348158Z"
+  },
+  {
+    "programme": "GAL_SPIN_001R",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 49,
+    "largest": 459564.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:03.9611177Z"
+  },
+  {
+    "programme": "GAL_SPIN_002",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 106,
+    "largest": 2412857.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:04.6081069Z"
+  },
+  {
+    "programme": "GAL_SPIN_003",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 139,
+    "largest": 360692.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:05.6042136Z"
+  },
+  {
+    "programme": "GAL_SPIN_003C",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 53,
+    "largest": 223377.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:05.9141554Z"
+  },
+  {
+    "programme": "galactic_geometry_lab",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 694,
+    "largest": 3409422.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:09:45.9155386Z"
+  },
+  {
+    "programme": "LFBOT_ENV_AT2022tsd",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 492,
+    "largest": 3750131.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:46:20.7321593Z"
+  },
+  {
+    "programme": "M87_EHT_ROTOSCOPE",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 572,
+    "largest": 4848068.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:09.5960556Z"
+  },
+  {
+    "programme": "M87_JET_INTERRUPTION_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 311,
+    "largest": 5367300.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:08.1368441Z"
+  },
+  {
+    "programme": "MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 43,
+    "largest": 1357409.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:09:46.3535676Z"
+  },
+  {
+    "programme": "NGC5335_BAR_COHERENCE_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 104,
+    "largest": 732777.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:10.2781221Z"
+  },
+  {
+    "programme": "OJ287_EHT_ZOETROPE",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 419,
+    "largest": 665406.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:11.3826179Z"
+  },
+  {
+    "programme": "SGR1806_20_2004_GIANT_FLARE_AUDIT",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 211,
+    "largest": 602451.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:48:28.5723097Z"
+  },
+  {
+    "programme": "SGR1935_FLICK_AUDIT",
+    "refs": [
+      "refs/heads/detector-history/main",
+      "refs/heads/main"
+    ],
+    "blobs": 948,
+    "largest": 8175590.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:04:03.2340161Z"
+  },
+  {
+    "programme": "SGR1935_FLICK_AUDIT/10_scripts/SGR1935_2A_detector",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 74,
+    "largest": 43313.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:46:26.3254198Z"
+  },
+  {
+    "programme": "SGRA_EHT_ROTOSCOPE",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 195,
+    "largest": 3805500.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T16:58:12.4291743Z"
+  },
+  {
+    "programme": "V404_CYGNI_VLBA_ZOETROPE",
+    "refs": [
+      "refs/heads/main"
+    ],
+    "blobs": 4169,
+    "largest": 6978178.0,
+    "blocked": [],
+    "credentialPatterns": [],
+    "passed": true,
+    "checkedUtc": "2026-10-13T17:12:34.6986529Z"
+  }
+]

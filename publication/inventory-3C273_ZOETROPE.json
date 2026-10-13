@@ -1,0 +1,4404 @@
+{
+  "programme": "3C273_ZOETROPE",
+  "path": "E:\\Audit Gauntlet\\3C273_ZOETROPE",
+  "boundaries": [],
+  "files": [
+    {
+      "path": "source/audit_3c273_bu43_inventory.py",
+      "bytes": 7774,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:05:53.5509890Z"
+    },
+    {
+      "path": "source/audit_3c273_BU43_MAIN183_beam_geometry.py",
+      "bytes": 10556,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:51:11.0057376Z"
+    },
+    {
+      "path": "source/audit_3c273_BU43_MAIN183_format_headers.py",
+      "bytes": 16443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:32:03.1822847Z"
+    },
+    {
+      "path": "source/audit_3c273_BU43_MAIN183_support_classes.py",
+      "bytes": 8776,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:45:48.3192084Z"
+    },
+    {
+      "path": "source/audit_3c273_BU43_MAIN183_time_support.py",
+      "bytes": 7441,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:46:58.7680859Z"
+    },
+    {
+      "path": "source/audit_3c273_BU43_MAIN183_visibility_support.py",
+      "bytes": 12004,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:35:22.9751598Z"
+    },
+    {
+      "path": "source/audit_3c273_CADENCE_NORMALIZED_CLOSURE_01.py",
+      "bytes": 10930,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:59:16.3345906Z"
+    },
+    {
+      "path": "source/audit_3c273_CLOSURE_POINT_NULL_01.py",
+      "bytes": 15924,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:29:25.5098135Z"
+    },
+    {
+      "path": "source/audit_3c273_DIRTY_POINT_NULL_01.py",
+      "bytes": 18446,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:11.4326621Z"
+    },
+    {
+      "path": "source/audit_3c273_MATCHED_CLOSURE_EVOLUTION_01.py",
+      "bytes": 28448,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:48:19.7466603Z"
+    },
+    {
+      "path": "source/build_3c273_MAIN183_dirty_zoetrope.py",
+      "bytes": 18546,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:36:18.2930275Z"
+    },
+    {
+      "path": "source/download_3c273_BU43_MAIN183.py",
+      "bytes": 8770,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:20:42.4567663Z"
+    },
+    {
+      "path": "source/freeze_3c273_common_beam_gate.py",
+      "bytes": 5452,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T00:02:22.4579334Z"
+    },
+    {
+      "path": "source/inventory_3c273_public_uv.py",
+      "bytes": 7208,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T22:58:15.1099246Z"
+    },
+    {
+      "path": "source/preflight_3c273_BU43_MAIN183.py",
+      "bytes": 11773,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:18:48.8698375Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_beam_geometry_summary.txt",
+      "bytes": 1354,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:51:52.1240335Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_beam_geometry.csv",
+      "bytes": 37243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:51:52.1220424Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_commonbeam_admission.csv",
+      "bytes": 50327,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T00:02:24.3042818Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_commonbeam_summary.txt",
+      "bytes": 2531,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T00:02:24.3062854Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_header_inventory.csv",
+      "bytes": 63892,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:32:13.7697484Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_header_summary.txt",
+      "bytes": 1636,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:32:13.7737465Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_support_classes_summary.txt",
+      "bytes": 1976,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:45:49.2552446Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_support_classes.csv",
+      "bytes": 116842,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:45:49.2532406Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_time_support_summary.txt",
+      "bytes": 6317,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:47:39.4427136Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_time_support.csv",
+      "bytes": 24536,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:47:39.4417116Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_visibility_support_summary.txt",
+      "bytes": 1807,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:36:04.2432133Z"
+    },
+    {
+      "path": "metrics/3C273_BU43_MAIN183_visibility_support.csv",
+      "bytes": 101738,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:36:04.2422159Z"
+    },
+    {
+      "path": "metrics/3C273_FULL10_45_matched_closure_identities.csv",
+      "bytes": 9328467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:49:39.2057489Z"
+    },
+    {
+      "path": "metrics/3C273_FULL10_45_matched_closure_pairs.csv",
+      "bytes": 51179,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:49:38.6844817Z"
+    },
+    {
+      "path": "metrics/3C273_FULL10_45_matched_closure_summary.txt",
+      "bytes": 4071,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:49:39.4047520Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_closure_point_null_summary.txt",
+      "bytes": 2615,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:31:06.0285620Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_closure_point_null.csv",
+      "bytes": 41136,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:31:06.0175661Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_dirty_metrics.csv",
+      "bytes": 45562,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:23.4673544Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_dirty_summary.txt",
+      "bytes": 857,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:38:05.5863173Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_point_null_metrics.csv",
+      "bytes": 68329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:23.1130485Z"
+    },
+    {
+      "path": "metrics/3C273_MAIN183_point_null_summary.txt",
+      "bytes": 2520,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:41.5679296Z"
+    },
+    {
+      "path": "metrics/3C273_STRICT5_cadence_normalized_closure_summary.txt",
+      "bytes": 5935,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:59:18.8595036Z"
+    },
+    {
+      "path": "metrics/3C273_STRICT5_cadence_normalized_closure.csv",
+      "bytes": 23801,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:59:18.8555026Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_clean_inventory.csv",
+      "bytes": 43933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:06:05.7423518Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_inventory_summary.txt",
+      "bytes": 1026,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:06:05.7453498Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_MAIN183_download_manifest.csv",
+      "bytes": 63780,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:19:01.4122915Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_MAIN183_download_receipt.csv",
+      "bytes": 102542,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:21:02.6641881Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_MAIN183_download_summary.txt",
+      "bytes": 295,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:21:02.6656963Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_MAIN183_preflight_summary.txt",
+      "bytes": 694,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:19:01.4133003Z"
+    },
+    {
+      "path": "inventory/3C273_BU43_undated_quarantine.csv",
+      "bytes": 1718,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:18:50.6038518Z"
+    },
+    {
+      "path": "inventory/3C273_BU86_inventory.csv",
+      "bytes": 1666,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T23:06:05.7433537Z"
+    },
+    {
+      "path": "inventory/3C273_public_visibility_inventory.csv",
+      "bytes": 40912,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T22:58:19.5235425Z"
+    },
+    {
+      "path": "inventory/BU43_3C273_snapshot.html",
+      "bytes": 88611,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T22:58:19.4835406Z"
+    },
+    {
+      "path": "inventory/MOJAVE_3C273_snapshot.html",
+      "bytes": 420764,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-08T22:58:18.9167959Z"
+    },
+    {
+      "path": "gifs/3C273_MAIN183_DIRTY_NAT_PEAKNORM.gif",
+      "bytes": 41239122,
+      "eligible": false,
+      "reason": "large-review-required",
+      "modified": "2026-09-09T09:38:05.5853162Z"
+    },
+    {
+      "path": "gifs/3C273_MAIN183_DIRTY_POINT_NULL.gif",
+      "bytes": 39438664,
+      "eligible": false,
+      "reason": "large-review-required",
+      "modified": "2026-09-09T18:23:41.5659299Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_01.png",
+      "bytes": 1484819,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:25.4708713Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_02.png",
+      "bytes": 1525953,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:27.3423115Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_03.png",
+      "bytes": 1550550,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:29.2519367Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_04.png",
+      "bytes": 1451612,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:31.1729380Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_05.png",
+      "bytes": 1507016,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:33.1004998Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_06.png",
+      "bytes": 1432101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:34.9319685Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_POINT_NULL/POINT_NULL_RESIDUAL_07.png",
+      "bytes": 162552,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T18:23:35.4975202Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_01.png",
+      "bytes": 1696247,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:49.1787423Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_02.png",
+      "bytes": 1752070,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:51.2036264Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_03.png",
+      "bytes": 1723564,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:52.9673232Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_04.png",
+      "bytes": 1661682,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:54.9507742Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_05.png",
+      "bytes": 1621197,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:56.7809265Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_06.png",
+      "bytes": 1583996,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:58.6942168Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_BEAM_NAT_07.png",
+      "bytes": 188974,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:59.1548564Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_01.png",
+      "bytes": 465134,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:25.5694770Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_02.png",
+      "bytes": 470400,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:27.4100409Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_03.png",
+      "bytes": 581567,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:29.1403449Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_04.png",
+      "bytes": 598039,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:31.0521280Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_05.png",
+      "bytes": 498946,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:32.7875924Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_06.png",
+      "bytes": 496103,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:34.7032660Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_ABSOLUTE_07.png",
+      "bytes": 114714,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:35.1920387Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_01.png",
+      "bytes": 1491243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:37.2109029Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_02.png",
+      "bytes": 1584708,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:39.0645004Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_03.png",
+      "bytes": 1569125,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:41.0204211Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_04.png",
+      "bytes": 1482984,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:42.8996706Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_05.png",
+      "bytes": 1536513,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:44.8975338Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_06.png",
+      "bytes": 1446602,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:46.7325181Z"
+    },
+    {
+      "path": "frames/3C273_MAIN183_DIRTY/DIRTY_NAT_PEAKNORM_07.png",
+      "bytes": 180518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T09:37:47.3642568Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/000_2009-05-30_POINT_NULL.npz",
+      "bytes": 302805,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:14.9821566Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/001_2009-06-21_POINT_NULL.npz",
+      "bytes": 249969,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.0201560Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/002_2009-07-27_POINT_NULL.npz",
+      "bytes": 401239,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.0597032Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/003_2009-08-16_POINT_NULL.npz",
+      "bytes": 332804,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.0976999Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/004_2009-09-16_POINT_NULL.npz",
+      "bytes": 365923,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.1376885Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/005_2009-10-16_POINT_NULL.npz",
+      "bytes": 239576,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.1756948Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/006_2009-11-28_POINT_NULL.npz",
+      "bytes": 400355,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.2176963Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/007_2010-01-10_POINT_NULL.npz",
+      "bytes": 395137,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.3105509Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/008_2010-02-11_POINT_NULL.npz",
+      "bytes": 392854,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.3675528Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/009_2010-03-06_POINT_NULL.npz",
+      "bytes": 401572,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.4350921Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/010_2010-04-07_POINT_NULL.npz",
+      "bytes": 255310,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.4869470Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/011_2010-04-10_POINT_NULL.npz",
+      "bytes": 343918,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.5361225Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/012_2010-04-15_POINT_NULL.npz",
+      "bytes": 398277,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.5921228Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/013_2010-05-19_POINT_NULL.npz",
+      "bytes": 352823,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.6438060Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/014_2010-06-14_POINT_NULL.npz",
+      "bytes": 394372,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.6928010Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/015_2010-08-01_POINT_NULL.npz",
+      "bytes": 324016,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.7417976Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/016_2010-08-21_POINT_NULL.npz",
+      "bytes": 371325,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.7867943Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/017_2010-09-18_POINT_NULL.npz",
+      "bytes": 374256,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.8627985Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/018_2010-10-24_POINT_NULL.npz",
+      "bytes": 332099,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.9417973Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/019_2010-12-04_POINT_NULL.npz",
+      "bytes": 389446,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:15.9857949Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/020_2011-01-02_POINT_NULL.npz",
+      "bytes": 342142,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.0348030Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/021_2011-02-04_POINT_NULL.npz",
+      "bytes": 401614,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.0803185Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/022_2011-03-01_POINT_NULL.npz",
+      "bytes": 387373,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.1253106Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/023_2011-04-21_POINT_NULL.npz",
+      "bytes": 380674,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.1703123Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/024_2011-05-22_POINT_NULL.npz",
+      "bytes": 233689,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.2053117Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/025_2011-06-12_POINT_NULL.npz",
+      "bytes": 368831,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.2493125Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/026_2011-07-21_POINT_NULL.npz",
+      "bytes": 400886,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.2933120Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/027_2011-08-23_POINT_NULL.npz",
+      "bytes": 397523,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.3443110Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/028_2011-09-16_POINT_NULL.npz",
+      "bytes": 315038,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.3854314Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/029_2011-10-16_POINT_NULL.npz",
+      "bytes": 401187,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.4312984Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/030_2011-12-02_POINT_NULL.npz",
+      "bytes": 401758,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.4782962Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/031_2012-01-27_POINT_NULL.npz",
+      "bytes": 401000,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.5242970Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/032_2012-03-05_POINT_NULL.npz",
+      "bytes": 374475,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.5700497Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/033_2012-04-02_POINT_NULL.npz",
+      "bytes": 376750,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.6220496Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/034_2012-05-26_POINT_NULL.npz",
+      "bytes": 399641,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.6730414Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/035_2012-07-04_POINT_NULL.npz",
+      "bytes": 202176,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.7120540Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/036_2012-08-13_POINT_NULL.npz",
+      "bytes": 399489,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.7570407Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/037_2012-10-28_POINT_NULL.npz",
+      "bytes": 253729,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.7930683Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/038_2012-12-21_POINT_NULL.npz",
+      "bytes": 400155,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.8388215Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/039_2013-01-15_POINT_NULL.npz",
+      "bytes": 255954,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.8748111Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/040_2013-02-26_POINT_NULL.npz",
+      "bytes": 280195,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.9118102Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/041_2013-04-17_POINT_NULL.npz",
+      "bytes": 346583,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.9488068Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/042_2013-05-30_POINT_NULL.npz",
+      "bytes": 327900,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:16.9878141Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/043_2013-06-30_POINT_NULL.npz",
+      "bytes": 303012,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.0275648Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/044_2013-07-28_POINT_NULL.npz",
+      "bytes": 373225,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.0696243Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/045_2013-08-26_POINT_NULL.npz",
+      "bytes": 328015,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.1086258Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/046_2013-11-18_POINT_NULL.npz",
+      "bytes": 318243,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.1476355Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/047_2013-12-16_POINT_NULL.npz",
+      "bytes": 221541,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.1898897Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/048_2014-01-20_POINT_NULL.npz",
+      "bytes": 212061,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.2768878Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/049_2014-02-25_POINT_NULL.npz",
+      "bytes": 325156,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.3668875Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/050_2014-05-03_POINT_NULL.npz",
+      "bytes": 354358,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.4444327Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/051_2014-06-20_POINT_NULL.npz",
+      "bytes": 228323,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.4806445Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/052_2014-07-28_POINT_NULL.npz",
+      "bytes": 207210,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.5136483Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/053_2014-09-23_POINT_NULL.npz",
+      "bytes": 378924,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.5584020Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/054_2014-11-15_POINT_NULL.npz",
+      "bytes": 361917,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.5991429Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/055_2014-12-05_POINT_NULL.npz",
+      "bytes": 401104,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.6421462Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/056_2014-12-29_POINT_NULL.npz",
+      "bytes": 400519,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.6791362Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/057_2015-02-14_POINT_NULL.npz",
+      "bytes": 400954,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.7221438Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/058_2015-04-12_POINT_NULL.npz",
+      "bytes": 390014,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.7651364Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/059_2015-05-11_POINT_NULL.npz",
+      "bytes": 246462,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.8001411Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/060_2015-06-09_POINT_NULL.npz",
+      "bytes": 227637,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.8341542Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/061_2015-07-02_POINT_NULL.npz",
+      "bytes": 399689,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.8751484Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/062_2015-08-01_POINT_NULL.npz",
+      "bytes": 348155,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.9156926Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/063_2015-09-22_POINT_NULL.npz",
+      "bytes": 345015,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.9544846Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/064_2015-12-05_POINT_NULL.npz",
+      "bytes": 338795,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:17.9944779Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/065_2016-01-01_POINT_NULL.npz",
+      "bytes": 400109,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.0344839Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/066_2016-01-31_POINT_NULL.npz",
+      "bytes": 401161,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.0740051Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/067_2016-03-18_POINT_NULL.npz",
+      "bytes": 241667,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.1130163Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/068_2016-04-22_POINT_NULL.npz",
+      "bytes": 339815,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.1480042Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/069_2016-06-10_POINT_NULL.npz",
+      "bytes": 400663,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.1880050Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/070_2016-07-04_POINT_NULL.npz",
+      "bytes": 395866,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.2280126Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/071_2016-07-31_POINT_NULL.npz",
+      "bytes": 261433,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.2620052Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/072_2016-09-05_POINT_NULL.npz",
+      "bytes": 334470,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.2970190Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/073_2016-10-06_POINT_NULL.npz",
+      "bytes": 348643,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.3337793Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/074_2016-10-23_POINT_NULL.npz",
+      "bytes": 394110,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.3707904Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/075_2016-11-28_POINT_NULL.npz",
+      "bytes": 347625,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.4067975Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/076_2016-12-23_POINT_NULL.npz",
+      "bytes": 371709,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.4473445Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/077_2017-01-14_POINT_NULL.npz",
+      "bytes": 386850,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.4873174Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/078_2017-02-04_POINT_NULL.npz",
+      "bytes": 345227,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.5263235Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/079_2017-03-19_POINT_NULL.npz",
+      "bytes": 287882,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.6173195Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/080_2017-04-16_POINT_NULL.npz",
+      "bytes": 344479,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.6994411Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/081_2017-05-13_POINT_NULL.npz",
+      "bytes": 211822,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.7644505Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/082_2017-06-08_POINT_NULL.npz",
+      "bytes": 352619,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.8034428Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/083_2017-07-03_POINT_NULL.npz",
+      "bytes": 400668,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.8454351Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/084_2017-08-06_POINT_NULL.npz",
+      "bytes": 401397,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.8854336Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/085_2017-09-04_POINT_NULL.npz",
+      "bytes": 346533,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.9274398Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/086_2017-11-06_POINT_NULL.npz",
+      "bytes": 399456,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:18.9694308Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/087_2017-12-23_POINT_NULL.npz",
+      "bytes": 379668,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.0154352Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/088_2018-02-17_POINT_NULL.npz",
+      "bytes": 180615,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.0474662Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/089_2018-03-10_POINT_NULL.npz",
+      "bytes": 319074,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.0871814Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/090_2018-04-19_POINT_NULL.npz",
+      "bytes": 399968,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.1311819Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/091_2018-05-11_POINT_NULL.npz",
+      "bytes": 400867,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.1831872Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/092_2018-06-16_POINT_NULL.npz",
+      "bytes": 352993,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.2251826Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/093_2018-07-16_POINT_NULL.npz",
+      "bytes": 400967,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.2651823Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/094_2018-08-26_POINT_NULL.npz",
+      "bytes": 324653,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.3021788Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/095_2018-10-15_POINT_NULL.npz",
+      "bytes": 335420,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.3441807Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/096_2018-12-08_POINT_NULL.npz",
+      "bytes": 401190,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.3811880Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/097_2019-01-10_POINT_NULL.npz",
+      "bytes": 401020,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.4207126Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/098_2019-02-03_POINT_NULL.npz",
+      "bytes": 399681,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.4609593Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/099_2019-02-08_POINT_NULL.npz",
+      "bytes": 394195,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.4969556Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/100_2019-03-31_POINT_NULL.npz",
+      "bytes": 356084,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.5339749Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/101_2019-05-12_POINT_NULL.npz",
+      "bytes": 393553,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.5759679Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/102_2019-06-18_POINT_NULL.npz",
+      "bytes": 401033,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.6139698Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/103_2019-07-01_POINT_NULL.npz",
+      "bytes": 271191,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.6509713Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/104_2019-08-03_POINT_NULL.npz",
+      "bytes": 399642,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.6929655Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/105_2019-10-06_POINT_NULL.npz",
+      "bytes": 319581,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.7289708Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/106_2019-10-19_POINT_NULL.npz",
+      "bytes": 401256,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.7659703Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/107_2019-11-03_POINT_NULL.npz",
+      "bytes": 401477,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.8041320Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/108_2019-12-03_POINT_NULL.npz",
+      "bytes": 275830,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.8415492Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/109_2020-01-03_POINT_NULL.npz",
+      "bytes": 400699,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.8885625Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/110_2020-02-27_POINT_NULL.npz",
+      "bytes": 268815,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:19.9595592Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/111_2020-04-07_POINT_NULL.npz",
+      "bytes": 320825,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.0950868Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/112_2020-05-03_POINT_NULL.npz",
+      "bytes": 245678,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.1630936Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/113_2020-05-15_POINT_NULL.npz",
+      "bytes": 401171,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.2022540Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/114_2020-06-04_POINT_NULL.npz",
+      "bytes": 303202,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.2393832Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/115_2020-07-05_POINT_NULL.npz",
+      "bytes": 337013,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.2803989Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/116_2020-08-07_POINT_NULL.npz",
+      "bytes": 280542,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.3123977Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/117_2020-09-06_POINT_NULL.npz",
+      "bytes": 249275,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.3483899Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/118_2020-10-04_POINT_NULL.npz",
+      "bytes": 392441,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.3853877Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/119_2020-11-01_POINT_NULL.npz",
+      "bytes": 399692,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.4229384Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/120_2020-12-20_POINT_NULL.npz",
+      "bytes": 278836,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.4579316Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/121_2021-01-08_POINT_NULL.npz",
+      "bytes": 280941,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.4921715Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/122_2021-01-22_POINT_NULL.npz",
+      "bytes": 260922,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.5271601Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/123_2021-03-19_POINT_NULL.npz",
+      "bytes": 272803,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.5603339Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/124_2021-04-05_POINT_NULL.npz",
+      "bytes": 382077,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.6009958Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/125_2021-05-28_POINT_NULL.npz",
+      "bytes": 248262,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.6339870Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/126_2021-07-05_POINT_NULL.npz",
+      "bytes": 326867,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.6729931Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/127_2021-07-31_POINT_NULL.npz",
+      "bytes": 301595,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.7069926Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/128_2021-08-24_POINT_NULL.npz",
+      "bytes": 334008,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.7439926Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/129_2021-09-14_POINT_NULL.npz",
+      "bytes": 355206,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.7809867Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/130_2021-10-14_POINT_NULL.npz",
+      "bytes": 265902,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.8180515Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/131_2021-11-06_POINT_NULL.npz",
+      "bytes": 179841,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.8469927Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/132_2021-12-14_POINT_NULL.npz",
+      "bytes": 384656,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.8859870Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/133_2022-02-05_POINT_NULL.npz",
+      "bytes": 349005,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.9249869Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/134_2022-02-20_POINT_NULL.npz",
+      "bytes": 383058,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:20.9676271Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/135_2022-03-12_POINT_NULL.npz",
+      "bytes": 400356,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.0066325Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/136_2022-04-30_POINT_NULL.npz",
+      "bytes": 346778,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.0446402Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/137_2022-06-05_POINT_NULL.npz",
+      "bytes": 331057,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.0821674Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/138_2022-06-24_POINT_NULL.npz",
+      "bytes": 319241,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.1181613Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/139_2022-07-15_POINT_NULL.npz",
+      "bytes": 281747,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.1571659Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/140_2022-07-22_POINT_NULL.npz",
+      "bytes": 316120,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.1931726Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/141_2022-08-21_POINT_NULL.npz",
+      "bytes": 399299,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.2331777Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/142_2022-11-01_POINT_NULL.npz",
+      "bytes": 401482,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.2731655Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/143_2022-11-20_POINT_NULL.npz",
+      "bytes": 401019,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.3869298Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/144_2022-12-06_POINT_NULL.npz",
+      "bytes": 338091,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.4794578Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/145_2023-02-11_POINT_NULL.npz",
+      "bytes": 395493,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.5524583Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/146_2023-04-02_POINT_NULL.npz",
+      "bytes": 392651,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.5924533Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/147_2023-05-21_POINT_NULL.npz",
+      "bytes": 391839,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.6324698Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/148_2023-06-01_POINT_NULL.npz",
+      "bytes": 397989,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.6734537Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/149_2023-07-01_POINT_NULL.npz",
+      "bytes": 332916,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.7094798Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/150_2023-07-15_POINT_NULL.npz",
+      "bytes": 270762,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.7464813Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/151_2023-07-24_POINT_NULL.npz",
+      "bytes": 300640,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.7814782Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/152_2023-10-13_POINT_NULL.npz",
+      "bytes": 401245,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.8214672Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/153_2023-10-21_POINT_NULL.npz",
+      "bytes": 395558,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.8634818Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/154_2023-11-06_POINT_NULL.npz",
+      "bytes": 401116,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.9014778Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/155_2023-11-25_POINT_NULL.npz",
+      "bytes": 400149,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.9434703Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/156_2023-12-12_POINT_NULL.npz",
+      "bytes": 400684,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:21.9834693Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/157_2024-02-11_POINT_NULL.npz",
+      "bytes": 399431,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.0217395Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/158_2024-02-25_POINT_NULL.npz",
+      "bytes": 337955,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.0612814Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/159_2024-03-22_POINT_NULL.npz",
+      "bytes": 339499,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.0979307Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/160_2024-05-25_POINT_NULL.npz",
+      "bytes": 316457,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.1339397Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/161_2024-06-08_POINT_NULL.npz",
+      "bytes": 400801,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.1769400Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/162_2024-07-03_POINT_NULL.npz",
+      "bytes": 371945,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.2169463Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/163_2024-08-03_POINT_NULL.npz",
+      "bytes": 401253,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.2549267Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/164_2024-08-31_POINT_NULL.npz",
+      "bytes": 379979,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.2929282Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/165_2024-09-13_POINT_NULL.npz",
+      "bytes": 351793,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.3309304Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/166_2024-10-14_POINT_NULL.npz",
+      "bytes": 400687,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.3709428Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/167_2024-11-21_POINT_NULL.npz",
+      "bytes": 386752,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.4114744Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/168_2024-12-15_POINT_NULL.npz",
+      "bytes": 343311,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.4504612Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/169_2025-02-16_POINT_NULL.npz",
+      "bytes": 368185,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.4911675Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/170_2025-03-09_POINT_NULL.npz",
+      "bytes": 371596,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.5338469Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/171_2025-03-23_POINT_NULL.npz",
+      "bytes": 370062,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.5728511Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/172_2025-04-14_POINT_NULL.npz",
+      "bytes": 401052,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.6118416Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/173_2025-05-11_POINT_NULL.npz",
+      "bytes": 290574,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.6818391Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/174_2025-07-17_POINT_NULL.npz",
+      "bytes": 195081,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.7568415Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/175_2025-08-04_POINT_NULL.npz",
+      "bytes": 390837,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.8265245Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/176_2025-08-28_POINT_NULL.npz",
+      "bytes": 400054,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.8665232Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/177_2025-09-18_POINT_NULL.npz",
+      "bytes": 399343,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.9065264Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/178_2025-11-24_POINT_NULL.npz",
+      "bytes": 399741,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.9475405Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/179_2025-12-27_POINT_NULL.npz",
+      "bytes": 395714,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:22.9865195Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/180_2026-01-19_POINT_NULL.npz",
+      "bytes": 392702,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:23.0265235Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/181_2026-03-08_POINT_NULL.npz",
+      "bytes": 399310,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:23.0690460Z"
+    },
+    {
+      "path": "dirty/MAIN183_POINT_NULL/182_2026-05-01_POINT_NULL.npz",
+      "bytes": 399381,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T18:23:23.1080531Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/000_2009-05-30_DIRTY_NAT.npz",
+      "bytes": 268891,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:33.9021587Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/001_2009-06-21_DIRTY_NAT.npz",
+      "bytes": 268693,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:34.3043162Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/002_2009-07-27_DIRTY_NAT.npz",
+      "bytes": 269334,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:34.7170443Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/003_2009-08-16_DIRTY_NAT.npz",
+      "bytes": 269109,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:35.1130466Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/004_2009-09-16_DIRTY_NAT.npz",
+      "bytes": 268343,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:35.4545518Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/005_2009-10-16_DIRTY_NAT.npz",
+      "bytes": 268630,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:35.8130738Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/006_2009-11-28_DIRTY_NAT.npz",
+      "bytes": 268698,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:36.2998887Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/007_2010-01-10_DIRTY_NAT.npz",
+      "bytes": 269068,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:36.6193158Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/008_2010-02-11_DIRTY_NAT.npz",
+      "bytes": 268866,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:36.9064043Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/009_2010-03-06_DIRTY_NAT.npz",
+      "bytes": 269282,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:37.3300849Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/010_2010-04-07_DIRTY_NAT.npz",
+      "bytes": 269119,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:37.5647176Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/011_2010-04-10_DIRTY_NAT.npz",
+      "bytes": 269086,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:37.8866999Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/012_2010-04-15_DIRTY_NAT.npz",
+      "bytes": 269395,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:38.2860566Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/013_2010-05-19_DIRTY_NAT.npz",
+      "bytes": 269349,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:38.6536559Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/014_2010-06-14_DIRTY_NAT.npz",
+      "bytes": 269432,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:38.8526469Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/015_2010-08-01_DIRTY_NAT.npz",
+      "bytes": 268690,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:39.1438717Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/016_2010-08-21_DIRTY_NAT.npz",
+      "bytes": 268919,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:39.3764004Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/017_2010-09-18_DIRTY_NAT.npz",
+      "bytes": 268481,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:39.5833983Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/018_2010-10-24_DIRTY_NAT.npz",
+      "bytes": 268787,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:39.9497045Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/019_2010-12-04_DIRTY_NAT.npz",
+      "bytes": 268320,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:40.3382370Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/020_2011-01-02_DIRTY_NAT.npz",
+      "bytes": 268870,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:40.8449852Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/021_2011-02-04_DIRTY_NAT.npz",
+      "bytes": 269703,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:41.1169841Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/022_2011-03-01_DIRTY_NAT.npz",
+      "bytes": 268634,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:41.5145545Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/023_2011-04-21_DIRTY_NAT.npz",
+      "bytes": 268751,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:42.0190658Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/024_2011-05-22_DIRTY_NAT.npz",
+      "bytes": 269203,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:42.4149641Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/025_2011-06-12_DIRTY_NAT.npz",
+      "bytes": 268820,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:42.8055010Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/026_2011-07-21_DIRTY_NAT.npz",
+      "bytes": 269103,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:43.2847669Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/027_2011-08-23_DIRTY_NAT.npz",
+      "bytes": 269023,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:44.0267030Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/028_2011-09-16_DIRTY_NAT.npz",
+      "bytes": 268895,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:45.0437282Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/029_2011-10-16_DIRTY_NAT.npz",
+      "bytes": 268839,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:45.2846937Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/030_2011-12-02_DIRTY_NAT.npz",
+      "bytes": 269077,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:45.6153781Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/031_2012-01-27_DIRTY_NAT.npz",
+      "bytes": 268834,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:45.8233822Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/032_2012-03-05_DIRTY_NAT.npz",
+      "bytes": 268317,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:46.0710892Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/033_2012-04-02_DIRTY_NAT.npz",
+      "bytes": 268598,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:46.3136401Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/034_2012-05-26_DIRTY_NAT.npz",
+      "bytes": 269298,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:46.6826309Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/035_2012-07-04_DIRTY_NAT.npz",
+      "bytes": 268590,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:46.8126480Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/036_2012-08-13_DIRTY_NAT.npz",
+      "bytes": 268741,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:46.9986433Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/037_2012-10-28_DIRTY_NAT.npz",
+      "bytes": 269386,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:47.2933560Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/038_2012-12-21_DIRTY_NAT.npz",
+      "bytes": 268636,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:47.4689567Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/039_2013-01-15_DIRTY_NAT.npz",
+      "bytes": 268484,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:47.7824870Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/040_2013-02-26_DIRTY_NAT.npz",
+      "bytes": 268815,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.0204876Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/041_2013-04-17_DIRTY_NAT.npz",
+      "bytes": 268854,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.2433162Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/042_2013-05-30_DIRTY_NAT.npz",
+      "bytes": 269268,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.4738447Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/043_2013-06-30_DIRTY_NAT.npz",
+      "bytes": 269172,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.6693643Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/044_2013-07-28_DIRTY_NAT.npz",
+      "bytes": 269157,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.8013662Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/045_2013-08-26_DIRTY_NAT.npz",
+      "bytes": 268845,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:48.9920590Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/046_2013-11-18_DIRTY_NAT.npz",
+      "bytes": 268797,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:49.1640604Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/047_2013-12-16_DIRTY_NAT.npz",
+      "bytes": 268469,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:49.3405889Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/048_2014-01-20_DIRTY_NAT.npz",
+      "bytes": 268863,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:49.5255864Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/049_2014-02-25_DIRTY_NAT.npz",
+      "bytes": 268728,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:49.7599088Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/050_2014-05-03_DIRTY_NAT.npz",
+      "bytes": 269353,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:49.9789109Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/051_2014-06-20_DIRTY_NAT.npz",
+      "bytes": 269276,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:50.2734318Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/052_2014-07-28_DIRTY_NAT.npz",
+      "bytes": 268992,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:50.4996162Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/053_2014-09-23_DIRTY_NAT.npz",
+      "bytes": 269013,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:50.7321240Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/054_2014-11-15_DIRTY_NAT.npz",
+      "bytes": 268691,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:50.9701303Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/055_2014-12-05_DIRTY_NAT.npz",
+      "bytes": 268919,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:51.2503124Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/056_2014-12-29_DIRTY_NAT.npz",
+      "bytes": 268488,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:51.4698395Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/057_2015-02-14_DIRTY_NAT.npz",
+      "bytes": 269033,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:51.6373798Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/058_2015-04-12_DIRTY_NAT.npz",
+      "bytes": 269002,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:51.9142571Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/059_2015-05-11_DIRTY_NAT.npz",
+      "bytes": 268883,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:52.1830033Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/060_2015-06-09_DIRTY_NAT.npz",
+      "bytes": 268811,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:52.3885198Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/061_2015-07-02_DIRTY_NAT.npz",
+      "bytes": 269331,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:52.6427797Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/062_2015-08-01_DIRTY_NAT.npz",
+      "bytes": 268974,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:52.8856884Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/063_2015-09-22_DIRTY_NAT.npz",
+      "bytes": 269186,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:53.0606780Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/064_2015-12-05_DIRTY_NAT.npz",
+      "bytes": 269069,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:53.3633143Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/065_2016-01-01_DIRTY_NAT.npz",
+      "bytes": 269307,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:53.5586378Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/066_2016-01-31_DIRTY_NAT.npz",
+      "bytes": 268817,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:53.7918035Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/067_2016-03-18_DIRTY_NAT.npz",
+      "bytes": 268704,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:54.0368018Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/068_2016-04-22_DIRTY_NAT.npz",
+      "bytes": 269010,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:54.3528475Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/069_2016-06-10_DIRTY_NAT.npz",
+      "bytes": 268592,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:54.6325638Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/070_2016-07-04_DIRTY_NAT.npz",
+      "bytes": 269450,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:54.8759143Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/071_2016-07-31_DIRTY_NAT.npz",
+      "bytes": 268819,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:55.1531702Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/072_2016-09-05_DIRTY_NAT.npz",
+      "bytes": 269125,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:55.3716790Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/073_2016-10-06_DIRTY_NAT.npz",
+      "bytes": 269443,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:55.5556833Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/074_2016-10-23_DIRTY_NAT.npz",
+      "bytes": 268967,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:55.8014567Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/075_2016-11-28_DIRTY_NAT.npz",
+      "bytes": 269100,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:56.0334600Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/076_2016-12-23_DIRTY_NAT.npz",
+      "bytes": 269037,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:56.2765692Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/077_2017-01-14_DIRTY_NAT.npz",
+      "bytes": 268932,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:56.5693917Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/078_2017-02-04_DIRTY_NAT.npz",
+      "bytes": 269326,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:56.8824998Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/079_2017-03-19_DIRTY_NAT.npz",
+      "bytes": 269069,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:57.1569515Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/080_2017-04-16_DIRTY_NAT.npz",
+      "bytes": 268662,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:57.4187835Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/081_2017-05-13_DIRTY_NAT.npz",
+      "bytes": 269465,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:57.6803208Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/082_2017-06-08_DIRTY_NAT.npz",
+      "bytes": 268919,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:58.0031034Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/083_2017-07-03_DIRTY_NAT.npz",
+      "bytes": 268404,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:58.2978778Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/084_2017-08-06_DIRTY_NAT.npz",
+      "bytes": 269126,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:58.4658817Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/085_2017-09-04_DIRTY_NAT.npz",
+      "bytes": 268754,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:58.7109895Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/086_2017-11-06_DIRTY_NAT.npz",
+      "bytes": 268994,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:58.9767984Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/087_2017-12-23_DIRTY_NAT.npz",
+      "bytes": 269026,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:59.2201792Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/088_2018-02-17_DIRTY_NAT.npz",
+      "bytes": 268838,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:59.4600644Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/089_2018-03-10_DIRTY_NAT.npz",
+      "bytes": 269107,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:59.7181598Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/090_2018-04-19_DIRTY_NAT.npz",
+      "bytes": 269215,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:36:59.9671621Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/091_2018-05-11_DIRTY_NAT.npz",
+      "bytes": 269216,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:00.1938279Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/092_2018-06-16_DIRTY_NAT.npz",
+      "bytes": 269265,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:00.4480835Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/093_2018-07-16_DIRTY_NAT.npz",
+      "bytes": 269074,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:00.6805921Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/094_2018-08-26_DIRTY_NAT.npz",
+      "bytes": 268782,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:00.9168456Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/095_2018-10-15_DIRTY_NAT.npz",
+      "bytes": 268852,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:01.1729456Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/096_2018-12-08_DIRTY_NAT.npz",
+      "bytes": 268862,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:01.4834476Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/097_2019-01-10_DIRTY_NAT.npz",
+      "bytes": 269196,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:01.7855738Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/098_2019-02-03_DIRTY_NAT.npz",
+      "bytes": 269080,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:02.0678731Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/099_2019-02-08_DIRTY_NAT.npz",
+      "bytes": 269655,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:02.3074128Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/100_2019-03-31_DIRTY_NAT.npz",
+      "bytes": 268849,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:02.5785108Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/101_2019-05-12_DIRTY_NAT.npz",
+      "bytes": 268682,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:02.8390643Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/102_2019-06-18_DIRTY_NAT.npz",
+      "bytes": 269055,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:03.0940677Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/103_2019-07-01_DIRTY_NAT.npz",
+      "bytes": 269100,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:03.3646217Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/104_2019-08-03_DIRTY_NAT.npz",
+      "bytes": 269248,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:03.6181903Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/105_2019-10-06_DIRTY_NAT.npz",
+      "bytes": 268921,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:03.9282485Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/106_2019-10-19_DIRTY_NAT.npz",
+      "bytes": 269334,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:04.1618357Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/107_2019-11-03_DIRTY_NAT.npz",
+      "bytes": 269616,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:04.4361564Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/108_2019-12-03_DIRTY_NAT.npz",
+      "bytes": 269081,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:04.6653337Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/109_2020-01-03_DIRTY_NAT.npz",
+      "bytes": 268495,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:04.8938788Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/110_2020-02-27_DIRTY_NAT.npz",
+      "bytes": 268522,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:05.1088947Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/111_2020-04-07_DIRTY_NAT.npz",
+      "bytes": 269356,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:05.3054335Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/112_2020-05-03_DIRTY_NAT.npz",
+      "bytes": 269115,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:05.4880973Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/113_2020-05-15_DIRTY_NAT.npz",
+      "bytes": 268666,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:05.7727450Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/114_2020-06-04_DIRTY_NAT.npz",
+      "bytes": 269066,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:06.0367457Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/115_2020-07-05_DIRTY_NAT.npz",
+      "bytes": 268941,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:06.2765596Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/116_2020-08-07_DIRTY_NAT.npz",
+      "bytes": 268955,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:06.5729327Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/117_2020-09-06_DIRTY_NAT.npz",
+      "bytes": 268632,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:06.8024873Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/118_2020-10-04_DIRTY_NAT.npz",
+      "bytes": 268687,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:07.0378156Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/119_2020-11-01_DIRTY_NAT.npz",
+      "bytes": 268929,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:07.1933867Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/120_2020-12-20_DIRTY_NAT.npz",
+      "bytes": 269004,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:07.4877130Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/121_2021-01-08_DIRTY_NAT.npz",
+      "bytes": 269249,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:07.6608728Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/122_2021-01-22_DIRTY_NAT.npz",
+      "bytes": 269393,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:07.8698745Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/123_2021-03-19_DIRTY_NAT.npz",
+      "bytes": 268590,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:08.1623861Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/124_2021-04-05_DIRTY_NAT.npz",
+      "bytes": 269565,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:08.4059771Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/125_2021-05-28_DIRTY_NAT.npz",
+      "bytes": 268674,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:08.8150569Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/126_2021-07-05_DIRTY_NAT.npz",
+      "bytes": 269031,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:09.0114521Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/127_2021-07-31_DIRTY_NAT.npz",
+      "bytes": 269055,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:09.2310434Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/128_2021-08-24_DIRTY_NAT.npz",
+      "bytes": 268814,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:09.4091240Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/129_2021-09-14_DIRTY_NAT.npz",
+      "bytes": 268839,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:09.7922593Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/130_2021-10-14_DIRTY_NAT.npz",
+      "bytes": 268577,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:09.9488830Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/131_2021-11-06_DIRTY_NAT.npz",
+      "bytes": 269032,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:10.3320239Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/132_2021-12-14_DIRTY_NAT.npz",
+      "bytes": 268703,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:10.7308412Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/133_2022-02-05_DIRTY_NAT.npz",
+      "bytes": 269376,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:10.9198448Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/134_2022-02-20_DIRTY_NAT.npz",
+      "bytes": 268651,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:11.1953974Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/135_2022-03-12_DIRTY_NAT.npz",
+      "bytes": 268226,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:11.3939398Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/136_2022-04-30_DIRTY_NAT.npz",
+      "bytes": 268434,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:11.6185383Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/137_2022-06-05_DIRTY_NAT.npz",
+      "bytes": 268922,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:11.7871121Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/138_2022-06-24_DIRTY_NAT.npz",
+      "bytes": 269388,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:11.9481048Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/139_2022-07-15_DIRTY_NAT.npz",
+      "bytes": 268969,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:12.1484260Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/140_2022-07-22_DIRTY_NAT.npz",
+      "bytes": 269266,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:12.5206819Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/141_2022-08-21_DIRTY_NAT.npz",
+      "bytes": 268951,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:12.7552073Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/142_2022-11-01_DIRTY_NAT.npz",
+      "bytes": 268988,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:12.9718577Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/143_2022-11-20_DIRTY_NAT.npz",
+      "bytes": 268632,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:13.1698562Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/144_2022-12-06_DIRTY_NAT.npz",
+      "bytes": 269037,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:13.3499118Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/145_2023-02-11_DIRTY_NAT.npz",
+      "bytes": 269118,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:13.6549823Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/146_2023-04-02_DIRTY_NAT.npz",
+      "bytes": 269112,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:13.9365142Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/147_2023-05-21_DIRTY_NAT.npz",
+      "bytes": 269098,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:14.2307217Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/148_2023-06-01_DIRTY_NAT.npz",
+      "bytes": 268643,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:14.4694254Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/149_2023-07-01_DIRTY_NAT.npz",
+      "bytes": 269016,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:14.9965324Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/150_2023-07-15_DIRTY_NAT.npz",
+      "bytes": 269039,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:15.2332845Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/151_2023-07-24_DIRTY_NAT.npz",
+      "bytes": 268896,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:15.4698123Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/152_2023-10-13_DIRTY_NAT.npz",
+      "bytes": 269036,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:15.7127700Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/153_2023-10-21_DIRTY_NAT.npz",
+      "bytes": 269343,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:15.9314454Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/154_2023-11-06_DIRTY_NAT.npz",
+      "bytes": 269293,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:16.3490242Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/155_2023-11-25_DIRTY_NAT.npz",
+      "bytes": 269150,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:16.5801767Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/156_2023-12-12_DIRTY_NAT.npz",
+      "bytes": 268923,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:16.8604291Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/157_2024-02-11_DIRTY_NAT.npz",
+      "bytes": 268946,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:17.0697536Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/158_2024-02-25_DIRTY_NAT.npz",
+      "bytes": 268672,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:17.2812936Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/159_2024-03-22_DIRTY_NAT.npz",
+      "bytes": 269204,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:17.5323447Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/160_2024-05-25_DIRTY_NAT.npz",
+      "bytes": 269203,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:17.8282931Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/161_2024-06-08_DIRTY_NAT.npz",
+      "bytes": 268970,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:18.1093058Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/162_2024-07-03_DIRTY_NAT.npz",
+      "bytes": 268830,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:18.3278643Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/163_2024-08-03_DIRTY_NAT.npz",
+      "bytes": 268745,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:18.5538599Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/164_2024-08-31_DIRTY_NAT.npz",
+      "bytes": 269174,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:18.8299674Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/165_2024-09-13_DIRTY_NAT.npz",
+      "bytes": 268899,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:19.1891868Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/166_2024-10-14_DIRTY_NAT.npz",
+      "bytes": 268674,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:19.3662820Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/167_2024-11-21_DIRTY_NAT.npz",
+      "bytes": 269050,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:19.6669067Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/168_2024-12-15_DIRTY_NAT.npz",
+      "bytes": 268922,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:19.8850254Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/169_2025-02-16_DIRTY_NAT.npz",
+      "bytes": 269062,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:20.1745750Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/170_2025-03-09_DIRTY_NAT.npz",
+      "bytes": 269104,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:20.4359664Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/171_2025-03-23_DIRTY_NAT.npz",
+      "bytes": 269295,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:20.7385003Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/172_2025-04-14_DIRTY_NAT.npz",
+      "bytes": 269196,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:20.9890564Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/173_2025-05-11_DIRTY_NAT.npz",
+      "bytes": 268611,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:21.2347288Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/174_2025-07-17_DIRTY_NAT.npz",
+      "bytes": 268956,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:21.4642530Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/175_2025-08-04_DIRTY_NAT.npz",
+      "bytes": 269368,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:21.6683204Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/176_2025-08-28_DIRTY_NAT.npz",
+      "bytes": 269355,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:21.9053230Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/177_2025-09-18_DIRTY_NAT.npz",
+      "bytes": 269162,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:22.1871949Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/178_2025-11-24_DIRTY_NAT.npz",
+      "bytes": 269402,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:22.4414436Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/179_2025-12-27_DIRTY_NAT.npz",
+      "bytes": 269314,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:22.6898921Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/180_2026-01-19_DIRTY_NAT.npz",
+      "bytes": 268990,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:22.9074161Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/181_2026-03-08_DIRTY_NAT.npz",
+      "bytes": 268496,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:23.1526664Z"
+    },
+    {
+      "path": "dirty/MAIN183_NATURAL/182_2026-05-01_DIRTY_NAT.npz",
+      "bytes": 268504,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-09T09:37:23.4633543Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-05-30__3C273MAY09.UVP.gz",
+      "bytes": 227071,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.0044611Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-06-21__3C273JUN09.UVP.gz",
+      "bytes": 284846,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.1364589Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-07-27__3C273JUL09.UVP.gz",
+      "bytes": 265177,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.3099783Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-08-16__3C273AUG09.UVP.gz",
+      "bytes": 225118,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:44.9336942Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-09-16__3C273SEP09.UVP.gz",
+      "bytes": 228059,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.5269922Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-10-16__3C273OCT09.UVP.gz",
+      "bytes": 208912,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.3449993Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2009-11-28__3C273NOV09.UVP.gz",
+      "bytes": 299419,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.7214819Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-01-10__3C273JAN10.UVP.gz",
+      "bytes": 180713,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.6874794Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-02-11__3C273FEB10.UVP.gz",
+      "bytes": 179415,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.8611659Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-03-06__3C273MAR10.UVP.gz",
+      "bytes": 313214,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:45.9111707Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-04-07__3C273APR10D.UVP.gz",
+      "bytes": 126026,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.2241676Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-04-10__3C273APR10E.UVP.gz",
+      "bytes": 140728,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.0701667Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-04-15__3C273APR10F.UVP.gz",
+      "bytes": 229176,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.1721692Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-05-19__3C273MAY10.UVP.gz",
+      "bytes": 214416,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.2657165Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-06-14__3C273JUN10.UVP.gz",
+      "bytes": 102069,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.3732436Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-08-01__3C273AUG10.UVP.gz",
+      "bytes": 160802,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.6362206Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-08-21__3C273AUG10B.UVP.gz",
+      "bytes": 129450,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.6757493Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-09-18__3C273SEP10.UVP.gz",
+      "bytes": 125158,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.5992190Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-10-24__3C273OCT10.UVP.gz",
+      "bytes": 213701,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.7107489Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2010-12-04__3C273DEC10.UVP.gz",
+      "bytes": 224197,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.9427492Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-01-02__3C273JAN11.UVP.gz",
+      "bytes": 362263,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.1289719Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-02-04__3C273FEB11.UVP.gz",
+      "bytes": 213476,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:46.9797516Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-03-01__3C273MAR11.UVP.gz",
+      "bytes": 284049,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.4158903Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-04-21__3C273APR11.UVP.gz",
+      "bytes": 310126,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.2708974Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-05-22__3C273MAY11.UVP.gz",
+      "bytes": 210833,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.3078943Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-06-12__3C273JUN11.UVP.gz",
+      "bytes": 210795,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.4608903Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-07-21__3C273JUL11.UVP.gz",
+      "bytes": 288694,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.6338924Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-08-23__3C273AUG11.UVP.gz",
+      "bytes": 587854,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.6694307Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-09-16__3C273SEP11.UVP.gz",
+      "bytes": 1517559,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.8284299Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-10-16__3C273OCT11.UVP.gz",
+      "bytes": 125867,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.7434249Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2011-12-02__3C273DEC11.UVP.gz",
+      "bytes": 196755,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:47.9551962Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-01-27__3C273JAN12.UVP.gz",
+      "bytes": 111727,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.1799162Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-03-05__3C273MAR12.UVP.gz",
+      "bytes": 153675,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.0529149Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-04-02__3C273APR12.UVP.gz",
+      "bytes": 121762,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.2604488Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-05-26__3C273MAY12.UVP.gz",
+      "bytes": 189652,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.2994459Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-07-04__3C273JUL12.UVP.gz",
+      "bytes": 57569,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.3344467Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-08-13__3C273AUG12.UVP.gz",
+      "bytes": 92555,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.4914480Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-10-28__3C273OCT12.UVP.gz",
+      "bytes": 162830,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.8567774Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2012-12-21__3C273DEC12.UVP.gz",
+      "bytes": 85027,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.5954469Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-01-15__3C273JAN13.UVP.gz",
+      "bytes": 170280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.6696523Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-02-26__3C273FEB13.UVP.gz",
+      "bytes": 125688,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:48.8037787Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-04-17__3C273APR13.UVP.gz",
+      "bytes": 118368,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.0577780Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-05-30__3C273MAY13.UVP.gz",
+      "bytes": 125976,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.0907786Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-06-30__3C273JUN13.UVP.gz",
+      "bytes": 102677,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.3403238Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-07-28__3C273JUL13.UVP.gz",
+      "bytes": 55086,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.0927789Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-08-26__3C273AUG13.UVP.gz",
+      "bytes": 92124,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.4128425Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-11-18__3C273NOV13.UVP.gz",
+      "bytes": 80845,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.3763248Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2013-12-16__3C273DEC13.UVP.gz",
+      "bytes": 83933,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.4489617Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-01-20__3C273JAN14.UVP.gz",
+      "bytes": 154676,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.7022333Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-02-25__3C273FEB14.UVP.gz",
+      "bytes": 123879,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.9552276Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-05-03__3C273MAY14.UVP.gz",
+      "bytes": 109852,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.7432270Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-06-20__3C273JUN14.UVP.gz",
+      "bytes": 346038,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:49.9572401Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-07-28__3C273JUL14.UVP.gz",
+      "bytes": 347186,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.1034881Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-09-23__3C273SEP14.UVP.gz",
+      "bytes": 385987,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.0438648Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-11-15__3C273NOV14.UVP.gz",
+      "bytes": 378189,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.5005459Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-12-05__3C273DEC14.UVP.gz",
+      "bytes": 451351,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.4315435Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2014-12-29__3C273DEC14A.UVP.gz",
+      "bytes": 356560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.4335432Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-02-14__3C273FEB15.UVP.gz",
+      "bytes": 239445,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.3955410Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-04-12__3C273APR15.UVP.gz",
+      "bytes": 464205,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.8460754Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-05-11__3C273MAY15.UVP.gz",
+      "bytes": 440281,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.8110751Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-06-09__3C273JUN15.UVP.gz",
+      "bytes": 307471,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.8470754Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-07-02__3C273JUL15.UVP.gz",
+      "bytes": 433345,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:50.9160778Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-08-01__3C273AUG15.UVP.gz",
+      "bytes": 398625,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.1845469Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-09-22__3C273SEP15.UVP.gz",
+      "bytes": 256952,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.2890742Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2015-12-05__3C273DEC15.UVP.gz",
+      "bytes": 487916,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.2545506Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-01-01__3C273JAN16.UVP.gz",
+      "bytes": 273062,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.5290728Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-01-31__3C273FEB16.UVP.gz",
+      "bytes": 380841,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.5890743Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-03-18__3C273MAR16.UVP.gz",
+      "bytes": 395710,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.6610792Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-04-22__3C273APR16.UVP.gz",
+      "bytes": 376230,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.6260772Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-06-10__3C273JUN16.UVP.gz",
+      "bytes": 456972,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.8726530Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-07-04__3C273JUL16.UVP.gz",
+      "bytes": 385414,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.0091697Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-07-31__3C273AUG16.UVP.gz",
+      "bytes": 478092,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:51.9706538Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-09-05__3C273SEP16.UVP.gz",
+      "bytes": 320315,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.0091697Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-10-06__3C273OCT16.UVP.gz",
+      "bytes": 271511,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.1957478Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-10-23__3C273OCT16A.UVP.gz",
+      "bytes": 404504,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.4038378Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-11-28__3C273NOV16.UVP.gz",
+      "bytes": 367627,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.4418500Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2016-12-23__3C273DEC16.UVP.gz",
+      "bytes": 387228,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.3658432Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-01-14__3C273JAN17.UVP.gz",
+      "bytes": 461713,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.5168487Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-02-04__3C273FEB17.UVP.gz",
+      "bytes": 509394,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.7323666Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-03-19__3C273MAR17.UVP.gz",
+      "bytes": 451081,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.7736363Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-04-16__3C273APR17.UVP.gz",
+      "bytes": 423851,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.8080372Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-05-13__3C273MAY17.UVP.gz",
+      "bytes": 403089,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:52.8440362Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-06-08__3C273JUN17.UVP.gz",
+      "bytes": 551669,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.1000375Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-07-03__3C273JUL17.UVP.gz",
+      "bytes": 472260,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.6313158Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-08-06__3C273AUG17.UVP.gz",
+      "bytes": 250402,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.1760364Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-09-04__3C273SEP17.UVP.gz",
+      "bytes": 402820,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.2110396Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-11-06__3C273NOV17.UVP.gz",
+      "bytes": 308639,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.4003151Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2017-12-23__3C273DEC17.UVP.gz",
+      "bytes": 401035,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.5723194Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-02-17__3C273FEB18.UVP.gz",
+      "bytes": 398999,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.8108352Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-03-10__3C273MAR18.UVP.gz",
+      "bytes": 426081,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.7768464Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-04-19__3C273APR18.UVP.gz",
+      "bytes": 412193,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.9208388Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-05-11__3C273MAY18.UVP.gz",
+      "bytes": 362137,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:53.9738464Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-06-16__3C273JUN18.UVP.gz",
+      "bytes": 427130,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.1408407Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-07-16__3C273JUL18.UVP.gz",
+      "bytes": 364950,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.1808419Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-08-26__3C273AUG18.UVP.gz",
+      "bytes": 379584,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.3183613Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-10-15__3C273OCT18.UVP.gz",
+      "bytes": 431105,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.2803580Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2018-12-08__3C273DEC18.UVP.gz",
+      "bytes": 524870,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.4783603Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-01-10__3C273JAN19.UVP.gz",
+      "bytes": 493853,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.5273611Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-02-03__3C273FEB19.UVP.gz",
+      "bytes": 474625,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.6503715Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-02-08__3C273FEB19A.UVP.gz",
+      "bytes": 345247,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.6163593Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-03-31__3C273MAR19.UVP.gz",
+      "bytes": 462028,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.7990416Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-05-12__3C273MAY19.UVP.gz",
+      "bytes": 429681,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.8560424Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-06-18__3C273JUN19.UVP.gz",
+      "bytes": 415079,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.0070420Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-07-01__3C273JUL19.UVP.gz",
+      "bytes": 432520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:54.9720389Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-08-03__3C273AUG19.UVP.gz",
+      "bytes": 259651,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.1730392Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-10-06__3C273OCT19.UVP.gz",
+      "bytes": 519447,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.2350424Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-10-19__3C273OCT19A.UVP.gz",
+      "bytes": 372588,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.3075641Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-11-03__3C273NOV19.UVP.gz",
+      "bytes": 464282,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.3565677Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2019-12-03__3C273DEC19.UVP.gz",
+      "bytes": 415736,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.4895709Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-01-03__3C273JAN20.UVP.gz",
+      "bytes": 354576,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.7344285Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-02-27__3C273FEB20.UVP.gz",
+      "bytes": 336705,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.6619053Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-04-07__3C273APR20.UVP.gz",
+      "bytes": 306935,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.6974293Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-05-03__3C273MAY20.UVP.gz",
+      "bytes": 281824,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:55.7954300Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-05-15__3C273MAY20A.UVP.gz",
+      "bytes": 391779,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.0524314Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-06-04__3C273JUN20.UVP.gz",
+      "bytes": 430977,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.1204413Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-07-05__3C273JUL20.UVP.gz",
+      "bytes": 368611,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.0534285Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-08-07__1226+023Q.2020-08-07.UVP.gz",
+      "bytes": 495541,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.4493278Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-09-06__1226+023Q.2020-09-06.UVP.gz",
+      "bytes": 387519,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.5603949Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-10-04__1226+023Q.2020-10-04.UVP.gz",
+      "bytes": 355873,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.4933247Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-11-01__1226+023Q.2020-11-01.UVP.gz",
+      "bytes": 220035,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.4913242Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2020-12-20__1226+023Q.2020-12-20.UVP.gz",
+      "bytes": 509576,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.8185712Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-01-08__1226+023Q.2021-01-08.UVP.gz",
+      "bytes": 236388,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.8665683Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-01-22__1226+023Q.2021-01-22.UVP.gz",
+      "bytes": 328374,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.9075720Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-03-19__1226+023Q.2021-03-19.UVP.gz",
+      "bytes": 495161,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:56.9065700Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-04-05__1226+023Q.2021-04-05.UVP.gz",
+      "bytes": 382106,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.1436208Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-05-28__1226+023Q.2021-05-28.UVP.gz",
+      "bytes": 618545,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.2961472Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-07-05__1226+023Q.2021-07-05.UVP.gz",
+      "bytes": 290355,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.2631394Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-07-31__1226+023Q.2021-07-31.UVP.gz",
+      "bytes": 352311,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.2591407Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-08-24__1226+023Q.2021-08-24.UVP.gz",
+      "bytes": 255245,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.4381430Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-09-14__1226+023Q.2021-09-14.UVP.gz",
+      "bytes": 577231,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.6686592Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-10-14__1226+023Q.2021-10-14.UVP.gz",
+      "bytes": 216835,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.6261402Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-11-06__1226+023Q.2021-11-06.UVP.gz",
+      "bytes": 695839,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:57.7066730Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2021-12-14__1226+023Q.2021-12-14.UVP.gz",
+      "bytes": 568759,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.0839387Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-02-05__1226+023Q.2022-02-05.UVP.gz",
+      "bytes": 291977,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.0029386Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-02-20__1226+023Q.2022-02-20.UVP.gz",
+      "bytes": 464626,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.0379399Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-03-12__1226+023Q.2022-03-12.UVP.gz",
+      "bytes": 307711,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.4214625Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-04-30__1226+023Q.2022-04-30.UVP.gz",
+      "bytes": 327653,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.3164637Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-06-05__1226+023Q.2022-06-05.UVP.gz",
+      "bytes": 240495,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.3854627Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-06-24__1226+023Q.2022-06-24.UVP.gz",
+      "bytes": 233713,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.4564617Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-07-15__1226+023Q.2022-07-15.UVP.gz",
+      "bytes": 320556,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.6819473Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-07-22__1226+023Q.2022-07-22.UVP.gz",
+      "bytes": 531907,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.7699480Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-08-21__1226+023Q.2022-08-21.UVP.gz",
+      "bytes": 354398,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.8459464Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-11-01__1226+023Q.2022-11-01.UVP.gz",
+      "bytes": 344203,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:58.7319480Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-11-20__1226+023Q.2022-11-20.UVP.gz",
+      "bytes": 296403,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.0379517Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2022-12-06__1226+023Q.2022-12-06.UVP.gz",
+      "bytes": 264395,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.1119476Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-02-11__1226+023Q.2023-02-11.UVP.gz",
+      "bytes": 484009,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.4549208Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-04-02__1226+023Q.2023-04-02.UVP.gz",
+      "bytes": 403946,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.1609464Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-05-21__1226+023Q.2023-05-21.UVP.gz",
+      "bytes": 475444,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.3679224Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-06-01__1226+023Q.2023-06-01.UVP.gz",
+      "bytes": 377051,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.4559208Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-07-01__1226+023Q.2023-07-01.UVP.gz",
+      "bytes": 828818,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.5419192Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-07-15__1226+023Q.2023-07-15.UVP.gz",
+      "bytes": 374896,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.6974493Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-07-24__1226+023Q.2023-07-24.UVP.gz",
+      "bytes": 381375,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.7934446Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-10-13__1226+023Q.2023-10-13.UVP.gz",
+      "bytes": 392763,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:20:59.8344468Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-10-21__1226+023Q.2023-10-21.UVP.gz",
+      "bytes": 344859,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.2119189Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-11-06__1226+023Q.2023-11-06.UVP.gz",
+      "bytes": 664681,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.0731862Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-11-25__1226+023Q.2023-11-25.UVP.gz",
+      "bytes": 360940,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.1219137Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2023-12-12__1226+023Q.2023-12-12.UVP.gz",
+      "bytes": 478134,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.1749126Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-02-11__1226+023Q.2024-02-11.UVP.gz",
+      "bytes": 316952,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.4804716Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-02-25__1226+023Q.2024-02-25.UVP.gz",
+      "bytes": 334212,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.4444713Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-03-22__1226+023Q.2024-03-22.UVP.gz",
+      "bytes": 407989,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.5484733Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-05-25__1226+023Q.2024-05-25.UVP.gz",
+      "bytes": 491176,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.6254728Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-06-08__1226+023Q.2024-06-08.UVP.gz",
+      "bytes": 462435,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.9044141Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-07-03__1226+023Q.2024-07-03.UVP.gz",
+      "bytes": 310541,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.8564131Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-08-03__1226+023Q.2024-08-03.UVP.gz",
+      "bytes": 345791,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.9384116Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-08-31__1226+023Q.2024-08-31.UVP.gz",
+      "bytes": 458787,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:00.9014105Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-09-13__1226+023Q.2024-09-13.UVP.gz",
+      "bytes": 485094,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.2064101Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-10-14__1226+023Q.2024-10-14.UVP.gz",
+      "bytes": 253813,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.2779434Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-11-21__1226+023Q.2024-11-21.UVP.gz",
+      "bytes": 497561,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.2789431Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2024-12-15__1226+023Q.2024-12-15.UVP.gz",
+      "bytes": 344501,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.3569400Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-02-16__1226+023Q.2025-02-16.UVP.gz",
+      "bytes": 472767,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.6483761Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-03-09__1226+023Q.2025-03-09.UVP.gz",
+      "bytes": 435382,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.7314585Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-03-23__1226+023Q.2025-03-23.UVP.gz",
+      "bytes": 505211,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.6493779Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-04-14__1226+023Q.2025-04-14.UVP.gz",
+      "bytes": 401871,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:01.7304586Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-05-11__1226+023Q.2025-05-11.UVP.gz",
+      "bytes": 392802,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.0074755Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-07-17__1226+023Q.2025-07-17.UVP.gz",
+      "bytes": 364143,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.0537335Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-08-04__1226+023Q.2025-08-04.UVP.gz",
+      "bytes": 316011,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.0547328Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-08-28__1226+023Q.2025-08-28.UVP.gz",
+      "bytes": 383312,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.1257327Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-09-18__1226+023Q.2025-09-18.UVP.gz",
+      "bytes": 462820,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.3229093Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-11-24__1226+023Q.2025-11-24.UVP.gz",
+      "bytes": 397225,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.4301793Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2025-12-27__1226+023Q.2025-12-27.UVP.gz",
+      "bytes": 371745,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.3801833Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2026-01-19__1226+023Q.2026-01-19.UVP.gz",
+      "bytes": 321850,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.4711808Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2026-03-08__1226+023Q.2026-03-08.UVP.gz",
+      "bytes": 388516,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.6201850Z"
+    },
+    {
+      "path": "data/BU43_MAIN183_RAW/2026-05-01__1226+023Q.2026-05-01.UVP.gz",
+      "bytes": 398136,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-08T23:21:02.6591906Z"
+    }
+  ],
+  "errors": []
+}

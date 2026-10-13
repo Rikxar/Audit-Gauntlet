@@ -1,0 +1,871 @@
+{
+  "programme": "AGM_STRUCTURE_FALSIFICATION_AUDIT",
+  "path": "E:\\Audit Gauntlet\\AGM_STRUCTURE_FALSIFICATION_AUDIT",
+  "boundaries": [],
+  "files": [
+    {
+      "path": "admit.py",
+      "bytes": 3070,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:23:38.0856344Z"
+    },
+    {
+      "path": "audit_design.md",
+      "bytes": 12743,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:35.7439265Z"
+    },
+    {
+      "path": "export_original_hud_arrays.py",
+      "bytes": 567,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:31:34.2314965Z"
+    },
+    {
+      "path": "finalize_findings.py",
+      "bytes": 3824,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:25.6892064Z"
+    },
+    {
+      "path": "finish_report.py",
+      "bytes": 18671,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:18:08.9472941Z"
+    },
+    {
+      "path": "historical_hud_check.py",
+      "bytes": 2304,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:59:57.0257900Z"
+    },
+    {
+      "path": "hud_arrays.py",
+      "bytes": 1270,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:57:19.8233186Z"
+    },
+    {
+      "path": "measure_parallel_v2.py",
+      "bytes": 4426,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:53:00.3432207Z"
+    },
+    {
+      "path": "measure_parallel.py",
+      "bytes": 2605,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:34:26.5037900Z"
+    },
+    {
+      "path": "measurement_scheduler_preexecution_hash.json",
+      "bytes": 199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:35:04.3839839Z"
+    },
+    {
+      "path": "package_sha256_manifest.csv",
+      "bytes": 8515690,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:33:23.9368634Z"
+    },
+    {
+      "path": "package_sha256_manifest.sha256",
+      "bytes": 95,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:33:23.9579025Z"
+    },
+    {
+      "path": "premeasurement_predictions_hash.json",
+      "bytes": 209,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:33:32.9663563Z"
+    },
+    {
+      "path": "premeasurement_predictions.md",
+      "bytes": 2076,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:33:30.9719694Z"
+    },
+    {
+      "path": "preparation_config.json",
+      "bytes": 977,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:20:08.6512241Z"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 4921,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:20:11.5318736Z"
+    },
+    {
+      "path": "preserve_sources.py",
+      "bytes": 986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:30:31.8088706Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4090,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:31:36.6934090Z"
+    },
+    {
+      "path": "render_summary.py",
+      "bytes": 2567,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:54:37.1645513Z"
+    },
+    {
+      "path": "run_audit.py",
+      "bytes": 20704,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:10.0544266Z"
+    },
+    {
+      "path": "seal_package.py",
+      "bytes": 3143,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:31:39.1356122Z"
+    },
+    {
+      "path": "supplementary_compare.py",
+      "bytes": 4873,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:13:17.3242385Z"
+    },
+    {
+      "path": "supplementary_comparison_definition_hash.json",
+      "bytes": 204,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:13:18.8829510Z"
+    },
+    {
+      "path": "validate_wrapper.py",
+      "bytes": 1852,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:12.8772796Z"
+    },
+    {
+      "path": "verify_storage.py",
+      "bytes": 1224,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:01:05.6033076Z"
+    },
+    {
+      "path": "wrapper_validation.json",
+      "bytes": 287,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:16.2468114Z"
+    },
+    {
+      "path": "SOL_AUDIT/analysis_freeze.json",
+      "bytes": 3682,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:07:24.7590548Z"
+    },
+    {
+      "path": "SOL_AUDIT/ANALYSIS_FREEZE.md",
+      "bytes": 1488,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:02:02.8645442Z"
+    },
+    {
+      "path": "SOL_AUDIT/analysis_freeze.sha256",
+      "bytes": 87,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:07:46.9502162Z"
+    },
+    {
+      "path": "SOL_AUDIT/blind_comparison_replay.csv",
+      "bytes": 1316,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:08.9432482Z"
+    },
+    {
+      "path": "SOL_AUDIT/claims_indeterminate.csv",
+      "bytes": 827,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2820125Z"
+    },
+    {
+      "path": "SOL_AUDIT/claims_invalidated.csv",
+      "bytes": 1051,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2820125Z"
+    },
+    {
+      "path": "SOL_AUDIT/claims_retained.csv",
+      "bytes": 1336,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2810059Z"
+    },
+    {
+      "path": "SOL_AUDIT/collision_analysis.csv",
+      "bytes": 2191,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:08.9863723Z"
+    },
+    {
+      "path": "SOL_AUDIT/conditional_residual_vectors.npz",
+      "bytes": 3071,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-07T14:00:14.6722604Z"
+    },
+    {
+      "path": "SOL_AUDIT/conditional_residuals.csv",
+      "bytes": 36191,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:14.6692332Z"
+    },
+    {
+      "path": "SOL_AUDIT/cross_traversal_persistence.svg",
+      "bytes": 3883,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:14.6722604Z"
+    },
+    {
+      "path": "SOL_AUDIT/df2_code_hash_forensics.json",
+      "bytes": 6880,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:26.7360590Z"
+    },
+    {
+      "path": "SOL_AUDIT/df2_current_vs_old_metrics.csv",
+      "bytes": 1335,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:26.7360590Z"
+    },
+    {
+      "path": "SOL_AUDIT/failure_locus.csv",
+      "bytes": 1033,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2830089Z"
+    },
+    {
+      "path": "SOL_AUDIT/falsification_status.csv",
+      "bytes": 2362,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2810059Z"
+    },
+    {
+      "path": "SOL_AUDIT/imposed_vs_source_metric_classification.csv",
+      "bytes": 1856,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4874450Z"
+    },
+    {
+      "path": "SOL_AUDIT/mapping_equation_verification.csv",
+      "bytes": 350,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4345596Z"
+    },
+    {
+      "path": "SOL_AUDIT/object_reassessment.csv",
+      "bytes": 12458,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2800046Z"
+    },
+    {
+      "path": "SOL_AUDIT/permutation_invariants.csv",
+      "bytes": 7685,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.1517310Z"
+    },
+    {
+      "path": "SOL_AUDIT/phase_surrogate_clipping.csv",
+      "bytes": 1369,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4864400Z"
+    },
+    {
+      "path": "SOL_AUDIT/pipeline_stage_information_loss_map.csv",
+      "bytes": 2216,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4864400Z"
+    },
+    {
+      "path": "SOL_AUDIT/provenance_verification.csv",
+      "bytes": 6012,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:59:56.2551075Z"
+    },
+    {
+      "path": "SOL_AUDIT/raw_preparation_replay.csv",
+      "bytes": 659,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:36:00.8663980Z"
+    },
+    {
+      "path": "SOL_AUDIT/replay_verification.csv",
+      "bytes": 34879,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:07.2564797Z"
+    },
+    {
+      "path": "SOL_AUDIT/scientific_hud_unittest.txt",
+      "bytes": 2554,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:48:02.3120764Z"
+    },
+    {
+      "path": "SOL_AUDIT/SOL_ARTIFACT_MANIFEST.csv",
+      "bytes": 3626,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.3549672Z"
+    },
+    {
+      "path": "SOL_AUDIT/SOL_ARTIFACT_MANIFEST.sha256",
+      "bytes": 93,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.3629680Z"
+    },
+    {
+      "path": "SOL_AUDIT/SOL_AUDIT_REPORT.md",
+      "bytes": 18392,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2915472Z"
+    },
+    {
+      "path": "SOL_AUDIT/sol_audit.py",
+      "bytes": 66552,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T13:59:41.6239299Z"
+    },
+    {
+      "path": "SOL_AUDIT/SOL_FROZEN_CONFIGURATION.json",
+      "bytes": 779,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2915472Z"
+    },
+    {
+      "path": "SOL_AUDIT/sol_machine_summary.json",
+      "bytes": 1741,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:26.7370584Z"
+    },
+    {
+      "path": "SOL_AUDIT/source_identity_recovery.csv",
+      "bytes": 1930,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:14.6702506Z"
+    },
+    {
+      "path": "SOL_AUDIT/source_tree_drift.csv",
+      "bytes": 1364,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4315535Z"
+    },
+    {
+      "path": "SOL_AUDIT/surrogate_implementation_audit.csv",
+      "bytes": 2189,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.4385622Z"
+    },
+    {
+      "path": "SOL_AUDIT/synthetic_response_matrix.csv",
+      "bytes": 11801,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:15.3067285Z"
+    },
+    {
+      "path": "SOL_AUDIT/unresolved_blockers.csv",
+      "bytes": 874,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:02:06.2830089Z"
+    },
+    {
+      "path": "SOL_AUDIT/wow_hash_forensics.json",
+      "bytes": 3296,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:25.7839549Z"
+    },
+    {
+      "path": "SOL_AUDIT/write_report.py",
+      "bytes": 35259,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:01:58.4795455Z"
+    },
+    {
+      "path": "SOL_AUDIT/zero_mad_forensics.csv",
+      "bytes": 987,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-07T14:00:09.0004632Z"
+    },
+    {
+      "path": "execution_v1/comparison_seal.json",
+      "bytes": 3475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:02.1101560Z"
+    },
+    {
+      "path": "execution_v1/freeze.json",
+      "bytes": 19117,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:38.6867394Z"
+    },
+    {
+      "path": "execution_v1/freeze.sha256",
+      "bytes": 64,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:29:38.6977383Z"
+    },
+    {
+      "path": "execution_v1/generation_seal.json",
+      "bytes": 1994595,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:40:04.6100715Z"
+    },
+    {
+      "path": "execution_v1/measurement_scheduler_seal.json",
+      "bytes": 287,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:40:29.0765959Z"
+    },
+    {
+      "path": "execution_v1/measurement_storage_amendment.json",
+      "bytes": 652,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:53:04.4752139Z"
+    },
+    {
+      "path": "execution_v1/metrics_seal.json",
+      "bytes": 4154018,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:14:16.9648634Z"
+    },
+    {
+      "path": "execution_v1/storage_validation.json",
+      "bytes": 467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:14:30.6099882Z"
+    },
+    {
+      "path": "execution_v1/revealed/AUDIT_REPORT_pre_findings.md",
+      "bytes": 8770,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:44.8154067Z"
+    },
+    {
+      "path": "execution_v1/revealed/AUDIT_REPORT.md",
+      "bytes": 10729,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:28.4853862Z"
+    },
+    {
+      "path": "execution_v1/revealed/blank_null_counterexamples.json",
+      "bytes": 1026,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:28.4803945Z"
+    },
+    {
+      "path": "execution_v1/revealed/compartment_event_recurrence_comparisons.csv",
+      "bytes": 2956293,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:03.6702131Z"
+    },
+    {
+      "path": "execution_v1/revealed/complete_trajectory_comparisons.svg",
+      "bytes": 6026097,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:44.4516486Z"
+    },
+    {
+      "path": "execution_v1/revealed/completion_checks.json",
+      "bytes": 347,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:32:55.1086727Z"
+    },
+    {
+      "path": "execution_v1/revealed/deterministic_verdicts.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:43.7743686Z"
+    },
+    {
+      "path": "execution_v1/revealed/family_comparisons.csv",
+      "bytes": 36512,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:34.1464662Z"
+    },
+    {
+      "path": "execution_v1/revealed/feature_effects.csv",
+      "bytes": 704102,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:34.1975064Z"
+    },
+    {
+      "path": "execution_v1/revealed/full_distribution_distances.csv",
+      "bytes": 3404082,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:03.8623405Z"
+    },
+    {
+      "path": "execution_v1/revealed/historical_HUD_admission.json",
+      "bytes": 1106,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:59.5985297Z"
+    },
+    {
+      "path": "execution_v1/revealed/historical_HUD_vs_complete.csv",
+      "bytes": 19066,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:59.5975427Z"
+    },
+    {
+      "path": "execution_v1/revealed/HUD_ARRAY_CONTRACT.json",
+      "bytes": 1566,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:44.8114039Z"
+    },
+    {
+      "path": "execution_v1/revealed/id_key.csv",
+      "bytes": 2920507,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:34.3480634Z"
+    },
+    {
+      "path": "execution_v1/revealed/original_metrics.csv",
+      "bytes": 6954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:43.2012306Z"
+    },
+    {
+      "path": "execution_v1/revealed/synthetic_counterexamples.csv",
+      "bytes": 2204,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:43.7463770Z"
+    },
+    {
+      "path": "execution_v1/revealed/synthetic_metrics.csv",
+      "bytes": 6474,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:34.1985124Z"
+    },
+    {
+      "path": "execution_v1/revealed/test_verdicts_pre_findings.csv",
+      "bytes": 24751,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:43.2022356Z"
+    },
+    {
+      "path": "execution_v1/revealed/test_verdicts.csv",
+      "bytes": 25193,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:29:28.4963848Z"
+    },
+    {
+      "path": "execution_v1/revealed/trajectory_summary.png",
+      "bytes": 99169,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:59.0083045Z"
+    },
+    {
+      "path": "execution_v1/revealed/unblinding_log.json",
+      "bytes": 281,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:24:34.3620743Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/c0_void_g_r_z_vast_voidfinder_void_4_ls_dr10_grz_image_g.npz",
+      "bytes": 31627,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.7668758Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/c0_void_g_r_z_vast_voidfinder_void_4_ls_dr10_grz_image_r.npz",
+      "bytes": 31627,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.7858830Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/c0_void_g_r_z_vast_voidfinder_void_4_ls_dr10_grz_image_z.npz",
+      "bytes": 31627,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.8033966Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/c1_blank_f606w_hlsp_frontier_hst_acs_60mas_abell2744_hffpar_f606w_v1_0_drz.npz",
+      "bytes": 31710,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.6417149Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/c1_blank_f814w_hlsp_frontier_hst_acs_60mas_abell2744_hffpar_f814w_v1_0_drz.npz",
+      "bytes": 31710,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.6227172Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/h2_abell2744_f606w_hlsp_frontier_hst_acs_60mas_abell2744_f606w_v1_0_drz.npz",
+      "bytes": 31803,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.6767233Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/h2_abell2744_f814w_hlsp_frontier_hst_acs_60mas_abell2744_f814w_v1_0_drz.npz",
+      "bytes": 31803,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.6587173Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/l1_df2_f606w_hst_skycell_p1064x11y18_acs_wfc_f606w_all_drc.npz",
+      "bytes": 31721,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.6968708Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/l1_df2_f814w_hst_skycell_p1064x11y18_acs_wfc_f814w_all_drc.npz",
+      "bytes": 31721,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.7148832Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/l2_df4_f606w_hst_skycell_p1064x14y19_acs_wfc_f606w_all_drc.npz",
+      "bytes": 31465,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.7318744Z"
+    },
+    {
+      "path": "execution_v1/revealed/source_coordinate_lookup/l2_df4_f814w_hst_skycell_p1064x14y19_acs_wfc_f814w_all_drc.npz",
+      "bytes": 31466,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:24:44.7478744Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/17cb978c4403438194ce4450a6323aa2.npz",
+      "bytes": 1246557,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.1842863Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/3388979cbf3442feaec648a917bebd72.npz",
+      "bytes": 1759016,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.3673937Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/8d98600565b54f63b59af755f24db9dd.npz",
+      "bytes": 1262746,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.0415589Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/9e6b384fec9f4b0bbf20496e461183e6.npz",
+      "bytes": 564032,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:41.8169843Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/a31f1291c76d4b0098fe98b44dad5936.npz",
+      "bytes": 1763043,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.5300475Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/ad899659ef134fdbbeb58d73495b784f.npz",
+      "bytes": 1820469,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:43.0191614Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/b4c0711eb7d3487890d1ee3be8f9b7db.npz",
+      "bytes": 1786743,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.8476575Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/c0e7feb21afc4132a9861922629b06db.npz",
+      "bytes": 1772459,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:42.6871311Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/cc4b79e237bb40ff913e920045841b7a.npz",
+      "bytes": 564538,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:41.9105305Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/d3de2d07726245bbb42f54c170839fa1.npz",
+      "bytes": 1820279,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:43.3577018Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/ed425b2c24704682ae00689cebb668c9.npz",
+      "bytes": 1820512,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-06T20:31:43.1858434Z"
+    },
+    {
+      "path": "execution_v1/revealed/hud_arrays/manifest.json",
+      "bytes": 3278,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:31:43.3777077Z"
+    },
+    {
+      "path": "admission/hash_checks.json",
+      "bytes": 44643,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:23:44.7254821Z"
+    },
+    {
+      "path": "admission/historical_configuration_check.json",
+      "bytes": 307,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T19:57:25.3459816Z"
+    },
+    {
+      "path": "admission/original_source_preservation.json",
+      "bytes": 4955,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T16:30:48.3126833Z"
+    },
+    {
+      "path": "admission/runtime_identity.json",
+      "bytes": 1853,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-06T20:03:24.8719888Z"
+    },
+    {
+      "path": "admission/sources.json",
+      "bytes": 15815912,
+      "eligible": false,
+      "reason": "large-review-required",
+      "modified": "2026-09-06T16:23:45.3212689Z"
+    }
+  ],
+  "omittedDirectories": [
+    "__pycache__",
+    "execution_v1/blind_comparison",
+    "execution_v1/blind_inputs",
+    "execution_v1/blind_metrics",
+    "execution_v1/custodian",
+    "execution_v1/interrupted_products",
+    "execution_v1/shared_grids"
+  ],
+  "errors": []
+}

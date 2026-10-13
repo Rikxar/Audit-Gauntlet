@@ -1,0 +1,4330 @@
+{
+  "programme": "OJ287_EHT_ZOETROPE",
+  "path": "E:\\Audit Gauntlet\\OJ287_EHT_ZOETROPE",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:52:23.0641169Z"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:32.1871890Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1399,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:32.4678587Z"
+    },
+    {
+      "path": "source/audit_OJ287_4FIT_alist_preflight_01.py",
+      "bytes": 9144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:54:18.2486341Z"
+    },
+    {
+      "path": "source/audit_OJ287_4FIT_fringe_support_01.py",
+      "bytes": 16919,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:57:01.4245104Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzLm_within_epoch_gradient_02.py",
+      "bytes": 19562,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T12:16:41.9716310Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_geometry_ladder_01.py",
+      "bytes": 14067,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:41:20.3520133Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_null_proximity_01.py",
+      "bytes": 10428,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:36:40.1402513Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_PAIR5_tangent_extrapolation_01.py",
+      "bytes": 5547,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:52:30.6182127Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_tangent_alignment_01.py",
+      "bytes": 11113,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:24:26.9251374Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_tangent_extrapolation_01.py",
+      "bytes": 5520,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:22:47.0333944Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_within_epoch_gradient_01.py",
+      "bytes": 18101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:53:30.0041166Z"
+    },
+    {
+      "path": "source/audit_OJ287_AaAzPv_within_epoch_gradient_02.py",
+      "bytes": 19548,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:05:47.9744403Z"
+    },
+    {
+      "path": "source/audit_OJ287_alist_closure_phase_01.py",
+      "bytes": 14913,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:49:38.1964771Z"
+    },
+    {
+      "path": "source/audit_OJ287_amplitude_cal_inventory_01.py",
+      "bytes": 2874,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T20:05:19.7202985Z"
+    },
+    {
+      "path": "source/audit_OJ287_antab_mapping_01.py",
+      "bytes": 2230,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T20:11:50.5769836Z"
+    },
+    {
+      "path": "source/audit_OJ287_closure_support_01.py",
+      "bytes": 14922,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:46:35.2618378Z"
+    },
+    {
+      "path": "source/audit_OJ287_EHT2017_schedule_support_01.py",
+      "bytes": 19515,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:35:43.2916862Z"
+    },
+    {
+      "path": "source/audit_OJ287_fourfit_config_compare_02.py",
+      "bytes": 8937,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T20:39:25.9825485Z"
+    },
+    {
+      "path": "source/audit_OJ287_fourfit_configuration_01.py",
+      "bytes": 4650,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:52:05.5325593Z"
+    },
+    {
+      "path": "source/audit_OJ287_fourfit_pair2_control_03.py",
+      "bytes": 6121,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:11:17.8549041Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_config_literal_01.py",
+      "bytes": 6508,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:02:53.9112861Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_FITS_dataset_classification_01.py",
+      "bytes": 5274,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:06:50.9338358Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_FITS_preflight_01.py",
+      "bytes": 7138,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:04:27.0202163Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_FITS_structure_01.py",
+      "bytes": 8851,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:20:38.4126669Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_FITS_structure_02.py",
+      "bytes": 9656,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:53:37.8106021Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_FITS_uv_dataset_map_01.py",
+      "bytes": 22170,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:14:20.5838784Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_frequency_table_01.py",
+      "bytes": 7500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:11:18.2350609Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_matched_detection_support_01.py",
+      "bytes": 16128,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:57:22.2656952Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_matched_type200_timing_01.py",
+      "bytes": 15517,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T15:38:26.3564199Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR0_commonAP_bispectrum_01.py",
+      "bytes": 24462,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:44:22.7510320Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_4FIT_fringe_solutions_01.py",
+      "bytes": 6869,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:32:38.5848372Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_antab_carve_01.py",
+      "bytes": 12476,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T20:44:10.8811855Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_baseline_sensitivity_01.py",
+      "bytes": 6838,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:26:39.3190962Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_closure_phase_bridge_02.py",
+      "bytes": 26417,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:18:14.4890032Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_commonAP_bispectrum_01.py",
+      "bytes": 24426,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:07:00.8138837Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_delay_control_dump_01.py",
+      "bytes": 10334,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:21:20.2995640Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_direct_fringe_bridge_01.py",
+      "bytes": 21444,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:44:38.0611370Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_exact_station_solution_01.py",
+      "bytes": 16479,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:26:31.1998956Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_fine_mbd_rate_01.py",
+      "bytes": 20965,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:50:12.6171156Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_FITSIDI_introspection_01.py",
+      "bytes": 10056,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:29:11.0820291Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_freq_referenced_phase_bridge_01.py",
+      "bytes": 19398,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:45:41.8512905Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_01.py",
+      "bytes": 35487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:32:30.9960672Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_02.py",
+      "bytes": 41909,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:42:58.4725055Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_03.py",
+      "bytes": 43558,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:07:49.8965484Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_04.py",
+      "bytes": 45917,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:32:49.4833424Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_05.py",
+      "bytes": 46218,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:04:02.4368923Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_full_3d_simul_06_unit_weights.py",
+      "bytes": 47343,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:15:57.1982811Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_geometry_preflight_01.py",
+      "bytes": 8425,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:16:32.4120863Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_hops_coord_mbd_rate_01.py",
+      "bytes": 26974,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:12.1017460Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_hops_resphase_semantics_01.py",
+      "bytes": 25722,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:06:04.1074962Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_hops_sbd_only_bridge_01.py",
+      "bytes": 30663,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:21:48.2200676Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_hops_t212_weights_01.py",
+      "bytes": 16143,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:33:04.1927409Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_input_controls_01.py",
+      "bytes": 2045,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:37:31.9746171Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_pcal_mbd_bridge_01.py",
+      "bytes": 23556,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:34:16.9820825Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_phasecal_config_dump_01.py",
+      "bytes": 5184,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:11:07.8325924Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_prefit_coherence_bridge_01.py",
+      "bytes": 19041,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:57:14.6946701Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_raw_closure_bridge_01.py",
+      "bytes": 18485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:10:39.9582007Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_raw_sbd_recovery_01.py",
+      "bytes": 17737,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:22:06.6620737Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_sefd_midpoint_01.py",
+      "bytes": 20476,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:15:36.0723750Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_station_closure_fringe_01.py",
+      "bytes": 18455,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T01:09:01.6393860Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_t208_error_budget_01.py",
+      "bytes": 12002,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T19:47:04.7806437Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR2_t212_amplitude_bridge_01.py",
+      "bytes": 20786,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:30:54.7265863Z"
+    },
+    {
+      "path": "source/audit_OJ287_HI_PAIR5_closure_significance_01.py",
+      "bytes": 8758,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:16:00.6677977Z"
+    },
+    {
+      "path": "source/audit_OJ287_PAIR05_commonAP_bispectrum_01.py",
+      "bytes": 24531,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:07:36.5532817Z"
+    },
+    {
+      "path": "source/audit_OJ287_PAIR05_corrected_morphology_01.py",
+      "bytes": 10518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:58:14.2742747Z"
+    },
+    {
+      "path": "source/audit_OJ287_PAIR05_type212_30s_closure_01.py",
+      "bytes": 16311,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:01:49.6537860Z"
+    },
+    {
+      "path": "source/audit_OJ287_PAIR05_type212_stationrate_01.py",
+      "bytes": 22045,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:43:56.2536678Z"
+    },
+    {
+      "path": "source/audit_OJ287_sidereal_match_01.py",
+      "bytes": 13108,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:29:36.8483611Z"
+    },
+    {
+      "path": "source/audit_OJ287_TIERA_morphology_01.py",
+      "bytes": 4450,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:14:16.3586597Z"
+    },
+    {
+      "path": "source/audit_OJ287_uv_geometry_01.py",
+      "bytes": 16897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:05:39.6228873Z"
+    },
+    {
+      "path": "source/audit_OJ287_uv_geometry_02.py",
+      "bytes": 18943,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:29:32.0746502Z"
+    },
+    {
+      "path": "source/carve_OJ287_HI_PAIR2_COMMON4_RAW_01.py",
+      "bytes": 13415,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:35:14.2502974Z"
+    },
+    {
+      "path": "source/diagnose_OJ287_fitsidi_time_01.py",
+      "bytes": 3743,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T14:16:54.7079522Z"
+    },
+    {
+      "path": "source/diagnose_OJ287_vex_station_ids.py",
+      "bytes": 2530,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:59:31.9508297Z"
+    },
+    {
+      "path": "source/download_OJ287_4FIT_inventory_01.py",
+      "bytes": 11753,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:40:43.0772954Z"
+    },
+    {
+      "path": "source/download_OJ287_schedule_preflight.py",
+      "bytes": 6682,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:33:12.7819838Z"
+    },
+    {
+      "path": "source/extract_OJ287_HI_PAIR0_FITS_partitions_01.py",
+      "bytes": 8257,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:17:18.7748594Z"
+    },
+    {
+      "path": "source/extract_OJ287_HI_PAIR0_fourfit_solutions_01.py",
+      "bytes": 14866,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:17.1745235Z"
+    },
+    {
+      "path": "source/extract_OJ287_HI_PAIR2_FITS_partitions_01.py",
+      "bytes": 8257,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:17:19.7107266Z"
+    },
+    {
+      "path": "source/extract_OJ287_HI_PAIR2_fourfit_solutions_01.py",
+      "bytes": 14829,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:27.7490373Z"
+    },
+    {
+      "path": "source/extract_OJ287_HI_primary_01.py",
+      "bytes": 3995,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:48:32.3787427Z"
+    },
+    {
+      "path": "source/extract_OJ287_PAIR05_FITS_partitions_01.py",
+      "bytes": 8255,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T18:25:15.7383192Z"
+    },
+    {
+      "path": "source/extract_OJ287_PAIR05_fourfit_solutions_01.py",
+      "bytes": 14997,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:39:25.8099064Z"
+    },
+    {
+      "path": "source/find_OJ287_PAIR5_corel_by_identity_02.py",
+      "bytes": 2806,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T17:05:50.1197018Z"
+    },
+    {
+      "path": "source/find_OJ287_PAIR5_type1_corel_01.py",
+      "bytes": 4171,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T16:23:05.0444583Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR0_SEED_NX_01.py",
+      "bytes": 27852,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.0766049Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR0_SEED_NY_01.py",
+      "bytes": 27852,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.3565108Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR0_SEED_PX_01.py",
+      "bytes": 27851,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:33.9210740Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR0_SEED_PY_01.py",
+      "bytes": 27851,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.2190620Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR0_TIERA_cphase_01.py",
+      "bytes": 27871,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:01:45.5340640Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR2_SEED_NX_01.py",
+      "bytes": 27800,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.6699614Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR2_SEED_NY_01.py",
+      "bytes": 27800,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:35.0134368Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR2_SEED_PX_01.py",
+      "bytes": 27799,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.5181202Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR2_SEED_PY_01.py",
+      "bytes": 27799,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:18:34.8279162Z"
+    },
+    {
+      "path": "source/image_OJ287_HI_PAIR2_TIERA_cphase_01.py",
+      "bytes": 27819,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:01:50.0947897Z"
+    },
+    {
+      "path": "source/image_OJ287_PAIR05_commonAP_cphase_01.py",
+      "bytes": 27888,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:44.9202409Z"
+    },
+    {
+      "path": "source/inspect_ehtim_uvfits_loader_01.py",
+      "bytes": 1231,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T13:54:31.6140398Z"
+    },
+    {
+      "path": "source/inspect_OJ287_fitsidi_bridge_01.py",
+      "bytes": 2238,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T13:57:17.0120996Z"
+    },
+    {
+      "path": "source/inspect_OJ287_imaging_inputs_01.py",
+      "bytes": 1686,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T13:25:25.9021490Z"
+    },
+    {
+      "path": "source/inspect_OJ287_PAIR05_fringe_solution_fields_01.py",
+      "bytes": 2033,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T19:31:21.6173332Z"
+    },
+    {
+      "path": "source/inspect_OJ287_pair2_alist_fields_01.py",
+      "bytes": 1080,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:34:30.7490512Z"
+    },
+    {
+      "path": "source/inspect_OJ287_pair2_raw_alist_01.py",
+      "bytes": 3046,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:36:07.4419998Z"
+    },
+    {
+      "path": "source/inspect_OJ287_PAIR5_4FIT_archives_01.py",
+      "bytes": 3021,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T14:43:47.4419121Z"
+    },
+    {
+      "path": "source/inspect_OJ287_PAIR5_HOPS_records_01.py",
+      "bytes": 3486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T14:47:43.7397595Z"
+    },
+    {
+      "path": "source/inspect_OJ287_uvfits_layout_02.py",
+      "bytes": 3255,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T13:33:57.5654908Z"
+    },
+    {
+      "path": "source/inventory_OJ287_EHT2017_L1.py",
+      "bytes": 8115,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:29:56.5320750Z"
+    },
+    {
+      "path": "source/inventory_OJ287_full_FITS_archives_01.py",
+      "bytes": 1481,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T17:38:24.9383204Z"
+    },
+    {
+      "path": "source/map_OJ287_fitsidi_scan_times_01.py",
+      "bytes": 4672,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T14:40:52.9225811Z"
+    },
+    {
+      "path": "source/probe_OJ287_PAIR05_fitsidi_coherence_02.py",
+      "bytes": 8444,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T19:00:04.0165299Z"
+    },
+    {
+      "path": "source/probe_OJ287_PAIR5_fitsidi_coherence_01.py",
+      "bytes": 10835,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T14:39:39.0267906Z"
+    },
+    {
+      "path": "source/render_OJ287_TIERA_fixed_transfer_01.py",
+      "bytes": 4450,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:13:35.5773551Z"
+    },
+    {
+      "path": "source/repair_OJ287_HI_PAIR0_fourfit_solution_labels_02.py",
+      "bytes": 9084,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:22.9384420Z"
+    },
+    {
+      "path": "source/repair_OJ287_HI_PAIR2_fourfit_solution_labels_02.py",
+      "bytes": 9084,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:34.9853240Z"
+    },
+    {
+      "path": "source/repair_OJ287_PAIR05_fourfit_solution_labels_02.py",
+      "bytes": 9078,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:42:40.8415129Z"
+    },
+    {
+      "path": "source/solve_OJ287_PAIR05_station_fringe_01.py",
+      "bytes": 13049,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:44:33.2271378Z"
+    },
+    {
+      "path": "source/test_OJ287_PAIR05_fringe_stop_sign_01.py",
+      "bytes": 17702,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:47:45.3417069Z"
+    },
+    {
+      "path": "source/validate_OJ287_PAIR05_type212_01.py",
+      "bytes": 11945,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T21:22:59.8921288Z"
+    },
+    {
+      "path": "products/PAIR05_MORPHOLOGY_AUDIT_01/APR05_corrected_consensus_normalized.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:58:17.9526209Z"
+    },
+    {
+      "path": "products/PAIR05_MORPHOLOGY_AUDIT_01/APR10_corrected_consensus_aligned_normalized.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:58:17.9546034Z"
+    },
+    {
+      "path": "products/PAIR05_MORPHOLOGY_AUDIT_01/APR10_minus_APR05_corrected_consensus.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:58:17.9576020Z"
+    },
+    {
+      "path": "products/PAIR05_MORPHOLOGY_AUDIT_01/PAIR05_corrected_consensus_APR05_vs_APR10.png",
+      "bytes": 107235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:58:17.9428903Z"
+    },
+    {
+      "path": "products/PAIR05_MORPHOLOGY_AUDIT_01/PAIR05_corrected_morphology_metrics_01.csv",
+      "bytes": 409,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:58:17.4613865Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:34:59.2363095Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_corrected_CPONLY.png",
+      "bytes": 69958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:59.4161277Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 7362,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:57.4382820Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:34:52.4031471Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_raw_CPONLY.png",
+      "bytes": 68451,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:52.6102939Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_LL_raw_USED_CPHASE.csv",
+      "bytes": 7141,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:50.3274914Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:35:03.9051220Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_corrected_CPONLY.png",
+      "bytes": 69796,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:04.1041221Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8126,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:01.7143921Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:34:55.2983680Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_raw_CPONLY.png",
+      "bytes": 68928,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:55.4913533Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR05_RR_raw_USED_CPHASE.csv",
+      "bytes": 7872,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:53.4074708Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:35:01.5222857Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_corrected_CPONLY.png",
+      "bytes": 69787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:01.7004014Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 8472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:59.4281344Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:34:53.1962651Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_raw_CPONLY.png",
+      "bytes": 68169,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:53.3954759Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_LL_raw_USED_CPHASE.csv",
+      "bytes": 7838,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:52.6232833Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:35:06.2039335Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_corrected_CPONLY.png",
+      "bytes": 69654,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:06.3887823Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8659,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:04.1171251Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:34:57.2385048Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_raw_CPONLY.png",
+      "bytes": 68575,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:57.4252813Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/APR10_RR_raw_USED_CPHASE.csv",
+      "bytes": 8381,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:34:55.5043529Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/PAIR05_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 56897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:07.0971218Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/PAIR05_LL_raw_APR05_vs_APR10.png",
+      "bytes": 55193,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:06.6324306Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/PAIR05_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 57556,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:07.3468481Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/PAIR05_RR_raw_APR05_vs_APR10.png",
+      "bytes": 55929,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:06.8701202Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_03_FLUXGAUGE/README_FIRST_PASS.txt",
+      "bytes": 699,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:35:07.3478539Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:54.4383270Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_corrected_CPONLY.png",
+      "bytes": 69865,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:54.6304863Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 7362,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:52.4478132Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:48.2130809Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_raw_CPONLY.png",
+      "bytes": 68661,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:48.4258225Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_LL_raw_USED_CPHASE.csv",
+      "bytes": 7141,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:46.2800618Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:57.5158185Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_corrected_CPONLY.png",
+      "bytes": 69691,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:57.6968280Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8126,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:57.0195584Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:51.2852084Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_raw_CPONLY.png",
+      "bytes": 68848,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:51.4684524Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR05_RR_raw_USED_CPHASE.csv",
+      "bytes": 7872,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:50.7426282Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:56.8110069Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_corrected_CPONLY.png",
+      "bytes": 69908,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:57.0070370Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 8472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:54.6424862Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:50.5369348Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_raw_CPONLY.png",
+      "bytes": 68437,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:50.7306285Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_LL_raw_USED_CPHASE.csv",
+      "bytes": 7838,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:48.4368198Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:32:00.0076680Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_corrected_CPONLY.png",
+      "bytes": 69712,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:00.1905542Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8659,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:57.7098133Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:31:52.2310867Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_raw_CPONLY.png",
+      "bytes": 68690,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:52.4362858Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/APR10_RR_raw_USED_CPHASE.csv",
+      "bytes": 8381,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:31:51.4814732Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/PAIR05_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 57298,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:00.9375376Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/PAIR05_LL_raw_APR05_vs_APR10.png",
+      "bytes": 55509,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:00.4364155Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/PAIR05_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 57737,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:01.1842616Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/PAIR05_RR_raw_APR05_vs_APR10.png",
+      "bytes": 55998,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:00.6884164Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_02_STABLE/README_FIRST_PASS.txt",
+      "bytes": 699,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:32:01.1912625Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:26.2316688Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 73831,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.4354206Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 7362,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.0966697Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:24.7823489Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.png",
+      "bytes": 72496,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.0789262Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_LL_raw_USED_CPHASE.csv",
+      "bytes": 7141,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:24.5973355Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:26.9223089Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 73653,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:27.1241276Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8126,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.8013098Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:25.5508142Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.png",
+      "bytes": 72797,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.7449288Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR05_RR_raw_USED_CPHASE.csv",
+      "bytes": 7872,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.4259272Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:26.5852987Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 73648,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.7882994Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 8472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.4484248Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:25.2119237Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.png",
+      "bytes": 72208,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.4139313Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_LL_raw_USED_CPHASE.csv",
+      "bytes": 7838,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.0909258Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:27.2770616Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 73504,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:27.4790550Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 8659,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:27.1391473Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-14T23:15:25.8956171Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.png",
+      "bytes": 72623,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:26.0846745Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/APR10_RR_raw_USED_CPHASE.csv",
+      "bytes": 8381,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:25.7580297Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/PAIR05_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 63144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:28.2890824Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/PAIR05_LL_raw_APR05_vs_APR10.png",
+      "bytes": 61511,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:27.7500701Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/PAIR05_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 63773,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:28.5401129Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/PAIR05_RR_raw_APR05_vs_APR10.png",
+      "bytes": 62204,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:28.0198862Z"
+    },
+    {
+      "path": "products/PAIR05_CLOSURE_IMAGES_01/README_FIRST_PASS.txt",
+      "bytes": 699,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:15:28.5411127Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:23.5671551Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66561,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:23.7842186Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:22.8324096Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:17.6987252Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.png",
+      "bytes": 65416,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:17.9464006Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_USED_CPHASE.csv",
+      "bytes": 1010,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:15.8543266Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:25.5764523Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66572,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:25.7945656Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:25.0860999Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:20.4219528Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.png",
+      "bytes": 65638,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:20.6391323Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_USED_CPHASE.csv",
+      "bytes": 1187,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:18.4329614Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:24.8718417Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66321,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:25.0815565Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:23.7882268Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:18.2027184Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.png",
+      "bytes": 65112,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:18.4274472Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_USED_CPHASE.csv",
+      "bytes": 1003,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:17.9509238Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:27.4478785Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66321,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:27.6661642Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:25.7990966Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:12:22.6145889Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.png",
+      "bytes": 65237,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:22.8288915Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_USED_CPHASE.csv",
+      "bytes": 1195,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:20.6447171Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_LL_corrected_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 89986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:49:00.6424089Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73155,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:28.5674237Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_LL_raw_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 90916,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:48:59.6478371Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_LL_raw_APR05_vs_APR10.png",
+      "bytes": 72676,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:27.9338266Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_RR_corrected_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 89864,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:49:01.1559382Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:28.8382427Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_RR_raw_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 89569,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:49:00.1522714Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/PAIR2_RR_raw_APR05_vs_APR10.png",
+      "bytes": 72760,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:28.2028987Z"
+    },
+    {
+      "path": "products/HI_PAIR2_TIERA_CLOSURE_IMAGES_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:12:28.8392426Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:29.4127928Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:29.6305811Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:28.5783528Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:30.9994237Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66570,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:31.1942809Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:30.4106787Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:30.2156225Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66304,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:30.4071212Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:29.6346023Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:32.8128847Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66347,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:33.0063357Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:31.1985270Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/PAIR2_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73127,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:33.2515444Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/PAIR2_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73336,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:33.4997463Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PY_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:33.5007520Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:08.2898088Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66528,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:08.5270589Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:07.5997542Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:10.1786131Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66568,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:10.3782575Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:09.4307865Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:09.2296959Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66320,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:09.4252550Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:08.5306182Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:11.6203857Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66327,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:11.8216903Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:10.3832636Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/PAIR2_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:12.0705076Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/PAIR2_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73317,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:12.3243296Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_PX_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:12.3253283Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:39.1631402Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66541,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:39.3852386Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:38.6363654Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:41.3026036Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66582,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:41.4966597Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:40.3561435Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:40.1576095Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66312,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:40.3521374Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:39.3897731Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:43.1339539Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66371,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:43.3339437Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:41.5001840Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/PAIR2_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73146,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:43.5840539Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/PAIR2_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73345,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:43.8377404Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NY_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:43.8382493Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:18.6210769Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66531,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:18.8512595Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:17.4724115Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:20.8820877Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66571,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:21.0750246Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:19.9236997Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:19.7230655Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66312,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:19.9196911Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 1032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:18.8552617Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:25:22.6832704Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:22.8841924Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 1226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:21.0791114Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/PAIR2_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:23.1356825Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/PAIR2_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73334,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:23.3870350Z"
+    },
+    {
+      "path": "products/HI_PAIR2_SEED_NX_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:25:23.3885988Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:13.9250650Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66203,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:14.1272828Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:13.2238371Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:08.4093945Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_CPONLY.png",
+      "bytes": 65096,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:08.7383142Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_LL_raw_USED_CPHASE.csv",
+      "bytes": 3052,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:07.0828481Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:16.9886036Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66225,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:17.1925998Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:15.9923021Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:11.6583327Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_CPONLY.png",
+      "bytes": 65409,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:11.8638801Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR05_RR_raw_USED_CPHASE.csv",
+      "bytes": 3426,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:09.9792194Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:15.7822023Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66026,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:15.9851727Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:14.1340025Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:09.7583313Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_CPONLY.png",
+      "bytes": 64818,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:09.9727060Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_LL_raw_USED_CPHASE.csv",
+      "bytes": 3051,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:08.7448513Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:18.1541297Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66005,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:18.3545439Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:17.2001182Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T13:05:13.0109071Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_CPONLY.png",
+      "bytes": 64889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:13.2147824Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/APR10_RR_raw_USED_CPHASE.csv",
+      "bytes": 3429,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:11.8709096Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_LL_corrected_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 95329,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:48:58.5834724Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73321,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:19.1977295Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_LL_raw_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 94886,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:48:57.4948472Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_LL_raw_APR05_vs_APR10.png",
+      "bytes": 72788,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:18.6091534Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_RR_corrected_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 95393,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:48:59.1365876Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:19.4564257Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_RR_raw_APR05_vs_APR10_SHARED_LINEAR.png",
+      "bytes": 95128,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:48:58.0489170Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/PAIR0_RR_raw_APR05_vs_APR10.png",
+      "bytes": 73029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:18.8593093Z"
+    },
+    {
+      "path": "products/HI_PAIR0_TIERA_CLOSURE_IMAGES_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T13:05:19.4584350Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:08.3748680Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66186,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:08.6204797Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:07.6192424Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:11.4004706Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66230,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:11.5915847Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:10.4684757Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:10.2626274Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66049,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:10.4604223Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:08.6285072Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:12.2333661Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 65930,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:12.4250360Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:11.6003239Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/PAIR0_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73315,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:12.6687061Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/PAIR0_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73349,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:12.9076307Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PY_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:12.9086293Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:44.4275514Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66195,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:44.6662909Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:43.3903163Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:47.6252622Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66254,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:47.8385562Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:46.4932060Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:46.2835992Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:46.4861701Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:44.6738056Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:48.3426022Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 65958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:48.5504563Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:47.8466796Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/PAIR0_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73279,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:48.8062070Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/PAIR0_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73414,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:49.0702797Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_PX_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:49.0712813Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:18.9536036Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66198,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:19.1665497Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:18.1865287Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:21.5300989Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66248,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:21.7252275Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:21.0016304Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:20.8003392Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66044,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:20.9941193Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:19.1744026Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:22.6348291Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 65991,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:22.8272702Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:21.7322289Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/PAIR0_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73305,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:23.0710266Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/PAIR0_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:23.3099838Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NY_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:23.3130350Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:56.6506924Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_LL_corrected_CPONLY.png",
+      "bytes": 66209,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:56.8866612Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:55.2097649Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:59.9655109Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_RR_corrected_CPONLY.png",
+      "bytes": 66239,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:00.1995321Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR05_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:58.9269880Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_LL_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:21:58.6855721Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_LL_corrected_CPONLY.png",
+      "bytes": 66034,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:58.9194478Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_LL_corrected_USED_CPHASE.csv",
+      "bytes": 3144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:21:56.8926124Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_RR_corrected_CPONLY.fits",
+      "bytes": 23040,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-21T18:22:01.6047834Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_RR_corrected_CPONLY.png",
+      "bytes": 66020,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:01.8107428Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/APR10_RR_corrected_USED_CPHASE.csv",
+      "bytes": 3537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:00.2082847Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/PAIR0_LL_corrected_APR05_vs_APR10.png",
+      "bytes": 73309,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:02.0660117Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/PAIR0_RR_corrected_APR05_vs_APR10.png",
+      "bytes": 73475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:02.3240362Z"
+    },
+    {
+      "path": "products/HI_PAIR0_SEED_NX_01/README_FIRST_PASS.txt",
+      "bytes": 698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:22:02.3252733Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzLm_within_epoch_gradient_summary_v2.txt",
+      "bytes": 4109,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T12:17:07.7043509Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzLm_within_epoch_gradient_v2.csv",
+      "bytes": 43094,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T12:17:07.7023581Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_geometry_ladder_summary.txt",
+      "bytes": 3393,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:41:30.9153159Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_geometry_ladder.csv",
+      "bytes": 5029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:41:30.9143135Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_null_proximity_summary.txt",
+      "bytes": 10441,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:36:50.1795472Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_PAIR5_tangent_extrapolation_summary.txt",
+      "bytes": 2550,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:52:45.8453524Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_tangent_alignment_summary.txt",
+      "bytes": 1504,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:24:29.1510867Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_tangent_extrapolation_summary.txt",
+      "bytes": 2528,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:22:47.9937315Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_within_epoch_gradient_summary_v2.txt",
+      "bytes": 3994,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:06:00.2783495Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_within_epoch_gradient_summary.txt",
+      "bytes": 1655,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:53:42.1208903Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_within_epoch_gradient_v2.csv",
+      "bytes": 26834,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T22:06:00.2783495Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_AaAzPv_within_epoch_gradient.csv",
+      "bytes": 202,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T21:53:42.1208903Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_closure_phase_audit.csv",
+      "bytes": 26175,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T01:32:00.4762241Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_closure_phase_summary.txt",
+      "bytes": 4527,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T01:32:00.4807477Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_closure_replication.csv",
+      "bytes": 25604,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T01:32:00.4782226Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_fringe_rows.csv",
+      "bytes": 473977,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:17:46.4138160Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_preflight_inventory.csv",
+      "bytes": 1035,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:54:42.0516067Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_alist_preflight_summary.txt",
+      "bytes": 43628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:54:42.0516067Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_closure_support_exact.csv",
+      "bytes": 33498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:46:36.0363286Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_closure_support_summary.txt",
+      "bytes": 8579,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:46:36.0373278Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_fourfit_config_compare_summary.txt",
+      "bytes": 7105,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T20:39:36.3118128Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_fourfit_config_diffs.txt",
+      "bytes": 79066,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T20:39:36.3118128Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_fourfit_configuration_hits.txt",
+      "bytes": 110891,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:52:43.6629341Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_fringe_support_cells.csv",
+      "bytes": 84678,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:17:46.4278109Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_fringe_support_summary.txt",
+      "bytes": 8095,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:17:46.4358109Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_CONFIG_LITERAL_AUDIT_01.txt",
+      "bytes": 36824,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:02:58.3185358Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_dataset_classification_01.txt",
+      "bytes": 4034,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:06:52.0786087Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_download_receipt.csv",
+      "bytes": 782,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:12:11.9714860Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_member_inventory.csv",
+      "bytes": 18873,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:12:11.9723842Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_preflight_summary.txt",
+      "bytes": 1059,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T00:12:11.9733941Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_structure_inventory_v2.csv",
+      "bytes": 31828,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T01:16:25.8627235Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_structure_summary_v2.txt",
+      "bytes": 889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T01:16:25.8627235Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_uv_dataset_map_summary.txt",
+      "bytes": 9328,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:37:54.4566872Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FITS_uv_dataset_map.csv",
+      "bytes": 9951,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T20:37:54.4546884Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FREQUENCY_TABLE_01.json",
+      "bytes": 7435,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:11:21.1787812Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_FREQUENCY_TABLE_01.txt",
+      "bytes": 5238,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:11:21.1777892Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_MATCHED_DETECTION_SUPPORT_01.json",
+      "bytes": 41653,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T15:28:11.4552159Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_MATCHED_TYPE200_TIMING_01.json",
+      "bytes": 104132,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T15:38:40.3644867Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_commonAP_bispectrum_30s_01.csv",
+      "bytes": 16192,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:44:50.5746560Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_commonAP_bispectrum_30s_MATCHED_01.csv",
+      "bytes": 14489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T12:59:12.5263349Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_commonAP_bispectrum_windows_01.csv",
+      "bytes": 6647,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:44:51.4561610Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_fourfit_solutions_01.csv",
+      "bytes": 32358,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:27:02.6864515Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_fourfit_solutions_02.csv",
+      "bytes": 36828,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:27:11.7087020Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_MATCHED_300S_BINMASK_01.csv",
+      "bytes": 2717,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:12:39.7451599Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR0_STRICT_SUPPORT_01.csv",
+      "bytes": 741,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1588935Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_4FIT_fringe_solutions_01.csv",
+      "bytes": 13920,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:32:46.0891775Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_4FIT_fringe_solutions_01.txt",
+      "bytes": 7498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:32:46.0901906Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_ANTAB_CARVE_01.json",
+      "bytes": 1203,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T20:44:14.6979768Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_BASELINE_SENSITIVITY_01.csv",
+      "bytes": 63978,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:26:42.0898110Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_BASELINE_SENSITIVITY_01.json",
+      "bytes": 295199,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:26:42.0852991Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_CLOSURE_PHASE_BRIDGE_02.json",
+      "bytes": 19740,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:18:23.1980324Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_CLOSURE_PHASE_BRIDGE_02.txt",
+      "bytes": 1494,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:18:23.1980324Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_COMMON4_RAW_carve_01.json",
+      "bytes": 635,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:35:33.3078907Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_commonAP_bispectrum_30s_01.csv",
+      "bytes": 9518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:07:20.2031933Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_commonAP_bispectrum_30s_MATCHED_01.csv",
+      "bytes": 4770,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T12:59:18.6036708Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_commonAP_bispectrum_windows_01.csv",
+      "bytes": 3387,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:07:20.6634634Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_DELAY_CONTROL_DUMP_01.json",
+      "bytes": 8927,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:21:24.4236867Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_DELAY_CONTROL_DUMP_01.txt",
+      "bytes": 889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:21:24.4246864Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_DIRECT_FRINGE_BRIDGE_01.json",
+      "bytes": 13093,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:44:49.6720076Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_DIRECT_FRINGE_BRIDGE_01.txt",
+      "bytes": 1229,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:44:49.6730067Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_EXACT_STATION_SOLUTION_01.json",
+      "bytes": 15224,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:26:42.6146440Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_EXACT_STATION_SOLUTION_01.txt",
+      "bytes": 814,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:26:42.6146440Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FINE_MBD_RATE_01.json",
+      "bytes": 37514,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:50:19.6221093Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FINE_MBD_RATE_01.txt",
+      "bytes": 1615,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:50:19.6231087Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FITSIDI_introspection_01.txt",
+      "bytes": 7733,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:32:06.6141750Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_fourfit_solutions_01.csv",
+      "bytes": 19551,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:30:29.7292867Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_fourfit_solutions_02.csv",
+      "bytes": 22282,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:30:29.8855190Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FREQ_REFERENCED_PHASE_BRIDGE_01.json",
+      "bytes": 9513,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:45:49.1694601Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FREQ_REFERENCED_PHASE_BRIDGE_01.txt",
+      "bytes": 1118,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T14:45:49.1694601Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_01.json",
+      "bytes": 13984,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:33:00.9356838Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_01.txt",
+      "bytes": 775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:33:00.9356838Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_02.json",
+      "bytes": 14057,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:43:26.6583245Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_02.txt",
+      "bytes": 775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:43:26.6583245Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_03.json",
+      "bytes": 14536,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:08:19.1246719Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_03.txt",
+      "bytes": 775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:08:19.1246719Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_04.json",
+      "bytes": 17454,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:33:17.9316279Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_04.txt",
+      "bytes": 775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T17:33:17.9326218Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_05.json",
+      "bytes": 17567,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:04:30.7334333Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_05.txt",
+      "bytes": 773,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:04:30.7344386Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_06_UNIT_WEIGHTS.json",
+      "bytes": 17670,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:16:27.4386801Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_FULL_3D_SIMUL_06_UNIT_WEIGHTS.txt",
+      "bytes": 799,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:16:27.4396803Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_GEOMETRY_PREFLIGHT_01.json",
+      "bytes": 2411,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:16:37.6195764Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_COORD_MBD_RATE_01.json",
+      "bytes": 38270,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:24.1112960Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_COORD_MBD_RATE_01.txt",
+      "bytes": 861,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:24.1122965Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_RESPHASE_SEMANTICS_01.json",
+      "bytes": 19028,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:06:14.6794344Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_RESPHASE_SEMANTICS_01.txt",
+      "bytes": 1106,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:06:14.6794344Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_SBD_ONLY_BRIDGE_01.json",
+      "bytes": 25087,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:21:59.0615026Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_SBD_ONLY_BRIDGE_01.txt",
+      "bytes": 1100,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T15:21:59.0625101Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_T212_WEIGHTS_01.json",
+      "bytes": 137951,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:33:12.3103884Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_HOPS_T212_WEIGHTS_01.txt",
+      "bytes": 1439,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T18:33:12.3103884Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_MATCHED_BINMASK_01.csv",
+      "bytes": 3788,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T19:13:41.1019837Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_PCAL_MBD_BRIDGE_01.json",
+      "bytes": 30493,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:34:37.7374997Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_PCAL_MBD_BRIDGE_01.txt",
+      "bytes": 1123,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:34:37.7384927Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_PHASECAL_CONFIG_DUMP_01.txt",
+      "bytes": 20485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:11:16.2970071Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_PREFIT_COHERENCE_BRIDGE_01.json",
+      "bytes": 30385,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:57:33.9519335Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_PREFIT_COHERENCE_BRIDGE_01.txt",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:57:33.9519335Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_RAW_CLOSURE_BRIDGE_01.json",
+      "bytes": 9416,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:10:46.4078221Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_RAW_CLOSURE_BRIDGE_01.txt",
+      "bytes": 1418,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T22:10:46.4088135Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_RAW_SBD_RECOVERY_01.json",
+      "bytes": 10069,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:23:54.9333368Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_RAW_SBD_RECOVERY_01.txt",
+      "bytes": 763,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T13:23:54.9333368Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_SEFD_MIDPOINT_01.csv",
+      "bytes": 61377,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:22:50.6587755Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_SEFD_MIDPOINT_01.json",
+      "bytes": 251219,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:22:50.6527723Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_STATION_CLOSURE_FRINGE_01.json",
+      "bytes": 9540,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T01:09:09.8120855Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_STATION_CLOSURE_FRINGE_01.txt",
+      "bytes": 859,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T01:09:09.8130915Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_STRICT_SUPPORT_01.csv",
+      "bytes": 495,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1628964Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_T208_ERROR_BUDGET_01.json",
+      "bytes": 8266,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T19:47:12.6574451Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_T208_ERROR_BUDGET_01.txt",
+      "bytes": 618,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T19:47:12.6584340Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_T212_AMPLITUDE_BRIDGE_01.json",
+      "bytes": 24098,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:31:06.9425852Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR2_T212_AMPLITUDE_BRIDGE_01.txt",
+      "bytes": 7223,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T22:31:06.9455882Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR3_STRICT_SUPPORT_01.csv",
+      "bytes": 1323,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1674110Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR4_STRICT_SUPPORT_01.csv",
+      "bytes": 723,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1724173Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR5_CLOSURE_EPOCH_DELTA_01.csv",
+      "bytes": 1633,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T01:34:55.7516106Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR5_CLOSURE_SIGNIFICANCE_01.csv",
+      "bytes": 5214,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:16:03.2127175Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR5_CLOSURE_SIGNIFICANCE_01.txt",
+      "bytes": 3476,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:16:03.2147099Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR5_HAND_AGREEMENT_01.csv",
+      "bytes": 1521,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T02:16:03.2127175Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR5_STRICT_SUPPORT_01.csv",
+      "bytes": 1562,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1754225Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PAIR6_STRICT_SUPPORT_01.csv",
+      "bytes": 963,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:28.1784377Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_PRIMARY_extraction_receipt.csv",
+      "bytes": 801,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:01:33.2875920Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_TIERA_SUPPORT_01.csv",
+      "bytes": 1102,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:27.5249317Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_TIERB_SUPPORT_01.csv",
+      "bytes": 4169,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:10:27.5460679Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HI_TYPE200_UV_CROSSLOCK_01.csv",
+      "bytes": 5256,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T15:50:25.6682375Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_HILO_schedule_comparison.csv",
+      "bytes": 4337,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:35:44.6213317Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_commonAP_bispectrum_30s_01.csv",
+      "bytes": 37738,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:07:54.0846168Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_commonAP_bispectrum_windows_01.csv",
+      "bytes": 13277,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T23:07:56.5477455Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_fourfit_solutions_01.csv",
+      "bytes": 76579,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:08.6746795Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_fourfit_solutions_02.csv",
+      "bytes": 87128,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-20T16:29:08.8461967Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_fringe_stop_sign_test_01.csv",
+      "bytes": 15440,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:48:52.4900717Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_station_fringe_solve_01.csv",
+      "bytes": 12474,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T20:44:35.0847162Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_type212_30s_closure_01.csv",
+      "bytes": 32213,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:02:01.0147955Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_type212_30s_stationrate_closure_01.csv",
+      "bytes": 18813,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:44:09.3025589Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_type212_30s_stationrate_vis_01.csv",
+      "bytes": 97853,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:44:09.2975615Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_type212_30s_vis_01.csv",
+      "bytes": 102142,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T22:02:01.0077958Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_PAIR05_type212_validation_01.csv",
+      "bytes": 8938,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-14T21:23:12.3720734Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_schedule_scans.csv",
+      "bytes": 11873,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:35:44.6193316Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_schedule_support_summary.txt",
+      "bytes": 9133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:35:44.6223334Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_sidereal_match_summary.txt",
+      "bytes": 6850,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:29:40.9475430Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_sidereal_matched_support_cells.csv",
+      "bytes": 89976,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:29:40.9475430Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_sidereal_scan_pairs.csv",
+      "bytes": 3896,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-10T23:29:40.9385571Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_TIERA_EPOCH_IMAGE_DIFFERENCE_01.csv",
+      "bytes": 454,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:14:22.0214401Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_TIERA_IMAGE_GAUGE_QA_01.csv",
+      "bytes": 1586,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:49:01.2048022Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_TIERA_IMAGE_TRANSLATION_QA_01.csv",
+      "bytes": 2381,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T17:53:31.9767451Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_TIERA_MORPHOLOGY_01.csv",
+      "bytes": 3464,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-21T18:14:22.0214401Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_uv_geometry_cells_v2.csv",
+      "bytes": 38322,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:29:33.4073087Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_uv_geometry_cells.csv",
+      "bytes": 34812,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:05:40.9609160Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_uv_geometry_summary_v2.txt",
+      "bytes": 6828,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:29:33.4083051Z"
+    },
+    {
+      "path": "metrics/OJ287_EHT2017_uv_geometry_summary.txt",
+      "bytes": 6549,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-11T00:05:40.9639176Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-05_HI.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:28.9963019Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-05_LO.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:30.4678168Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-10_HI.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:32.0375532Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-10_LO.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:34.8643706Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-11_HI.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:35.3513656Z"
+    },
+    {
+      "path": "metrics/fourfit_configs/2017-04-11_LO.conf",
+      "bytes": 12284,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T20:39:36.2756635Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_4FIT_download_receipt.csv",
+      "bytes": 1933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:42:59.8579585Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_4FIT_inventory_summary.txt",
+      "bytes": 8303,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:42:59.9089610Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_4FIT_member_inventory.csv",
+      "bytes": 665406,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:42:59.8799642Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_L1_index_snapshot.html",
+      "bytes": 39243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:30:00.1412371Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_L1_remote_inventory_summary.txt",
+      "bytes": 2574,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:31:14.5067754Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_L1_remote_inventory.csv",
+      "bytes": 41513,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:31:14.5057693Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_preflight_download_receipt.csv",
+      "bytes": 2481,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:33:46.3283620Z"
+    },
+    {
+      "path": "inventory/OJ287_EHT2017_preflight_download_summary.txt",
+      "bytes": 11802,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-09T19:33:47.3915303Z"
+    },
+    {
+      "path": "gif/source/OJ287_EHT_Apr05_Apr10.jpg",
+      "bytes": 107,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-11T23:08:29.4892570Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/baseline.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9385876Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/date.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9355822Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/filter.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9445843Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/flux_raw.npy",
+      "bytes": 748339328,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-12T21:35:26.4083879Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/freqid.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9435847Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/inttim.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9425861Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/jd.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9385876Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/metadata.json",
+      "bytes": 2340,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:32.1646163Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/row_index.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9345841Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/SHA256SUMS.json",
+      "bytes": 1295,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:35:33.3058991Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/source.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9425861Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/time.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9375763Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/u_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9395758Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/v_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9405835Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/w_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:25.9415738Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-10/weight_raw.npy",
+      "bytes": 3225728,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:26.4163946Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/baseline.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6563371Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/date.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6533368Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/filter.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6633314Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/flux_raw.npy",
+      "bytes": 748339328,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-12T21:35:16.6728173Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/freqid.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6613330Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/inttim.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6603458Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/jd.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6553342Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/metadata.json",
+      "bytes": 2340,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:24.5594762Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/row_index.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6523300Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/SHA256SUMS.json",
+      "bytes": 1295,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:35:25.7016618Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/source.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6613330Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/time.npy",
+      "bytes": 50528,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6543343Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/u_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6573447Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/v_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6583365Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/w_seconds.npy",
+      "bytes": 25328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6593455Z"
+    },
+    {
+      "path": "data/PAIR2_COMMON4_RAW/2017-04-05/weight_raw.npy",
+      "bytes": 3225728,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-12T21:35:16.6848500Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-dxin.tgz",
+      "bytes": 1059364,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:18.5517139Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-lo-oj287-OJ287-dxin.tgz",
+      "bytes": 1637003,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:19.6511117Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-dxin.tgz",
+      "bytes": 1029059,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:20.7451177Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-lo-oj287-OJ287-dxin.tgz",
+      "bytes": 3250987,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:27.9894422Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-hi-oj287-OJ287-dxin.tgz",
+      "bytes": 531869,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:29.1422711Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-lo-oj287-OJ287-dxin.tgz",
+      "bytes": 894786,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:30.1895109Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.metadata-2020-d02-01.tgz",
+      "bytes": 50787328,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:44.7986900Z"
+    },
+    {
+      "path": "data/L1_PREFLIGHT/group.uid___A001_X87c_X245.ec_jlgomez.oj287-processing-logs.tgz",
+      "bytes": 106317,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-09T19:33:46.3088348Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_RAW/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-fits.tgz",
+      "bytes": 21971038197,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2018-09-27T03:41:38.0000000Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_RAW/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-fits.tgz",
+      "bytes": 25626341253,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2018-09-20T07:57:18.0000000Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PRIMARY/OJ287_2017-04-05_HI_PRIMARY.FITS",
+      "bytes": 25582697280,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-12T21:01:33.2765984Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PRIMARY/OJ287_2017-04-10_HI_PRIMARY.FITS",
+      "bytes": 18368582400,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-12T20:51:41.2480677Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR2/OJ287_2017-04-05_PAIR2_095-0031_HI.FITS",
+      "bytes": 25582697280,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-21T12:17:24.1921496Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR2/OJ287_2017-04-10_PAIR2_100-0012_HI.FITS",
+      "bytes": 18368582400,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-21T12:27:20.4182413Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR05/OJ287_2017-04-05_PAIR05_095-0149_HI.FITS",
+      "bytes": 4128721920,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-14T18:29:19.6436522Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR05/OJ287_2017-04-10_PAIR05_100-0134_HI.FITS",
+      "bytes": 4511574720,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-14T18:33:57.5350415Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR0/OJ287_2017-04-05_PAIR0_094-2355_HI.FITS",
+      "bytes": 25582697280,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-20T19:31:27.0697330Z"
+    },
+    {
+      "path": "data/L1_FITS_HI_PAIR0/OJ287_2017-04-10_PAIR0_099-2337_HI.FITS",
+      "bytes": 18368582400,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-20T19:44:24.0812219Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-hi-oj287-OJ287-4fit.tgz",
+      "bytes": 232345594,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:41:09.1538721Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17a10-7-lo-oj287-OJ287-4fit.tgz",
+      "bytes": 223256638,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:41:22.0708098Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-hi-oj287-OJ287-4fit.tgz",
+      "bytes": 265806117,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:41:52.1751054Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17d05-7-lo-oj287-OJ287-4fit.tgz",
+      "bytes": 212164407,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:42:11.7613274Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-hi-oj287-OJ287-4fit.tgz",
+      "bytes": 68893892,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:42:31.8531849Z"
+    },
+    {
+      "path": "data/L1_4FIT/group.uid___A001_X87c_X245.ec_jlgomez.e17e11-7-lo-oj287-OJ287-4fit.tgz",
+      "bytes": 71046257,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-09T19:42:59.2086527Z"
+    },
+    {
+      "path": "data/ANTAB_HI_PAIR2/2017-04-05_HI_AA.AN",
+      "bytes": 19758790,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-13T20:44:12.6139055Z"
+    },
+    {
+      "path": "data/ANTAB_HI_PAIR2/2017-04-05_HI_EHT.AN",
+      "bytes": 1030318,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-13T20:44:13.2162024Z"
+    },
+    {
+      "path": "data/ANTAB_HI_PAIR2/2017-04-10_HI_AA.AN",
+      "bytes": 18665981,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-13T20:44:13.7292583Z"
+    },
+    {
+      "path": "data/ANTAB_HI_PAIR2/2017-04-10_HI_EHT.AN",
+      "bytes": 1123408,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-13T20:44:14.4927885Z"
+    }
+  ],
+  "omittedDirectories": [
+    "source/__pycache__"
+  ],
+  "errors": []
+}

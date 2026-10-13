@@ -1,0 +1,61 @@
+{
+  "programme": "V404_CYGNI_VLBA_ZOETROPE",
+  "path": "E:\\Audit Gauntlet\\V404_CYGNI_VLBA_ZOETROPE",
+  "github": "https://github.com/Rikxar/V404_CYGNI_VLBA_ZOETROPE",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "0430d7a8f36c5226b24cd9bee9e150136b90c3df",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "0430d7a8f36c5226b24cd9bee9e150136b90c3df",
+      "remote": "0430d7a8f36c5226b24cd9bee9e150136b90c3df",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/V404_CYGNI_VLBA_ZOETROPE.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/V404_CYGNI_VLBA_ZOETROPE.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/V404_CYGNI_VLBA_ZOETROPE",
+    "HEAD 0430d7a8f36c5226b24cd9bee9e150136b90c3df",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? data/",
+    "?? metrics/eht_imaging_03/closure_fit_residuals.csv",
+    "?? metrics/microscope_02/closure_visit_summary.csv",
+    "?? products/microscope_02/gifs/autocorrelation_spectra.gif",
+    "?? products/microscope_02/gifs/closure_frequency.gif",
+    "?? products/microscope_02/gifs/closure_native_time.gif",
+    "?? products/microscope_02/gifs/fourier_change.gif",
+    "?? products/microscope_02/gifs/sampling_gain_controls.gif",
+    "?? products/microscope_02/gifs/uncalibrated_fourier.gif",
+    "?? products/microscope_02/gifs/visibility_spectra.gif",
+    "?? products/microscope_02/gifs/weighting_control.gif"
+  ],
+  "untracked": [
+    "data/L0_ARCHIVE/BS249/VLBA_BS249_bs249_BIN0_SRC0_0_150707T171400.idifits",
+    "data/L0_ARCHIVE/BS249/VLBA_BS249_bs249_BIN0_SRC0_1_150707T171400.idifits",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/primary_backbone_RR_067.json",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/primary_backbone_RR_067.txt",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/stationary_backbone_RR_050.json",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/stationary_backbone_RR_050.txt",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/stationary_full_RR_012.json",
+    "data/L2_EHT_IMAGING_03/execution_failure_01/stationary_full_RR_012.txt",
+    "metrics/eht_imaging_03/closure_fit_residuals.csv",
+    "metrics/microscope_02/closure_visit_summary.csv",
+    "products/microscope_02/gifs/autocorrelation_spectra.gif",
+    "products/microscope_02/gifs/closure_frequency.gif",
+    "products/microscope_02/gifs/closure_native_time.gif",
+    "products/microscope_02/gifs/fourier_change.gif",
+    "products/microscope_02/gifs/sampling_gain_controls.gif",
+    "products/microscope_02/gifs/uncalibrated_fourier.gif",
+    "products/microscope_02/gifs/visibility_spectra.gif",
+    "products/microscope_02/gifs/weighting_control.gif"
+  ],
+  "verifiedUtc": "2026-10-13T17:07:27.0689451Z"
+}

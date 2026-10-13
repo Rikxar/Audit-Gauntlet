@@ -1,0 +1,726 @@
+{
+  "programme": "GAL_SPIN_001",
+  "path": "E:\\Audit Gauntlet\\GAL_SPIN_001",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:52:21.2367506Z"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:28.4484109Z"
+    },
+    {
+      "path": "DATA_MANIFEST.csv",
+      "bytes": 4358,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:25:12.2360503Z"
+    },
+    {
+      "path": "DUPLICATE_AUDIT.csv",
+      "bytes": 4987,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.6883483Z"
+    },
+    {
+      "path": "FINAL_VERDICT.md",
+      "bytes": 4300,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2539213Z"
+    },
+    {
+      "path": "GAS_STAR_ANALYSIS.csv",
+      "bytes": 420890,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:19:08.8133075Z"
+    },
+    {
+      "path": "MATCHED_ANALYSIS.csv",
+      "bytes": 592,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:19:08.8253073Z"
+    },
+    {
+      "path": "NULL_TESTS.md",
+      "bytes": 4326,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2526484Z"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 3386,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2684582Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1387,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:28.7038576Z"
+    },
+    {
+      "path": "README_AUDIT.md",
+      "bytes": 2024,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2451557Z"
+    },
+    {
+      "path": "REPRODUCTION_REPORT.md",
+      "bytes": 6898,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2526484Z"
+    },
+    {
+      "path": "RESUME_REQUIREMENTS.md",
+      "bytes": 1746,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2539213Z"
+    },
+    {
+      "path": "ROTATION_ANALYSIS.csv",
+      "bytes": 837,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:19:08.8273060Z"
+    },
+    {
+      "path": "SAMPLE_FLOW.csv",
+      "bytes": 3256,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.2964628Z"
+    },
+    {
+      "path": "SCRIPTS/acquire_catalogues.py",
+      "bytes": 1628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:15:46.4269549Z"
+    },
+    {
+      "path": "SCRIPTS/acquire.py",
+      "bytes": 1485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:41.2993361Z"
+    },
+    {
+      "path": "SCRIPTS/audit.py",
+      "bytes": 3044,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:38.4575545Z"
+    },
+    {
+      "path": "SCRIPTS/check_joins.py",
+      "bytes": 2135,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:11.1690129Z"
+    },
+    {
+      "path": "SCRIPTS/figures.py",
+      "bytes": 3911,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:09.7339356Z"
+    },
+    {
+      "path": "SCRIPTS/nulls.py",
+      "bytes": 4673,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:54.4466934Z"
+    },
+    {
+      "path": "SCRIPTS/release_diagnostics.py",
+      "bytes": 4709,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:19:04.1391411Z"
+    },
+    {
+      "path": "SCRIPTS/report.py",
+      "bytes": 23966,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:03.6111204Z"
+    },
+    {
+      "path": "SCRIPTS/reproduce.py",
+      "bytes": 2132,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:48.3061067Z"
+    },
+    {
+      "path": "SCRIPTS/verify_and_freeze.py",
+      "bytes": 3578,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:25:09.6801015Z"
+    },
+    {
+      "path": "RESULTS/ambiguous_drpall_joins.csv",
+      "bytes": 42515,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.5100794Z"
+    },
+    {
+      "path": "RESULTS/ambiguous_observation_candidates.csv",
+      "bytes": 2649,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.5116918Z"
+    },
+    {
+      "path": "RESULTS/catalogue_join_coverage.csv",
+      "bytes": 194,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.7191569Z"
+    },
+    {
+      "path": "RESULTS/cluster_bootstrap_distributions.npz",
+      "bytes": 1831557,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:19:08.5114204Z"
+    },
+    {
+      "path": "RESULTS/correlation_curves.csv",
+      "bytes": 45474,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:43.0530396Z"
+    },
+    {
+      "path": "RESULTS/frozen_bin_null_statistics.csv",
+      "bytes": 6136,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:18:28.1685750Z"
+    },
+    {
+      "path": "RESULTS/frozen_bin_significance.csv",
+      "bytes": 476,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:18:28.1695823Z"
+    },
+    {
+      "path": "RESULTS/join_gate.json",
+      "bytes": 155,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.7201755Z"
+    },
+    {
+      "path": "RESULTS/notebook_arrays.npz",
+      "bytes": 10606,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:12:28.2608549Z"
+    },
+    {
+      "path": "RESULTS/notebook_mass_curves.csv",
+      "bytes": 6356,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.4517614Z"
+    },
+    {
+      "path": "RESULTS/notebook_plot_correlation.csv",
+      "bytes": 1264,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.4447568Z"
+    },
+    {
+      "path": "RESULTS/notebook_plot_mass_and_null.csv",
+      "bytes": 1744,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.4497638Z"
+    },
+    {
+      "path": "RESULTS/notebook_plot_theory.csv",
+      "bytes": 917,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.4467624Z"
+    },
+    {
+      "path": "RESULTS/notebook_sigma.csv",
+      "bytes": 127,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:28.2638535Z"
+    },
+    {
+      "path": "RESULTS/null_bin_statistics.csv",
+      "bytes": 11786,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:16:17.7763421Z"
+    },
+    {
+      "path": "RESULTS/nulls_exact_dedup.npz",
+      "bytes": 5477544,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:15:52.2762262Z"
+    },
+    {
+      "path": "RESULTS/nulls_exact_frozen_bins.npz",
+      "bytes": 5477696,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:18:13.1097622Z"
+    },
+    {
+      "path": "RESULTS/nulls_raw.npz",
+      "bytes": 5477820,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:15:35.9433123Z"
+    },
+    {
+      "path": "RESULTS/nulls_unique_frozen_bins.npz",
+      "bytes": 5477427,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:18:28.1635714Z"
+    },
+    {
+      "path": "RESULTS/nulls_unique_shared_shuffle.npz",
+      "bytes": 5511438,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:16:17.7723425Z"
+    },
+    {
+      "path": "RESULTS/nulls_unique_target.npz",
+      "bytes": 5477531,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:16:08.0351326Z"
+    },
+    {
+      "path": "RESULTS/reproduction_checks.json",
+      "bytes": 162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:16:17.7939656Z"
+    },
+    {
+      "path": "RESULTS/significance_sensitivity.csv",
+      "bytes": 821,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:16:17.7773417Z"
+    },
+    {
+      "path": "RESULTS/target_cluster_bootstrap.csv",
+      "bytes": 4101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:19:08.4588825Z"
+    },
+    {
+      "path": "RESULTS/vector_convention_checks.json",
+      "bytes": 149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.3304601Z"
+    },
+    {
+      "path": "RAW/drpall-v3_1_1.fits",
+      "bytes": 75360960,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-29T12:16:10.8529451Z"
+    },
+    {
+      "path": "RAW/jG_Elliptical gas.txt",
+      "bytes": 179069,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:57.1531310Z"
+    },
+    {
+      "path": "RAW/jG_Elliptical star.txt",
+      "bytes": 145826,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:53.4422214Z"
+    },
+    {
+      "path": "RAW/jG_Spiral gas.txt",
+      "bytes": 186813,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:55.4688439Z"
+    },
+    {
+      "path": "RAW/jG_Spiral star.txt",
+      "bytes": 186137,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:57.4317966Z"
+    },
+    {
+      "path": "RAW/jR_Elliptical gas.txt",
+      "bytes": 1582053,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:56.3829466Z"
+    },
+    {
+      "path": "RAW/jR_Elliptical star.txt",
+      "bytes": 1287365,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:58.0962291Z"
+    },
+    {
+      "path": "RAW/jR_Spiral gas.txt",
+      "bytes": 1650493,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:55.1620254Z"
+    },
+    {
+      "path": "RAW/jR_Spiral star.txt",
+      "bytes": 1644502,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:54.4529786Z"
+    },
+    {
+      "path": "RAW/paper_v1.html",
+      "bytes": 171692,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:58.8142556Z"
+    },
+    {
+      "path": "RAW/paper_v2.html",
+      "bytes": 167398,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:58.6530187Z"
+    },
+    {
+      "path": "RAW/Ristea_catalog.dat",
+      "bytes": 1875675,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:14:03.6244994Z"
+    },
+    {
+      "path": "RAW/Ristea_ReadMe.txt",
+      "bytes": 9963,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:14:02.8689838Z"
+    },
+    {
+      "path": "RAW/TTT_code_README.md",
+      "bytes": 2730,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:14:11.1443382Z"
+    },
+    {
+      "path": "RAW/TTT_main.ipynb",
+      "bytes": 236482,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:58.5118923Z"
+    },
+    {
+      "path": "RAW/zenodo_record_20263913.json",
+      "bytes": 6995,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-29T12:09:52.9050976Z"
+    },
+    {
+      "path": "PROC/catalog.dat",
+      "bytes": 1875675,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:14:03.6244994Z"
+    },
+    {
+      "path": "PROC/drpall_selected.csv",
+      "bytes": 794448,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:17:14.3699947Z"
+    },
+    {
+      "path": "PROC/per_row_scale_cosines.csv.gz",
+      "bytes": 2018326,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-29T12:12:43.9842589Z"
+    },
+    {
+      "path": "PROC/ristea.csv",
+      "bytes": 1040462,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:16:22.1321195Z"
+    },
+    {
+      "path": "PROC/TTT_main_executed.ipynb",
+      "bytes": 372972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:28.2588556Z"
+    },
+    {
+      "path": "PROC/notebook_run/jG_Elliptical gas.txt",
+      "bytes": 179069,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:57.1531310Z"
+    },
+    {
+      "path": "PROC/notebook_run/jG_Elliptical star.txt",
+      "bytes": 145826,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:53.4422214Z"
+    },
+    {
+      "path": "PROC/notebook_run/jG_Spiral gas.txt",
+      "bytes": 186813,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:55.4688439Z"
+    },
+    {
+      "path": "PROC/notebook_run/jG_Spiral star.txt",
+      "bytes": 186137,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:57.4317966Z"
+    },
+    {
+      "path": "PROC/notebook_run/jR_Elliptical gas.txt",
+      "bytes": 1582053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:56.3829466Z"
+    },
+    {
+      "path": "PROC/notebook_run/jR_Elliptical star.txt",
+      "bytes": 1287365,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:58.0962291Z"
+    },
+    {
+      "path": "PROC/notebook_run/jR_Spiral gas.txt",
+      "bytes": 1650493,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:55.1620254Z"
+    },
+    {
+      "path": "PROC/notebook_run/jR_Spiral star.txt",
+      "bytes": 1644502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:54.4529786Z"
+    },
+    {
+      "path": "PROC/notebook_run/mass_dependence_r_opt.png",
+      "bytes": 106380,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:57.5412366Z"
+    },
+    {
+      "path": "PROC/notebook_run/sigma_comparison.png",
+      "bytes": 82120,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:27.9009383Z"
+    },
+    {
+      "path": "PROC/notebook_run/spin_correlation_vs_r.png",
+      "bytes": 73058,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:56.7182881Z"
+    },
+    {
+      "path": "PROC/mplconfig/fontlist-v3.11.0.json",
+      "bytes": 143964,
+      "eligible": false,
+      "reason": "temporary-products",
+      "modified": "2026-09-29T12:11:55.7261812Z"
+    },
+    {
+      "path": "MANIFESTS/FROZEN_HANDOVER.md",
+      "bytes": 17742,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:08:20.8038005Z"
+    },
+    {
+      "path": "MANIFESTS/OUTPUT_HASHES.csv",
+      "bytes": 8310,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:25:15.8299861Z"
+    },
+    {
+      "path": "MANIFESTS/requirements-lock.txt",
+      "bytes": 987,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.9902569Z"
+    },
+    {
+      "path": "LOGS/capacity_gate.txt",
+      "bytes": 427,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:09:02.2154582Z"
+    },
+    {
+      "path": "LOGS/environment.json",
+      "bytes": 320,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:24:09.9912597Z"
+    },
+    {
+      "path": "LOGS/notebook_execution.json",
+      "bytes": 1312,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:28.2578578Z"
+    },
+    {
+      "path": "LOGS/verification.json",
+      "bytes": 1636,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:25:12.2420436Z"
+    },
+    {
+      "path": "FIGURES/audit_correlation_curves.pdf",
+      "bytes": 21102,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:13.5553429Z"
+    },
+    {
+      "path": "FIGURES/audit_correlation_curves.png",
+      "bytes": 244392,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:13.0069241Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_12_figure_1.pdf",
+      "bytes": 20291,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:57.9142545Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_12_figure_1.png",
+      "bytes": 106380,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:57.7729598Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_16_figure_1.pdf",
+      "bytes": 24084,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:28.2498365Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_16_figure_1.png",
+      "bytes": 82120,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:12:28.1389213Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_9_figure_1.pdf",
+      "bytes": 11158,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:57.2159737Z"
+    },
+    {
+      "path": "FIGURES/notebook_cell_9_figure_1.png",
+      "bytes": 73058,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:11:56.8399674Z"
+    },
+    {
+      "path": "FIGURES/significance_sensitivity.pdf",
+      "bytes": 19142,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.4392513Z"
+    },
+    {
+      "path": "FIGURES/significance_sensitivity.png",
+      "bytes": 118668,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:14.2282932Z"
+    },
+    {
+      "path": "FIGURES/target_bootstrap_forest.pdf",
+      "bytes": 18087,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:13.9620450Z"
+    },
+    {
+      "path": "FIGURES/target_bootstrap_forest.png",
+      "bytes": 94385,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-29T12:20:13.7713348Z"
+    }
+  ],
+  "omittedDirectories": [
+    ".venv",
+    "SCRIPTS/__pycache__"
+  ],
+  "errors": []
+}

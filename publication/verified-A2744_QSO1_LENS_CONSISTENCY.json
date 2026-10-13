@@ -1,0 +1,30 @@
+{
+  "programme": "A2744_QSO1_LENS_CONSISTENCY",
+  "path": "E:\\Audit Gauntlet\\A2744_QSO1_LENS_CONSISTENCY",
+  "github": "https://github.com/Rikxar/A2744_QSO1_LENS_CONSISTENCY",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "01b50da13be4909a5571c6906ad6a0707cba6d5d",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "01b50da13be4909a5571c6906ad6a0707cba6d5d",
+      "remote": "01b50da13be4909a5571c6906ad6a0707cba6d5d",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/A2744_QSO1_LENS_CONSISTENCY.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/A2744_QSO1_LENS_CONSISTENCY.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/A2744_QSO1_LENS_CONSISTENCY",
+    "HEAD 01b50da13be4909a5571c6906ad6a0707cba6d5d",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:14.8754734Z"
+}

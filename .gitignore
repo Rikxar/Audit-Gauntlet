@@ -3,3 +3,17 @@
 /*
 !.gitignore
 !PUBLISHING_INDEX.md
+!publication/
+!README.md
+/publication/*
+!/publication/*.ps1
+!/publication/inventory-*.json
+!/publication/admission-*.json
+!/publication/verified-*.json
+!/publication/nested-repositories.json
+!/publication/byte-verification.json
+!/publication/doctrine-verification.json
+!/publication/history-reviewed.json
+!/publication/unpublished.json
+!/publication/connection-status.json
+!/publication/programme-status.json

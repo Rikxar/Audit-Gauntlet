@@ -1,0 +1,30 @@
+{
+  "programme": "GAL_SPIN_003",
+  "path": "E:\\Audit Gauntlet\\GAL_SPIN_003",
+  "github": "https://github.com/Rikxar/GAL_SPIN_003",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "7da8687725676ae6b71a0188454c2c65e8132180",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "7da8687725676ae6b71a0188454c2c65e8132180",
+      "remote": "7da8687725676ae6b71a0188454c2c65e8132180",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_003.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/GAL_SPIN_003.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/GAL_SPIN_003",
+    "HEAD 7da8687725676ae6b71a0188454c2c65e8132180",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:06:28.1668485Z"
+}

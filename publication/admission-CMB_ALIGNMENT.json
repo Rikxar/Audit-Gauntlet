@@ -1,0 +1,178 @@
+{
+  "programme": "CMB_ALIGNMENT",
+  "staged": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "37ec5471cc6004fc465e51f2cd086099072fadbed1a833a002c2743db6c0a4d2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 290,
+      "sha256": "b31eea8222cf7577fdd1112025f6a26a72fec387dabdbe114cb7afd360f1d4c5"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1389,
+      "sha256": "a0f94c175b3b5200811551725e9d5c2a6b2876e24ea492445da025e97b0bee8c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8173,
+      "sha256": "b94bf10f5dd0a09d15fc898f1a19ec4123eef846119447906676351f6ffdec5c"
+    },
+    {
+      "path": "bootstrap.py",
+      "bytes": 218,
+      "sha256": "bf7baa7590a77ef63f64cf416778e124f4f7a0d3c75d5f9580e01f3c9ec298c0"
+    },
+    {
+      "path": "config.json",
+      "bytes": 589,
+      "sha256": "e5bb26cb613d9a117d507fddbba778fb25dcb0ef77ea94eaae606b511f2139af"
+    },
+    {
+      "path": "geometry.py",
+      "bytes": 5541,
+      "sha256": "d2cd00320a6b55d57e42af5cd4e512a40d2a7fb7c956ff76c03347ed7a92eff2"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 255060,
+      "sha256": "8998706cb500ea7f1502cdcbcce2c252ccea1d49e3f63bb021dff961a8d5f79c"
+    },
+    {
+      "path": "inventory.py",
+      "bytes": 1907,
+      "sha256": "b862a0fe9c338e9398ed2259e81c84af3dcec437a7cb611962d724d4ff773ac9"
+    },
+    {
+      "path": "observation.py",
+      "bytes": 6279,
+      "sha256": "b5beedde59e69f2a381ef3c137c7bf393c3364193ae69011028ee21f7b8e6773"
+    },
+    {
+      "path": "outputs/along_minus_n.png",
+      "bytes": 151707,
+      "sha256": "0e977b884b0264fb1ab67f3a41bf0dc7b25787ec38d42733667e58991239fd50"
+    },
+    {
+      "path": "outputs/along_plus_n.png",
+      "bytes": 151574,
+      "sha256": "6c0c895456985fe7068d1cb0a63f1a366d5bb25f4471a4fb7a9dc583c8f486a5"
+    },
+    {
+      "path": "outputs/cameras.json",
+      "bytes": 4811,
+      "sha256": "280fbef7912e693f1817734adb668e941dc7b6f79e23428717099e7fdf888925"
+    },
+    {
+      "path": "outputs/configuration.json",
+      "bytes": 4227,
+      "sha256": "3cd347154e113eb38b9bac2b6c1523497242e5c383cceb9730ae954edebe9704"
+    },
+    {
+      "path": "outputs/directions.csv",
+      "bytes": 1474,
+      "sha256": "9dea89a6766ee338776a952e32b1c0e6435710dcbd73411686b0397e8f3b8c0c"
+    },
+    {
+      "path": "outputs/directions.json",
+      "bytes": 2677,
+      "sha256": "fe93b3f6d8a0e3a0552a404b5aefd7f381a4ffdc143a3805b54fb78231d1347d"
+    },
+    {
+      "path": "outputs/ecliptic_north.png",
+      "bytes": 217305,
+      "sha256": "9b77106dbffa400eaa4f9f53e4204e36a349f68f97f040642e1f50c7ea08e450"
+    },
+    {
+      "path": "outputs/epistemic_labels.json",
+      "bytes": 1801,
+      "sha256": "3ae14dd1be98ca9224455bbef49443b6b392b2d34ee3c8e7e6d787d47b37ad2a"
+    },
+    {
+      "path": "outputs/galactic_north.png",
+      "bytes": 151435,
+      "sha256": "68151ee3c9661f6d3a662f1299271821845d3e98d3e5cc284ea89511ca3e3608"
+    },
+    {
+      "path": "outputs/galactic_south.png",
+      "bytes": 151842,
+      "sha256": "6fa330c5d3ea5b1a8305c7a0f9565c31e8af1d36e9b4399d9ecb302bda4849d1"
+    },
+    {
+      "path": "outputs/interactive.html",
+      "bytes": 5064291,
+      "sha256": "c06cae46ac97bc801ee1c3d2abb00ae5d0d969d9d8d9629365476c858c2d21d5"
+    },
+    {
+      "path": "outputs/interactive.json",
+      "bytes": 766488,
+      "sha256": "647bc42b9b18bf3237a14b6957188d015d322c3601ac31d3b7fd90dc48314a3c"
+    },
+    {
+      "path": "outputs/perpendicular.png",
+      "bytes": 140551,
+      "sha256": "0f54864fbdd012f46769e9fd12107646b29ccef5d20cfe2ea1907a53e38de4d5"
+    },
+    {
+      "path": "outputs/perspective.png",
+      "bytes": 304376,
+      "sha256": "00ef0ee0d4f0c148e9157955cb0823fab66b60a12463c28079c3d26820c1860d"
+    },
+    {
+      "path": "outputs/provenance.json",
+      "bytes": 1634,
+      "sha256": "988adf8cdb9a04619fe732144cf570cc409af1fb7e0b4981fc7310b59bb1db37"
+    },
+    {
+      "path": "outputs/validation.json",
+      "bytes": 3999,
+      "sha256": "ee2edea362c015e76dbbfdf2862a7abefd0b6b1c4aeacf6e26a476a658836616"
+    },
+    {
+      "path": "outputs/verification.md",
+      "bytes": 1170,
+      "sha256": "a6ef2cc4d96d0e4a4e57d0bc2d2a59ebff5e87170d85c952b98dc24cf74105cb"
+    },
+    {
+      "path": "pipeline.py",
+      "bytes": 5050,
+      "sha256": "dbd9d4ecc80dddb2ec6320461ef7139a9d0672a2ff5b569b06046f24ef1bd33b"
+    },
+    {
+      "path": "render.py",
+      "bytes": 8655,
+      "sha256": "6b1d0c74c8d046925b6c93f25d27e249ca820b0c61b1c66c378487716e89ce0d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 118,
+      "sha256": "0e8e4ffa39a6272d6dff1ea29f29a0b711b6941af09441a95d5cc0089f22f9d7"
+    },
+    {
+      "path": "run.ps1",
+      "bytes": 233,
+      "sha256": "3dad847a310e5cd75c0a924b5823153358a6d97a62dc7070613704e46e4292eb"
+    },
+    {
+      "path": "test_pipeline.py",
+      "bytes": 5201,
+      "sha256": "46379ff7fbe75c0b8cd922efcf592fa3160ecbfc5689035878936d2b2dc04c13"
+    },
+    {
+      "path": "tests.xml",
+      "bytes": 2474,
+      "sha256": "3d40414b9e7740d8f6b3cd14d0d7cd2fa2f0856c3814da5b7cdeed4bafa68b3f"
+    },
+    {
+      "path": "validation.py",
+      "bytes": 2514,
+      "sha256": "430c471c4ef5c4228ff779bf1dd788b7cf4b190f4b4387a690e6252c3130d0d3"
+    }
+  ],
+  "explicitReportAdmissions": [],
+  "ignoredAndUnpublished": [],
+  "reviewUtc": "2026-10-13T16:54:35.7311018Z"
+}

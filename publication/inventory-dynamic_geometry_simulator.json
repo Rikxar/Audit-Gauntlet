@@ -1,0 +1,3732 @@
+{
+  "programme": "dynamic_geometry_simulator",
+  "path": "E:\\Audit Gauntlet\\dynamic_geometry_simulator",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 75,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:52.5683998Z"
+    },
+    {
+      "path": "config.example.json",
+      "bytes": 2140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:13.4278648Z"
+    },
+    {
+      "path": "config.py",
+      "bytes": 13313,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:45:48.9718550Z"
+    },
+    {
+      "path": "main.py",
+      "bytes": 13898,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:12:29.7699247Z"
+    },
+    {
+      "path": "MHD_NUMERICS.md",
+      "bytes": 12787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:17:59.7699973Z"
+    },
+    {
+      "path": "NUMERICS.md",
+      "bytes": 11102,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:39:11.6223251Z"
+    },
+    {
+      "path": "pytest.ini",
+      "bytes": 41,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:33:54.4943510Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12950,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:32.2182283Z"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 334,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:41.1813807Z"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 104,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:31:21.0473415Z"
+    },
+    {
+      "path": "run.ps1",
+      "bytes": 576,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:29:04.0484378Z"
+    },
+    {
+      "path": "UPGRADE_PROPOSAL_REVIEW.md",
+      "bytes": 12547,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T23:44:45.7723592Z"
+    },
+    {
+      "path": "tests/test_cylinder.py",
+      "bytes": 1747,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:33:24.7377697Z"
+    },
+    {
+      "path": "tests/test_flow_evolution.py",
+      "bytes": 2942,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:29:23.6193882Z"
+    },
+    {
+      "path": "tests/test_flow_outputs.py",
+      "bytes": 758,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:44:51.8117195Z"
+    },
+    {
+      "path": "tests/test_magnetic.py",
+      "bytes": 1232,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:45:58.5773487Z"
+    },
+    {
+      "path": "tests/test_mediator.py",
+      "bytes": 2126,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:27:47.7033448Z"
+    },
+    {
+      "path": "tests/test_mhd_outputs.py",
+      "bytes": 1832,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:49.7298401Z"
+    },
+    {
+      "path": "tests/test_mhd.py",
+      "bytes": 2122,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:49:03.9126118Z"
+    },
+    {
+      "path": "tests/test_overlays.py",
+      "bytes": 966,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:41:18.3860108Z"
+    },
+    {
+      "path": "tests/test_physics.py",
+      "bytes": 8153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:40:06.6369719Z"
+    },
+    {
+      "path": "tests/test_projection.py",
+      "bytes": 2126,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:31:18.4178418Z"
+    },
+    {
+      "path": "tests/test_relaxation.py",
+      "bytes": 2201,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:43.2546678Z"
+    },
+    {
+      "path": "tests/test_vortex.py",
+      "bytes": 1551,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:35:17.6824460Z"
+    },
+    {
+      "path": "tests/fixtures/baseline_trajectories.npz",
+      "bytes": 2452675,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:21:51.6453220Z"
+    },
+    {
+      "path": "simulation/__init__.py",
+      "bytes": 80,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:21.6494800Z"
+    },
+    {
+      "path": "simulation/boundaries.py",
+      "bytes": 765,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:26.6435162Z"
+    },
+    {
+      "path": "simulation/clock.py",
+      "bytes": 719,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:36.5602574Z"
+    },
+    {
+      "path": "simulation/field.py",
+      "bytes": 4094,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:27:39.7662501Z"
+    },
+    {
+      "path": "simulation/integrator.py",
+      "bytes": 1457,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:23:56.9265211Z"
+    },
+    {
+      "path": "simulation/mediator.py",
+      "bytes": 3061,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:27:37.1523060Z"
+    },
+    {
+      "path": "simulation/operators.py",
+      "bytes": 1417,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:24.1377418Z"
+    },
+    {
+      "path": "simulation/relaxation.py",
+      "bytes": 2711,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:23:51.5643089Z"
+    },
+    {
+      "path": "simulation/sources.py",
+      "bytes": 2496,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:29.1176883Z"
+    },
+    {
+      "path": "rendering/__init__.py",
+      "bytes": 76,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:26:07.4761678Z"
+    },
+    {
+      "path": "rendering/camera.py",
+      "bytes": 1215,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:26:09.9583929Z"
+    },
+    {
+      "path": "rendering/hud.py",
+      "bytes": 6357,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:50.2028491Z"
+    },
+    {
+      "path": "rendering/lattice_renderer.py",
+      "bytes": 3905,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:26:12.4271717Z"
+    },
+    {
+      "path": "rendering/overlay_session.py",
+      "bytes": 10410,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:19:54.5754497Z"
+    },
+    {
+      "path": "rendering/overlay_viewer.py",
+      "bytes": 8718,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:38.4192316Z"
+    },
+    {
+      "path": "rendering/overlays.py",
+      "bytes": 5774,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:12:31.8253281Z"
+    },
+    {
+      "path": "rendering/source_renderer.py",
+      "bytes": 862,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:26:14.9043824Z"
+    },
+    {
+      "path": "rendering/viewer.py",
+      "bytes": 2562,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:36:44.8683627Z"
+    },
+    {
+      "path": "outputs/test_results.xml",
+      "bytes": 3133,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:40:09.9712268Z"
+    },
+    {
+      "path": "outputs/validation/boundary_traces.json",
+      "bytes": 12865,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:55.7686025Z"
+    },
+    {
+      "path": "outputs/validation/boundary.png",
+      "bytes": 78350,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:56.0292023Z"
+    },
+    {
+      "path": "outputs/validation/config.json",
+      "bytes": 480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:19.3148513Z"
+    },
+    {
+      "path": "outputs/validation/history_comparison.npz",
+      "bytes": 1113200,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:36.3862702Z"
+    },
+    {
+      "path": "outputs/validation/moving_energy.png",
+      "bytes": 134228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:44.1524708Z"
+    },
+    {
+      "path": "outputs/validation/moving_state.npz",
+      "bytes": 1590907,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:43.7949976Z"
+    },
+    {
+      "path": "outputs/validation/moving.csv",
+      "bytes": 119313,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:43.7369965Z"
+    },
+    {
+      "path": "outputs/validation/NUMERICAL_REPORT.md",
+      "bytes": 4205,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:56.0861954Z"
+    },
+    {
+      "path": "outputs/validation/propagation_traces.json",
+      "bytes": 40249,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:54.7675133Z"
+    },
+    {
+      "path": "outputs/validation/propagation.png",
+      "bytes": 136685,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:55.1418150Z"
+    },
+    {
+      "path": "outputs/validation/removal_energy.png",
+      "bytes": 140696,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:30.4933269Z"
+    },
+    {
+      "path": "outputs/validation/removal.csv",
+      "bytes": 141406,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:30.1460683Z"
+    },
+    {
+      "path": "outputs/validation/removed_state.npz",
+      "bytes": 738758,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:30.1810681Z"
+    },
+    {
+      "path": "outputs/validation/results.json",
+      "bytes": 3999,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:56.0851940Z"
+    },
+    {
+      "path": "outputs/validation/static_energy.png",
+      "bytes": 115255,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:27.4370844Z"
+    },
+    {
+      "path": "outputs/validation/static_state.npz",
+      "bytes": 861089,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:26.9416122Z"
+    },
+    {
+      "path": "outputs/validation/static.csv",
+      "bytes": 70878,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:26.8966085Z"
+    },
+    {
+      "path": "outputs/validation/two_masses_energy.png",
+      "bytes": 120518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:54.3371610Z"
+    },
+    {
+      "path": "outputs/validation/two_masses_state.npz",
+      "bytes": 1588909,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:54.0381312Z"
+    },
+    {
+      "path": "outputs/validation/two_masses.csv",
+      "bytes": 34281,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:53.9835804Z"
+    },
+    {
+      "path": "outputs/upgrade/final_tests.xml",
+      "bytes": 5774,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:36:51.4484635Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_02_relaxation.xml",
+      "bytes": 3555,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:24:13.5248825Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_04_mediator.xml",
+      "bytes": 1035,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:27:53.3263687Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_06_projection.xml",
+      "bytes": 735,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:31:26.3236157Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_07_cylinder.xml",
+      "bytes": 608,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:33:27.1483605Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_08_vortex.xml",
+      "bytes": 632,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:35:20.4689150Z"
+    },
+    {
+      "path": "outputs/upgrade/stage_09_flow.xml",
+      "bytes": 1370,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:29:32.4399230Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/config.json",
+      "bytes": 2140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:21.1023967Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/diagnostics.csv",
+      "bytes": 10528,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:21.0029953Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/preview.png",
+      "bytes": 262173,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:19.4390799Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/renderer_smoke.json",
+      "bytes": 315,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:20.9970214Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/session.json",
+      "bytes": 241,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:21.1033800Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/state.npz",
+      "bytes": 2719564,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:37:21.1013881Z"
+    },
+    {
+      "path": "outputs/upgrade/geometry_renderer_check/two_masses.png",
+      "bytes": 253539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:20.9629935Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/energy_accounting.png",
+      "bytes": 198664,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:27.0672398Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/flow_convergence.png",
+      "bytes": 88934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:27.8198400Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/flow_validation.json",
+      "bytes": 3320,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:26.8168950Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/geometry_relaxation.png",
+      "bytes": 67391,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:43:00.0323192Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/mediator_propagation.png",
+      "bytes": 144114,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:43:02.5647524Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/mediator_traces.json",
+      "bytes": 89672,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:43:02.5677518Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/NUMERICAL_REVIEW.md",
+      "bytes": 11410,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:29.3190650Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/paired_resolution.png",
+      "bytes": 75922,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:29.3170686Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/relaxation_cylinders.png",
+      "bytes": 68530,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:27.6340961Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/relaxation_traces.json",
+      "bytes": 9004,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:43:00.0343153Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/results.json",
+      "bytes": 20990,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:54.4947493Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/vortex_cases.png",
+      "bytes": 205154,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:54.6774820Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/vorticity_slices.png",
+      "bytes": 115412,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:28.9890814Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:42.1356567Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/diagnostics.csv",
+      "bytes": 8907,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:41.5586481Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5350327Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/state.npz",
+      "bytes": 15303284,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:45:42.1336548Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_B/config.json",
+      "bytes": 2162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:54.4827504Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_B/diagnostics.csv",
+      "bytes": 42842,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:53.7152208Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5930411Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_B/state.npz",
+      "bytes": 22143670,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:37:54.4817410Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_A/config.json",
+      "bytes": 2162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:36:17.0758642Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_A/diagnostics.csv",
+      "bytes": 42602,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:36:16.3276795Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5760335Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/C_A/state.npz",
+      "bytes": 22208522,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:36:17.0738611Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/B/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:07.2090980Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/B/diagnostics.csv",
+      "bytes": 42958,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:06.5843496Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5610322Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/B/state.npz",
+      "bytes": 17940276,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:37:07.2081106Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/A/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:35:28.9415182Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/A/diagnostics.csv",
+      "bytes": 42516,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:35:28.3257099Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5450334Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_48/A/state.npz",
+      "bytes": 17962904,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:35:28.9405191Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:27.8502990Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/diagnostics.csv",
+      "bytes": 8944,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:27.6672899Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5180060Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/state.npz",
+      "bytes": 4439864,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:45:27.8482907Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_B/config.json",
+      "bytes": 2163,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:42.9577285Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_B/diagnostics.csv",
+      "bytes": 42747,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:42.7204685Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.6527084Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_B/state.npz",
+      "bytes": 6616490,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:34:42.9567378Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_A/config.json",
+      "bytes": 2162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:19.0992543Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_A/diagnostics.csv",
+      "bytes": 42484,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:18.8637617Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.6370457Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/C_A/state.npz",
+      "bytes": 6635114,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:34:19.0982575Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/B/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:31.0832043Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/B/diagnostics.csv",
+      "bytes": 43014,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:30.8886563Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.6190397Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/B/state.npz",
+      "bytes": 5116780,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:34:31.0822063Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/A/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:06.9929186Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/A/diagnostics.csv",
+      "bytes": 42487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:34:06.7999107Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.6040422Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_32/A/state.npz",
+      "bytes": 5122959,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:34:06.9919111Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_24/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:24.4022980Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_24/diagnostics.csv",
+      "bytes": 8921,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:45:24.3139282Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_24/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.5014968Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/resolution_24/state.npz",
+      "bytes": 1835570,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:45:24.4012967Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.04/config.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:21.4213492Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.04/diagnostics.csv",
+      "bytes": 11693,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:21.3283436Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.04/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4914958Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.04/state.npz",
+      "bytes": 2110566,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:32:21.4213492Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.02/config.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:22.9585721Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.02/diagnostics.csv",
+      "bytes": 9775,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:22.8670245Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.02/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4764882Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.02/state.npz",
+      "bytes": 2110715,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:32:22.9565703Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.01/config.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:25.7255212Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.01/diagnostics.csv",
+      "bytes": 9840,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:32:25.6195121Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.01/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4614964Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/dt_0.01/state.npz",
+      "bytes": 2110700,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:32:25.7235184Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_B/config.json",
+      "bytes": 2162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:54.1977113Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_B/diagnostics.csv",
+      "bytes": 42824,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:54.0843180Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4464983Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_B/state.npz",
+      "bytes": 2718491,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:33:54.1957016Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_A/config.json",
+      "bytes": 2162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:40.7564265Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_A/diagnostics.csv",
+      "bytes": 42443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:40.6194147Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4354799Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/C_A/state.npz",
+      "bytes": 2726454,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:33:40.7544178Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/B/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:47.5467658Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/B/diagnostics.csv",
+      "bytes": 43048,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:47.4397626Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/B/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4264933Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/B/state.npz",
+      "bytes": 2113790,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:33:47.5457664Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/A/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:34.4734602Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/A/diagnostics.csv",
+      "bytes": 42403,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:34.3819282Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/A/session.json",
+      "bytes": 707,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:43:12.4165017Z"
+    },
+    {
+      "path": "outputs/upgrade/experiments/A/state.npz",
+      "bytes": 2116742,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:33:34.4724742Z"
+    },
+    {
+      "path": "outputs/upgrade/cli_flow_check/config.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:15.4485543Z"
+    },
+    {
+      "path": "outputs/upgrade/cli_flow_check/diagnostics.csv",
+      "bytes": 2787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:15.3405413Z"
+    },
+    {
+      "path": "outputs/upgrade/cli_flow_check/flow_diagnostics.png",
+      "bytes": 115502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:15.9729171Z"
+    },
+    {
+      "path": "outputs/upgrade/cli_flow_check/session.json",
+      "bytes": 594,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:15.4495373Z"
+    },
+    {
+      "path": "outputs/upgrade/cli_flow_check/state.npz",
+      "bytes": 2110285,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:37:15.4475461Z"
+    },
+    {
+      "path": "outputs/upgrade/baseline/source_before_upgrade.zip",
+      "bytes": 34108,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:21:49.5764671Z"
+    },
+    {
+      "path": "outputs/upgrade/baseline/trajectories.npz",
+      "bytes": 2452675,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T00:21:51.6453220Z"
+    },
+    {
+      "path": "outputs/session_20260927_194551_871979/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T19:13:23.9411102Z"
+    },
+    {
+      "path": "outputs/session_20260927_194551_871979/diagnostics.csv",
+      "bytes": 3890249,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T19:13:23.7967293Z"
+    },
+    {
+      "path": "outputs/session_20260927_194551_871979/session.json",
+      "bytes": 245,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T19:13:23.9441156Z"
+    },
+    {
+      "path": "outputs/session_20260927_194551_871979/state.npz",
+      "bytes": 2718513,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-27T19:13:23.9380765Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:36:55.1568774Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/diagnostics.csv",
+      "bytes": 280586,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:36:55.0958719Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/session.json",
+      "bytes": 247,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:36:55.1578757Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/state.npz",
+      "bytes": 1407261,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:36:55.1558729Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_330163/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.3989755Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_330163/diagnostics.csv",
+      "bytes": 41389,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.3374579Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_330163/session.json",
+      "bytes": 248,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.3999731Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_330163/state.npz",
+      "bytes": 1365955,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:35.3979691Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_181654/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.2464586Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_181654/diagnostics.csv",
+      "bytes": 40385,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.1874576Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_181654/session.json",
+      "bytes": 248,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.2474562Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_181654/state.npz",
+      "bytes": 1360672,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:35.2454525Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_004555/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.0681201Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_004555/diagnostics.csv",
+      "bytes": 39706,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.0083166Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_004555/session.json",
+      "bytes": 260,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:35.0681201Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223535_004555/state.npz",
+      "bytes": 1359141,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:35.0671073Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_795227/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.8585971Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_795227/diagnostics.csv",
+      "bytes": 39033,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.7989669Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_795227/session.json",
+      "bytes": 246,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.8585971Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_795227/state.npz",
+      "bytes": 1363695,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:34.8575919Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_552564/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.6173332Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_552564/diagnostics.csv",
+      "bytes": 38030,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.5583203Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_552564/session.json",
+      "bytes": 247,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.6173332Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_552564/state.npz",
+      "bytes": 1371628,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:34.6163333Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_307551/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.3713886Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_307551/diagnostics.csv",
+      "bytes": 37034,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.3128626Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_307551/session.json",
+      "bytes": 246,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.3713886Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_307551/state.npz",
+      "bytes": 1364283,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:34.3703818Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_064068/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.1288609Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_064068/diagnostics.csv",
+      "bytes": 36045,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.0708558Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_064068/session.json",
+      "bytes": 247,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:34.1298646Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223534_064068/state.npz",
+      "bytes": 1363513,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:34.1288609Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_671302/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.7358051Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_671302/diagnostics.csv",
+      "bytes": 34407,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.6767911Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_671302/session.json",
+      "bytes": 247,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.7367975Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_671302/state.npz",
+      "bytes": 1363601,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:33.7347943Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_162017/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.2277869Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_162017/diagnostics.csv",
+      "bytes": 32441,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.1667751Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_162017/session.json",
+      "bytes": 246,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:33.2287791Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223533_162017/state.npz",
+      "bytes": 1362531,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:33.2267863Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223531_256915/config.json",
+      "bytes": 2480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:31.3296915Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223531_256915/diagnostics.csv",
+      "bytes": 25826,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:31.2646835Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223531_256915/session.json",
+      "bytes": 260,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:35:31.3306777Z"
+    },
+    {
+      "path": "outputs/session_20260913_223300_172396/snapshots/removal_20260913_223531_256915/state.npz",
+      "bytes": 1481504,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T21:35:31.3287015Z"
+    },
+    {
+      "path": "outputs/session_20260912_233322_296174/config.json",
+      "bytes": 480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:26:50.3964410Z"
+    },
+    {
+      "path": "outputs/session_20260912_233322_296174/diagnostics.csv",
+      "bytes": 99515165,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-13T10:26:50.3394084Z"
+    },
+    {
+      "path": "outputs/session_20260912_233322_296174/session.json",
+      "bytes": 256,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:26:50.3974400Z"
+    },
+    {
+      "path": "outputs/session_20260912_233322_296174/state.npz",
+      "bytes": 1588215,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T10:26:50.3964410Z"
+    },
+    {
+      "path": "outputs/renderer_check/config.json",
+      "bytes": 480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:24.3467637Z"
+    },
+    {
+      "path": "outputs/renderer_check/diagnostics.csv",
+      "bytes": 8780,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:24.2907695Z"
+    },
+    {
+      "path": "outputs/renderer_check/preview.png",
+      "bytes": 262897,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:22.8550474Z"
+    },
+    {
+      "path": "outputs/renderer_check/renderer_smoke.json",
+      "bytes": 315,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:24.2857655Z"
+    },
+    {
+      "path": "outputs/renderer_check/session.json",
+      "bytes": 241,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:24.3467637Z"
+    },
+    {
+      "path": "outputs/renderer_check/state.npz",
+      "bytes": 1590892,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:24.3457629Z"
+    },
+    {
+      "path": "outputs/renderer_check/two_masses.png",
+      "bytes": 254205,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:24.2507670Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/baseline_replay.json",
+      "bytes": 296,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:27.4226769Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/frozen_baseline_manifest.json",
+      "bytes": 9731,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:41:09.9287746Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/independent_magnetic.png",
+      "bytes": 73354,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:46:22.4047732Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/MHD_NUMERICAL_REVIEW.md",
+      "bytes": 11011,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:08.0062563Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlay_framework.png",
+      "bytes": 66535,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:43:07.2704094Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/resolution_summary.json",
+      "bytes": 3863,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:07.9631559Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/review_integrity.json",
+      "bytes": 31678,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:19:56.1769135Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/source_at_mhd_review.zip",
+      "bytes": 2549610,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T16:19:56.0319136Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/source_before_mhd.zip",
+      "bytes": 2500026,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:41:11.0595826Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/tests.xml",
+      "bytes": 6971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:12:41.7658380Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/validation/validation.json",
+      "bytes": 5023,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:53:00.2372140Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/correlations.json",
+      "bytes": 5220,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:50.1909613Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/display_settings.json",
+      "bytes": 8099,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:50.1899614Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/geometry_curl_current_uniform.png",
+      "bytes": 83166,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.1933718Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/geometry_curl_current.png",
+      "bytes": 83824,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.8088122Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/geometry_magnetic_uniform.png",
+      "bytes": 212153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.0727931Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/geometry_magnetic.png",
+      "bytes": 212422,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.6917733Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/independent_geometry_config.json",
+      "bytes": 2479,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:48.2394165Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/independent_geometry_session.json",
+      "bytes": 154,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:48.3313141Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/independent_geometry_state.npz",
+      "bytes": 2722656,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T16:10:48.3303081Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/relaxation_magnetic_energy_uniform.png",
+      "bytes": 98236,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.5462226Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/relaxation_magnetic_energy.png",
+      "bytes": 103178,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:50.1499613Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/render_checks.json",
+      "bytes": 538,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:50.3529633Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/strain_tension_uniform.png",
+      "bytes": 98845,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.4471864Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/strain_tension.png",
+      "bytes": 99749,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:50.0463503Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/vorticity_magnetic_uniform.png",
+      "bytes": 133805,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.3173738Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/overlays/vorticity_magnetic.png",
+      "bytes": 134632,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:49.9273498Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/overlay_smoke.png",
+      "bytes": 204688,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:27.7529956Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/overlay_styles.json",
+      "bytes": 4357,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:28.0069951Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/session.json",
+      "bytes": 260,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:28.0099948Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/primary_flow/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:27.8399967Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/primary_flow/state.npz",
+      "bytes": 4498837,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:28.0059954Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/geometry/config.json",
+      "bytes": 2482,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:27.7959935Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/interactive_smoke/geometry/state.npz",
+      "bytes": 746918,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:27.8380056Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/headless_smoke/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:29.0634062Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/headless_smoke/diagnostics.csv",
+      "bytes": 3229,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:28.8784068Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/headless_smoke/session.json",
+      "bytes": 952,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:29.0644067Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/headless_smoke/state.npz",
+      "bytes": 3910227,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:03:29.0624088Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/energy_budgets.png",
+      "bytes": 114346,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:07.4191022Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/kinetic_histories.png",
+      "bytes": 209166,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:05.8706930Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/magnetic_histories.png",
+      "bytes": 268326,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:06.7061843Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/morphology.png",
+      "bytes": 117979,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:07.9621670Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/paired_refinement.png",
+      "bytes": 98168,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:07.7180326Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/figures/validation.png",
+      "bytes": 138544,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:05.1066588Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/comparison_results.json",
+      "bytes": 338562,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:13:48.1219444Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:56.9754986Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_uniform/diagnostics.csv",
+      "bytes": 28226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:55.8661698Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:56.9754986Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_uniform/state.npz",
+      "bytes": 34214170,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:12:56.9734983Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_heterogeneous/config.json",
+      "bytes": 2502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:13:47.9636853Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28875,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:13:46.7491371Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:13:47.9646838Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M3_heterogeneous/state.npz",
+      "bytes": 37995976,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:13:47.9606915Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:11:15.5915300Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_uniform/diagnostics.csv",
+      "bytes": 28224,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:11:14.5273793Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:11:15.5915300Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_uniform/state.npz",
+      "bytes": 32536554,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:11:15.5895297Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:05.0002969Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:03.8030404Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:12:05.0002969Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M2_heterogeneous/state.npz",
+      "bytes": 36316156,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:12:04.9962928Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:09:29.2492272Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_uniform/diagnostics.csv",
+      "bytes": 28443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:09:28.1433809Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_uniform/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:09:29.2505043Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_uniform/state.npz",
+      "bytes": 32459500,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:09:29.2462282Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:10:25.1810122Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_heterogeneous/diagnostics.csv",
+      "bytes": 29146,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:10:23.9653637Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_heterogeneous/session.json",
+      "bytes": 968,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:10:25.1820150Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M1_heterogeneous/state.npz",
+      "bytes": 36240929,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:10:25.1780175Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:07:38.6921708Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_uniform/diagnostics.csv",
+      "bytes": 19085,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:07:37.9795601Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_uniform/session.json",
+      "bytes": 933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:07:38.6921708Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_uniform/state.npz",
+      "bytes": 18834171,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:07:38.6901732Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_heterogeneous/config.json",
+      "bytes": 2498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:08:33.6959032Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19618,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:08:32.8790870Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_heterogeneous/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:08:33.6969082Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/B_M0_heterogeneous/state.npz",
+      "bytes": 22614248,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:08:33.6938952Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:05:47.0724696Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_uniform/diagnostics.csv",
+      "bytes": 28167,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:05:45.9297543Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:05:47.0724696Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_uniform/state.npz",
+      "bytes": 34238254,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:05:47.0684672Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_heterogeneous/config.json",
+      "bytes": 2502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:06:44.6730788Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28882,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:06:43.4430490Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_heterogeneous/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:06:44.6730788Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M3_heterogeneous/state.npz",
+      "bytes": 38063499,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:06:44.6680875Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:02.5086823Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_uniform/diagnostics.csv",
+      "bytes": 28067,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:01.4325831Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:02.5086823Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_uniform/state.npz",
+      "bytes": 32555624,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:04:02.5066810Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:52.2561833Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28547,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:51.0710495Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:04:52.2561833Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M2_heterogeneous/state.npz",
+      "bytes": 36370171,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:04:52.2541832Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:02:18.8312140Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_uniform/diagnostics.csv",
+      "bytes": 28472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:02:17.7568536Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:02:18.8322241Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_uniform/state.npz",
+      "bytes": 32468379,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:02:18.8291940Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:09.4146130Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_heterogeneous/diagnostics.csv",
+      "bytes": 28907,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:08.2296542Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_heterogeneous/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:03:09.4146130Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M1_heterogeneous/state.npz",
+      "bytes": 36288087,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:03:09.4116151Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:00:28.6210817Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_uniform/diagnostics.csv",
+      "bytes": 18941,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:00:27.9150606Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_uniform/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:00:28.6210817Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_uniform/state.npz",
+      "bytes": 18835815,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:00:28.6180889Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_heterogeneous/config.json",
+      "bytes": 2498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:24.7941145Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19564,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:23.9544051Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_heterogeneous/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:24.7941145Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n48/A_M0_heterogeneous/state.npz",
+      "bytes": 22657432,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T12:01:24.7901152Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:25.8522879Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_uniform/diagnostics.csv",
+      "bytes": 28249,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:25.5149930Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_uniform/session.json",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:25.8532940Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_uniform/state.npz",
+      "bytes": 9955465,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:59:25.8507689Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_heterogeneous/config.json",
+      "bytes": 2502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:37.7371973Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28949,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:37.3535349Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:37.7371973Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M3_heterogeneous/state.npz",
+      "bytes": 11260574,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:59:37.7351899Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:02.2279366Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_uniform/diagnostics.csv",
+      "bytes": 27998,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:01.8959283Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_uniform/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:02.2289395Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_uniform/state.npz",
+      "bytes": 9454339,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:59:02.2269369Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:14.0953618Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28792,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:13.7365902Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_heterogeneous/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:59:14.0953618Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M2_heterogeneous/state.npz",
+      "bytes": 10758798,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:59:14.0933678Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:36.8825370Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_uniform/diagnostics.csv",
+      "bytes": 28472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:36.5578104Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:36.8835648Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_uniform/state.npz",
+      "bytes": 9434655,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:58:36.8809414Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:49.6993955Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_heterogeneous/diagnostics.csv",
+      "bytes": 28955,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:49.2965505Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:49.7008422Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M1_heterogeneous/state.npz",
+      "bytes": 10739684,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:58:49.6983977Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:13.2250538Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_uniform/diagnostics.csv",
+      "bytes": 19144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:13.0120571Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_uniform/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:13.2250538Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_uniform/state.npz",
+      "bytes": 5358915,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:58:13.2230447Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_heterogeneous/config.json",
+      "bytes": 2498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:25.1314120Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19635,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:24.8844125Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_heterogeneous/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:25.1324193Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/B_M0_heterogeneous/state.npz",
+      "bytes": 6664131,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:58:25.1294073Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:48.9312468Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_uniform/diagnostics.csv",
+      "bytes": 28137,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:48.5953940Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_uniform/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:48.9322473Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_uniform/state.npz",
+      "bytes": 9963025,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:48.9302488Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_heterogeneous/config.json",
+      "bytes": 2502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:01.2557768Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28754,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:00.8857867Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_heterogeneous/session.json",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:58:01.2567737Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M3_heterogeneous/state.npz",
+      "bytes": 11280493,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:58:01.2547811Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:23.8166731Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_uniform/diagnostics.csv",
+      "bytes": 27901,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:23.4603988Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_uniform/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:23.8166731Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_uniform/state.npz",
+      "bytes": 9460030,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:23.8146676Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:36.3473463Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28699,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:35.9873501Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_heterogeneous/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:36.3483427Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M2_heterogeneous/state.npz",
+      "bytes": 10774154,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:36.3463403Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:58.4935018Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_uniform/diagnostics.csv",
+      "bytes": 28518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:58.1735238Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_uniform/session.json",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:58.4945006Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_uniform/state.npz",
+      "bytes": 9436059,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:58.4925003Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:10.9623019Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_heterogeneous/diagnostics.csv",
+      "bytes": 29123,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:10.6036816Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_heterogeneous/session.json",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:57:10.9633017Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M1_heterogeneous/state.npz",
+      "bytes": 10751742,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:57:10.9613143Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:33.1218163Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_uniform/diagnostics.csv",
+      "bytes": 18977,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:32.9088140Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_uniform/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:33.1218163Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_uniform/state.npz",
+      "bytes": 5359982,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:33.1198035Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_heterogeneous/config.json",
+      "bytes": 2498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:45.6959337Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19509,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:45.4436256Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_heterogeneous/session.json",
+      "bytes": 933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:45.6959337Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n32/A_M0_heterogeneous/state.npz",
+      "bytes": 6676204,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:45.6939363Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:15.1563866Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_uniform/diagnostics.csv",
+      "bytes": 28283,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:15.0030024Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_uniform/session.json",
+      "bytes": 969,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:15.1563866Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_uniform/state.npz",
+      "bytes": 4154663,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:15.1543841Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_heterogeneous/config.json",
+      "bytes": 2503,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:20.8157737Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28871,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:20.6436106Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_heterogeneous/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:20.8167610Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M3_heterogeneous/state.npz",
+      "bytes": 4649282,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:20.8147635Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:03.9486838Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_uniform/diagnostics.csv",
+      "bytes": 28250,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:03.8036834Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:03.9496821Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_uniform/state.npz",
+      "bytes": 3951990,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:03.9476857Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:09.4990217Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28561,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:09.3383253Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:56:09.5000197Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M2_heterogeneous/state.npz",
+      "bytes": 4446627,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:56:09.4980103Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:52.7825970Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_uniform/diagnostics.csv",
+      "bytes": 28608,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:52.6375818Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_uniform/session.json",
+      "bytes": 968,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:52.7835991Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_uniform/state.npz",
+      "bytes": 3943300,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:52.7815936Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_heterogeneous/config.json",
+      "bytes": 2501,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:58.4047235Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_heterogeneous/diagnostics.csv",
+      "bytes": 29130,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:58.2441700Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_heterogeneous/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:58.4047235Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M1_heterogeneous/state.npz",
+      "bytes": 4437430,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:58.4037173Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:41.4749074Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_uniform/diagnostics.csv",
+      "bytes": 19101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:41.3759075Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_uniform/session.json",
+      "bytes": 933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:41.4759095Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_uniform/state.npz",
+      "bytes": 2224806,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:41.4739077Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:46.9646746Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19533,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:46.8490917Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_heterogeneous/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:46.9646746Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/B_M0_heterogeneous/state.npz",
+      "bytes": 2719426,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:46.9636717Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_uniform/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:30.4329516Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_uniform/diagnostics.csv",
+      "bytes": 28177,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:30.2819857Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_uniform/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:30.4329516Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_uniform/state.npz",
+      "bytes": 4157067,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:30.4319488Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_heterogeneous/config.json",
+      "bytes": 2502,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:36.0115544Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_heterogeneous/diagnostics.csv",
+      "bytes": 28854,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:35.8469214Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_heterogeneous/session.json",
+      "bytes": 970,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:36.0125643Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M3_heterogeneous/state.npz",
+      "bytes": 4655982,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:36.0095649Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_uniform/config.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:19.3312714Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_uniform/diagnostics.csv",
+      "bytes": 28001,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:19.1822879Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_uniform/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:19.3312714Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_uniform/state.npz",
+      "bytes": 3954309,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:19.3292697Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_heterogeneous/config.json",
+      "bytes": 2499,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:24.8176580Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_heterogeneous/diagnostics.csv",
+      "bytes": 28705,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:24.6596641Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_heterogeneous/session.json",
+      "bytes": 971,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:24.8186586Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M2_heterogeneous/state.npz",
+      "bytes": 4452148,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:24.8166637Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_uniform/config.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:08.2334228Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_uniform/diagnostics.csv",
+      "bytes": 28440,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:08.0891710Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_uniform/session.json",
+      "bytes": 972,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:08.2344158Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_uniform/state.npz",
+      "bytes": 3943143,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:08.2324234Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_heterogeneous/config.json",
+      "bytes": 2500,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:13.8304548Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_heterogeneous/diagnostics.csv",
+      "bytes": 29144,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:13.6594437Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_heterogeneous/session.json",
+      "bytes": 973,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:13.8314419Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M1_heterogeneous/state.npz",
+      "bytes": 4441944,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:13.8294550Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_uniform/config.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:54:56.7333009Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_uniform/diagnostics.csv",
+      "bytes": 18956,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:54:56.6325525Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_uniform/session.json",
+      "bytes": 934,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:54:56.7342926Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_uniform/state.npz",
+      "bytes": 2224877,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:54:56.7323009Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_heterogeneous/config.json",
+      "bytes": 2498,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:02.5839996Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_heterogeneous/diagnostics.csv",
+      "bytes": 19678,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:02.4714526Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_heterogeneous/session.json",
+      "bytes": 933,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:55:02.5850121Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/experiments/n24/A_M0_heterogeneous/state.npz",
+      "bytes": 2723492,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T11:55:02.5824883Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.1937402Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/overlay_smoke.png",
+      "bytes": 208554,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.1617408Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/overlay_styles.json",
+      "bytes": 6676,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.5082835Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/session.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.5102811Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/primary_flow/config.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.2447623Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/primary_flow/state.npz",
+      "bytes": 4160873,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T16:14:22.4072761Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/independent_hydro/config.json",
+      "bytes": 2490,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.4082806Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/independent_hydro/state.npz",
+      "bytes": 2110164,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T16:14:22.5072794Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/geometry/config.json",
+      "bytes": 2481,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:14:22.1997434Z"
+    },
+    {
+      "path": "outputs/mhd_stage_20260913/all_owners_smoke/geometry/state.npz",
+      "bytes": 742746,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-13T16:14:22.2437487Z"
+    },
+    {
+      "path": "outputs/launcher_check/config.json",
+      "bytes": 480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:41:18.4829178Z"
+    },
+    {
+      "path": "outputs/launcher_check/diagnostics.csv",
+      "bytes": 245,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:41:18.4589319Z"
+    },
+    {
+      "path": "outputs/launcher_check/energy.png",
+      "bytes": 59629,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:41:19.4805991Z"
+    },
+    {
+      "path": "outputs/launcher_check/session.json",
+      "bytes": 244,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:41:18.4839116Z"
+    },
+    {
+      "path": "outputs/launcher_check/state.npz",
+      "bytes": 120746,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:41:18.4819174Z"
+    },
+    {
+      "path": "outputs/grmhd_discovery_20260913/GRMHD_INTEGRATION_ASSESSMENT.md",
+      "bytes": 10281,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:48:48.7200548Z"
+    },
+    {
+      "path": "outputs/grmhd_discovery_20260913/inspect_sources.py",
+      "bytes": 5243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:47:00.6598358Z"
+    },
+    {
+      "path": "outputs/grmhd_discovery_20260913/source_inventory.json",
+      "bytes": 8725,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T21:47:10.2503588Z"
+    },
+    {
+      "path": "outputs/cli_check/config.json",
+      "bytes": 480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:19.0388549Z"
+    },
+    {
+      "path": "outputs/cli_check/diagnostics.csv",
+      "bytes": 539,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:19.0006432Z"
+    },
+    {
+      "path": "outputs/cli_check/energy.png",
+      "bytes": 125416,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:20.3430823Z"
+    },
+    {
+      "path": "outputs/cli_check/session.json",
+      "bytes": 245,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:19.0398592Z"
+    },
+    {
+      "path": "outputs/cli_check/state.npz",
+      "bytes": 401543,
+      "eligible": false,
+      "reason": "dataset-runtime-or-temporary",
+      "modified": "2026-09-12T21:39:19.0378624Z"
+    },
+    {
+      "path": "outputs/.matplotlib/fontlist-v3.11.0.json",
+      "bytes": 143964,
+      "eligible": false,
+      "reason": "temporary-products",
+      "modified": "2026-09-12T21:33:59.9330223Z"
+    },
+    {
+      "path": "mhd/__init__.py",
+      "bytes": 81,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:45:52.4069895Z"
+    },
+    {
+      "path": "mhd/diagnostics.py",
+      "bytes": 5129,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:51:58.1685753Z"
+    },
+    {
+      "path": "mhd/experiments.py",
+      "bytes": 5875,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:07:05.8453192Z"
+    },
+    {
+      "path": "mhd/field.py",
+      "bytes": 2872,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:54:46.8244103Z"
+    },
+    {
+      "path": "mhd/grid.py",
+      "bytes": 4649,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:45:54.4679744Z"
+    },
+    {
+      "path": "mhd/integrator.py",
+      "bytes": 3042,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:51:56.1283372Z"
+    },
+    {
+      "path": "mhd/magnetic.py",
+      "bytes": 4074,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:48:51.5608538Z"
+    },
+    {
+      "path": "mhd/operators.py",
+      "bytes": 1047,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:51:54.0828713Z"
+    },
+    {
+      "path": "mhd/overlay_review.py",
+      "bytes": 6372,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:10:40.5076988Z"
+    },
+    {
+      "path": "mhd/relaxation.py",
+      "bytes": 1153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:48:55.6517161Z"
+    },
+    {
+      "path": "mhd/report.py",
+      "bytes": 19327,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T16:18:01.8736605Z"
+    },
+    {
+      "path": "mhd/validation.py",
+      "bytes": 7204,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:52:00.2097829Z"
+    },
+    {
+      "path": "fluid/__init__.py",
+      "bytes": 83,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:31:07.9738046Z"
+    },
+    {
+      "path": "fluid/advection.py",
+      "bytes": 1211,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:38:10.1728128Z"
+    },
+    {
+      "path": "fluid/cylinder.py",
+      "bytes": 2815,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:33:22.0605568Z"
+    },
+    {
+      "path": "fluid/field.py",
+      "bytes": 3811,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:29:18.6150472Z"
+    },
+    {
+      "path": "fluid/integrator.py",
+      "bytes": 3739,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:29:16.1106976Z"
+    },
+    {
+      "path": "fluid/mac.py",
+      "bytes": 2915,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:31:10.5397970Z"
+    },
+    {
+      "path": "fluid/projection.py",
+      "bytes": 2691,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:44:46.3535832Z"
+    },
+    {
+      "path": "fluid/sampling.py",
+      "bytes": 789,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:35:15.0535797Z"
+    },
+    {
+      "path": "fluid/vortex.py",
+      "bytes": 2096,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:35:12.3213850Z"
+    },
+    {
+      "path": "diagnostics/__init__.py",
+      "bytes": 65,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:22:40.6833925Z"
+    },
+    {
+      "path": "diagnostics/energy.py",
+      "bytes": 866,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:24:02.3105473Z"
+    },
+    {
+      "path": "diagnostics/experiments.py",
+      "bytes": 19425,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:39:10.8022880Z"
+    },
+    {
+      "path": "diagnostics/field_metrics.py",
+      "bytes": 1675,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T00:27:42.4510672Z"
+    },
+    {
+      "path": "diagnostics/flow_metrics.py",
+      "bytes": 3959,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:29:21.0691151Z"
+    },
+    {
+      "path": "diagnostics/numerical_report.py",
+      "bytes": 17889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:17:23.7988466Z"
+    },
+    {
+      "path": "diagnostics/plots.py",
+      "bytes": 2963,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-12T21:29:01.5364823Z"
+    },
+    {
+      "path": "diagnostics/recorder.py",
+      "bytes": 1506,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:33:45.5424612Z"
+    },
+    {
+      "path": "diagnostics/stage_guard.py",
+      "bytes": 829,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:41:16.3387661Z"
+    },
+    {
+      "path": "diagnostics/upgrade_experiments.py",
+      "bytes": 16153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:36:40.5303839Z"
+    },
+    {
+      "path": "diagnostics/vortex_metrics.py",
+      "bytes": 2053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T11:49:01.8036638Z"
+    },
+    {
+      "path": "configs/flow_structured_cylinder.json",
+      "bytes": 2148,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:13.4308748Z"
+    },
+    {
+      "path": "configs/flow_uniform_cylinder.json",
+      "bytes": 2149,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:13.4298735Z"
+    },
+    {
+      "path": "configs/geometry_mediated.json",
+      "bytes": 2135,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:13.4298735Z"
+    },
+    {
+      "path": "configs/geometry_prescribed.json",
+      "bytes": 2143,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T10:37:13.4288704Z"
+    },
+    {
+      "path": "configs/mhd_M0_uniform.json",
+      "bytes": 2485,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4745096Z"
+    },
+    {
+      "path": "configs/mhd_M1_uniform.json",
+      "bytes": 2487,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4745096Z"
+    },
+    {
+      "path": "configs/mhd_M2_uniform.json",
+      "bytes": 2486,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4760191Z"
+    },
+    {
+      "path": "configs/mhd_M3_structured_unmatched.json",
+      "bytes": 2488,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4780306Z"
+    },
+    {
+      "path": "configs/mhd_M3_uniform.json",
+      "bytes": 2489,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4770315Z"
+    },
+    {
+      "path": "configs/overlay_layers.json",
+      "bytes": 449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-13T12:01:45.4780306Z"
+    }
+  ],
+  "errors": []
+}

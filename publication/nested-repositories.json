@@ -1,0 +1,103 @@
+[
+  {
+    "path": "E:/Audit Gauntlet/M87_EHT_ROTOSCOPE/source/2024-D01-01",
+    "root": "E:/Audit Gauntlet/M87_EHT_ROTOSCOPE/source/2024-D01-01",
+    "commit": "fda41da417419fd9b54505ea3fa70a8cf6fb60ec",
+    "branch": "main",
+    "refs": [
+      "refs/heads/main fda41da417419fd9b54505ea3fa70a8cf6fb60ec"
+    ],
+    "remotes": [
+      "origin\thttps://github.com/eventhorizontelescope/2024-D01-01.git (fetch) [blob:none]",
+      "origin\thttps://github.com/eventhorizontelescope/2024-D01-01.git (push)"
+    ],
+    "status": [],
+    "worktrees": [
+      "worktree E:/Audit Gauntlet/M87_EHT_ROTOSCOPE/source/2024-D01-01",
+      "HEAD fda41da417419fd9b54505ea3fa70a8cf6fb60ec",
+      "branch refs/heads/main",
+      ""
+    ]
+  },
+  {
+    "path": "E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/data-release",
+    "root": "E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/data-release",
+    "commit": "52640fe116ac20fd67c7d1937c2e09a0ef49caa3",
+    "branch": "main",
+    "refs": [
+      "refs/heads/main 52640fe116ac20fd67c7d1937c2e09a0ef49caa3"
+    ],
+    "remotes": [
+      "origin\thttps://github.com/eventhorizontelescope/2022-D02-01.git (fetch)",
+      "origin\thttps://github.com/eventhorizontelescope/2022-D02-01.git (push)"
+    ],
+    "status": [],
+    "worktrees": [
+      "worktree E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/data-release",
+      "HEAD 52640fe116ac20fd67c7d1937c2e09a0ef49caa3",
+      "branch refs/heads/main",
+      ""
+    ]
+  },
+  {
+    "path": "E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/imaging-pipelines",
+    "root": "E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/imaging-pipelines",
+    "commit": "a3bc493c1269598cae45e948c10db8e7d6cbb4ab",
+    "branch": "main",
+    "refs": [
+      "refs/heads/main a3bc493c1269598cae45e948c10db8e7d6cbb4ab"
+    ],
+    "remotes": [
+      "origin\thttps://github.com/eventhorizontelescope/2022-D02-02.git (fetch)",
+      "origin\thttps://github.com/eventhorizontelescope/2022-D02-02.git (push)"
+    ],
+    "status": [
+      "?? pre-imaging/__pycache__/"
+    ],
+    "worktrees": [
+      "worktree E:/Audit Gauntlet/SGRA_EHT_ROTOSCOPE/source/imaging-pipelines",
+      "HEAD a3bc493c1269598cae45e948c10db8e7d6cbb4ab",
+      "branch refs/heads/main",
+      ""
+    ]
+  },
+  {
+    "path": "E:/Audit Gauntlet/galactic_geometry_lab/continuum_foundation/external_mhd/vendor/athena_v24.0",
+    "root": "E:/Audit Gauntlet/galactic_geometry_lab/continuum_foundation/external_mhd/vendor/athena_v24.0",
+    "commit": "209a9258ee158d1965557f1a5c4193101b704dd9",
+    "branch": null,
+    "refs": [
+      "refs/tags/v24.0 2b31496b65bb1ab5a00e9de5ea28b7ce391d6329"
+    ],
+    "remotes": [
+      "origin\thttps://github.com/PrincetonUniversity/athena.git (fetch)",
+      "origin\thttps://github.com/PrincetonUniversity/athena.git (push)"
+    ],
+    "status": [
+      "?? src/pgen/galform_validate.cpp"
+    ],
+    "worktrees": [
+      "worktree E:/Audit Gauntlet/galactic_geometry_lab/continuum_foundation/external_mhd/vendor/athena_v24.0",
+      "HEAD 209a9258ee158d1965557f1a5c4193101b704dd9",
+      "detached",
+      ""
+    ]
+  },
+  {
+    "path": "E:/Audit Gauntlet/SGR1935_FLICK_AUDIT/10_scripts/SGR1935_2A_detector",
+    "root": "E:/Audit Gauntlet/SGR1935_FLICK_AUDIT/10_scripts/SGR1935_2A_detector",
+    "commit": "076e35c2e08fedb137367f5c18fbf852afab0e3d",
+    "branch": "main",
+    "refs": [
+      "refs/heads/main 076e35c2e08fedb137367f5c18fbf852afab0e3d"
+    ],
+    "remotes": [],
+    "status": [],
+    "worktrees": [
+      "worktree E:/Audit Gauntlet/SGR1935_FLICK_AUDIT/10_scripts/SGR1935_2A_detector",
+      "HEAD 076e35c2e08fedb137367f5c18fbf852afab0e3d",
+      "branch refs/heads/main",
+      ""
+    ]
+  }
+]

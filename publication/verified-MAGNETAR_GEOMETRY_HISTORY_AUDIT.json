@@ -1,0 +1,46 @@
+{
+  "programme": "MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "path": "E:\\Audit Gauntlet\\MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "github": "https://github.com/Rikxar/MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "1193dc30c8b8286d1add4eb46654ae9edcfc00cf",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "1193dc30c8b8286d1add4eb46654ae9edcfc00cf",
+      "remote": "1193dc30c8b8286d1add4eb46654ae9edcfc00cf",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/MAGNETAR_GEOMETRY_HISTORY_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/MAGNETAR_GEOMETRY_HISTORY_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/MAGNETAR_GEOMETRY_HISTORY_AUDIT",
+    "HEAD 5d20b1b95dcaf2a3ba000aceac050b3406447fab",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [
+    "?? 03_raw/gbm_table1.dat",
+    "?? 03_raw/lin_paper.pdf",
+    "?? 03_raw/nicer_table1.dat",
+    "?? 03_raw/nicer_table2.dat",
+    "?? 03_raw/younes_erratum.pdf",
+    "?? 03_raw/younes_paper.pdf",
+    "?? 11_provenance/acquisition.json"
+  ],
+  "untracked": [
+    "03_raw/gbm_table1.dat",
+    "03_raw/lin_paper.pdf",
+    "03_raw/nicer_table1.dat",
+    "03_raw/nicer_table2.dat",
+    "03_raw/younes_erratum.pdf",
+    "03_raw/younes_paper.pdf",
+    "11_provenance/acquisition.json"
+  ],
+  "verifiedUtc": "2026-10-13T17:10:47.1012023Z"
+}

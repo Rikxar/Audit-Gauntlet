@@ -1,0 +1,30 @@
+{
+  "programme": "NGC5335_BAR_COHERENCE_AUDIT",
+  "path": "E:\\Audit Gauntlet\\NGC5335_BAR_COHERENCE_AUDIT",
+  "github": "https://github.com/Rikxar/NGC5335_BAR_COHERENCE_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "f4e160b2e5879243c67fb9f1ee638968300c7adc",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "f4e160b2e5879243c67fb9f1ee638968300c7adc",
+      "remote": "f4e160b2e5879243c67fb9f1ee638968300c7adc",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/NGC5335_BAR_COHERENCE_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/NGC5335_BAR_COHERENCE_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/NGC5335_BAR_COHERENCE_AUDIT",
+    "HEAD f4e160b2e5879243c67fb9f1ee638968300c7adc",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:07:02.6939621Z"
+}

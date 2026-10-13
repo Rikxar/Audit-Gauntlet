@@ -1,0 +1,909 @@
+{
+  "programme": "NGC5335_BAR_COHERENCE_AUDIT",
+  "path": "E:\\Audit Gauntlet\\NGC5335_BAR_COHERENCE_AUDIT",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:52:22.7988781Z"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:31.6287661Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1417,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:31.8966512Z"
+    },
+    {
+      "path": "scripts/download_selected_phase1.py",
+      "bytes": 7250,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:24:37.6643368Z"
+    },
+    {
+      "path": "scripts/execute_geometry_batch_refv2.py",
+      "bytes": 24437,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:36:50.9208589Z"
+    },
+    {
+      "path": "scripts/geometry_reference_constants_v1.json",
+      "bytes": 3387,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:19:32.1468359Z"
+    },
+    {
+      "path": "scripts/geometry_reference_v1.py",
+      "bytes": 40366,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:19:34.3561556Z"
+    },
+    {
+      "path": "scripts/preflight_geometry_v211.py",
+      "bytes": 8093,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T17:30:19.1487408Z"
+    },
+    {
+      "path": "scripts/query_mast_phase1.py",
+      "bytes": 6107,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:22:31.9482139Z"
+    },
+    {
+      "path": "scripts/test_geometry_reference_v1.py",
+      "bytes": 9425,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:17:25.3035309Z"
+    },
+    {
+      "path": "scripts/verify_fits_phase1.py",
+      "bytes": 28989,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:20.1553174Z"
+    },
+    {
+      "path": "scripts/fixtures/geometry_reference_synthetic_expected_v1.json",
+      "bytes": 1827,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:17:53.2311121Z"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/geometry_reference_constants_refv2.json",
+      "bytes": 3306,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:03:32.3031358Z"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/geometry_reference_refv2.py",
+      "bytes": 48836,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:05:03.0871810Z"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/test_geometry_reference_refv2.py",
+      "bytes": 11912,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:05:17.7245135Z"
+    },
+    {
+      "path": "REFERENCE_IMPLEMENTATION_refv2/fixtures/synthetic_top_level_expected_refv2.json",
+      "bytes": 371,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:02:01.0375708Z"
+    },
+    {
+      "path": "04_geometry/geometry_run_integrity_v2.1.1.json",
+      "bytes": 2174,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T17:32:39.8384056Z"
+    },
+    {
+      "path": "04_geometry/geometry_run_integrity.json",
+      "bytes": 2257,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:23:21.1654966Z"
+    },
+    {
+      "path": "04_geometry/phase2_batch_preflight_v2.1.1.json",
+      "bytes": 9790,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:33:48.6135712Z"
+    },
+    {
+      "path": "04_geometry/phase2_real_drc_execution_stop_v2.1.1_refv1.json",
+      "bytes": 2450,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:35:28.8925466Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/batch_evaluation.json",
+      "bytes": 782,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:45:05.0512093Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/cross_filter_consistency.csv",
+      "bytes": 70,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:47:34.6346437Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/geometry_run_integrity.json",
+      "bytes": 391,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:45:05.0566871Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/nominal_geometry_per_dataset.csv",
+      "bytes": 417,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:45:05.0501992Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/nominal_geometry_per_dataset.json",
+      "bytes": 1886,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:45:05.0501992Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/output_checksums.sha256",
+      "bytes": 1179,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:48:03.8534673Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/preflight.json",
+      "bytes": 2793,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:37:29.1250985Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/visit_consistency.csv",
+      "bytes": 177,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:47:32.5019926Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC01.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:38:44.5130053Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC02.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:40:00.5604801Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC03.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:41:18.1188290Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC04.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:42:36.6380428Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC05.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:43:50.7321342Z"
+    },
+    {
+      "path": "04_geometry/refv2_real_batch/per_dataset/DRC06.json",
+      "bytes": 314,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:45:04.8565509Z"
+    },
+    {
+      "path": "02_provenance/acquisition_manifest.csv",
+      "bytes": 4553,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2191581Z"
+    },
+    {
+      "path": "02_provenance/acquisition_manifest.json",
+      "bytes": 9646,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2201551Z"
+    },
+    {
+      "path": "02_provenance/alternate_hap_science_products.csv",
+      "bytes": 16937,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2171576Z"
+    },
+    {
+      "path": "02_provenance/archive_observation_time_windows.csv",
+      "bytes": 983,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2121551Z"
+    },
+    {
+      "path": "02_provenance/disagreements.csv",
+      "bytes": 472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2101594Z"
+    },
+    {
+      "path": "02_provenance/download_log.json",
+      "bytes": 14583,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:27:45.0794419Z"
+    },
+    {
+      "path": "02_provenance/duplicate_inventory_rows.csv",
+      "bytes": 8576,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2151609Z"
+    },
+    {
+      "path": "02_provenance/exposure_consistency.csv",
+      "bytes": 363,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2091574Z"
+    },
+    {
+      "path": "02_provenance/fits_header_register.csv",
+      "bytes": 106404,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2031550Z"
+    },
+    {
+      "path": "02_provenance/fits_verification.json",
+      "bytes": 732777,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.1966364Z"
+    },
+    {
+      "path": "02_provenance/geometry_reference_environment_v1.json",
+      "bytes": 1023,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:18:38.8285252Z"
+    },
+    {
+      "path": "02_provenance/integrity_report.json",
+      "bytes": 1552,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2191581Z"
+    },
+    {
+      "path": "02_provenance/keyword_absence_register.csv",
+      "bytes": 2434,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2031550Z"
+    },
+    {
+      "path": "02_provenance/mast_observations_17883_raw.json",
+      "bytes": 23863,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:01.2574549Z"
+    },
+    {
+      "path": "02_provenance/mast_observations_17883.csv",
+      "bytes": 9924,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:01.2584657Z"
+    },
+    {
+      "path": "02_provenance/mast_observations_expected_six.csv",
+      "bytes": 5030,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:01.2594664Z"
+    },
+    {
+      "path": "02_provenance/mast_products_17883_six_raw.json",
+      "bytes": 297226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:13.2543123Z"
+    },
+    {
+      "path": "02_provenance/mast_query_manifest.json",
+      "bytes": 1189,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:13.2618296Z"
+    },
+    {
+      "path": "02_provenance/phase2_runtime_environment_v2.1.1.json",
+      "bytes": 822,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T17:34:07.5686649Z"
+    },
+    {
+      "path": "02_provenance/product_inventory_complete.csv",
+      "bytes": 78784,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:13.2588236Z"
+    },
+    {
+      "path": "02_provenance/product_inventory_science.csv",
+      "bytes": 30791,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:23:13.2618296Z"
+    },
+    {
+      "path": "02_provenance/product_selection_manifest.csv",
+      "bytes": 6787,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:24:47.5134354Z"
+    },
+    {
+      "path": "02_provenance/product_selection_manifest.json",
+      "bytes": 19426,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:24:47.5149517Z"
+    },
+    {
+      "path": "02_provenance/provenance_register.csv",
+      "bytes": 136315,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2071586Z"
+    },
+    {
+      "path": "02_provenance/provenance_register.json",
+      "bytes": 155711,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:38:56.2091574Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw01030_drc.fits",
+      "bytes": 223418880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:52.5026181Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw01kgq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:56.2583709Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw01klq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:14.5373618Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw01kpq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:06.9750533Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw02030_drc.fits",
+      "bytes": 223418880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:23.0042320Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw02l2q_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:14.8559127Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw02l7q_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:24.7527116Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F814W/ifiw02lbq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:45.0759274Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw01020_drc.fits",
+      "bytes": 223418880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:21.9882488Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw01kfq_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:32.6904106Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw01kjq_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:31.8871360Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw01koq_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:43.6942468Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw02020_drc.fits",
+      "bytes": 223418880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:26.4958586Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw02l1q_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:51.0716655Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw02l5q_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:07.0279152Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F625W/ifiw02laq_flc.fits",
+      "bytes": 168419520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:27:05.0643658Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw01010_drc.fits",
+      "bytes": 223462080,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:12.8004031Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw01keq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:12.1246001Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw01kiq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:05.2658713Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw01kmq_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:25:22.4579469Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw02010_drc.fits",
+      "bytes": 223418880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:30.9861626Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw02l0q_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:51.2711471Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw02l4q_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:25.7940623Z"
+    },
+    {
+      "path": "01_source/imaging/HST_17883/F475W/ifiw02l8q_flc.fits",
+      "bytes": 168675840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-02T23:26:38.0149826Z"
+    },
+    {
+      "path": "00_admin/AUTHORITY_BOUNDARY.md",
+      "bytes": 472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:22:21.4042500Z"
+    },
+    {
+      "path": "00_admin/FARADAY_PROTOCOL.md",
+      "bytes": 490,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:22:18.0139747Z"
+    },
+    {
+      "path": "00_admin/FREEZE.md",
+      "bytes": 495,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:22:14.6114476Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.0.md",
+      "bytes": 15537,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T05:28:22.7868710Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.1.md",
+      "bytes": 5806,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:26:54.2505808Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.2.md",
+      "bytes": 8917,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T12:11:13.0859652Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v1.0.3.md",
+      "bytes": 6428,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:19:16.5233882Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.0.0.md",
+      "bytes": 7451,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:34:34.0397853Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.1.0.md",
+      "bytes": 26778,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:52:34.9661495Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_CONTRACT_v2.1.1.md",
+      "bytes": 27475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T16:47:44.3574658Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.0.json",
+      "bytes": 1056,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T05:29:24.9513405Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.0.sha256",
+      "bytes": 318,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T05:30:02.3360845Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.1.json",
+      "bytes": 1630,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:28:19.5067076Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.1.sha256",
+      "bytes": 318,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:28:47.3708241Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.2.json",
+      "bytes": 1480,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T12:12:49.3028523Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.2.sha256",
+      "bytes": 318,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T12:13:18.0050956Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.3.json",
+      "bytes": 1280,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:20:27.6725698Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v1.0.3.sha256",
+      "bytes": 318,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:20:54.3058442Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.0.0.json",
+      "bytes": 1737,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:35:58.9413149Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.0.0.sha256",
+      "bytes": 318,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:37:09.3625802Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.1.1.json",
+      "bytes": 1832,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T16:50:59.9836880Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_FREEZE_v2.1.1.sha256",
+      "bytes": 427,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T16:51:42.2073039Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_GATE.md",
+      "bytes": 5408,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:47:41.0113712Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.0.md",
+      "bytes": 4672,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T05:28:24.9793788Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.1.md",
+      "bytes": 4575,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:27:22.8458202Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.2.md",
+      "bytes": 5360,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T12:12:00.7714098Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v1.0.3.md",
+      "bytes": 3451,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:19:41.5745412Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v2.0.0.md",
+      "bytes": 4758,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:35:10.7020843Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_LEAKAGE_REVIEW_v2.1.1.md",
+      "bytes": 5465,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T16:50:20.3028254Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_TRACEABILITY_v2.1.0.csv",
+      "bytes": 12954,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T13:51:10.6007095Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_ESTIMATOR_TRACEABILITY_v2.1.1.csv",
+      "bytes": 14472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T16:48:47.6555857Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_REFERENCE_FREEZE_v1.json",
+      "bytes": 1871,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:22:13.5650683Z"
+    },
+    {
+      "path": "00_admin/GEOMETRY_REFERENCE_IMPLEMENTATION_v1.md",
+      "bytes": 8059,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:21:09.2756173Z"
+    },
+    {
+      "path": "00_admin/KNOWN_DR_CONTAMINATION.md",
+      "bytes": 400,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:22:24.8081638Z"
+    },
+    {
+      "path": "00_admin/PHASE1_GATE_STATUS.md",
+      "bytes": 1062,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:47:07.2350664Z"
+    },
+    {
+      "path": "00_admin/PHASE2_AUTHORIZATION.md",
+      "bytes": 1475,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-02T23:47:10.0123998Z"
+    },
+    {
+      "path": "00_admin/PHASE2_EXECUTION_PREFLIGHT_v1.0.0.md",
+      "bytes": 2612,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T11:23:18.9442593Z"
+    },
+    {
+      "path": "00_admin/PHASE2_EXECUTION_PREFLIGHT_v2.1.1.md",
+      "bytes": 4140,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T17:32:37.5790112Z"
+    },
+    {
+      "path": "00_admin/PHASE2_REAL_DRC_EXECUTION_RESULT_v2.1.1_refv2.md",
+      "bytes": 2476,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:47:38.8813833Z"
+    },
+    {
+      "path": "00_admin/PHASE2_REAL_DRC_EXECUTION_STOP_v2.1.1_refv1.md",
+      "bytes": 4448,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T18:35:26.7461199Z"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_FREEZE_refv2.json",
+      "bytes": 3049,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:07:58.4023238Z"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_FREEZE_refv2.sha256",
+      "bytes": 1012,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:08:18.2512961Z"
+    },
+    {
+      "path": "00_admin/REFERENCE_IMPLEMENTATION_TEST_REPORT_refv2.json",
+      "bytes": 1081,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:06:46.2355236Z"
+    },
+    {
+      "path": "00_admin/REFEX_IMPLEMENTATION_CLOSURE_v2.1.2.md",
+      "bytes": 5162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:06:44.0850793Z"
+    },
+    {
+      "path": "00_admin/RUNLOG.md",
+      "bytes": 13263,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-03T19:47:43.1447419Z"
+    }
+  ],
+  "omittedDirectories": [
+    "scripts/__pycache__",
+    "scripts/_vendor",
+    "REFERENCE_IMPLEMENTATION_refv2/__pycache__"
+  ],
+  "errors": []
+}

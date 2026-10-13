@@ -1,0 +1,3981 @@
+{
+  "programme": "M87_JET_INTERRUPTION_AUDIT",
+  "path": "E:\\Audit Gauntlet\\M87_JET_INTERRUPTION_AUDIT",
+  "boundaries": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:30.5787929Z"
+    },
+    {
+      "path": "deliverable_status.csv",
+      "bytes": 2608,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1781131Z"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 1415,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-10-13T16:51:30.8435439Z"
+    },
+    {
+      "path": "raw_data_inventory.csv",
+      "bytes": 70598,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1337149Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3953,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:42.2419041Z"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 15252,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.6947093Z"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 483,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1770953Z"
+    },
+    {
+      "path": "run_validation.ps1",
+      "bytes": 1157,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:53.0106414Z"
+    },
+    {
+      "path": "TARGET_SUPERSEDED.md",
+      "bytes": 593,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T13:24:40.2456532Z"
+    },
+    {
+      "path": "verdict.json",
+      "bytes": 1210,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1791063Z"
+    },
+    {
+      "path": "source/acquire_campaign.py",
+      "bytes": 5294,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:09:50.7600469Z"
+    },
+    {
+      "path": "source/acquire.py",
+      "bytes": 4188,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:09:48.6240533Z"
+    },
+    {
+      "path": "source/closure_transform_probe.py",
+      "bytes": 3467,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:29.6067921Z"
+    },
+    {
+      "path": "source/closure_validation.py",
+      "bytes": 14187,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:12.7910296Z"
+    },
+    {
+      "path": "source/package_audit.py",
+      "bytes": 35409,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:00.5438892Z"
+    },
+    {
+      "path": "source/reference_figures.py",
+      "bytes": 1076,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:50.7333667Z"
+    },
+    {
+      "path": "source/stage_a.py",
+      "bytes": 7700,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:03:00.4590939Z"
+    },
+    {
+      "path": "source/uv_support.py",
+      "bytes": 10035,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:09:52.8909140Z"
+    },
+    {
+      "path": "source/validate_fits.py",
+      "bytes": 6696,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:03:02.7684559Z"
+    },
+    {
+      "path": "source/verify_audit.py",
+      "bytes": 5779,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:48.8433971Z"
+    },
+    {
+      "path": "provenance/checksums.sha256",
+      "bytes": 31090,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:07:21.3927276Z"
+    },
+    {
+      "path": "provenance/data_caveats.csv",
+      "bytes": 2110,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1347166Z"
+    },
+    {
+      "path": "provenance/implementation_snapshot.csv",
+      "bytes": 3063,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:22:01.1911083Z"
+    },
+    {
+      "path": "provenance/integrity_report.json",
+      "bytes": 1070,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:22:01.1690568Z"
+    },
+    {
+      "path": "provenance/manifest.json",
+      "bytes": 174181,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:07:21.3897303Z"
+    },
+    {
+      "path": "provenance/reconstruction_parameter_manifest.json",
+      "bytes": 2282,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1347166Z"
+    },
+    {
+      "path": "provenance/remote_file_inventory.csv",
+      "bytes": 35628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:00:53.6725987Z"
+    },
+    {
+      "path": "provenance/runtime.json",
+      "bytes": 470,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.2491824Z"
+    },
+    {
+      "path": "protocol/BLIND_PROTOCOL.md",
+      "bytes": 7835,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:13:07.7652837Z"
+    },
+    {
+      "path": "protocol/null_hypothesis_register.csv",
+      "bytes": 3496,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1781131Z"
+    },
+    {
+      "path": "products/injection_recovery_status.json",
+      "bytes": 184,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1801169Z"
+    },
+    {
+      "path": "products/stage_a/display_frame_metadata.csv",
+      "bytes": 9698,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.2047757Z"
+    },
+    {
+      "path": "products/stage_a/overview_sample_metadata.csv",
+      "bytes": 4293,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:12.0928183Z"
+    },
+    {
+      "path": "products/stage_a/overview_video_metadata.json",
+      "bytes": 384,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:52.1367367Z"
+    },
+    {
+      "path": "products/stage_a/published_CLEAN_frame_mapping.csv",
+      "bytes": 6207,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.1911803Z"
+    },
+    {
+      "path": "products/stage_a/published_observation_metadata.csv",
+      "bytes": 6782,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.3150183Z"
+    },
+    {
+      "path": "products/stage_a/published_station_quality.csv",
+      "bytes": 31544,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.3181015Z"
+    },
+    {
+      "path": "products/stage_a/published_support_table_raw.json",
+      "bytes": 30366,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.3120187Z"
+    },
+    {
+      "path": "products/stage_a/support_and_beams.png",
+      "bytes": 171385,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.6689256Z"
+    },
+    {
+      "path": "products/stage_a/support_legend.txt",
+      "bytes": 518,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.3140133Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/contact_01.png",
+      "bytes": 1339714,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:50.8299240Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/contact_02.png",
+      "bytes": 1315243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:51.0709830Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/decoded_replay.gif",
+      "bytes": 1884861,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:50.5549945Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_000_playback_000000ms.png",
+      "bytes": 218887,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.1862765Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_001_playback_000500ms.png",
+      "bytes": 212814,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.2378671Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_002_playback_000690ms.png",
+      "bytes": 232258,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.2909169Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_003_playback_000860ms.png",
+      "bytes": 223165,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.3424338Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_004_playback_001150ms.png",
+      "bytes": 227181,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.3974150Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_005_playback_001460ms.png",
+      "bytes": 232193,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.4527251Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_006_playback_001650ms.png",
+      "bytes": 223011,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.5106871Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_007_playback_001860ms.png",
+      "bytes": 238529,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.5702840Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_008_playback_002170ms.png",
+      "bytes": 226463,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.6300766Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_009_playback_002500ms.png",
+      "bytes": 218419,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.6887611Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_010_playback_002730ms.png",
+      "bytes": 229521,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.7434286Z"
+    },
+    {
+      "path": "products/stage_a/walker_2008/frames/frame_011_playback_003060ms.png",
+      "bytes": 221131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.7954920Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/contact_01.png",
+      "bytes": 1313042,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:48.9328586Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/contact_02.png",
+      "bytes": 1136943,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.1377895Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/decoded_replay.gif",
+      "bytes": 1717382,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:48.6807977Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_000_playback_000000ms.png",
+      "bytes": 228753,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.3720188Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_001_playback_000500ms.png",
+      "bytes": 226829,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.4303501Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_002_playback_000670ms.png",
+      "bytes": 219660,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.4854221Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_003_playback_000840ms.png",
+      "bytes": 219888,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.5392709Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_004_playback_000990ms.png",
+      "bytes": 217997,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.5930032Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_005_playback_001130ms.png",
+      "bytes": 230520,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.6478964Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_006_playback_001280ms.png",
+      "bytes": 231564,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.7050854Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_007_playback_001440ms.png",
+      "bytes": 212664,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.7633396Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_008_playback_001600ms.png",
+      "bytes": 212161,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.8178514Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_009_playback_001770ms.png",
+      "bytes": 224740,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.8756926Z"
+    },
+    {
+      "path": "products/stage_a/walker_2007/frames/frame_010_playback_001930ms.png",
+      "bytes": 235145,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:47.9381239Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/contact_01.png",
+      "bytes": 697153,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:11.3999549Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/contact_02.png",
+      "bytes": 691654,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:11.5995896Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/contact_03.png",
+      "bytes": 771115,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:11.8073650Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/contact_04.png",
+      "bytes": 724029,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:12.0091569Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/contact_05.png",
+      "bytes": 364780,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:12.0918053Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0000s.png",
+      "bytes": 183644,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:52.2071892Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0020s.png",
+      "bytes": 459040,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:52.9439479Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0040s.png",
+      "bytes": 484001,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:53.7467807Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0060s.png",
+      "bytes": 250469,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:54.4169016Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0080s.png",
+      "bytes": 495889,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:55.1593427Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0100s.png",
+      "bytes": 505580,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:55.9823838Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0120s.png",
+      "bytes": 486284,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:56.7070022Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0140s.png",
+      "bytes": 518544,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:57.5258855Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0160s.png",
+      "bytes": 565125,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:58.2255654Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0180s.png",
+      "bytes": 498047,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:58.9872313Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0200s.png",
+      "bytes": 117380,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:59.7911595Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0220s.png",
+      "bytes": 288198,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:00.4988167Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0240s.png",
+      "bytes": 407008,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:01.2834382Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0260s.png",
+      "bytes": 409147,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:01.9930259Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0280s.png",
+      "bytes": 536959,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:02.7474790Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0300s.png",
+      "bytes": 484873,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:03.5979454Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0320s.png",
+      "bytes": 531681,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:04.3091313Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0340s.png",
+      "bytes": 585191,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:05.0878790Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0360s.png",
+      "bytes": 323220,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:05.7713641Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0380s.png",
+      "bytes": 392755,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:06.5374956Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0400s.png",
+      "bytes": 354810,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:07.3410594Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0420s.png",
+      "bytes": 367538,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:08.0638256Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0440s.png",
+      "bytes": 731532,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:08.8790497Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0460s.png",
+      "bytes": 570993,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:09.5946167Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0480s.png",
+      "bytes": 680663,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:10.3645519Z"
+    },
+    {
+      "path": "products/stage_a/starwarps_overview/samples/presentation_0500s.png",
+      "bytes": 667451,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:11.1035121Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/image_metadata.csv",
+      "bytes": 17032,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:20:03.2097878Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/render_configuration.json",
+      "bytes": 700,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:18.3471906Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-01-21_BW088U.png",
+      "bytes": 103339,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:05.5883704Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-01-26_BW090A.png",
+      "bytes": 103158,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:06.2391827Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-01-31_BW090B.png",
+      "bytes": 105269,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:06.8396624Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-02-04_BW090C.png",
+      "bytes": 111078,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:07.4099565Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-02-10_BW090D.png",
+      "bytes": 109351,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:07.9857318Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-02-15_BW090E.png",
+      "bytes": 105299,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:08.5513631Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-02-20_BW090F.png",
+      "bytes": 107323,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:09.1315936Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-02-25_BW090G.png",
+      "bytes": 101162,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:09.7731761Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-02_BW090H.png",
+      "bytes": 106614,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:10.3476730Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-06_BW090I.png",
+      "bytes": 113659,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:10.9258777Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-12_BW090J.png",
+      "bytes": 100974,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:11.4946889Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-19_BW090K.png",
+      "bytes": 103681,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:12.0612222Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-24_BW090L.png",
+      "bytes": 102589,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:12.6251249Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-03-29_BW090M.png",
+      "bytes": 109364,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:13.2838883Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/2008-04-05_BW090N.png",
+      "bytes": 103756,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:13.8870132Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/contact_01.png",
+      "bytes": 539986,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:18.0784996Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/contact_02.png",
+      "bytes": 530218,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:18.2474496Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/contact_03.png",
+      "bytes": 293061,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:18.3456763Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/native_CLEAN.gif",
+      "bytes": 2406554,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:17.6404892Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2008/native_CLEAN.mp4",
+      "bytes": 364862,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-27T04:17:17.8867545Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-01-27_BW088A.png",
+      "bytes": 104974,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:59.1723157Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-02-17_BW088B.png",
+      "bytes": 103490,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:59.7527544Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-03-13_BW088D.png",
+      "bytes": 103699,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:00.3348033Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-04-03_BW088E.png",
+      "bytes": 105446,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:00.9000691Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-04-23_BW088F.png",
+      "bytes": 100975,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:01.4572145Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-05-09_BW088G.png",
+      "bytes": 103837,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:02.0128683Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-06-02_BW088H.png",
+      "bytes": 103478,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:02.6414925Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-06-21_BW088I.png",
+      "bytes": 100206,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:03.2011036Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-07-15_BW088J.png",
+      "bytes": 104849,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:03.7754847Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-08-04_BW088K.png",
+      "bytes": 102408,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:04.3773725Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/2007-08-26_BW088L.png",
+      "bytes": 105620,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:04.9608887Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/contact_01.png",
+      "bytes": 514564,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:15.7103407Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/contact_02.png",
+      "bytes": 452642,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:15.8570883Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/native_CLEAN.gif",
+      "bytes": 1725614,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:15.1828453Z"
+    },
+    {
+      "path": "products/stage_a/native_CLEAN/VLBA_43GHz_2007/native_CLEAN.mp4",
+      "bytes": 265731,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-27T04:17:15.5210484Z"
+    },
+    {
+      "path": "products/observational_support/baseline_amplitude_inventory.csv",
+      "bytes": 1929089,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:47.0256827Z"
+    },
+    {
+      "path": "products/observational_support/inferred_time_runs.csv",
+      "bytes": 189416,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:46.8646738Z"
+    },
+    {
+      "path": "products/observational_support/minute_support.csv",
+      "bytes": 2207780,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:46.9606786Z"
+    },
+    {
+      "path": "products/observational_support/station_metadata.csv",
+      "bytes": 39213,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:46.8586781Z"
+    },
+    {
+      "path": "products/observational_support/uvfits_metadata.csv",
+      "bytes": 28793,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:46.8556924Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-01-21_BW088U_synchronized.png",
+      "bytes": 202795,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:48.2799166Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-01-26_BW090A_synchronized.png",
+      "bytes": 209156,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:52.7457249Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-01-31_BW090B_synchronized.png",
+      "bytes": 218116,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:57.4484147Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-02-04_BW090C_synchronized.png",
+      "bytes": 218228,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:01.8362009Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-02-10_BW090D_synchronized.png",
+      "bytes": 206261,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:05.6965718Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-02-15_BW090E_synchronized.png",
+      "bytes": 211004,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:09.5291175Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-02-20_BW090F_synchronized.png",
+      "bytes": 215341,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:13.2546879Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-02-25_BW090G_synchronized.png",
+      "bytes": 212334,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:17.8075457Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-02_BW090H_synchronized.png",
+      "bytes": 205147,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:22.3471335Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-06_BW090I_synchronized.png",
+      "bytes": 223622,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:25.6117518Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-12_BW090J_synchronized.png",
+      "bytes": 206718,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:28.2251542Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-19_BW090K_synchronized.png",
+      "bytes": 214172,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:32.9351788Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-24_BW090L_synchronized.png",
+      "bytes": 211457,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:37.4719626Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-03-29_BW090M_synchronized.png",
+      "bytes": 207992,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:41.1994634Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/2008-04-05_BW090N_synchronized.png",
+      "bytes": 211870,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:44.6891930Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/synchronized_support.gif",
+      "bytes": 2116752,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:51.3340367Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2008/synchronized_support.mp4",
+      "bytes": 464272,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-26T20:11:51.6159604Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-01-27_BW088A_synchronized.png",
+      "bytes": 196387,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:09:58.1825041Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-02-17_BW088B_synchronized.png",
+      "bytes": 210870,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:03.1148557Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-03-13_BW088D_synchronized.png",
+      "bytes": 206307,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:07.4387611Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-04-03_BW088E_synchronized.png",
+      "bytes": 218638,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:11.7724409Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-04-23_BW088F_synchronized.png",
+      "bytes": 208192,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:16.7664644Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-05-09_BW088G_synchronized.png",
+      "bytes": 215620,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:23.7470351Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-06-02_BW088H_synchronized.png",
+      "bytes": 216445,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:26.4396935Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-06-21_BW088I_synchronized.png",
+      "bytes": 208347,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:31.2096329Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-07-15_BW088J_synchronized.png",
+      "bytes": 205842,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:35.6716010Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-08-04_BW088K_synchronized.png",
+      "bytes": 209567,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:39.5678075Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/2007-08-26_BW088L_synchronized.png",
+      "bytes": 217523,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:44.0874828Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/synchronized_support.gif",
+      "bytes": 1431414,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:11:48.6428292Z"
+    },
+    {
+      "path": "products/observational_support/VLBA_43GHz_2007/synchronized_support.mp4",
+      "bytes": 371980,
+      "eligible": false,
+      "reason": "unclassified-format",
+      "modified": "2026-09-26T20:11:49.1022261Z"
+    },
+    {
+      "path": "products/closure_validation/analytic_validation.json",
+      "bytes": 266,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:23.6581355Z"
+    },
+    {
+      "path": "products/closure_validation/BW088A_calibration_closures.png",
+      "bytes": 78594,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:15.6706905Z"
+    },
+    {
+      "path": "products/closure_validation/BW088A_summary.json",
+      "bytes": 1232,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:28.9731349Z"
+    },
+    {
+      "path": "products/closure_validation/BW088B_calibration_closures.png",
+      "bytes": 73833,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:15.8457334Z"
+    },
+    {
+      "path": "products/closure_validation/BW088B_summary.json",
+      "bytes": 1236,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:34.9589863Z"
+    },
+    {
+      "path": "products/closure_validation/BW088D_calibration_closures.png",
+      "bytes": 78025,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.0245220Z"
+    },
+    {
+      "path": "products/closure_validation/BW088D_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:39.5890029Z"
+    },
+    {
+      "path": "products/closure_validation/BW088E_calibration_closures.png",
+      "bytes": 77360,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.1989475Z"
+    },
+    {
+      "path": "products/closure_validation/BW088E_summary.json",
+      "bytes": 1234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:45.1658655Z"
+    },
+    {
+      "path": "products/closure_validation/BW088F_calibration_closures.png",
+      "bytes": 77896,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.3817828Z"
+    },
+    {
+      "path": "products/closure_validation/BW088F_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:50.5336540Z"
+    },
+    {
+      "path": "products/closure_validation/BW088G_calibration_closures.png",
+      "bytes": 78403,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.5566907Z"
+    },
+    {
+      "path": "products/closure_validation/BW088G_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:56.5589494Z"
+    },
+    {
+      "path": "products/closure_validation/BW088H_calibration_closures.png",
+      "bytes": 79187,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.7397016Z"
+    },
+    {
+      "path": "products/closure_validation/BW088H_summary.json",
+      "bytes": 1232,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:02.3088426Z"
+    },
+    {
+      "path": "products/closure_validation/BW088I_calibration_closures.png",
+      "bytes": 76300,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:16.9126857Z"
+    },
+    {
+      "path": "products/closure_validation/BW088I_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:07.9313495Z"
+    },
+    {
+      "path": "products/closure_validation/BW088J_calibration_closures.png",
+      "bytes": 78914,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:17.0931572Z"
+    },
+    {
+      "path": "products/closure_validation/BW088J_summary.json",
+      "bytes": 1234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:12.7420739Z"
+    },
+    {
+      "path": "products/closure_validation/BW088K_calibration_closures.png",
+      "bytes": 78449,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:17.2728845Z"
+    },
+    {
+      "path": "products/closure_validation/BW088K_summary.json",
+      "bytes": 1234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:17.6749180Z"
+    },
+    {
+      "path": "products/closure_validation/BW088L_calibration_closures.png",
+      "bytes": 79536,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:17.4599547Z"
+    },
+    {
+      "path": "products/closure_validation/BW088L_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:22.9912810Z"
+    },
+    {
+      "path": "products/closure_validation/BW088U_calibration_closures.png",
+      "bytes": 81779,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:17.6527151Z"
+    },
+    {
+      "path": "products/closure_validation/BW088U_summary.json",
+      "bytes": 1236,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:28.0841328Z"
+    },
+    {
+      "path": "products/closure_validation/BW090A_calibration_closures.png",
+      "bytes": 77978,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:17.8327679Z"
+    },
+    {
+      "path": "products/closure_validation/BW090A_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:33.4425402Z"
+    },
+    {
+      "path": "products/closure_validation/BW090B_calibration_closures.png",
+      "bytes": 76114,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:18.1102687Z"
+    },
+    {
+      "path": "products/closure_validation/BW090B_summary.json",
+      "bytes": 1234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:39.3230495Z"
+    },
+    {
+      "path": "products/closure_validation/BW090C_calibration_closures.png",
+      "bytes": 79207,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:18.2991159Z"
+    },
+    {
+      "path": "products/closure_validation/BW090C_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:44.6398034Z"
+    },
+    {
+      "path": "products/closure_validation/BW090D_calibration_closures.png",
+      "bytes": 78157,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:18.4790389Z"
+    },
+    {
+      "path": "products/closure_validation/BW090D_summary.json",
+      "bytes": 1237,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.8689586Z"
+    },
+    {
+      "path": "products/closure_validation/BW090E_calibration_closures.png",
+      "bytes": 77826,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:18.6655597Z"
+    },
+    {
+      "path": "products/closure_validation/BW090E_summary.json",
+      "bytes": 1233,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:02.9508170Z"
+    },
+    {
+      "path": "products/closure_validation/BW090F_calibration_closures.png",
+      "bytes": 78571,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:18.8477273Z"
+    },
+    {
+      "path": "products/closure_validation/BW090F_summary.json",
+      "bytes": 1229,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:13.6192171Z"
+    },
+    {
+      "path": "products/closure_validation/BW090G_calibration_closures.png",
+      "bytes": 75782,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.0245574Z"
+    },
+    {
+      "path": "products/closure_validation/BW090G_summary.json",
+      "bytes": 1234,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:19.4483674Z"
+    },
+    {
+      "path": "products/closure_validation/BW090H_calibration_closures.png",
+      "bytes": 78823,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.2067819Z"
+    },
+    {
+      "path": "products/closure_validation/BW090H_summary.json",
+      "bytes": 1233,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:23.7322100Z"
+    },
+    {
+      "path": "products/closure_validation/BW090J_calibration_closures.png",
+      "bytes": 76609,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.3946320Z"
+    },
+    {
+      "path": "products/closure_validation/BW090J_summary.json",
+      "bytes": 1236,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:29.0013303Z"
+    },
+    {
+      "path": "products/closure_validation/BW090K_summary.json",
+      "bytes": 866,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:31.0205983Z"
+    },
+    {
+      "path": "products/closure_validation/BW090L_calibration_closures.png",
+      "bytes": 76554,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.5821572Z"
+    },
+    {
+      "path": "products/closure_validation/BW090L_summary.json",
+      "bytes": 1237,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:36.4197813Z"
+    },
+    {
+      "path": "products/closure_validation/BW090M_calibration_closures.png",
+      "bytes": 76268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.7681515Z"
+    },
+    {
+      "path": "products/closure_validation/BW090M_summary.json",
+      "bytes": 1235,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:40.6066325Z"
+    },
+    {
+      "path": "products/closure_validation/BW090N_calibration_closures.png",
+      "bytes": 78101,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:21:19.9591695Z"
+    },
+    {
+      "path": "products/closure_validation/BW090N_summary.json",
+      "bytes": 1237,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.5657844Z"
+    },
+    {
+      "path": "products/closure_validation/closure_combination_diagnostics.csv",
+      "bytes": 5367300,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.7565090Z"
+    },
+    {
+      "path": "products/closure_validation/closure_epoch_summary.csv",
+      "bytes": 4397,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.7580809Z"
+    },
+    {
+      "path": "products/closure_validation/closure_minute_differences.csv",
+      "bytes": 966298,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.8149492Z"
+    },
+    {
+      "path": "products/closure_validation/configuration.json",
+      "bytes": 1069,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.8169593Z"
+    },
+    {
+      "path": "products/closure_validation/matched_input_checks.csv",
+      "bytes": 8011,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:45.8159716Z"
+    },
+    {
+      "path": "products/closure_validation/representation_hypotheses_by_triangle.csv",
+      "bytes": 86292,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:48.3912767Z"
+    },
+    {
+      "path": "products/closure_validation/representation_hypothesis_summary.csv",
+      "bytes": 1136,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:48.3922902Z"
+    },
+    {
+      "path": "products/closure_validation/representation_probe_status.json",
+      "bytes": 575,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:48.3922902Z"
+    },
+    {
+      "path": "originals/web/array_performance.html",
+      "bytes": 43213,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:50:17.8962346Z"
+    },
+    {
+      "path": "originals/web/bouman_home.html",
+      "bytes": 982,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:53:09.4924799Z"
+    },
+    {
+      "path": "originals/web/bouman_media_index.html",
+      "bytes": 10821,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:57:12.2153297Z"
+    },
+    {
+      "path": "originals/web/bouman_publications_mit.html",
+      "bytes": 18429,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:51:04.6433655Z"
+    },
+    {
+      "path": "originals/web/bouman_publications.html",
+      "bytes": 25975,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:53:10.2983555Z"
+    },
+    {
+      "path": "originals/web/BW088A_index.txt",
+      "bytes": 471,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:59:12.3798152Z"
+    },
+    {
+      "path": "originals/web/nrao_anonymous_ftp.txt",
+      "bytes": 384,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:57:20.2031361Z"
+    },
+    {
+      "path": "originals/web/nrao_DATA_index.txt",
+      "bytes": 1840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:58:09.2937560Z"
+    },
+    {
+      "path": "originals/web/walker_index.html",
+      "bytes": 27781,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:50:16.8675756Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088A.txt",
+      "bytes": 465,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:35.9378802Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088B.txt",
+      "bytes": 461,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:36.6607261Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088D.txt",
+      "bytes": 676,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:37.3719839Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088E.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:38.1441409Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088F.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:38.9021939Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088G.txt",
+      "bytes": 677,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:39.5708121Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088H.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:40.2894588Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088I.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:40.9723459Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088J.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:41.6667043Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088K.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:42.3495963Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088L.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:43.0345110Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW088U.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:43.7142740Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090A.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:44.3974529Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090B.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:45.0790722Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090C.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:45.8576664Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090D.txt",
+      "bytes": 688,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:46.5217539Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090E.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:47.2095833Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090F.txt",
+      "bytes": 622,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:47.9569156Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090G.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:48.6321237Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090H.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:49.3274855Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090I.txt",
+      "bytes": 538,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:50.0045641Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090J.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:50.7064506Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090K.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:51.4007993Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090L.txt",
+      "bytes": 615,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:52.1133831Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090M.txt",
+      "bytes": 688,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:52.8174880Z"
+    },
+    {
+      "path": "originals/web/ftp_inventory/BW090N.txt",
+      "bytes": 622,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:00:53.5263904Z"
+    },
+    {
+      "path": "originals/papers/closure_statistics_1910.02062.pdf",
+      "bytes": 1398966,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-27T04:07:21.3728971Z"
+    },
+    {
+      "path": "originals/papers/johnson_1711.01286.pdf",
+      "bytes": 7238044,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:51:09.9492428Z"
+    },
+    {
+      "path": "originals/papers/starwarps_1711.01357.pdf",
+      "bytes": 6742837,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:50:19.3598649Z"
+    },
+    {
+      "path": "originals/papers/starwarps_suppdoc.pdf",
+      "bytes": 21805200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:57:18.1106323Z"
+    },
+    {
+      "path": "originals/movies/caltech_starwarps_overview.mp4",
+      "bytes": 43382948,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:57:15.6040093Z"
+    },
+    {
+      "path": "originals/movies/starwarps_overview.mp4",
+      "bytes": 43382948,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:51:08.6564691Z"
+    },
+    {
+      "path": "originals/movies/walker_2007.gif",
+      "bytes": 1583482,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:53:17.6764132Z"
+    },
+    {
+      "path": "originals/movies/walker_2008.gif",
+      "bytes": 1736443,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:53:19.3330643Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.CALIB2.109",
+      "bytes": 65116800,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:44.3063515Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.IBM001.109",
+      "bytes": 16908480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:44.0344707Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.IBM002.109",
+      "bytes": 16908480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:48.4950669Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.IBM003.109",
+      "bytes": 16908480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:49.7259281Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.ICL001.109",
+      "bytes": 4348800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:00.5766614Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.ICL002.109",
+      "bytes": 4343040,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:00.6356673Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.ICL003.109",
+      "bytes": 4337280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:01.5956764Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090N/BW090N3C274.SPLIT3.1",
+      "bytes": 67884480,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:09:12.6877897Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.CALIB2.32",
+      "bytes": 42373440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:31.8864324Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.IBM001.32",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:32.3740981Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.IBM002.32",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:34.6762845Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.IBM003.32",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:37.7182690Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.ICL001.32",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:57.9886740Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.ICL002.32",
+      "bytes": 4302720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:58.1587224Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.ICL003.32",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:59.2649582Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/BW090M3C274.SPLIT1.1",
+      "bytes": 46048320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:38.4496959Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090M/Not_in_2018_paper",
+      "bytes": 0,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:10:13.3307530Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.CALIB2.25",
+      "bytes": 67947840,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:16.6181856Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.IBM001.25",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:22.3995006Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.IBM002.25",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:25.6376281Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.IBM003.25",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:28.5661832Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.ICL001.25",
+      "bytes": 4302720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:55.5016716Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.ICL002.25",
+      "bytes": 4305600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:55.5593033Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.ICL003.25",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:56.8048706Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090L/BW090L3C274.SPLIT1.1",
+      "bytes": 72489600,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:49.7763188Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.CALIB2.19",
+      "bytes": 68924160,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:00.8725734Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.IBM001.19",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:06.6430559Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.IBM002.19",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:11.0527969Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.IBM003.19",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:08:09.7631517Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.ICL001.19",
+      "bytes": 4285440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:53.0457278Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.ICL002.19",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:53.0316472Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.ICL003.19",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:54.2013776Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090K/BW090K3C274.SPLIT1.1",
+      "bytes": 63547200,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:21.1903896Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.CALIB2.36",
+      "bytes": 64653120,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:07:42.7403476Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.IBM001.36",
+      "bytes": 16882560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:41.9186175Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.IBM002.36",
+      "bytes": 16882560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:50.0741687Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.IBM003.36",
+      "bytes": 16882560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:45.8354696Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.ICL001.36",
+      "bytes": 4322880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:50.6520842Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.ICL002.36",
+      "bytes": 4325760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:50.4422918Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.ICL003.36",
+      "bytes": 4314240,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:51.7035362Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090J/BW090J3C274.SPLIT3.1",
+      "bytes": 69704640,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:05.7491545Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/BW090I3C274.CALIB2.92",
+      "bytes": 38214720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:33.7233312Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/BW090I3C274.IBM001.92",
+      "bytes": 16856640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:38.4845346Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/BW090I3C274.IBM002.92",
+      "bytes": 16856640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:38.2904718Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/BW090I3C274.ICL001.92",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:49.2478384Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/BW090I3C274.ICL002.92",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:48.2161772Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/Not_in_2018_paper",
+      "bytes": 0,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:10:11.7864467Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090I/SPLIT_file_not_available",
+      "bytes": 235,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:10:12.5357071Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.CALIB2.28",
+      "bytes": 47200320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:25.4793716Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.IBM001.28",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:25.9049743Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.IBM002.28",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:28.6081563Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.IBM003.28",
+      "bytes": 16845120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:30.3181698Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.ICL001.28",
+      "bytes": 4294080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:45.5180641Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.ICL002.28",
+      "bytes": 4305600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:45.6278977Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.ICL003.28",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:47.1874579Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090H/BW090H3C274.SPLIT1.1",
+      "bytes": 51033600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:32.4556800Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.CALIB2.23",
+      "bytes": 74442240,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:07:21.7494772Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.IBM001.23",
+      "bytes": 16856640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:12.1049196Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.IBM002.23",
+      "bytes": 16856640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:15.9667667Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.IBM003.23",
+      "bytes": 16856640,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:23.2901853Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.ICL001.23",
+      "bytes": 4294080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:43.0281097Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.ICL002.23",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:43.2653256Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.ICL003.23",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:44.8413495Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090G/BW090G3C274.SPLIT1.1",
+      "bytes": 79237440,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:08:29.6386102Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.CALIB.239",
+      "bytes": 54953280,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:07:00.1031966Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.IBM001.239",
+      "bytes": 16937280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:58.6607511Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.IBM002.239",
+      "bytes": 16937280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:06.1172631Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.IBM003.239",
+      "bytes": 16937280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:07:02.8825298Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.ICL001.239",
+      "bytes": 4374720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:40.7044337Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.ICL002.239",
+      "bytes": 4374720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:40.5614622Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.ICL003.239",
+      "bytes": 4366080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:42.2255854Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090F/BW090F3C274.SPLIT5.1",
+      "bytes": 106729920,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:07:10.2781132Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.CALIB2.54",
+      "bytes": 55756800,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:48.8433401Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.IBM001.54",
+      "bytes": 16879680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:53.3286718Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.IBM002.54",
+      "bytes": 16879680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:53.5026908Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.IBM003.54",
+      "bytes": 16879680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:55.8909168Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.ICL001.54",
+      "bytes": 4314240,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:38.0592089Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.ICL002.54",
+      "bytes": 4320000,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:38.0862072Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.ICL003.54",
+      "bytes": 4311360,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:39.8562248Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090E/BW090E3C274.SPLIT1.1",
+      "bytes": 60877440,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:07:03.0553197Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.CALIB2.26",
+      "bytes": 48761280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:43.5886879Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.IBM001.26",
+      "bytes": 16853760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:43.9086750Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.IBM002.26",
+      "bytes": 16853760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:44.8923296Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.IBM003.26",
+      "bytes": 16853760,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:50.1495441Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.ICL001.26",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:35.5960887Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.ICL002.26",
+      "bytes": 4296960,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:35.6111164Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.ICL003.26",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:37.2657550Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/BW090D3C274.SPLIT1.1",
+      "bytes": 52318080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:48.9807620Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090D/Not_in_2018_paper",
+      "bytes": 0,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:10:11.7854416Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.CALIB2.77",
+      "bytes": 57833280,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:33.0509641Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.IBM001.77",
+      "bytes": 16876800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:36.0232787Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.IBM002.77",
+      "bytes": 16876800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:39.8626127Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.IBM003.77",
+      "bytes": 16876800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:41.2529176Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.ICL001.77",
+      "bytes": 4311360,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:33.2468845Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.ICL002.77",
+      "bytes": 4317120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:33.2598897Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.ICL003.77",
+      "bytes": 4305600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:33.7496419Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090C/BW090C3C274.SPLIT1.1",
+      "bytes": 62671680,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:41.1314244Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.CALIB2.24",
+      "bytes": 70799040,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:18.2517969Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.IBM001.24",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:29.0181559Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.IBM002.24",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:25.8892683Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.IBM003.24",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:28.7155513Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.ICL001.24",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:30.7625474Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.ICL002.24",
+      "bytes": 4285440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:30.6666159Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.ICL003.24",
+      "bytes": 4279680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:31.2456762Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090B/BW090B3C274.SPLIT2.1",
+      "bytes": 73598400,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:36.9044238Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.CALIB2.39",
+      "bytes": 67544640,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:58.6386033Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.IBM001.39",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:04.2775701Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.IBM002.39",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:04.7878079Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.IBM003.39",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:06:08.6912348Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.ICL001.39",
+      "bytes": 4285440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:28.1553154Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.ICL002.39",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:28.1813791Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.ICL003.39",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:28.7654347Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW090A/BW090A3C274.SPLIT1.1",
+      "bytes": 73728000,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:34.8237678Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.CALIB2.11",
+      "bytes": 62242560,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:52.1214531Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.IBM001.11",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:52.1414598Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.IBM002.11",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:51.9684540Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.IBM003.11",
+      "bytes": 16850880,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:58.2689467Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.ICL001.11",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:25.6937078Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.ICL002.11",
+      "bytes": 4296960,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:25.8490167Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.ICL003.11",
+      "bytes": 4279680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:26.3053053Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2008/BW088U/BW088U3C274.SPLIT1.1",
+      "bytes": 67032000,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:06:23.2042025Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.CALIB2.62",
+      "bytes": 59952960,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:38.6287655Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.IBM001.62",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:42.1198149Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.IBM002.62",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:43.2379535Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.IBM003.62",
+      "bytes": 16859520,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:41.8031635Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.ICL001.62",
+      "bytes": 4294080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:23.3309657Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.ICL002.62",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:23.2529634Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.ICL003.62",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:23.8255214Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088L/BW088L3C274.SPLIT1.1",
+      "bytes": 65531520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:48.2619877Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.CALIB2.12",
+      "bytes": 51768000,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:30.7811494Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.IBM001.12",
+      "bytes": 16868160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:31.7370223Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.IBM002.12",
+      "bytes": 16868160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:33.6293022Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.IBM003.12",
+      "bytes": 16868160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:34.3590205Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.ICL001.12",
+      "bytes": 4302720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:20.7403900Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.ICL002.12",
+      "bytes": 4308480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:20.7960400Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.ICL003.12",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:21.3715179Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088K/BW088K3C274.SPLIT1.1",
+      "bytes": 58040640,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:37.5813858Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.CALIB2.13",
+      "bytes": 53496000,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:26.5745947Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.IBM001.13",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:19.7459965Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.IBM002.13",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:22.3519905Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.IBM003.13",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:24.7209153Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.ICL001.13",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:18.0557547Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.ICL002.13",
+      "bytes": 4294080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:18.4686927Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.ICL003.13",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:18.9238889Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088J/BW088J3C274.SPLIT1.1",
+      "bytes": 58380480,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:28.9221316Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.CALIB2.13",
+      "bytes": 64964160,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:11.7941280Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.IBM001.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:14.3612694Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.IBM002.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:16.7468565Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.IBM003.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:17.3710960Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.ICL001.13",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:15.5546852Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.ICL002.13",
+      "bytes": 4285440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:15.8770436Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.ICL003.13",
+      "bytes": 4279680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:16.3951916Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088I/BW088I3C274.SPLIT1.1",
+      "bytes": 78920640,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:37.6603866Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.CALIB2.13",
+      "bytes": 71622720,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:07.1530312Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.IBM001.13",
+      "bytes": 4262400,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:00.4502996Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.IBM002.13",
+      "bytes": 4262400,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:02.9560388Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.IBM003.13",
+      "bytes": 4262400,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:05:05.3125944Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.ICL001.13",
+      "bytes": 4285440,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:13.1145721Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.ICL002.13",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:13.5359500Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.ICL003.13",
+      "bytes": 4273920,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:14.0578063Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088H/BW088H3C274.SPLIT1.1",
+      "bytes": 77083200,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:14.6801921Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/B88GC274COPY.SPLIT1.1",
+      "bytes": 78295680,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:54.8508028Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.CALIB2.13",
+      "bytes": 75692160,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:52.7371466Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.IBM001.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:55.2737858Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.IBM002.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:57.2775363Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.IBM003.13",
+      "bytes": 4268160,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:57.6357051Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.ICL001.13",
+      "bytes": 4294080,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:09.5703094Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.ICL002.13",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:10.4757868Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/BW088G3C274.ICL003.13",
+      "bytes": 4279680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:11.4273135Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088G/notes",
+      "bytes": 329,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:11.0717999Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.CALIB2.12",
+      "bytes": 65266560,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:23.7181007Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.IBM001.12",
+      "bytes": 4265280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:26.3388628Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.IBM002.12",
+      "bytes": 4265280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:28.7001063Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.IBM003.12",
+      "bytes": 4265280,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:31.1696992Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.ICL001.12",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:06.9663256Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.ICL002.12",
+      "bytes": 4279680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:08.1265369Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.ICL003.12",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:09.0932243Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088F/BW088F3C274.SPLIT1.1",
+      "bytes": 69554880,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:41.3521164Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.CALIB2.20",
+      "bytes": 66381120,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:05:16.5294420Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.IBM001.20",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:00.9188320Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.IBM002.20",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:03.3987949Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.IBM003.20",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:04:05.9890331Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.ICL001.20",
+      "bytes": 4305600,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:04.3479787Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.ICL002.20",
+      "bytes": 4302720,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:05.5241780Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.ICL003.20",
+      "bytes": 4288320,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:06.4806098Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088E/BW088E3C274.SPLIT1.1",
+      "bytes": 75643200,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:35.9071372Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.CALIB2.63",
+      "bytes": 54172800,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:04:09.8905950Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.IBM001.63",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:48.9156682Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.IBM002.63",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:51.3966771Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.IBM003.63",
+      "bytes": 4276800,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:52.8183974Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.ICL001.63",
+      "bytes": 4296960,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:01.7280443Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.ICL002.63",
+      "bytes": 4299840,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:01.8640499Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.ICL003.63",
+      "bytes": 4291200,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:04.0459538Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/BW088D3C274.SPLIT2.1",
+      "bytes": 66821760,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:03:58.5058478Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088D/notes",
+      "bytes": 329,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:03.1726884Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.CALIB2.92",
+      "bytes": 68195520,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:03:46.3930801Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.IBM001.92",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:42.0735045Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.IBM002.92",
+      "bytes": 4282560,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:44.6562706Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.ICL001.92",
+      "bytes": 4311360,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:01:59.1234290Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.ICL002.92",
+      "bytes": 4308480,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:02:01.7120996Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088B/BW088B3C274.SPLIT2.1",
+      "bytes": 80740800,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:03:50.2829747Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.CALIB.100",
+      "bytes": 56727360,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:03:46.2213970Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.IBM001.100",
+      "bytes": 16951680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:35.7169504Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.IBM002.100",
+      "bytes": 16951680,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:03:36.4926540Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.ICL001.100",
+      "bytes": 4392000,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:01:59.3940674Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.ICL002.100",
+      "bytes": 4389120,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T20:01:59.1505479Z"
+    },
+    {
+      "path": "originals/data/VLBA_43GHz_2007/BW088A/BW088A3C274.SPLTP3.1",
+      "bytes": 56710080,
+      "eligible": false,
+      "reason": "bulk-or-oversized",
+      "modified": "2026-09-26T20:03:39.6502730Z"
+    },
+    {
+      "path": "originals/code/eht_imaging_tree.json",
+      "bytes": 37785,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:51:32.9052175Z"
+    },
+    {
+      "path": "originals/code/example_starwarps.py",
+      "bytes": 6474,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:53:19.7726331Z"
+    },
+    {
+      "path": "originals/calibration/notes.txt",
+      "bytes": 2625,
+      "eligible": false,
+      "reason": "observational-input-or-original",
+      "modified": "2026-09-26T19:59:00.2873471Z"
+    },
+    {
+      "path": "derived/starwarps_page-14.png",
+      "bytes": 738686,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:48.1707615Z"
+    },
+    {
+      "path": "derived/text/johnson_1711.01286.txt",
+      "bytes": 80472,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T19:52:02.3484944Z"
+    },
+    {
+      "path": "derived/text/starwarps_1711.01357.txt",
+      "bytes": 88061,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T19:52:11.9284278Z"
+    },
+    {
+      "path": "derived/text/starwarps_suppdoc.txt",
+      "bytes": 33641,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-26T20:10:42.6281169Z"
+    },
+    {
+      "path": "derived/reference_text/closure_statistics_1910.02062.txt",
+      "bytes": 129255,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:33.5687411Z"
+    },
+    {
+      "path": "derived/reference_text/johnson_1711.01286.txt",
+      "bytes": 80637,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:34.7090489Z"
+    },
+    {
+      "path": "derived/reference_text/starwarps_1711.01357.txt",
+      "bytes": 88226,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:44.5796982Z"
+    },
+    {
+      "path": "derived/reference_text/starwarps_suppdoc.txt",
+      "bytes": 33817,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:47.2506238Z"
+    },
+    {
+      "path": "derived/headers/BW088A_BW088A3C274.CALIB.100_UV.txt",
+      "bytes": 174928,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:32.4134143Z"
+    },
+    {
+      "path": "derived/headers/BW088A_BW088A3C274.SPLTP3.1_UV.txt",
+      "bytes": 157424,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:33.2613612Z"
+    },
+    {
+      "path": "derived/headers/BW088A_ICL001.txt",
+      "bytes": 180731,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:58.4647861Z"
+    },
+    {
+      "path": "derived/headers/BW088B_BW088B3C274.CALIB2.92_UV.txt",
+      "bytes": 87464,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:29.0210515Z"
+    },
+    {
+      "path": "derived/headers/BW088B_BW088B3C274.SPLIT2.1_UV.txt",
+      "bytes": 81628,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:29.9744375Z"
+    },
+    {
+      "path": "derived/headers/BW088B_ICL001.txt",
+      "bytes": 93262,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:59.2284237Z"
+    },
+    {
+      "path": "derived/headers/BW088D_BW088D3C274.CALIB2.63_UV.txt",
+      "bytes": 84519,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:35.0189114Z"
+    },
+    {
+      "path": "derived/headers/BW088D_BW088D3C274.SPLIT2.1_UV.txt",
+      "bytes": 78693,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:35.6981204Z"
+    },
+    {
+      "path": "derived/headers/BW088D_ICL001.txt",
+      "bytes": 87440,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:59.8092045Z"
+    },
+    {
+      "path": "derived/headers/BW088E_BW088E3C274.CALIB2.20_UV.txt",
+      "bytes": 84522,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:39.6813772Z"
+    },
+    {
+      "path": "derived/headers/BW088E_BW088E3C274.SPLIT1.1_UV.txt",
+      "bytes": 75803,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:40.5769592Z"
+    },
+    {
+      "path": "derived/headers/BW088E_ICL001.txt",
+      "bytes": 87443,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:00.3940649Z"
+    },
+    {
+      "path": "derived/headers/BW088F_BW088F3C274.CALIB2.12_UV.txt",
+      "bytes": 69966,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:45.2122245Z"
+    },
+    {
+      "path": "derived/headers/BW088F_BW088F3C274.SPLIT1.1_UV.txt",
+      "bytes": 64127,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:46.0779449Z"
+    },
+    {
+      "path": "derived/headers/BW088F_ICL001.txt",
+      "bytes": 72885,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:00.9530446Z"
+    },
+    {
+      "path": "derived/headers/BW088G_B88GC274COPY.SPLIT1.1_UV.txt",
+      "bytes": 72863,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:38.8636909Z"
+    },
+    {
+      "path": "derived/headers/BW088G_BW088G3C274.CALIB2.13_UV.txt",
+      "bytes": 72867,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:37.7636067Z"
+    },
+    {
+      "path": "derived/headers/BW088G_ICL001.txt",
+      "bytes": 75785,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:01.5117533Z"
+    },
+    {
+      "path": "derived/headers/BW088H_BW088H3C274.CALIB2.13_UV.txt",
+      "bytes": 69940,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:56.6582736Z"
+    },
+    {
+      "path": "derived/headers/BW088H_BW088H3C274.SPLIT1.1_UV.txt",
+      "bytes": 61221,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:14:57.6414417Z"
+    },
+    {
+      "path": "derived/headers/BW088H_ICL001.txt",
+      "bytes": 72858,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:02.1225175Z"
+    },
+    {
+      "path": "derived/headers/BW088I_BW088I3C274.CALIB2.13_UV.txt",
+      "bytes": 75772,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:02.3557124Z"
+    },
+    {
+      "path": "derived/headers/BW088I_BW088I3C274.SPLIT1.1_UV.txt",
+      "bytes": 67053,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:03.2411911Z"
+    },
+    {
+      "path": "derived/headers/BW088I_ICL001.txt",
+      "bytes": 78690,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:02.6951547Z"
+    },
+    {
+      "path": "derived/headers/BW088J_BW088J3C274.CALIB2.13_UV.txt",
+      "bytes": 84522,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:07.9734532Z"
+    },
+    {
+      "path": "derived/headers/BW088J_BW088J3C274.SPLIT1.1_UV.txt",
+      "bytes": 75803,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:08.7389497Z"
+    },
+    {
+      "path": "derived/headers/BW088J_ICL001.txt",
+      "bytes": 87440,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:03.2593209Z"
+    },
+    {
+      "path": "derived/headers/BW088K_BW088K3C274.CALIB2.12_UV.txt",
+      "bytes": 90372,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:12.7858425Z"
+    },
+    {
+      "path": "derived/headers/BW088K_BW088K3C274.SPLIT1.1_UV.txt",
+      "bytes": 84533,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:13.6054964Z"
+    },
+    {
+      "path": "derived/headers/BW088K_ICL001.txt",
+      "bytes": 93290,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:03.8327814Z"
+    },
+    {
+      "path": "derived/headers/BW088L_BW088L3C274.CALIB2.62_UV.txt",
+      "bytes": 84522,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:17.7187811Z"
+    },
+    {
+      "path": "derived/headers/BW088L_BW088L3C274.SPLIT1.1_UV.txt",
+      "bytes": 75803,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:18.5620175Z"
+    },
+    {
+      "path": "derived/headers/BW088L_ICL001.txt",
+      "bytes": 87442,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:04.4339900Z"
+    },
+    {
+      "path": "derived/headers/BW088U_BW088U3C274.CALIB2.11_UV.txt",
+      "bytes": 72885,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:23.0343625Z"
+    },
+    {
+      "path": "derived/headers/BW088U_BW088U3C274.SPLIT1.1_UV.txt",
+      "bytes": 67048,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:23.8470309Z"
+    },
+    {
+      "path": "derived/headers/BW088U_ICL001.txt",
+      "bytes": 78692,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:05.0223524Z"
+    },
+    {
+      "path": "derived/headers/BW090A_BW090A3C274.CALIB2.39_UV.txt",
+      "bytes": 72869,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:28.1268774Z"
+    },
+    {
+      "path": "derived/headers/BW090A_BW090A3C274.SPLIT1.1_UV.txt",
+      "bytes": 67031,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:29.0110600Z"
+    },
+    {
+      "path": "derived/headers/BW090A_ICL001.txt",
+      "bytes": 75788,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:05.6482077Z"
+    },
+    {
+      "path": "derived/headers/BW090B_BW090B3C274.CALIB2.24_UV.txt",
+      "bytes": 75770,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:33.5352488Z"
+    },
+    {
+      "path": "derived/headers/BW090B_BW090B3C274.SPLIT2.1_UV.txt",
+      "bytes": 67052,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:34.4705419Z"
+    },
+    {
+      "path": "derived/headers/BW090B_ICL001.txt",
+      "bytes": 78691,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:06.2989144Z"
+    },
+    {
+      "path": "derived/headers/BW090C_BW090C3C274.CALIB2.77_UV.txt",
+      "bytes": 99106,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:39.3696605Z"
+    },
+    {
+      "path": "derived/headers/BW090C_BW090C3C274.SPLIT1.1_UV.txt",
+      "bytes": 93268,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:40.2147950Z"
+    },
+    {
+      "path": "derived/headers/BW090C_ICL001.txt",
+      "bytes": 102027,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:06.8965173Z"
+    },
+    {
+      "path": "derived/headers/BW090D_BW090D3C274.CALIB2.26_UV.txt",
+      "bytes": 78692,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:44.6803193Z"
+    },
+    {
+      "path": "derived/headers/BW090D_BW090D3C274.SPLIT1.1_UV.txt",
+      "bytes": 72854,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:45.4139807Z"
+    },
+    {
+      "path": "derived/headers/BW090D_ICL001.txt",
+      "bytes": 81612,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:07.4659640Z"
+    },
+    {
+      "path": "derived/headers/BW090E_BW090E3C274.CALIB2.54_UV.txt",
+      "bytes": 102035,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:49.9592797Z"
+    },
+    {
+      "path": "derived/headers/BW090E_BW090E3C274.SPLIT1.1_UV.txt",
+      "bytes": 96195,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:15:50.8065606Z"
+    },
+    {
+      "path": "derived/headers/BW090E_ICL001.txt",
+      "bytes": 107840,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:08.0472895Z"
+    },
+    {
+      "path": "derived/headers/BW090F_BW090F3C274.CALIB.239_UV.txt",
+      "bytes": 163243,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:44.3843539Z"
+    },
+    {
+      "path": "derived/headers/BW090F_BW090F3C274.SPLIT5.1_UV.txt",
+      "bytes": 157406,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:18:45.1043595Z"
+    },
+    {
+      "path": "derived/headers/BW090F_ICL001.txt",
+      "bytes": 166166,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:08.6211884Z"
+    },
+    {
+      "path": "derived/headers/BW090G_BW090G3C274.CALIB2.23_UV.txt",
+      "bytes": 81612,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:13.6683859Z"
+    },
+    {
+      "path": "derived/headers/BW090G_BW090G3C274.SPLIT1.1_UV.txt",
+      "bytes": 75774,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:14.6401868Z"
+    },
+    {
+      "path": "derived/headers/BW090G_ICL001.txt",
+      "bytes": 84530,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:09.1887474Z"
+    },
+    {
+      "path": "derived/headers/BW090H_BW090H3C274.CALIB2.28_UV.txt",
+      "bytes": 67051,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:19.4895731Z"
+    },
+    {
+      "path": "derived/headers/BW090H_BW090H3C274.SPLIT1.1_UV.txt",
+      "bytes": 64131,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:20.1519256Z"
+    },
+    {
+      "path": "derived/headers/BW090H_ICL001.txt",
+      "bytes": 72858,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:09.8276360Z"
+    },
+    {
+      "path": "derived/headers/BW090I_ICL001.txt",
+      "bytes": 84519,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:10.4031195Z"
+    },
+    {
+      "path": "derived/headers/BW090J_BW090J3C274.CALIB2.36_UV.txt",
+      "bytes": 107847,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:23.7785749Z"
+    },
+    {
+      "path": "derived/headers/BW090J_BW090J3C274.SPLIT3.1_UV.txt",
+      "bytes": 102011,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:24.6814088Z"
+    },
+    {
+      "path": "derived/headers/BW090J_ICL001.txt",
+      "bytes": 110768,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:10.9840848Z"
+    },
+    {
+      "path": "derived/headers/BW090K_BW090K3C274.CALIB2.19_UV.txt",
+      "bytes": 72883,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:29.0455865Z"
+    },
+    {
+      "path": "derived/headers/BW090K_BW090K3C274.SPLIT1.1_UV.txt",
+      "bytes": 93280,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:29.9884612Z"
+    },
+    {
+      "path": "derived/headers/BW090K_ICL001.txt",
+      "bytes": 75800,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:11.5507829Z"
+    },
+    {
+      "path": "derived/headers/BW090L_BW090L3C274.CALIB2.25_UV.txt",
+      "bytes": 67051,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:31.0645979Z"
+    },
+    {
+      "path": "derived/headers/BW090L_BW090L3C274.SPLIT1.1_UV.txt",
+      "bytes": 64107,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:31.9837301Z"
+    },
+    {
+      "path": "derived/headers/BW090L_ICL001.txt",
+      "bytes": 72865,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:12.1155283Z"
+    },
+    {
+      "path": "derived/headers/BW090M_BW090M3C274.CALIB2.32_UV.txt",
+      "bytes": 84515,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:36.4606501Z"
+    },
+    {
+      "path": "derived/headers/BW090M_BW090M3C274.SPLIT1.1_UV.txt",
+      "bytes": 75797,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:37.1010543Z"
+    },
+    {
+      "path": "derived/headers/BW090M_ICL001.txt",
+      "bytes": 87432,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:12.6798089Z"
+    },
+    {
+      "path": "derived/headers/BW090N_BW090N3C274.CALIB2.109_UV.txt",
+      "bytes": 131192,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:40.6636892Z"
+    },
+    {
+      "path": "derived/headers/BW090N_BW090N3C274.SPLIT3.1_UV.txt",
+      "bytes": 128262,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:16:41.5247860Z"
+    },
+    {
+      "path": "derived/headers/BW090N_ICL001.txt",
+      "bytes": 136997,
+      "eligible": true,
+      "reason": "",
+      "modified": "2026-09-27T04:17:13.3511719Z"
+    }
+  ],
+  "omittedDirectories": [
+    ".deps",
+    "source/__pycache__"
+  ],
+  "errors": []
+}

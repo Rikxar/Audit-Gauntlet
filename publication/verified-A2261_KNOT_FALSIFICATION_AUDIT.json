@@ -1,0 +1,30 @@
+{
+  "programme": "A2261_KNOT_FALSIFICATION_AUDIT",
+  "path": "E:\\Audit Gauntlet\\A2261_KNOT_FALSIFICATION_AUDIT",
+  "github": "https://github.com/Rikxar/A2261_KNOT_FALSIFICATION_AUDIT",
+  "owner": "Rikxar",
+  "private": true,
+  "branch": "main",
+  "commit": "4008a7297d6fe281779116085be6e70f8376fde8",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "local": "4008a7297d6fe281779116085be6e70f8376fde8",
+      "remote": "4008a7297d6fe281779116085be6e70f8376fde8",
+      "matches": true
+    }
+  ],
+  "remotes": [
+    "publishing\thttps://github.com/Rikxar/A2261_KNOT_FALSIFICATION_AUDIT.git (fetch)",
+    "publishing\thttps://github.com/Rikxar/A2261_KNOT_FALSIFICATION_AUDIT.git (push)"
+  ],
+  "worktrees": [
+    "worktree E:/Audit Gauntlet/A2261_KNOT_FALSIFICATION_AUDIT",
+    "HEAD 4008a7297d6fe281779116085be6e70f8376fde8",
+    "branch refs/heads/main",
+    ""
+  ],
+  "localChanges": [],
+  "untracked": [],
+  "verifiedUtc": "2026-10-13T17:05:08.8586297Z"
+}
