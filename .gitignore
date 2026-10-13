@@ -1,0 +1,5 @@
+# This repository is administrative only.  Each programme remains in its own
+# repository boundary; never add programme directories here.
+/*
+!.gitignore
+!PUBLISHING_INDEX.md
